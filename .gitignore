@@ -1,0 +1,11 @@
+# Research repos (cloned for analysis, not part of project)
+_research/
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+
+# IDE
+.vscode/

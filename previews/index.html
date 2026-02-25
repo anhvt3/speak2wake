@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak2Wake - UI Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --grey-blueish: #363843;
+            --grey-medium: #7F8187;
+            --greydark: #1C1721;
+            --greys-dark: #2B2630;
+            --violet: #9E6DFB;
+        }
+        body {
+            font-family: 'Jost', sans-serif;
+            background-color: #1a1a2e;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 3rem;
+            padding: 2rem;
+            flex-wrap: wrap;
+            min-height: 100vh;
+        }
+        .mobile-frame {
+            width: 390px;
+            height: 844px;
+            background: linear-gradient(2deg, rgba(138,112,248,1) 0%, rgba(210,138,237,1) 100%);
+            border-radius: 40px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            position: relative;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Custom Animations from Review */
+        @keyframes fade-in { 0% { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(247,159,64, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(247,159,64, 0); }
+            100% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(247,159,64, 0); }
+        }
+        .animate-fade-in { animation: fade-in 1s ease forwards; }
+        .animate-pulse-ring { animation: pulse-ring 2s infinite cubic-bezier(0.66, 0, 0, 1); }
+
+        /* The custom glow gradient for buttons */
+        .btn-glow {
+            background: radial-gradient(50% 50% at 49% 42%, #f79f40 0%, #f7a542 16%, #f8b44a 37%, #face55 60%, #fbe660 77%, #fbf36f 91%, #fbf672 93%, #fbf676 95%, #fbf783 96%, #fcf897 98%, #fdfab4 99%, #fdfbc2 100%);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Screen 1: Home / Alarm List -->
+    <div class="mobile-frame animate-fade-in" style="animation-delay: 0.1s">
+        <!-- Top bar -->
+        <div class="flex justify-between items-center p-6 mt-8">
+            <h1 class="text-3xl font-semibold">Speak2Wake</h1>
+            <button class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"></path></svg>
+            </button>
+        </div>
+        
+        <!-- Next Alarm Info -->
+        <div class="mt-8 mb-6 text-center">
+            <p class="text-white/80 mb-1 text-sm font-medium tracking-wide uppercase">Next Alarm in 8h 30m</p>
+            <h2 class="text-6xl font-semibold tracking-wider">06<span class="text-4xl opacity-70">:</span>00</h2>
+            <p class="text-base mt-3 text-white">Morning challenge</p>
+        </div>
+
+        <!-- Alarms List -->
+        <div class="flex-1 overflow-y-auto space-y-4 px-6 mt-4 pb-8">
+            <!-- Active Alarm -->
+            <div class="bg-white/20 rounded-[28px] p-5 backdrop-blur-md border border-white/30 flex flex-col gap-3 shadow-[0_8px_32px_rgba(0,0,0,0.1)]">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="text-4xl font-medium tracking-wide">06:00</h3>
+                        <p class="text-sm text-white/80 mt-1">Every day</p>
+                    </div>
+                    <!-- Toggle Switch ON -->
+                    <div class="w-[52px] h-[30px] rounded-full relative cursor-pointer btn-glow flex items-center p-1 justify-end">
+                        <div class="w-6 h-6 bg-white rounded-full shadow-md"></div>
+                    </div>
+                </div>
+                <!-- Mini tags -->
+                <div class="flex gap-2 mt-1">
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Read Quotes</span>
+                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Strict</span>
+                </div>
+            </div>
+            
+            <!-- Inactive Alarm -->
+            <div class="bg-black/10 rounded-[28px] p-5 backdrop-blur-sm flex flex-col gap-3 opacity-60 hover:opacity-100 transition duration-300 cursor-pointer">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="text-4xl font-medium text-white/70 tracking-wide">07:30</h3>
+                        <p class="text-sm text-white/50 mt-1">Mon, Tue, Wed</p>
+                    </div>
+                    <!-- Toggle Switch OFF -->
+                    <div class="w-[52px] h-[30px] bg-white/30 rounded-full relative cursor-pointer flex items-center p-1 justify-start">
+                        <div class="w-6 h-6 bg-white shadow-sm rounded-full"></div>
+                    </div>
+                </div>
+                <div class="flex gap-2 mt-1">
+                    <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-medium text-white/70">Solve Math</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Navigation Concept -->
+        <div class="absolute bottom-0 w-full h-24 bg-gradient-to-t from-black/20 to-transparent flex justify-center items-end pb-8">
+            <div class="w-1/3 h-1 bg-white/80 rounded-full"></div>
+        </div>
+    </div>
+
+    <!-- Screen 2: Ringing / Voice Wake Up -->
+    <div class="mobile-frame animate-fade-in" style="animation-delay: 0.3s">
+        <!-- Time header -->
+        <div class="mt-24 text-center w-full">
+            <h2 class="text-7xl font-semibold tracking-wider mb-3">06:00</h2>
+            <p class="text-xl text-white">Wake up, it's a new day! ☀️</p>
+        </div>
+
+        <!-- Voice interaction area (The central Mic wave) -->
+        <div class="flex-1 flex flex-col items-center justify-center w-full mt-4">
+            
+            <!-- Microphone Radar / Glow Array -->
+            <div class="relative w-64 h-64 flex items-center justify-center mb-10">
+               <!-- Expanding Rings -->
+               <div class="absolute inset-4 bg-white/10 rounded-full animate-pulse-ring"></div>
+               <div class="absolute inset-10 bg-white/20 rounded-full animate-pulse-ring" style="animation-delay: 0.8s"></div>
+               
+               <!-- Core Mic Button using the reference styling -->
+               <div class="relative w-28 h-28 rounded-[38px] flex items-center justify-center cursor-pointer shadow-lg hover:scale-105 transition-transform bg-[#7b60c4]">
+                    <!-- Inside glow similar to Locofy reference -->
+                    <div class="absolute inset-1.5 rounded-[32px] btn-glow opacity-90 blur-sm"></div>
+                    <div class="absolute inset-2 flex rounded-[32px] btn-glow items-center justify-center">
+                        <svg width="48" height="48" fill="none" stroke="#7b60c4" stroke-width="2.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                            <line x1="12" x2="12" y1="19" y2="22"></line>
+                        </svg>
+                    </div>
+               </div>
+            </div>
+            
+            <!-- Challenge phrase instruction -->
+            <div class="text-center px-10">
+                <p class="text-sm font-medium text-white/60 uppercase tracking-widest mb-3">Read this to turn off</p>
+                <div class="bg-black/20 p-4 rounded-2xl border border-white/20 backdrop-blur-md">
+                    <p class="text-2xl font-semibold leading-relaxed text-white">"I am awake and ready to shine today"</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons (Bottom) -->
+        <div class="w-full px-8 pb-12 pt-4 flex justify-between gap-4">
+            <button class="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-colors py-4 rounded-[24px] font-medium text-lg border border-white/20 shadow-sm">
+                Snooze (5m)
+            </button>
+            <button class="w-16 h-[58px] bg-[#2B2630]/60 hover:bg-[#2B2630] backdrop-blur-sm transition-colors rounded-[24px] flex items-center justify-center border border-white/10">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
+            </button>
+        </div>
+
+        <div class="absolute bottom-0 w-full h-12 flex justify-center items-end pb-8">
+            <div class="w-1/3 h-1 bg-white/80 rounded-full"></div>
+        </div>
+    </div>
+
+</body>
+</html>
