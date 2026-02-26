@@ -2,9 +2,13 @@ import React, { createContext, useContext } from 'react';
 import { useColorScheme } from 'react-native';
 import { Colors, ColorScheme } from './colors';
 
+type MergedColors = {
+  [K in keyof typeof Colors.light | keyof typeof Colors.shared]: string;
+};
+
 type ThemeContextType = {
   colorScheme: ColorScheme;
-  colors: typeof Colors.light & typeof Colors.shared;
+  colors: MergedColors;
   isDark: boolean;
 };
 

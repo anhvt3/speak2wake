@@ -1,11 +1,24 @@
+import { Platform } from 'react-native';
 import type { Alarm } from '../types/alarm';
 
 /**
  * AlarmService manages scheduling/canceling alarms.
- * Phase 1: Uses expo-notifications as placeholder.
- * Phase 1.5: Swap to native Kotlin module (modules/expo-alarm-engine).
+ * Uses native expo-alarm-engine module on Android for reliable alarms
+ * (survives app kill, device reboot, Doze mode).
+ * Falls back to expo-notifications on iOS or when native module unavailable.
  */
 
+// --- Native module (Android) ---
+let ExpoAlarmEngine: any = null;
+try {
+  if (Platform.OS === 'android') {
+    ExpoAlarmEngine = require('../modules/expo-alarm-engine');
+  }
+} catch {
+  // Native module not available — will fall back to notifications
+}
+
+// --- Notification fallback ---
 let Notifications: any = null;
 try {
   Notifications = require('expo-notifications');
@@ -13,10 +26,24 @@ try {
   // Not available in web/preview
 }
 
+const useNativeAlarm = Platform.OS === 'android' && ExpoAlarmEngine != null;
+
 class AlarmServiceImpl {
   private listeners: ((alarmId: string) => void)[] = [];
+  private nativeSubscription: any = null;
 
   async initialize(): Promise<void> {
+    if (useNativeAlarm) {
+      // Subscribe to native alarm fired events
+      this.nativeSubscription = ExpoAlarmEngine.addAlarmFiredListener(
+        (event: { alarmId: string }) => {
+          this.listeners.forEach((cb) => cb(event.alarmId));
+        }
+      );
+      return;
+    }
+
+    // Fallback: expo-notifications
     if (!Notifications) return;
 
     const { status } = await Notifications.requestPermissionsAsync();
@@ -33,6 +60,19 @@ class AlarmServiceImpl {
   }
 
   async scheduleAlarm(alarm: Alarm): Promise<void> {
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.scheduleAlarm(
+        alarm.id,
+        alarm.time.hour,
+        alarm.time.minute,
+        alarm.repeatDays as number[],
+        alarm.soundId,
+        alarm.label || 'Time to wake up!'
+      );
+      return;
+    }
+
+    // Fallback: expo-notifications
     if (!Notifications) return;
 
     await Notifications.scheduleNotificationAsync({
@@ -52,11 +92,22 @@ class AlarmServiceImpl {
   }
 
   async cancelAlarm(alarmId: string): Promise<void> {
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.cancelAlarm(alarmId);
+      return;
+    }
+
     if (!Notifications) return;
     await Notifications.cancelAllScheduledNotificationsAsync();
   }
 
   async snoozeAlarm(alarmId: string, minutes: number): Promise<void> {
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.snoozeAlarm(alarmId, minutes);
+      return;
+    }
+
+    // Fallback: expo-notifications
     if (!Notifications) return;
 
     await Notifications.scheduleNotificationAsync({
@@ -74,9 +125,25 @@ class AlarmServiceImpl {
   }
 
   async dismissAlarm(alarmId: string): Promise<void> {
-    // Stop sound, clear active alarm state
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.dismissAlarm(alarmId);
+      return;
+    }
+
+    // Fallback: expo-notifications
     if (!Notifications) return;
     await Notifications.dismissAllNotificationsAsync();
+  }
+
+  /**
+   * Get the next scheduled trigger time for an alarm (native only).
+   * Returns timestamp in milliseconds, or -1 if not found / not supported.
+   */
+  getNextAlarmTime(alarmId: string): number {
+    if (useNativeAlarm) {
+      return ExpoAlarmEngine.getNextAlarmTime(alarmId);
+    }
+    return -1;
   }
 
   onAlarmFired(callback: (alarmId: string) => void): () => void {
@@ -84,6 +151,16 @@ class AlarmServiceImpl {
     return () => {
       this.listeners = this.listeners.filter((cb) => cb !== callback);
     };
+  }
+
+  /**
+   * Clean up native event subscriptions.
+   */
+  destroy(): void {
+    if (this.nativeSubscription) {
+      this.nativeSubscription.remove();
+      this.nativeSubscription = null;
+    }
   }
 }
 

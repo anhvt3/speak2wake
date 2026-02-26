@@ -25,14 +25,15 @@
       },
       "edgeToEdgeEnabled": true,
       "permissions": [
-        "RECORD_AUDIO",
-        "SCHEDULE_EXACT_ALARM",
-        "USE_EXACT_ALARM",
-        "USE_FULL_SCREEN_INTENT",
-        "FOREGROUND_SERVICE",
-        "RECEIVE_BOOT_COMPLETED",
-        "WAKE_LOCK",
-        "VIBRATE"
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.USE_EXACT_ALARM",
+        "android.permission.USE_FULL_SCREEN_INTENT",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.WAKE_LOCK",
+        "android.permission.VIBRATE",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "plugins": [
