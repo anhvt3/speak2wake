@@ -624,6 +624,20 @@
         <div class="flex-between mb-3"><span style="color:#F5F5F5">Voice Challenge</span>
           <div class="toggle on" id="tog-voice" onclick="toggleEl(this)"></div>
         </div>
+        <div class="mb-3">
+          <label class="text-muted text-sm" for="sel-difficulty">Difficulty</label>
+          <select id="sel-difficulty"
+            style="width:100%;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.06);color:#F5F5F5;border:1px solid rgba(255,255,255,.1);outline:none;margin-top:4px;font-family:inherit;font-size:14px;cursor:pointer">
+            <option value="all" style="background:#1A1A1F">All levels</option>
+            <option value="single" style="background:#1A1A1F">Easy — Single words</option>
+            <option value="compound" style="background:#1A1A1F">Medium — Compound words</option>
+            <option value="sentence" style="background:#1A1A1F">Hard — Full sentences</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="text-muted text-sm" for="sel-tone">Alarm Tone</label>
+          <div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap" id="tone-picker"></div>
+        </div>
         <div class="flex-between mb-3"><span style="color:#F5F5F5">Snooze</span>
           <div class="toggle on" id="tog-snooze" onclick="toggleEl(this)"></div>
         </div>
@@ -826,6 +840,15 @@
     var DAY_LABELS = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
     var MIC_TIMEOUT_MS = 10000;
 
+    // === ALARM TONES ===
+    var ALARM_TONES = [
+      { id: 'classic', name: 'Classic', freq: 880, pattern: 'steady' },
+      { id: 'digital', name: 'Digital', freq: 1200, pattern: 'beep' },
+      { id: 'gentle', name: 'Gentle', freq: 440, pattern: 'soft' },
+      { id: 'urgent', name: 'Urgent', freq: 1000, pattern: 'fast' }
+    ];
+    var selectedTone = 'classic';
+
     // === SCORING ENGINE ===
     function levenshteinDistance(a, b) { var m = a.length, n = b.length, dp = []; for (var i = 0; i <= m; i++) { dp[i] = []; for (var j = 0; j <= n; j++)dp[i][j] = 0; } for (var i = 0; i <= m; i++)dp[i][0] = i; for (var j = 0; j <= n; j++)dp[0][j] = j; for (var i = 1; i <= m; i++)for (var j = 1; j <= n; j++) { if (a[i - 1] === b[j - 1]) dp[i][j] = dp[i - 1][j - 1]; else dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]); } return dp[m][n]; }
     function levenshteinScore(a, b) { var mx = Math.max(a.length, b.length); return mx === 0 ? 1 : 1 - levenshteinDistance(a, b) / mx; }
@@ -851,6 +874,7 @@
     var alarmGain = null;
     var alarmInterval = null;
     var alarmPlaying = false;
+    var selectedDifficulty = 'all';
     var micTimeout = null;
     var autoMicTimer = null;
 
@@ -863,11 +887,16 @@
     }
     function playAlarmTone() {
       if (!alarmPlaying) return;
+      var tone = ALARM_TONES.find(function (t) { return t.id === selectedTone; }) || ALARM_TONES[0];
       try {
         var ac = new (window.AudioContext || window.webkitAudioContext)();
         var o = ac.createOscillator(); var g = ac.createGain();
         o.connect(g); g.connect(ac.destination);
-        o.frequency.value = 880; g.gain.value = 0.25;
+        o.frequency.value = tone.freq;
+        if (tone.pattern === 'soft') { g.gain.value = 0.12; o.type = 'sine'; }
+        else if (tone.pattern === 'beep') { g.gain.value = 0.2; o.type = 'square'; }
+        else if (tone.pattern === 'fast') { g.gain.value = 0.3; o.type = 'sawtooth'; }
+        else { g.gain.value = 0.25; o.type = 'sine'; }
         o.start();
         g.gain.exponentialRampToValueAtTime(0.01, ac.currentTime + 1.8);
         setTimeout(function () { o.stop(); ac.close(); }, 2000);
@@ -912,7 +941,7 @@
           '<div class="flex-between"><div>' +
           '<p class="text-4xl font-semibold" style="color:' + (a.enabled ? '#F5F5F5' : 'rgba(255,255,255,.25)') + '">' + a.time + '</p>' +
           '<div style="display:flex;align-items:center;gap:8px;margin-top:4px"><span class="text-muted text-sm">' + a.label + '</span><span class="text-dim text-xs">' + dayStr + '</span></div>' +
-          (a.voiceChallenge ? '<div style="margin-top:8px"><span style="background:rgba(255,107,0,.12);color:#FF9F40;font-size:11px;padding:3px 10px;border-radius:20px">Voice Challenge</span></div>' : '') +
+          (a.voiceChallenge ? '<div style="margin-top:8px"><span style="background:rgba(255,107,0,.12);color:#FF9F40;font-size:11px;padding:3px 10px;border-radius:20px">Voice ' + (a.difficulty === 'sentence' ? '(Hard)' : a.difficulty === 'compound' ? '(Medium)' : a.difficulty === 'single' ? '(Easy)' : '') + '</span></div>' : '') +
           '</div><div class="toggle ' + (a.enabled ? 'on' : 'off') + '" onclick="event.stopPropagation();toggleAlarmEnabled(\'' + a.id + '\')"></div></div></div>';
       }).join('');
     }
@@ -920,11 +949,16 @@
       document.getElementById('add-title').textContent = editingId ? 'Edit Alarm' : 'New Alarm';
       var dp = document.getElementById('day-picker');
       dp.innerHTML = DAY_LABELS.map(function (d, i) { return '<button class="day-btn ' + (selectedDays.indexOf(i) >= 0 ? 'active' : 'inactive') + '" onclick="toggleDay(' + i + ')">' + d + '</button>'; }).join('');
-      if (editingId) { var alarm = alarms.find(function (a) { return a.id === editingId; }); if (alarm) { document.getElementById('inp-h').value = alarm.time.split(':')[0]; document.getElementById('inp-m').value = alarm.time.split(':')[1]; document.getElementById('inp-label').value = alarm.label; selectedDays = alarm.days.slice(); dp.innerHTML = DAY_LABELS.map(function (d, i) { return '<button class="day-btn ' + (selectedDays.indexOf(i) >= 0 ? 'active' : 'inactive') + '" onclick="toggleDay(' + i + ')">' + d + '</button>'; }).join(''); } }
+      // Tone picker
+      var tp = document.getElementById('tone-picker');
+      if (tp) tp.innerHTML = ALARM_TONES.map(function (t) { return '<button class="cat-pill ' + (selectedTone === t.id ? 'active' : 'inactive') + '" onclick="selectTone(\'' + t.id + '\')" style="font-size:12px">' + t.name + '</button>'; }).join('');
+      if (editingId) { var alarm = alarms.find(function (a) { return a.id === editingId; }); if (alarm) { document.getElementById('inp-h').value = alarm.time.split(':')[0]; document.getElementById('inp-m').value = alarm.time.split(':')[1]; document.getElementById('inp-label').value = alarm.label; selectedDays = alarm.days.slice(); selectedTone = alarm.tone || 'classic'; selectedDifficulty = alarm.difficulty || 'all'; document.getElementById('sel-difficulty').value = selectedDifficulty; dp.innerHTML = DAY_LABELS.map(function (d, i) { return '<button class="day-btn ' + (selectedDays.indexOf(i) >= 0 ? 'active' : 'inactive') + '" onclick="toggleDay(' + i + ')">' + d + '</button>'; }).join(''); if (tp) tp.innerHTML = ALARM_TONES.map(function (t) { return '<button class="cat-pill ' + (selectedTone === t.id ? 'active' : 'inactive') + '" onclick="selectTone(\'' + t.id + '\')" style="font-size:12px">' + t.name + '</button>'; }).join(''); } }
     }
+    function selectTone(id) { selectedTone = id; var tp = document.getElementById('tone-picker'); if (tp) tp.innerHTML = ALARM_TONES.map(function (t) { return '<button class="cat-pill ' + (selectedTone === t.id ? 'active' : 'inactive') + '" onclick="selectTone(\'' + t.id + '\')" style="font-size:12px">' + t.name + '</button>'; }).join(''); }
+    function previewTone(id) { var old = selectedTone; selectedTone = id; playAlarmTone(); selectedTone = old; }
     function adjTime(unit, dir) { var el = document.getElementById(unit === 'h' ? 'inp-h' : 'inp-m'); var v = parseInt(el.value) || 0; var max = unit === 'h' ? 23 : 59; v += dir; if (v < 0) v = max; if (v > max) v = 0; el.value = String(v).padStart(2, '0'); }
     function toggleDay(i) { var idx = selectedDays.indexOf(i); if (idx >= 0) selectedDays.splice(idx, 1); else selectedDays.push(i); renderAddScreen(); }
-    function saveAlarm() { var h = document.getElementById('inp-h').value.padStart(2, '0'); var m = document.getElementById('inp-m').value.padStart(2, '0'); var label = document.getElementById('inp-label').value || 'Alarm'; var voice = document.getElementById('tog-voice').classList.contains('on'); if (editingId) { var alarm = alarms.find(function (a) { return a.id === editingId; }); if (alarm) { alarm.time = h + ':' + m; alarm.label = label; alarm.days = selectedDays.slice(); alarm.voiceChallenge = voice; } editingId = null; } else { alarms.push({ id: Date.now().toString(), time: h + ':' + m, label: label, days: selectedDays.slice(), enabled: true, voiceChallenge: voice }); } localStorage.setItem('s2w_alarms', JSON.stringify(alarms)); selectedDays = [1, 2, 3, 4, 5]; editingId = null; showScreen('home'); }
+    function saveAlarm() { var h = document.getElementById('inp-h').value.padStart(2, '0'); var m = document.getElementById('inp-m').value.padStart(2, '0'); var label = document.getElementById('inp-label').value || 'Alarm'; var voice = document.getElementById('tog-voice').classList.contains('on'); var diff = document.getElementById('sel-difficulty').value; if (editingId) { var alarm = alarms.find(function (a) { return a.id === editingId; }); if (alarm) { alarm.time = h + ':' + m; alarm.label = label; alarm.days = selectedDays.slice(); alarm.voiceChallenge = voice; alarm.tone = selectedTone; alarm.difficulty = diff; } editingId = null; } else { alarms.push({ id: Date.now().toString(), time: h + ':' + m, label: label, days: selectedDays.slice(), enabled: true, voiceChallenge: voice, tone: selectedTone, difficulty: diff }); } localStorage.setItem('s2w_alarms', JSON.stringify(alarms)); selectedDays = [1, 2, 3, 4, 5]; selectedTone = 'classic'; editingId = null; showScreen('home'); }
     function editAlarm(id) { editingId = id; showScreen('add'); }
     function toggleAlarmEnabled(id) { var a = alarms.find(function (x) { return x.id === id; }); if (a) a.enabled = !a.enabled; localStorage.setItem('s2w_alarms', JSON.stringify(alarms)); renderHome(); }
     function toggleEl(el) { el.classList.toggle('on'); el.classList.toggle('off'); }
@@ -933,9 +967,11 @@
     function simulateAlarm() {
       var active = alarms.filter(function (a) { return a.enabled; });
       var now = new Date();
-      var alarm = active.length > 0 ? active[0] : { time: String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0'), label: 'Demo Alarm' };
+      var alarm = active.length > 0 ? active[0] : { time: String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0'), label: 'Demo Alarm', tone: 'classic', difficulty: 'all' };
       document.getElementById('ring-time').textContent = alarm.time;
       document.getElementById('ring-label').textContent = alarm.label;
+      selectedTone = alarm.tone || 'classic';
+      selectedDifficulty = alarm.difficulty || 'all';
       showScreen('ring');
       startAlarmLoop();
     }
@@ -943,7 +979,11 @@
 
     // === VOICE CHALLENGE ===
     function startChallenge() {
-      var word = VOCAB[Math.floor(Math.random() * VOCAB.length)];
+      // Filter vocab by difficulty if alarm has a setting
+      var diff = selectedDifficulty || 'all';
+      var pool = diff === 'all' ? VOCAB : VOCAB.filter(function (w) { return w.difficulty === diff; });
+      if (pool.length === 0) pool = VOCAB;
+      var word = pool[Math.floor(Math.random() * pool.length)];
       challenge = { word: word, attempts: 0, listening: false };
       document.getElementById('ch-article').textContent = word.article || '';
       document.getElementById('ch-word').textContent = word.bare;
@@ -1065,7 +1105,7 @@
     function checkFailsafe(mode) { if (mode === 'type') { if (normalize(document.getElementById('fs-input').value) === normalize(challenge.word.bare)) { document.getElementById('failsafe-modal').style.display = 'none'; showScreen('home'); } else { document.getElementById('fs-error').textContent = 'Incorrect. Try again.'; document.getElementById('fs-error').style.display = 'block'; } } if (mode === 'math') { if (parseInt(document.getElementById('fs-math-input').value) === mathProblem.answer) { document.getElementById('failsafe-modal').style.display = 'none'; showScreen('home'); } else { document.getElementById('fs-error').textContent = 'Wrong answer.'; document.getElementById('fs-error').style.display = 'block'; } } }
 
     // === SETTINGS ===
-    function renderSettings() { var SR = window.SpeechRecognition || window.webkitSpeechRecognition; document.getElementById('stt-status').textContent = SR ? '✓ Ready' : '✗ Not available'; document.getElementById('stt-status').style.color = SR ? '#22C55E' : '#EF4444'; document.getElementById('vocab-count').textContent = VOCAB.length + ' words (A1-A2), ' + CATEGORIES.length + ' categories'; var pills = document.getElementById('cat-pills'); pills.innerHTML = CATEGORIES.map(function (c) { var n = VOCAB.filter(function (w) { return w.category === c; }).length; return '<span class="cat-pill inactive">' + c + ' (' + n + ')</span>'; }).join(''); }
+    function renderSettings() { var SR = window.SpeechRecognition || window.webkitSpeechRecognition; document.getElementById('stt-status').textContent = SR ? '✓ Ready' : '✗ Not available'; document.getElementById('stt-status').style.color = SR ? '#22C55E' : '#EF4444'; var s = VOCAB.filter(function (w) { return w.difficulty === 'single'; }).length; var c = VOCAB.filter(function (w) { return w.difficulty === 'compound'; }).length; var se = VOCAB.filter(function (w) { return w.difficulty === 'sentence'; }).length; document.getElementById('vocab-count').textContent = VOCAB.length + ' items: ' + s + ' single, ' + c + ' compound, ' + se + ' sentences'; var pills = document.getElementById('cat-pills'); pills.innerHTML = CATEGORIES.map(function (cat) { var n = VOCAB.filter(function (w) { return w.category === cat; }).length; return '<span class="cat-pill inactive">' + cat + ' (' + n + ')</span>'; }).join(''); }
 
     // === VOCABULARY ===
     function renderVocab() { var f = document.getElementById('vocab-filters'); f.innerHTML = '<button class="cat-pill ' + (vocabFilter === 'all' ? 'active' : 'inactive') + '" onclick="setVocabFilter(\'all\')">All (' + VOCAB.length + ')</button>' + CATEGORIES.map(function (c) { return '<button class="cat-pill ' + (vocabFilter === c ? 'active' : 'inactive') + '" onclick="setVocabFilter(\'' + c + '\')">' + c + ' (' + VOCAB.filter(function (w) { return w.category === c; }).length + ')</button>'; }).join(''); var words = vocabFilter === 'all' ? VOCAB : VOCAB.filter(function (w) { return w.category === vocabFilter; }); var list = document.getElementById('vocab-list'); list.innerHTML = words.slice(0, 100).map(function (w) { return '<div class="glass-dark p-3 flex-between"><div><span class="text-dim text-xs">' + w.article + '</span> <span style="color:#F5F5F5" class="font-medium">' + w.bare + '</span> <span class="text-muted text-sm" style="margin-left:8px">' + w.translation + '</span></div><button onclick="speakVocab(\'' + w.word.replace(/'/g, "\\'") + '\')" class="icon-btn" style="width:32px;height:32px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FF9F40" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 010 7.07"/></svg></button></div>'; }).join('') + (words.length > 100 ? '<p class="text-center text-dim text-xs mt-3">Showing 100 of ' + words.length + '</p>' : ''); }
@@ -1077,7 +1117,7 @@
     setInterval(updateClock, 10000); updateClock();
 
     // === INIT ===
-    if (alarms.length === 0) { alarms = [{ id: '1', time: '07:30', label: 'Wake German', days: [1, 2, 3, 4, 5], enabled: true, voiceChallenge: true }, { id: '2', time: '22:00', label: 'Evening Review', days: [0, 6], enabled: true, voiceChallenge: true }]; localStorage.setItem('s2w_alarms', JSON.stringify(alarms)); }
+    if (alarms.length === 0) { alarms = [{ id: '1', time: '07:30', label: 'Wake German', days: [1, 2, 3, 4, 5], enabled: true, voiceChallenge: true, tone: 'classic', difficulty: 'all' }, { id: '2', time: '22:00', label: 'Evening Review', days: [0, 6], enabled: true, voiceChallenge: true, tone: 'gentle', difficulty: 'single' }]; localStorage.setItem('s2w_alarms', JSON.stringify(alarms)); }
     renderHome();
   </script>
 </body>

@@ -7,7 +7,8 @@
     "translation": "hello",
     "level": "A1",
     "phonetic": "hah-loh",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-002",
@@ -17,7 +18,8 @@
     "translation": "thank you",
     "level": "A1",
     "phonetic": "dahn-keh",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-003",
@@ -27,7 +29,8 @@
     "translation": "please / you're welcome",
     "level": "A1",
     "phonetic": "bih-teh",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-004",
@@ -37,7 +40,8 @@
     "translation": "good morning",
     "level": "A1",
     "phonetic": "goo-ten mor-gen",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-005",
@@ -47,7 +51,8 @@
     "translation": "good day",
     "level": "A1",
     "phonetic": "goo-ten tahk",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-006",
@@ -57,7 +62,8 @@
     "translation": "bye",
     "level": "A1",
     "phonetic": "chews",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-007",
@@ -67,7 +73,8 @@
     "translation": "goodbye",
     "level": "A1",
     "phonetic": "owf vee-der-zay-en",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-008",
@@ -77,7 +84,8 @@
     "translation": "excuse me / sorry",
     "level": "A1",
     "phonetic": "ent-shool-dee-goong",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-009",
@@ -87,7 +95,8 @@
     "translation": "yes",
     "level": "A1",
     "phonetic": "yah",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-010",
@@ -97,7 +106,8 @@
     "translation": "no",
     "level": "A1",
     "phonetic": "nine",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-011",
@@ -107,7 +117,8 @@
     "translation": "one",
     "level": "A1",
     "phonetic": "eyns",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-012",
@@ -117,7 +128,8 @@
     "translation": "two",
     "level": "A1",
     "phonetic": "tsvye",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-013",
@@ -127,7 +139,8 @@
     "translation": "three",
     "level": "A1",
     "phonetic": "dry",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-014",
@@ -137,7 +150,8 @@
     "translation": "four",
     "level": "A1",
     "phonetic": "feer",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-015",
@@ -147,7 +161,8 @@
     "translation": "five",
     "level": "A1",
     "phonetic": "fewnf",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-016",
@@ -157,7 +172,8 @@
     "translation": "six",
     "level": "A1",
     "phonetic": "zeks",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-017",
@@ -167,7 +183,8 @@
     "translation": "seven",
     "level": "A1",
     "phonetic": "zee-ben",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-018",
@@ -177,7 +194,8 @@
     "translation": "eight",
     "level": "A1",
     "phonetic": "ahkht",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-019",
@@ -187,7 +205,8 @@
     "translation": "nine",
     "level": "A1",
     "phonetic": "noyn",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-020",
@@ -197,7 +216,8 @@
     "translation": "ten",
     "level": "A1",
     "phonetic": "tsayn",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-021",
@@ -207,7 +227,8 @@
     "translation": "the mother",
     "level": "A1",
     "phonetic": "moo-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-022",
@@ -217,7 +238,8 @@
     "translation": "the father",
     "level": "A1",
     "phonetic": "fah-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-023",
@@ -227,7 +249,8 @@
     "translation": "the child",
     "level": "A1",
     "phonetic": "kint",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-024",
@@ -237,7 +260,8 @@
     "translation": "the brother",
     "level": "A1",
     "phonetic": "broo-der",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-025",
@@ -247,7 +271,8 @@
     "translation": "the sister",
     "level": "A1",
     "phonetic": "shves-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-026",
@@ -257,7 +282,8 @@
     "translation": "the family",
     "level": "A1",
     "phonetic": "fah-mee-lee-eh",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-027",
@@ -267,7 +293,8 @@
     "translation": "the son",
     "level": "A1",
     "phonetic": "zohn",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-028",
@@ -277,7 +304,8 @@
     "translation": "the daughter",
     "level": "A1",
     "phonetic": "tokh-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-029",
@@ -287,7 +315,8 @@
     "translation": "the parents",
     "level": "A1",
     "phonetic": "el-tern",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-030",
@@ -297,7 +326,8 @@
     "translation": "the man / husband",
     "level": "A1",
     "phonetic": "mahn",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-031",
@@ -307,7 +337,8 @@
     "translation": "the bread",
     "level": "A1",
     "phonetic": "broht",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-032",
@@ -317,7 +348,8 @@
     "translation": "the milk",
     "level": "A1",
     "phonetic": "milkh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-033",
@@ -327,7 +359,8 @@
     "translation": "the apple",
     "level": "A1",
     "phonetic": "ahp-fel",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-034",
@@ -337,7 +370,8 @@
     "translation": "the coffee",
     "level": "A1",
     "phonetic": "kah-fay",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-035",
@@ -347,7 +381,8 @@
     "translation": "the water",
     "level": "A1",
     "phonetic": "vah-ser",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-036",
@@ -357,7 +392,8 @@
     "translation": "the tea",
     "level": "A1",
     "phonetic": "tay",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-037",
@@ -367,7 +403,8 @@
     "translation": "the egg",
     "level": "A1",
     "phonetic": "eye",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-038",
@@ -377,7 +414,8 @@
     "translation": "the cheese",
     "level": "A1",
     "phonetic": "kay-zeh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-039",
@@ -387,7 +425,8 @@
     "translation": "the butter",
     "level": "A1",
     "phonetic": "boo-ter",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-040",
@@ -397,7 +436,8 @@
     "translation": "the sugar",
     "level": "A1",
     "phonetic": "tsoo-ker",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-041",
@@ -407,7 +447,8 @@
     "translation": "the dog",
     "level": "A1",
     "phonetic": "hoont",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-042",
@@ -417,7 +458,8 @@
     "translation": "the cat",
     "level": "A1",
     "phonetic": "kaht-seh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-043",
@@ -427,7 +469,8 @@
     "translation": "the bird",
     "level": "A1",
     "phonetic": "foh-gel",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-044",
@@ -437,7 +480,8 @@
     "translation": "the fish",
     "level": "A1",
     "phonetic": "fish",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-045",
@@ -447,7 +491,8 @@
     "translation": "the horse",
     "level": "A1",
     "phonetic": "pfairt",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-046",
@@ -457,7 +502,8 @@
     "translation": "the cow",
     "level": "A1",
     "phonetic": "koo",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-047",
@@ -467,7 +513,8 @@
     "translation": "the mouse",
     "level": "A1",
     "phonetic": "mows",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-048",
@@ -477,7 +524,8 @@
     "translation": "the bear",
     "level": "A2",
     "phonetic": "bair",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-049",
@@ -487,7 +535,8 @@
     "translation": "the pig",
     "level": "A1",
     "phonetic": "shvine",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-050",
@@ -497,7 +546,8 @@
     "translation": "the snake",
     "level": "A2",
     "phonetic": "shlahn-geh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-051",
@@ -507,7 +557,8 @@
     "translation": "the head",
     "level": "A1",
     "phonetic": "kopf",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-052",
@@ -517,7 +568,8 @@
     "translation": "the hand",
     "level": "A1",
     "phonetic": "hahnt",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-053",
@@ -527,7 +579,8 @@
     "translation": "the eye",
     "level": "A1",
     "phonetic": "ow-geh",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-054",
@@ -537,7 +590,8 @@
     "translation": "the nose",
     "level": "A1",
     "phonetic": "nah-zeh",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-055",
@@ -547,7 +601,8 @@
     "translation": "the mouth",
     "level": "A1",
     "phonetic": "moont",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-056",
@@ -557,7 +612,8 @@
     "translation": "the ear",
     "level": "A1",
     "phonetic": "ohr",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-057",
@@ -567,7 +623,8 @@
     "translation": "the arm",
     "level": "A1",
     "phonetic": "ahrm",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-058",
@@ -577,7 +634,8 @@
     "translation": "the leg",
     "level": "A1",
     "phonetic": "bine",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-059",
@@ -587,7 +645,8 @@
     "translation": "the foot",
     "level": "A1",
     "phonetic": "foos",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-060",
@@ -597,7 +656,8 @@
     "translation": "the finger",
     "level": "A1",
     "phonetic": "fing-er",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-061",
@@ -607,7 +667,8 @@
     "translation": "the house",
     "level": "A1",
     "phonetic": "hows",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-062",
@@ -617,7 +678,8 @@
     "translation": "the door",
     "level": "A1",
     "phonetic": "tewr",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-063",
@@ -627,7 +689,8 @@
     "translation": "the window",
     "level": "A1",
     "phonetic": "fen-ster",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-064",
@@ -637,7 +700,8 @@
     "translation": "the table",
     "level": "A1",
     "phonetic": "tish",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-065",
@@ -647,7 +711,8 @@
     "translation": "the chair",
     "level": "A1",
     "phonetic": "shtool",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-066",
@@ -657,7 +722,8 @@
     "translation": "the bed",
     "level": "A1",
     "phonetic": "bet",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-067",
@@ -667,7 +733,8 @@
     "translation": "the kitchen",
     "level": "A1",
     "phonetic": "kew-kheh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-068",
@@ -677,7 +744,8 @@
     "translation": "the bathroom",
     "level": "A1",
     "phonetic": "baht",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-069",
@@ -687,7 +755,8 @@
     "translation": "the garden",
     "level": "A1",
     "phonetic": "gar-ten",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-070",
@@ -697,7 +766,8 @@
     "translation": "the lamp",
     "level": "A1",
     "phonetic": "lahm-peh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-071",
@@ -707,7 +777,8 @@
     "translation": "red",
     "level": "A1",
     "phonetic": "roht",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-072",
@@ -717,7 +788,8 @@
     "translation": "blue",
     "level": "A1",
     "phonetic": "blow",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-073",
@@ -727,7 +799,8 @@
     "translation": "green",
     "level": "A1",
     "phonetic": "grewn",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-074",
@@ -737,7 +810,8 @@
     "translation": "yellow",
     "level": "A1",
     "phonetic": "gelp",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-075",
@@ -747,7 +821,8 @@
     "translation": "black",
     "level": "A1",
     "phonetic": "shvarts",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-076",
@@ -757,7 +832,8 @@
     "translation": "white",
     "level": "A1",
     "phonetic": "vice",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-077",
@@ -767,7 +843,8 @@
     "translation": "brown",
     "level": "A1",
     "phonetic": "brown",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-078",
@@ -777,7 +854,8 @@
     "translation": "gray",
     "level": "A1",
     "phonetic": "grow",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-079",
@@ -787,7 +865,8 @@
     "translation": "orange",
     "level": "A1",
     "phonetic": "oh-rahn-zheh",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-080",
@@ -797,7 +876,8 @@
     "translation": "pink",
     "level": "A1",
     "phonetic": "roh-zah",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-081",
@@ -807,7 +887,8 @@
     "translation": "the sun",
     "level": "A1",
     "phonetic": "zoh-neh",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-082",
@@ -817,7 +898,8 @@
     "translation": "the rain",
     "level": "A1",
     "phonetic": "ray-gen",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-083",
@@ -827,7 +909,8 @@
     "translation": "the wind",
     "level": "A1",
     "phonetic": "vint",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-084",
@@ -837,7 +920,8 @@
     "translation": "the snow",
     "level": "A1",
     "phonetic": "shnay",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-085",
@@ -847,7 +931,8 @@
     "translation": "warm",
     "level": "A1",
     "phonetic": "vahrm",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-086",
@@ -857,7 +942,8 @@
     "translation": "cold",
     "level": "A1",
     "phonetic": "kahlt",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-087",
@@ -867,7 +953,8 @@
     "translation": "hot",
     "level": "A1",
     "phonetic": "hice",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-088",
@@ -877,7 +964,8 @@
     "translation": "the cloud",
     "level": "A2",
     "phonetic": "vol-keh",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-089",
@@ -887,7 +975,8 @@
     "translation": "the sky",
     "level": "A2",
     "phonetic": "him-mel",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-090",
@@ -897,7 +986,8 @@
     "translation": "the storm",
     "level": "A2",
     "phonetic": "shtoorm",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-091",
@@ -907,7 +997,8 @@
     "translation": "to be",
     "level": "A1",
     "phonetic": "zine",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-092",
@@ -917,7 +1008,8 @@
     "translation": "to have",
     "level": "A1",
     "phonetic": "hah-ben",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-093",
@@ -927,7 +1019,8 @@
     "translation": "to go",
     "level": "A1",
     "phonetic": "gay-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-094",
@@ -937,7 +1030,8 @@
     "translation": "to come",
     "level": "A1",
     "phonetic": "koh-men",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-095",
@@ -947,7 +1041,8 @@
     "translation": "to see",
     "level": "A1",
     "phonetic": "zay-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-096",
@@ -957,7 +1052,8 @@
     "translation": "to speak",
     "level": "A1",
     "phonetic": "shpreh-khen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-097",
@@ -967,7 +1063,8 @@
     "translation": "to eat",
     "level": "A1",
     "phonetic": "eh-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-098",
@@ -977,7 +1074,8 @@
     "translation": "to drink",
     "level": "A1",
     "phonetic": "tring-ken",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-099",
@@ -987,7 +1085,8 @@
     "translation": "to sleep",
     "level": "A1",
     "phonetic": "shlah-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-100",
@@ -997,7 +1096,8 @@
     "translation": "to learn",
     "level": "A1",
     "phonetic": "lair-nen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-101",
@@ -1007,7 +1107,8 @@
     "translation": "eleven",
     "level": "A1",
     "phonetic": "elf",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-102",
@@ -1017,7 +1118,8 @@
     "translation": "twelve",
     "level": "A1",
     "phonetic": "tsverlf",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-103",
@@ -1027,7 +1129,8 @@
     "translation": "thirteen",
     "level": "A1",
     "phonetic": "dry-tsayn",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-104",
@@ -1037,7 +1140,8 @@
     "translation": "fourteen",
     "level": "A1",
     "phonetic": "feer-tsayn",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-105",
@@ -1047,7 +1151,8 @@
     "translation": "fifteen",
     "level": "A1",
     "phonetic": "fewnf-tsayn",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-106",
@@ -1057,7 +1162,8 @@
     "translation": "twenty",
     "level": "A1",
     "phonetic": "tsvahn-tsig",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-107",
@@ -1067,7 +1173,8 @@
     "translation": "thirty",
     "level": "A1",
     "phonetic": "dry-sig",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-108",
@@ -1077,7 +1184,8 @@
     "translation": "forty",
     "level": "A1",
     "phonetic": "feer-tsig",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-109",
@@ -1087,7 +1195,8 @@
     "translation": "hundred",
     "level": "A1",
     "phonetic": "hoon-dert",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-110",
@@ -1097,7 +1206,8 @@
     "translation": "thousand",
     "level": "A2",
     "phonetic": "tow-zent",
-    "category": "numbers"
+    "category": "numbers",
+    "difficulty": "single"
   },
   {
     "id": "de-111",
@@ -1107,7 +1217,8 @@
     "translation": "how are you",
     "level": "A1",
     "phonetic": "vee gayts",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-112",
@@ -1117,7 +1228,8 @@
     "translation": "good evening",
     "level": "A1",
     "phonetic": "goo-ten ah-bent",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-113",
@@ -1127,7 +1239,8 @@
     "translation": "good night",
     "level": "A1",
     "phonetic": "goo-teh nakht",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-114",
@@ -1137,7 +1250,8 @@
     "translation": "welcome",
     "level": "A1",
     "phonetic": "vil-koh-men",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "compound"
   },
   {
     "id": "de-115",
@@ -1147,7 +1261,8 @@
     "translation": "cheers",
     "level": "A2",
     "phonetic": "prohst",
-    "category": "greetings"
+    "category": "greetings",
+    "difficulty": "single"
   },
   {
     "id": "de-116",
@@ -1157,7 +1272,8 @@
     "translation": "the woman / wife",
     "level": "A1",
     "phonetic": "frow",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-117",
@@ -1167,7 +1283,8 @@
     "translation": "the grandmother",
     "level": "A1",
     "phonetic": "grohs-moo-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "compound"
   },
   {
     "id": "de-118",
@@ -1177,7 +1294,8 @@
     "translation": "the grandfather",
     "level": "A1",
     "phonetic": "grohs-fah-ter",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-119",
@@ -1187,7 +1305,8 @@
     "translation": "the uncle",
     "level": "A2",
     "phonetic": "ohn-kel",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-120",
@@ -1197,7 +1316,8 @@
     "translation": "the aunt",
     "level": "A2",
     "phonetic": "tahn-teh",
-    "category": "family"
+    "category": "family",
+    "difficulty": "single"
   },
   {
     "id": "de-121",
@@ -1207,7 +1327,8 @@
     "translation": "the meat",
     "level": "A1",
     "phonetic": "flysh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-122",
@@ -1217,7 +1338,8 @@
     "translation": "the rice",
     "level": "A1",
     "phonetic": "rice",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-123",
@@ -1227,7 +1349,8 @@
     "translation": "the potato",
     "level": "A1",
     "phonetic": "kar-toh-fel",
-    "category": "food"
+    "category": "food",
+    "difficulty": "compound"
   },
   {
     "id": "de-124",
@@ -1237,7 +1360,8 @@
     "translation": "the tomato",
     "level": "A1",
     "phonetic": "toh-mah-teh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-125",
@@ -1247,7 +1371,8 @@
     "translation": "the cucumber",
     "level": "A1",
     "phonetic": "goor-keh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-126",
@@ -1257,7 +1382,8 @@
     "translation": "the onion",
     "level": "A2",
     "phonetic": "tsvee-bel",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-127",
@@ -1267,7 +1393,8 @@
     "translation": "the salad",
     "level": "A1",
     "phonetic": "zah-laht",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-128",
@@ -1277,7 +1404,8 @@
     "translation": "the soup",
     "level": "A1",
     "phonetic": "zoo-peh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-129",
@@ -1287,7 +1415,8 @@
     "translation": "the chicken",
     "level": "A2",
     "phonetic": "hayn-khen",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-130",
@@ -1297,7 +1426,8 @@
     "translation": "the sausage",
     "level": "A1",
     "phonetic": "voorst",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-131",
@@ -1307,7 +1437,8 @@
     "translation": "the cake",
     "level": "A1",
     "phonetic": "koo-khen",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-132",
@@ -1317,7 +1448,8 @@
     "translation": "the ice cream",
     "level": "A1",
     "phonetic": "ice",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-133",
@@ -1327,7 +1459,8 @@
     "translation": "the chocolate",
     "level": "A1",
     "phonetic": "shoh-koh-lah-deh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "compound"
   },
   {
     "id": "de-134",
@@ -1337,7 +1470,8 @@
     "translation": "the juice",
     "level": "A1",
     "phonetic": "zahft",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-135",
@@ -1347,7 +1481,8 @@
     "translation": "the beer",
     "level": "A1",
     "phonetic": "beer",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-136",
@@ -1357,7 +1492,8 @@
     "translation": "the wine",
     "level": "A2",
     "phonetic": "vine",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-137",
@@ -1367,7 +1503,8 @@
     "translation": "the banana",
     "level": "A1",
     "phonetic": "bah-nah-neh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-138",
@@ -1377,7 +1514,8 @@
     "translation": "the orange",
     "level": "A1",
     "phonetic": "oh-rahn-zheh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-139",
@@ -1387,7 +1525,8 @@
     "translation": "the strawberry",
     "level": "A2",
     "phonetic": "airt-bay-reh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-140",
@@ -1397,7 +1536,8 @@
     "translation": "the carrot",
     "level": "A2",
     "phonetic": "kah-roh-teh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-141",
@@ -1407,7 +1547,8 @@
     "translation": "the elephant",
     "level": "A2",
     "phonetic": "eh-leh-fahnt",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-142",
@@ -1417,7 +1558,8 @@
     "translation": "the lion",
     "level": "A2",
     "phonetic": "ler-veh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-143",
@@ -1427,7 +1569,8 @@
     "translation": "the monkey",
     "level": "A2",
     "phonetic": "ah-feh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-144",
@@ -1437,7 +1580,8 @@
     "translation": "the rabbit",
     "level": "A1",
     "phonetic": "hah-zeh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-145",
@@ -1447,7 +1591,8 @@
     "translation": "the duck",
     "level": "A1",
     "phonetic": "en-teh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-146",
@@ -1457,7 +1602,8 @@
     "translation": "the butterfly",
     "level": "A2",
     "phonetic": "shmet-ter-ling",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "compound"
   },
   {
     "id": "de-147",
@@ -1467,7 +1613,8 @@
     "translation": "the bee",
     "level": "A2",
     "phonetic": "bee-neh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-148",
@@ -1477,7 +1624,8 @@
     "translation": "the wolf",
     "level": "A2",
     "phonetic": "volf",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-149",
@@ -1487,7 +1635,8 @@
     "translation": "the turtle",
     "level": "A2",
     "phonetic": "shilt-krer-teh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "compound"
   },
   {
     "id": "de-150",
@@ -1497,7 +1646,8 @@
     "translation": "the frog",
     "level": "A2",
     "phonetic": "frosh",
-    "category": "animals"
+    "category": "animals",
+    "difficulty": "single"
   },
   {
     "id": "de-151",
@@ -1507,7 +1657,8 @@
     "translation": "the back",
     "level": "A2",
     "phonetic": "rew-ken",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-152",
@@ -1517,7 +1668,8 @@
     "translation": "the neck",
     "level": "A2",
     "phonetic": "hahls",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-153",
@@ -1527,7 +1679,8 @@
     "translation": "the shoulder",
     "level": "A2",
     "phonetic": "shool-ter",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-154",
@@ -1537,7 +1690,8 @@
     "translation": "the knee",
     "level": "A2",
     "phonetic": "k-nee",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-155",
@@ -1547,7 +1701,8 @@
     "translation": "the tooth",
     "level": "A1",
     "phonetic": "tsahn",
-    "category": "body"
+    "category": "body",
+    "difficulty": "single"
   },
   {
     "id": "de-156",
@@ -1557,7 +1712,8 @@
     "translation": "the mirror",
     "level": "A2",
     "phonetic": "shpee-gel",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-157",
@@ -1567,7 +1723,8 @@
     "translation": "the closet",
     "level": "A2",
     "phonetic": "shrahnk",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-158",
@@ -1577,7 +1734,8 @@
     "translation": "the stairs",
     "level": "A2",
     "phonetic": "trep-peh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-159",
@@ -1587,7 +1745,8 @@
     "translation": "the roof",
     "level": "A2",
     "phonetic": "dahkh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-160",
@@ -1597,7 +1756,8 @@
     "translation": "the basement",
     "level": "A2",
     "phonetic": "kel-ler",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-161",
@@ -1607,7 +1767,8 @@
     "translation": "the fog",
     "level": "A2",
     "phonetic": "nay-bel",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-162",
@@ -1617,7 +1778,8 @@
     "translation": "the thunderstorm",
     "level": "A2",
     "phonetic": "geh-vit-ter",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-163",
@@ -1627,7 +1789,8 @@
     "translation": "the rainbow",
     "level": "A2",
     "phonetic": "ray-gen-boh-gen",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "compound"
   },
   {
     "id": "de-164",
@@ -1637,7 +1800,8 @@
     "translation": "the frost",
     "level": "A2",
     "phonetic": "frosst",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-165",
@@ -1647,7 +1811,8 @@
     "translation": "the heat",
     "level": "A2",
     "phonetic": "hit-seh",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-166",
@@ -1657,7 +1822,8 @@
     "translation": "to speak",
     "level": "A1",
     "phonetic": "shprekh-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-167",
@@ -1667,7 +1833,8 @@
     "translation": "to read",
     "level": "A1",
     "phonetic": "lay-zen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-168",
@@ -1677,7 +1844,8 @@
     "translation": "to write",
     "level": "A1",
     "phonetic": "shry-ben",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-169",
@@ -1687,7 +1855,8 @@
     "translation": "to hear",
     "level": "A1",
     "phonetic": "her-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-170",
@@ -1697,7 +1866,8 @@
     "translation": "to see",
     "level": "A1",
     "phonetic": "zay-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-171",
@@ -1707,7 +1877,8 @@
     "translation": "to understand",
     "level": "A1",
     "phonetic": "fer-shtay-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-172",
@@ -1717,7 +1888,8 @@
     "translation": "to know",
     "level": "A1",
     "phonetic": "vis-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-173",
@@ -1727,7 +1899,8 @@
     "translation": "to think",
     "level": "A2",
     "phonetic": "den-ken",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-174",
@@ -1737,7 +1910,8 @@
     "translation": "to believe",
     "level": "A2",
     "phonetic": "glow-ben",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-175",
@@ -1747,7 +1921,8 @@
     "translation": "to help",
     "level": "A1",
     "phonetic": "hel-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-176",
@@ -1757,7 +1932,8 @@
     "translation": "to need",
     "level": "A1",
     "phonetic": "brow-khen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-177",
@@ -1767,7 +1943,8 @@
     "translation": "to get",
     "level": "A2",
     "phonetic": "beh-koh-men",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-178",
@@ -1777,7 +1954,8 @@
     "translation": "to bring",
     "level": "A1",
     "phonetic": "bring-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-179",
@@ -1787,7 +1965,8 @@
     "translation": "to take",
     "level": "A1",
     "phonetic": "nay-men",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-180",
@@ -1797,7 +1976,8 @@
     "translation": "to give",
     "level": "A1",
     "phonetic": "gay-ben",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-181",
@@ -1807,7 +1987,8 @@
     "translation": "to drive",
     "level": "A1",
     "phonetic": "fah-ren",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-182",
@@ -1817,7 +1998,8 @@
     "translation": "to fly",
     "level": "A2",
     "phonetic": "flee-gen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-183",
@@ -1827,7 +2009,8 @@
     "translation": "to swim",
     "level": "A1",
     "phonetic": "shvim-men",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-184",
@@ -1837,7 +2020,8 @@
     "translation": "to run",
     "level": "A1",
     "phonetic": "low-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-185",
@@ -1847,7 +2031,8 @@
     "translation": "to sit",
     "level": "A1",
     "phonetic": "zit-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-186",
@@ -1857,7 +2042,8 @@
     "translation": "to stand",
     "level": "A1",
     "phonetic": "shtay-en",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-187",
@@ -1867,7 +2053,8 @@
     "translation": "to lie down",
     "level": "A2",
     "phonetic": "lee-gen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-188",
@@ -1877,7 +2064,8 @@
     "translation": "to open",
     "level": "A1",
     "phonetic": "erf-nen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-189",
@@ -1887,7 +2075,8 @@
     "translation": "to close",
     "level": "A2",
     "phonetic": "shlee-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-190",
@@ -1897,7 +2086,8 @@
     "translation": "to begin",
     "level": "A2",
     "phonetic": "beh-gin-nen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-191",
@@ -1907,7 +2097,8 @@
     "translation": "to forget",
     "level": "A2",
     "phonetic": "fer-ges-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-192",
@@ -1917,7 +2108,8 @@
     "translation": "to remember",
     "level": "A2",
     "phonetic": "er-in-nern",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-193",
@@ -1927,7 +2119,8 @@
     "translation": "to try",
     "level": "A2",
     "phonetic": "fer-zoo-khen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-194",
@@ -1937,7 +2130,8 @@
     "translation": "to wait",
     "level": "A1",
     "phonetic": "var-ten",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-195",
@@ -1947,7 +2141,8 @@
     "translation": "to show",
     "level": "A2",
     "phonetic": "tsy-gen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-196",
@@ -1957,7 +2152,8 @@
     "translation": "the shirt",
     "level": "A1",
     "phonetic": "hemt",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-197",
@@ -1967,7 +2163,8 @@
     "translation": "the pants",
     "level": "A1",
     "phonetic": "hoh-zeh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-198",
@@ -1977,7 +2174,8 @@
     "translation": "the skirt",
     "level": "A1",
     "phonetic": "rok",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-199",
@@ -1987,7 +2185,8 @@
     "translation": "the dress",
     "level": "A1",
     "phonetic": "klite",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-200",
@@ -1997,7 +2196,8 @@
     "translation": "the jacket",
     "level": "A1",
     "phonetic": "yah-keh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-201",
@@ -2007,7 +2207,8 @@
     "translation": "the coat",
     "level": "A1",
     "phonetic": "mahn-tel",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-202",
@@ -2017,7 +2218,8 @@
     "translation": "the shoe",
     "level": "A1",
     "phonetic": "shoo",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-203",
@@ -2027,7 +2229,8 @@
     "translation": "the sock",
     "level": "A1",
     "phonetic": "zoh-keh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-204",
@@ -2037,7 +2240,8 @@
     "translation": "the hat",
     "level": "A1",
     "phonetic": "hoot",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-205",
@@ -2047,7 +2251,8 @@
     "translation": "the cap",
     "level": "A2",
     "phonetic": "mew-tseh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-206",
@@ -2057,7 +2262,8 @@
     "translation": "the scarf",
     "level": "A2",
     "phonetic": "shahl",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-207",
@@ -2067,7 +2273,8 @@
     "translation": "the gloves",
     "level": "A2",
     "phonetic": "hahnt-shoo-eh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "compound"
   },
   {
     "id": "de-208",
@@ -2077,7 +2284,8 @@
     "translation": "the belt",
     "level": "A2",
     "phonetic": "gewr-tel",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-209",
@@ -2087,7 +2295,8 @@
     "translation": "the glasses",
     "level": "A1",
     "phonetic": "bril-leh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-210",
@@ -2097,7 +2306,8 @@
     "translation": "the sweater",
     "level": "A1",
     "phonetic": "pool-oh-ver",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-211",
@@ -2107,7 +2317,8 @@
     "translation": "the t-shirt",
     "level": "A1",
     "phonetic": "tee-shirt",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-212",
@@ -2117,7 +2328,8 @@
     "translation": "the blouse",
     "level": "A2",
     "phonetic": "bloo-zeh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-213",
@@ -2127,7 +2339,8 @@
     "translation": "the suit",
     "level": "A2",
     "phonetic": "ahn-tsook",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-214",
@@ -2137,7 +2350,8 @@
     "translation": "the tie",
     "level": "A2",
     "phonetic": "krah-vah-teh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-215",
@@ -2147,7 +2361,8 @@
     "translation": "the boot",
     "level": "A2",
     "phonetic": "shtee-fel",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-216",
@@ -2157,7 +2372,8 @@
     "translation": "the underwear",
     "level": "A2",
     "phonetic": "oon-ter-veh-sheh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "compound"
   },
   {
     "id": "de-217",
@@ -2167,7 +2383,8 @@
     "translation": "the umbrella",
     "level": "A2",
     "phonetic": "ray-gen-shirm",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "compound"
   },
   {
     "id": "de-218",
@@ -2177,7 +2394,8 @@
     "translation": "the bag",
     "level": "A1",
     "phonetic": "tah-sheh",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-219",
@@ -2187,7 +2405,8 @@
     "translation": "the ring",
     "level": "A2",
     "phonetic": "ring",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-220",
@@ -2197,7 +2416,8 @@
     "translation": "the watch",
     "level": "A1",
     "phonetic": "oor",
-    "category": "clothing"
+    "category": "clothing",
+    "difficulty": "single"
   },
   {
     "id": "de-221",
@@ -2207,7 +2427,8 @@
     "translation": "the car",
     "level": "A1",
     "phonetic": "ow-toh",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-222",
@@ -2217,7 +2438,8 @@
     "translation": "the bus",
     "level": "A1",
     "phonetic": "boos",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-223",
@@ -2227,7 +2449,8 @@
     "translation": "the train",
     "level": "A1",
     "phonetic": "tsook",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-224",
@@ -2237,7 +2460,8 @@
     "translation": "the bicycle",
     "level": "A1",
     "phonetic": "fahr-raht",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-225",
@@ -2247,7 +2471,8 @@
     "translation": "the airplane",
     "level": "A1",
     "phonetic": "flook-tsoyk",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-226",
@@ -2257,7 +2482,8 @@
     "translation": "the ship",
     "level": "A2",
     "phonetic": "shif",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-227",
@@ -2267,7 +2493,8 @@
     "translation": "the street",
     "level": "A1",
     "phonetic": "shtrah-seh",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-228",
@@ -2277,7 +2504,8 @@
     "translation": "the subway",
     "level": "A1",
     "phonetic": "oo-bahn",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-229",
@@ -2287,7 +2515,8 @@
     "translation": "the stop",
     "level": "A1",
     "phonetic": "hahl-teh-shtel-leh",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "compound"
   },
   {
     "id": "de-230",
@@ -2297,7 +2526,8 @@
     "translation": "the train station",
     "level": "A1",
     "phonetic": "bahn-hohf",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-231",
@@ -2307,7 +2537,8 @@
     "translation": "the airport",
     "level": "A1",
     "phonetic": "flook-hah-fen",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "compound"
   },
   {
     "id": "de-232",
@@ -2317,7 +2548,8 @@
     "translation": "the taxi",
     "level": "A1",
     "phonetic": "tahk-see",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-233",
@@ -2327,7 +2559,8 @@
     "translation": "the traffic light",
     "level": "A2",
     "phonetic": "ahm-pel",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-234",
@@ -2337,7 +2570,8 @@
     "translation": "the parking lot",
     "level": "A2",
     "phonetic": "park-plahts",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-235",
@@ -2347,7 +2581,8 @@
     "translation": "the driver's license",
     "level": "A2",
     "phonetic": "few-rer-shine",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "compound"
   },
   {
     "id": "de-236",
@@ -2357,7 +2592,8 @@
     "translation": "the gasoline",
     "level": "A2",
     "phonetic": "ben-tseen",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-237",
@@ -2367,7 +2603,8 @@
     "translation": "the bridge",
     "level": "A2",
     "phonetic": "brew-keh",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-238",
@@ -2377,7 +2614,8 @@
     "translation": "the way / path",
     "level": "A1",
     "phonetic": "vayk",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-239",
@@ -2387,7 +2625,8 @@
     "translation": "the intersection",
     "level": "A2",
     "phonetic": "kroy-tsoong",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-240",
@@ -2397,7 +2636,8 @@
     "translation": "the traffic jam",
     "level": "A2",
     "phonetic": "shtow",
-    "category": "transport"
+    "category": "transport",
+    "difficulty": "single"
   },
   {
     "id": "de-241",
@@ -2407,7 +2647,8 @@
     "translation": "the hour",
     "level": "A1",
     "phonetic": "shtoon-deh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-242",
@@ -2417,7 +2658,8 @@
     "translation": "the minute",
     "level": "A1",
     "phonetic": "mee-noo-teh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-243",
@@ -2427,7 +2669,8 @@
     "translation": "the second",
     "level": "A2",
     "phonetic": "zeh-koon-deh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-244",
@@ -2437,7 +2680,8 @@
     "translation": "the day",
     "level": "A1",
     "phonetic": "tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-245",
@@ -2447,7 +2691,8 @@
     "translation": "the week",
     "level": "A1",
     "phonetic": "voh-kheh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-246",
@@ -2457,7 +2702,8 @@
     "translation": "the month",
     "level": "A1",
     "phonetic": "moh-naht",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-247",
@@ -2467,7 +2713,8 @@
     "translation": "the year",
     "level": "A1",
     "phonetic": "yahr",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-248",
@@ -2477,7 +2724,8 @@
     "translation": "today",
     "level": "A1",
     "phonetic": "hoy-teh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-249",
@@ -2487,7 +2735,8 @@
     "translation": "yesterday",
     "level": "A1",
     "phonetic": "ges-tern",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-250",
@@ -2497,7 +2746,8 @@
     "translation": "tomorrow",
     "level": "A1",
     "phonetic": "mor-gen",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-251",
@@ -2507,7 +2757,8 @@
     "translation": "Monday",
     "level": "A1",
     "phonetic": "mohn-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-252",
@@ -2517,7 +2768,8 @@
     "translation": "Tuesday",
     "level": "A1",
     "phonetic": "deens-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-253",
@@ -2527,7 +2779,8 @@
     "translation": "Wednesday",
     "level": "A1",
     "phonetic": "mit-vokh",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-254",
@@ -2537,7 +2790,8 @@
     "translation": "Thursday",
     "level": "A1",
     "phonetic": "don-ners-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "compound"
   },
   {
     "id": "de-255",
@@ -2547,7 +2801,8 @@
     "translation": "Friday",
     "level": "A1",
     "phonetic": "fry-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-256",
@@ -2557,7 +2812,8 @@
     "translation": "Saturday",
     "level": "A1",
     "phonetic": "zahms-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-257",
@@ -2567,7 +2823,8 @@
     "translation": "Sunday",
     "level": "A1",
     "phonetic": "zon-tahk",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-258",
@@ -2577,7 +2834,8 @@
     "translation": "the morning",
     "level": "A1",
     "phonetic": "mor-gen",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-259",
@@ -2587,7 +2845,8 @@
     "translation": "the evening",
     "level": "A1",
     "phonetic": "ah-bent",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-260",
@@ -2597,7 +2856,8 @@
     "translation": "the night",
     "level": "A1",
     "phonetic": "nakht",
-    "category": "time"
+    "category": "time",
+    "difficulty": "single"
   },
   {
     "id": "de-261",
@@ -2607,7 +2867,8 @@
     "translation": "the school",
     "level": "A1",
     "phonetic": "shoo-leh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-262",
@@ -2617,7 +2878,8 @@
     "translation": "the teacher (m)",
     "level": "A1",
     "phonetic": "lay-rer",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-263",
@@ -2627,7 +2889,8 @@
     "translation": "the teacher (f)",
     "level": "A1",
     "phonetic": "lay-reh-rin",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-264",
@@ -2637,7 +2900,8 @@
     "translation": "the student (m)",
     "level": "A1",
     "phonetic": "shew-ler",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-265",
@@ -2647,7 +2911,8 @@
     "translation": "the book",
     "level": "A1",
     "phonetic": "bookh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-266",
@@ -2657,7 +2922,8 @@
     "translation": "the pen",
     "level": "A1",
     "phonetic": "shtift",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-267",
@@ -2667,7 +2933,8 @@
     "translation": "the notebook",
     "level": "A1",
     "phonetic": "heft",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-268",
@@ -2677,7 +2944,8 @@
     "translation": "the blackboard",
     "level": "A1",
     "phonetic": "tah-fel",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-269",
@@ -2687,7 +2955,8 @@
     "translation": "the computer",
     "level": "A1",
     "phonetic": "kohm-pyoo-ter",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-270",
@@ -2697,7 +2966,8 @@
     "translation": "the paper",
     "level": "A1",
     "phonetic": "pah-peer",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-271",
@@ -2707,7 +2977,8 @@
     "translation": "the task",
     "level": "A2",
     "phonetic": "owf-gah-beh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-272",
@@ -2717,7 +2988,8 @@
     "translation": "the exam",
     "level": "A2",
     "phonetic": "prew-foong",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-273",
@@ -2727,7 +2999,8 @@
     "translation": "the work",
     "level": "A1",
     "phonetic": "ar-bite",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-274",
@@ -2737,7 +3010,8 @@
     "translation": "the office",
     "level": "A1",
     "phonetic": "bew-roh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-275",
@@ -2747,7 +3021,8 @@
     "translation": "the boss",
     "level": "A2",
     "phonetic": "shef",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-276",
@@ -2757,7 +3032,8 @@
     "translation": "the company",
     "level": "A2",
     "phonetic": "feer-mah",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-277",
@@ -2767,7 +3043,8 @@
     "translation": "the money",
     "level": "A1",
     "phonetic": "gelt",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-278",
@@ -2777,7 +3054,8 @@
     "translation": "the profession",
     "level": "A2",
     "phonetic": "beh-roof",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-279",
@@ -2787,7 +3065,8 @@
     "translation": "the university",
     "level": "A2",
     "phonetic": "oo-nee-ver-zee-tayt",
-    "category": "school"
+    "category": "school",
+    "difficulty": "compound"
   },
   {
     "id": "de-280",
@@ -2797,7 +3076,8 @@
     "translation": "the class",
     "level": "A1",
     "phonetic": "klah-seh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-281",
@@ -2807,7 +3087,8 @@
     "translation": "big / tall",
     "level": "A1",
     "phonetic": "grohs",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-282",
@@ -2817,7 +3098,8 @@
     "translation": "small",
     "level": "A1",
     "phonetic": "kline",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-283",
@@ -2827,7 +3109,8 @@
     "translation": "good",
     "level": "A1",
     "phonetic": "goot",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-284",
@@ -2837,7 +3120,8 @@
     "translation": "bad",
     "level": "A1",
     "phonetic": "shlekht",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-285",
@@ -2847,7 +3131,8 @@
     "translation": "beautiful",
     "level": "A1",
     "phonetic": "shern",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-286",
@@ -2857,7 +3142,8 @@
     "translation": "ugly",
     "level": "A2",
     "phonetic": "hes-likh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-287",
@@ -2867,7 +3153,8 @@
     "translation": "fast",
     "level": "A1",
     "phonetic": "shnel",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-288",
@@ -2877,7 +3164,8 @@
     "translation": "slow",
     "level": "A1",
     "phonetic": "lahng-zahm",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-289",
@@ -2887,7 +3175,8 @@
     "translation": "old",
     "level": "A1",
     "phonetic": "ahlt",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-290",
@@ -2897,7 +3186,8 @@
     "translation": "young",
     "level": "A1",
     "phonetic": "yoong",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-291",
@@ -2907,7 +3197,8 @@
     "translation": "new",
     "level": "A1",
     "phonetic": "noy",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-292",
@@ -2917,7 +3208,8 @@
     "translation": "expensive",
     "level": "A1",
     "phonetic": "toy-er",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-293",
@@ -2927,7 +3219,8 @@
     "translation": "cheap",
     "level": "A1",
     "phonetic": "bil-lig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-294",
@@ -2937,7 +3230,8 @@
     "translation": "heavy / difficult",
     "level": "A1",
     "phonetic": "shvair",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-295",
@@ -2947,7 +3241,8 @@
     "translation": "light / easy",
     "level": "A1",
     "phonetic": "lykht",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-296",
@@ -2957,7 +3252,8 @@
     "translation": "long",
     "level": "A1",
     "phonetic": "lahng",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-297",
@@ -2967,7 +3263,8 @@
     "translation": "short",
     "level": "A1",
     "phonetic": "koorts",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-298",
@@ -2977,7 +3274,8 @@
     "translation": "hot",
     "level": "A1",
     "phonetic": "hice",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-299",
@@ -2987,7 +3285,8 @@
     "translation": "cold",
     "level": "A1",
     "phonetic": "kahlt",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-300",
@@ -2997,7 +3296,8 @@
     "translation": "correct",
     "level": "A1",
     "phonetic": "rikh-tig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-301",
@@ -3007,7 +3307,8 @@
     "translation": "wrong",
     "level": "A1",
     "phonetic": "fahlsh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-302",
@@ -3017,7 +3318,8 @@
     "translation": "tired",
     "level": "A1",
     "phonetic": "mew-deh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-303",
@@ -3027,7 +3329,8 @@
     "translation": "hungry",
     "level": "A1",
     "phonetic": "hoong-rig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-304",
@@ -3037,7 +3340,8 @@
     "translation": "thirsty",
     "level": "A2",
     "phonetic": "door-stig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-305",
@@ -3047,7 +3351,8 @@
     "translation": "funny",
     "level": "A2",
     "phonetic": "loos-tig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-306",
@@ -3057,7 +3362,8 @@
     "translation": "sad",
     "level": "A1",
     "phonetic": "trow-rig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-307",
@@ -3067,7 +3373,8 @@
     "translation": "happy",
     "level": "A1",
     "phonetic": "glewk-likh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-308",
@@ -3077,7 +3384,8 @@
     "translation": "important",
     "level": "A2",
     "phonetic": "vikh-tig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-309",
@@ -3087,7 +3395,8 @@
     "translation": "simple / easy",
     "level": "A1",
     "phonetic": "ine-fahkh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-310",
@@ -3097,7 +3406,8 @@
     "translation": "difficult",
     "level": "A2",
     "phonetic": "shvee-rig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-311",
@@ -3107,7 +3417,8 @@
     "translation": "the city",
     "level": "A1",
     "phonetic": "shtaht",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-312",
@@ -3117,7 +3428,8 @@
     "translation": "the village",
     "level": "A2",
     "phonetic": "dorf",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-313",
@@ -3127,7 +3439,8 @@
     "translation": "the market",
     "level": "A1",
     "phonetic": "markt",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-314",
@@ -3137,7 +3450,8 @@
     "translation": "the church",
     "level": "A2",
     "phonetic": "keer-kheh",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-315",
@@ -3147,7 +3461,8 @@
     "translation": "the museum",
     "level": "A2",
     "phonetic": "moo-zay-oom",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-316",
@@ -3157,7 +3472,8 @@
     "translation": "the park",
     "level": "A1",
     "phonetic": "park",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-317",
@@ -3167,7 +3483,8 @@
     "translation": "the bank",
     "level": "A1",
     "phonetic": "bahnk",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-318",
@@ -3177,7 +3494,8 @@
     "translation": "the post office",
     "level": "A1",
     "phonetic": "post",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-319",
@@ -3187,7 +3505,8 @@
     "translation": "the pharmacy",
     "level": "A2",
     "phonetic": "ah-poh-tay-keh",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-320",
@@ -3197,7 +3516,8 @@
     "translation": "the hospital",
     "level": "A2",
     "phonetic": "krahnk-en-hows",
-    "category": "places"
+    "category": "places",
+    "difficulty": "compound"
   },
   {
     "id": "de-321",
@@ -3207,7 +3527,8 @@
     "translation": "the restaurant",
     "level": "A1",
     "phonetic": "res-toh-rahng",
-    "category": "places"
+    "category": "places",
+    "difficulty": "compound"
   },
   {
     "id": "de-322",
@@ -3217,7 +3538,8 @@
     "translation": "the hotel",
     "level": "A1",
     "phonetic": "hoh-tel",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-323",
@@ -3227,7 +3549,8 @@
     "translation": "the supermarket",
     "level": "A1",
     "phonetic": "zoo-per-markt",
-    "category": "places"
+    "category": "places",
+    "difficulty": "compound"
   },
   {
     "id": "de-324",
@@ -3237,7 +3560,8 @@
     "translation": "the bakery",
     "level": "A2",
     "phonetic": "bek-er-eye",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-325",
@@ -3247,7 +3571,8 @@
     "translation": "the library",
     "level": "A2",
     "phonetic": "bib-lee-oh-tayk",
-    "category": "places"
+    "category": "places",
+    "difficulty": "compound"
   },
   {
     "id": "de-326",
@@ -3257,7 +3582,8 @@
     "translation": "the cinema",
     "level": "A1",
     "phonetic": "kee-noh",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-327",
@@ -3267,7 +3593,8 @@
     "translation": "the theater",
     "level": "A2",
     "phonetic": "tay-ah-ter",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-328",
@@ -3277,7 +3604,8 @@
     "translation": "the playground",
     "level": "A2",
     "phonetic": "shpeel-plahts",
-    "category": "places"
+    "category": "places",
+    "difficulty": "compound"
   },
   {
     "id": "de-329",
@@ -3287,7 +3615,8 @@
     "translation": "the police",
     "level": "A2",
     "phonetic": "poh-lee-tsy",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-330",
@@ -3297,7 +3626,8 @@
     "translation": "the shop",
     "level": "A1",
     "phonetic": "lah-den",
-    "category": "places"
+    "category": "places",
+    "difficulty": "single"
   },
   {
     "id": "de-331",
@@ -3307,7 +3637,8 @@
     "translation": "the tree",
     "level": "A1",
     "phonetic": "bowm",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-332",
@@ -3317,7 +3648,8 @@
     "translation": "the flower",
     "level": "A1",
     "phonetic": "bloo-meh",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-333",
@@ -3327,7 +3659,8 @@
     "translation": "the mountain",
     "level": "A1",
     "phonetic": "bairk",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-334",
@@ -3337,7 +3670,8 @@
     "translation": "the river",
     "level": "A2",
     "phonetic": "floos",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-335",
@@ -3347,7 +3681,8 @@
     "translation": "the lake",
     "level": "A2",
     "phonetic": "zay",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-336",
@@ -3357,7 +3692,8 @@
     "translation": "the sea",
     "level": "A1",
     "phonetic": "mair",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-337",
@@ -3367,7 +3703,8 @@
     "translation": "the forest",
     "level": "A1",
     "phonetic": "vahlt",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-338",
@@ -3377,7 +3714,8 @@
     "translation": "the meadow",
     "level": "A2",
     "phonetic": "vee-zeh",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-339",
@@ -3387,7 +3725,8 @@
     "translation": "the beach",
     "level": "A2",
     "phonetic": "shtrahnt",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-340",
@@ -3397,7 +3736,8 @@
     "translation": "the island",
     "level": "A2",
     "phonetic": "in-zel",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-341",
@@ -3407,7 +3747,8 @@
     "translation": "the stone",
     "level": "A2",
     "phonetic": "shtine",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-342",
@@ -3417,7 +3758,8 @@
     "translation": "the earth",
     "level": "A2",
     "phonetic": "air-deh",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-343",
@@ -3427,7 +3769,8 @@
     "translation": "the sky",
     "level": "A1",
     "phonetic": "him-mel",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-344",
@@ -3437,7 +3780,8 @@
     "translation": "the air",
     "level": "A2",
     "phonetic": "looft",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-345",
@@ -3447,7 +3791,8 @@
     "translation": "the fire",
     "level": "A2",
     "phonetic": "foy-er",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-346",
@@ -3457,7 +3802,8 @@
     "translation": "the grass",
     "level": "A2",
     "phonetic": "grahs",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-347",
@@ -3467,7 +3813,8 @@
     "translation": "the rose",
     "level": "A2",
     "phonetic": "roh-zeh",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-348",
@@ -3477,7 +3824,8 @@
     "translation": "the star",
     "level": "A1",
     "phonetic": "shtern",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-349",
@@ -3487,7 +3835,8 @@
     "translation": "the moon",
     "level": "A1",
     "phonetic": "mohnt",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-350",
@@ -3497,7 +3846,8 @@
     "translation": "the sun",
     "level": "A1",
     "phonetic": "zon-neh",
-    "category": "nature"
+    "category": "nature",
+    "difficulty": "single"
   },
   {
     "id": "de-351",
@@ -3507,7 +3857,8 @@
     "translation": "the love",
     "level": "A2",
     "phonetic": "lee-beh",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-352",
@@ -3517,7 +3868,8 @@
     "translation": "the fear",
     "level": "A2",
     "phonetic": "ahngst",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-353",
@@ -3527,7 +3879,8 @@
     "translation": "the joy",
     "level": "A2",
     "phonetic": "froy-deh",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-354",
@@ -3537,7 +3890,8 @@
     "translation": "the fun",
     "level": "A1",
     "phonetic": "shpahs",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-355",
@@ -3547,7 +3901,8 @@
     "translation": "the hope",
     "level": "A2",
     "phonetic": "hof-noong",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-356",
@@ -3557,7 +3912,8 @@
     "translation": "the worry",
     "level": "A2",
     "phonetic": "zor-geh",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-357",
@@ -3567,7 +3923,8 @@
     "translation": "the dream",
     "level": "A2",
     "phonetic": "trowm",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-358",
@@ -3577,7 +3934,8 @@
     "translation": "the luck",
     "level": "A2",
     "phonetic": "glewk",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-359",
@@ -3587,7 +3945,8 @@
     "translation": "the calm",
     "level": "A2",
     "phonetic": "roo-eh",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-360",
@@ -3597,7 +3956,8 @@
     "translation": "to laugh",
     "level": "A1",
     "phonetic": "lah-khen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-361",
@@ -3607,7 +3967,8 @@
     "translation": "to cry",
     "level": "A1",
     "phonetic": "vy-nen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-362",
@@ -3617,7 +3978,8 @@
     "translation": "to love",
     "level": "A1",
     "phonetic": "lee-ben",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-363",
@@ -3627,7 +3989,8 @@
     "translation": "to hate",
     "level": "A2",
     "phonetic": "hah-sen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-364",
@@ -3637,7 +4000,8 @@
     "translation": "to feel",
     "level": "A2",
     "phonetic": "few-len",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-365",
@@ -3647,7 +4011,8 @@
     "translation": "to wish",
     "level": "A2",
     "phonetic": "vewn-shen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-366",
@@ -3657,7 +4022,8 @@
     "translation": "to hope",
     "level": "A2",
     "phonetic": "hoh-fen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-367",
@@ -3667,7 +4033,8 @@
     "translation": "to be happy",
     "level": "A2",
     "phonetic": "froy-en",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-368",
@@ -3677,7 +4044,8 @@
     "translation": "to annoy",
     "level": "A2",
     "phonetic": "air-gern",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-369",
@@ -3687,7 +4055,8 @@
     "translation": "to surprise",
     "level": "A2",
     "phonetic": "ew-ber-rah-shen",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "compound"
   },
   {
     "id": "de-370",
@@ -3697,7 +4066,8 @@
     "translation": "to thank",
     "level": "A1",
     "phonetic": "dahn-ken",
-    "category": "emotions"
+    "category": "emotions",
+    "difficulty": "single"
   },
   {
     "id": "de-371",
@@ -3707,7 +4077,8 @@
     "translation": "to get up",
     "level": "A1",
     "phonetic": "owf-shtay-en",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-372",
@@ -3717,7 +4088,8 @@
     "translation": "to wake up",
     "level": "A1",
     "phonetic": "owf-vah-khen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-373",
@@ -3727,7 +4099,8 @@
     "translation": "to shower",
     "level": "A1",
     "phonetic": "doo-shen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-374",
@@ -3737,7 +4110,8 @@
     "translation": "to have breakfast",
     "level": "A1",
     "phonetic": "frew-shtew-ken",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "compound"
   },
   {
     "id": "de-375",
@@ -3747,7 +4121,8 @@
     "translation": "to cook",
     "level": "A1",
     "phonetic": "kokh-en",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-376",
@@ -3757,7 +4132,8 @@
     "translation": "to clean",
     "level": "A1",
     "phonetic": "poot-sen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-377",
@@ -3767,7 +4143,8 @@
     "translation": "to wash",
     "level": "A1",
     "phonetic": "vah-shen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-378",
@@ -3777,7 +4154,8 @@
     "translation": "to sleep",
     "level": "A1",
     "phonetic": "shlah-fen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-379",
@@ -3787,7 +4165,8 @@
     "translation": "to dream",
     "level": "A2",
     "phonetic": "troy-men",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-380",
@@ -3797,7 +4176,8 @@
     "translation": "to get dressed",
     "level": "A2",
     "phonetic": "ahn-tsee-en",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-381",
@@ -3807,7 +4187,8 @@
     "translation": "to get undressed",
     "level": "A2",
     "phonetic": "ows-tsee-en",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-382",
@@ -3817,7 +4198,8 @@
     "translation": "to shop",
     "level": "A1",
     "phonetic": "ine-kow-fen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-383",
@@ -3827,7 +4209,8 @@
     "translation": "to walk",
     "level": "A2",
     "phonetic": "shpah-tsee-ren",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-384",
@@ -3837,7 +4220,8 @@
     "translation": "to watch TV",
     "level": "A1",
     "phonetic": "fern-zay-en",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-385",
@@ -3847,7 +4231,8 @@
     "translation": "to phone",
     "level": "A2",
     "phonetic": "teh-leh-foh-nee-ren",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "compound"
   },
   {
     "id": "de-386",
@@ -3857,7 +4242,8 @@
     "translation": "to play",
     "level": "A1",
     "phonetic": "shpee-len",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-387",
@@ -3867,7 +4253,8 @@
     "translation": "to learn",
     "level": "A1",
     "phonetic": "ler-nen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-388",
@@ -3877,7 +4264,8 @@
     "translation": "to work",
     "level": "A1",
     "phonetic": "ar-by-ten",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-389",
@@ -3887,7 +4275,8 @@
     "translation": "to eat",
     "level": "A1",
     "phonetic": "es-sen",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-390",
@@ -3897,7 +4286,8 @@
     "translation": "to drink",
     "level": "A1",
     "phonetic": "trin-ken",
-    "category": "daily"
+    "category": "daily",
+    "difficulty": "single"
   },
   {
     "id": "de-391",
@@ -3907,7 +4297,8 @@
     "translation": "the doctor (m)",
     "level": "A1",
     "phonetic": "artst",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-392",
@@ -3917,7 +4308,8 @@
     "translation": "the doctor (f)",
     "level": "A1",
     "phonetic": "airts-tin",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-393",
@@ -3927,7 +4319,8 @@
     "translation": "the medicine",
     "level": "A2",
     "phonetic": "meh-dee-tseen",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-394",
@@ -3937,7 +4330,8 @@
     "translation": "the pain",
     "level": "A2",
     "phonetic": "shmairts",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-395",
@@ -3947,7 +4341,8 @@
     "translation": "the fever",
     "level": "A2",
     "phonetic": "fee-ber",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-396",
@@ -3957,7 +4352,8 @@
     "translation": "the cough",
     "level": "A2",
     "phonetic": "hoo-sten",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-397",
@@ -3967,7 +4363,8 @@
     "translation": "the cold",
     "level": "A2",
     "phonetic": "shnoop-fen",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-398",
@@ -3977,7 +4374,8 @@
     "translation": "the pill",
     "level": "A2",
     "phonetic": "tah-blet-teh",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-399",
@@ -3987,7 +4385,8 @@
     "translation": "healthy",
     "level": "A1",
     "phonetic": "geh-zoont",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-400",
@@ -3997,7 +4396,8 @@
     "translation": "sick",
     "level": "A1",
     "phonetic": "krahnk",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-401",
@@ -4007,7 +4407,8 @@
     "translation": "the headache",
     "level": "A2",
     "phonetic": "kopf-shmairts",
-    "category": "health"
+    "category": "health",
+    "difficulty": "compound"
   },
   {
     "id": "de-402",
@@ -4017,7 +4418,8 @@
     "translation": "the cold (illness)",
     "level": "A2",
     "phonetic": "er-kel-toong",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-403",
@@ -4027,7 +4429,8 @@
     "translation": "the appointment",
     "level": "A2",
     "phonetic": "ter-meen",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-404",
@@ -4037,7 +4440,8 @@
     "translation": "the pharmacy",
     "level": "A2",
     "phonetic": "ah-poh-tay-keh",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-405",
@@ -4047,7 +4451,8 @@
     "translation": "the prescription",
     "level": "A2",
     "phonetic": "reh-tsept",
-    "category": "health"
+    "category": "health",
+    "difficulty": "single"
   },
   {
     "id": "de-406",
@@ -4057,7 +4462,8 @@
     "translation": "loud",
     "level": "A1",
     "phonetic": "lowt",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-407",
@@ -4067,7 +4473,8 @@
     "translation": "quiet",
     "level": "A1",
     "phonetic": "ly-zeh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-408",
@@ -4077,7 +4484,8 @@
     "translation": "strong",
     "level": "A2",
     "phonetic": "shtark",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-409",
@@ -4087,7 +4495,8 @@
     "translation": "weak",
     "level": "A2",
     "phonetic": "shvakh",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-410",
@@ -4097,7 +4506,8 @@
     "translation": "dark",
     "level": "A1",
     "phonetic": "doon-kel",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-411",
@@ -4107,7 +4517,8 @@
     "translation": "bright",
     "level": "A1",
     "phonetic": "hel",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-412",
@@ -4117,7 +4528,8 @@
     "translation": "clean",
     "level": "A1",
     "phonetic": "zow-ber",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-413",
@@ -4127,7 +4539,8 @@
     "translation": "dirty",
     "level": "A2",
     "phonetic": "shmoo-tsig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-414",
@@ -4137,7 +4550,8 @@
     "translation": "ready/done",
     "level": "A1",
     "phonetic": "fair-tig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-415",
@@ -4147,7 +4561,8 @@
     "translation": "free",
     "level": "A1",
     "phonetic": "fry",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-416",
@@ -4157,7 +4572,8 @@
     "translation": "I",
     "level": "A1",
     "phonetic": "ikh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-417",
@@ -4167,7 +4583,8 @@
     "translation": "you",
     "level": "A1",
     "phonetic": "doo",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-418",
@@ -4177,7 +4594,8 @@
     "translation": "he",
     "level": "A1",
     "phonetic": "air",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-419",
@@ -4187,7 +4605,8 @@
     "translation": "she/they",
     "level": "A1",
     "phonetic": "zee",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-420",
@@ -4197,7 +4616,8 @@
     "translation": "we",
     "level": "A1",
     "phonetic": "veer",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-421",
@@ -4207,7 +4627,8 @@
     "translation": "you (pl)",
     "level": "A1",
     "phonetic": "eer",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-422",
@@ -4217,7 +4638,8 @@
     "translation": "what",
     "level": "A1",
     "phonetic": "vahs",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-423",
@@ -4227,7 +4649,8 @@
     "translation": "who",
     "level": "A1",
     "phonetic": "vair",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-424",
@@ -4237,7 +4660,8 @@
     "translation": "where",
     "level": "A1",
     "phonetic": "voh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-425",
@@ -4247,7 +4671,8 @@
     "translation": "when",
     "level": "A1",
     "phonetic": "vahn",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-426",
@@ -4257,7 +4682,8 @@
     "translation": "why",
     "level": "A1",
     "phonetic": "vah-room",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-427",
@@ -4267,7 +4693,8 @@
     "translation": "how",
     "level": "A1",
     "phonetic": "vee",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-428",
@@ -4277,7 +4704,8 @@
     "translation": "here",
     "level": "A1",
     "phonetic": "heer",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-429",
@@ -4287,7 +4715,8 @@
     "translation": "there",
     "level": "A1",
     "phonetic": "dort",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-430",
@@ -4297,7 +4726,8 @@
     "translation": "now",
     "level": "A1",
     "phonetic": "yetst",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-431",
@@ -4307,7 +4737,8 @@
     "translation": "to find",
     "level": "A1",
     "phonetic": "fin-den",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-432",
@@ -4317,7 +4748,8 @@
     "translation": "to buy",
     "level": "A1",
     "phonetic": "kow-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-433",
@@ -4327,7 +4759,8 @@
     "translation": "to sell",
     "level": "A2",
     "phonetic": "fer-kow-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-434",
@@ -4337,7 +4770,8 @@
     "translation": "to pay",
     "level": "A2",
     "phonetic": "beh-tsah-len",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-435",
@@ -4347,7 +4781,8 @@
     "translation": "to call",
     "level": "A2",
     "phonetic": "ahn-roo-fen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-436",
@@ -4357,7 +4792,8 @@
     "translation": "to visit",
     "level": "A2",
     "phonetic": "beh-zoo-khen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-437",
@@ -4367,7 +4803,8 @@
     "translation": "to know (person)",
     "level": "A1",
     "phonetic": "ken-nen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-438",
@@ -4377,7 +4814,8 @@
     "translation": "to like",
     "level": "A1",
     "phonetic": "mer-gen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-439",
@@ -4387,7 +4825,8 @@
     "translation": "must",
     "level": "A1",
     "phonetic": "mew-sen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-440",
@@ -4397,7 +4836,8 @@
     "translation": "can",
     "level": "A1",
     "phonetic": "ker-nen",
-    "category": "verbs"
+    "category": "verbs",
+    "difficulty": "single"
   },
   {
     "id": "de-441",
@@ -4407,7 +4847,8 @@
     "translation": "the vegetables",
     "level": "A1",
     "phonetic": "geh-mew-zeh",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-442",
@@ -4417,7 +4858,8 @@
     "translation": "the fruit",
     "level": "A1",
     "phonetic": "ohpst",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-443",
@@ -4427,7 +4869,8 @@
     "translation": "the noodle",
     "level": "A1",
     "phonetic": "noo-del",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-444",
@@ -4437,7 +4880,8 @@
     "translation": "the pizza",
     "level": "A1",
     "phonetic": "peet-sa",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-445",
@@ -4447,7 +4891,8 @@
     "translation": "the fish",
     "level": "A1",
     "phonetic": "fish",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-446",
@@ -4457,7 +4902,8 @@
     "translation": "the breakfast",
     "level": "A1",
     "phonetic": "frew-shtewk",
-    "category": "food"
+    "category": "food",
+    "difficulty": "compound"
   },
   {
     "id": "de-447",
@@ -4467,7 +4913,8 @@
     "translation": "the lunch",
     "level": "A1",
     "phonetic": "mit-tahg-es-sen",
-    "category": "food"
+    "category": "food",
+    "difficulty": "compound"
   },
   {
     "id": "de-448",
@@ -4477,7 +4924,8 @@
     "translation": "the dinner",
     "level": "A1",
     "phonetic": "ah-bent-es-sen",
-    "category": "food"
+    "category": "food",
+    "difficulty": "compound"
   },
   {
     "id": "de-449",
@@ -4487,7 +4935,8 @@
     "translation": "the plate",
     "level": "A1",
     "phonetic": "tel-ler",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-450",
@@ -4497,7 +4946,8 @@
     "translation": "the fork",
     "level": "A2",
     "phonetic": "gah-bel",
-    "category": "food"
+    "category": "food",
+    "difficulty": "single"
   },
   {
     "id": "de-451",
@@ -4507,7 +4957,8 @@
     "translation": "the TV",
     "level": "A1",
     "phonetic": "fern-zay-er",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-452",
@@ -4517,7 +4968,8 @@
     "translation": "the telephone",
     "level": "A1",
     "phonetic": "teh-leh-fohn",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-453",
@@ -4527,7 +4979,8 @@
     "translation": "the fridge",
     "level": "A2",
     "phonetic": "kewl-shrahnk",
-    "category": "home"
+    "category": "home",
+    "difficulty": "compound"
   },
   {
     "id": "de-454",
@@ -4537,7 +4990,8 @@
     "translation": "the washing machine",
     "level": "A2",
     "phonetic": "vahsh-mah-shee-neh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "compound"
   },
   {
     "id": "de-455",
@@ -4547,7 +5001,8 @@
     "translation": "the stove",
     "level": "A2",
     "phonetic": "hairt",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-456",
@@ -4557,7 +5012,8 @@
     "translation": "the carpet",
     "level": "A2",
     "phonetic": "tep-pikh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-457",
@@ -4567,7 +5023,8 @@
     "translation": "the sofa",
     "level": "A1",
     "phonetic": "zoh-fah",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-458",
@@ -4577,7 +5034,8 @@
     "translation": "the shower",
     "level": "A1",
     "phonetic": "doo-sheh",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-459",
@@ -4587,7 +5045,8 @@
     "translation": "the key",
     "level": "A1",
     "phonetic": "shlew-sel",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-460",
@@ -4597,7 +5056,8 @@
     "translation": "the apartment",
     "level": "A1",
     "phonetic": "voh-noong",
-    "category": "home"
+    "category": "home",
+    "difficulty": "single"
   },
   {
     "id": "de-461",
@@ -4607,7 +5067,8 @@
     "translation": "purple",
     "level": "A1",
     "phonetic": "lee-lah",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-462",
@@ -4617,7 +5078,8 @@
     "translation": "gold",
     "level": "A2",
     "phonetic": "golt",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-463",
@@ -4627,7 +5089,8 @@
     "translation": "silver",
     "level": "A2",
     "phonetic": "zil-ber",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-464",
@@ -4637,7 +5100,8 @@
     "translation": "colorful",
     "level": "A2",
     "phonetic": "boont",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "single"
   },
   {
     "id": "de-465",
@@ -4647,7 +5111,8 @@
     "translation": "dark blue",
     "level": "A2",
     "phonetic": "doon-kel-blow",
-    "category": "colors"
+    "category": "colors",
+    "difficulty": "compound"
   },
   {
     "id": "de-466",
@@ -4657,7 +5122,8 @@
     "translation": "the storm",
     "level": "A2",
     "phonetic": "shtoorm",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-467",
@@ -4667,7 +5133,8 @@
     "translation": "dry",
     "level": "A2",
     "phonetic": "trok-ken",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-468",
@@ -4677,7 +5144,8 @@
     "translation": "humid/moist",
     "level": "A2",
     "phonetic": "foykht",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-469",
@@ -4687,7 +5155,8 @@
     "translation": "mild",
     "level": "A2",
     "phonetic": "milt",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-470",
@@ -4697,7 +5166,8 @@
     "translation": "cloudy",
     "level": "A2",
     "phonetic": "beh-verlkt",
-    "category": "weather"
+    "category": "weather",
+    "difficulty": "single"
   },
   {
     "id": "de-471",
@@ -4707,7 +5177,8 @@
     "translation": "the music",
     "level": "A1",
     "phonetic": "moo-zeek",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-472",
@@ -4717,7 +5188,8 @@
     "translation": "the sport",
     "level": "A1",
     "phonetic": "shport",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-473",
@@ -4727,7 +5199,8 @@
     "translation": "the language",
     "level": "A2",
     "phonetic": "shprah-kheh",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-474",
@@ -4737,7 +5210,8 @@
     "translation": "the newspaper",
     "level": "A2",
     "phonetic": "tsy-toong",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-475",
@@ -4747,7 +5221,8 @@
     "translation": "the cell phone",
     "level": "A1",
     "phonetic": "hen-dee",
-    "category": "school"
+    "category": "school",
+    "difficulty": "single"
   },
   {
     "id": "de-476",
@@ -4757,7 +5232,8 @@
     "translation": "much/many",
     "level": "A1",
     "phonetic": "feel",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-477",
@@ -4767,7 +5243,8 @@
     "translation": "few/little",
     "level": "A1",
     "phonetic": "vay-nig",
-    "category": "adjectives"
+    "category": "adjectives",
+    "difficulty": "single"
   },
   {
     "id": "de-478",
@@ -4777,7 +5254,8 @@
     "translation": "all/everyone",
     "level": "A1",
     "phonetic": "ah-leh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-479",
@@ -4787,7 +5265,8 @@
     "translation": "nothing",
     "level": "A1",
     "phonetic": "nikhts",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-480",
@@ -4797,7 +5276,8 @@
     "translation": "something",
     "level": "A1",
     "phonetic": "et-vahs",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-481",
@@ -4807,7 +5287,8 @@
     "translation": "always",
     "level": "A1",
     "phonetic": "im-mer",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-482",
@@ -4817,7 +5298,8 @@
     "translation": "never",
     "level": "A1",
     "phonetic": "nee",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-483",
@@ -4827,7 +5309,8 @@
     "translation": "sometimes",
     "level": "A1",
     "phonetic": "mahnkh-mahl",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-484",
@@ -4837,7 +5320,8 @@
     "translation": "only",
     "level": "A1",
     "phonetic": "noor",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-485",
@@ -4847,7 +5331,8 @@
     "translation": "also",
     "level": "A1",
     "phonetic": "owkh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-486",
@@ -4857,7 +5342,8 @@
     "translation": "already",
     "level": "A1",
     "phonetic": "shohn",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-487",
@@ -4867,7 +5353,8 @@
     "translation": "still/yet",
     "level": "A1",
     "phonetic": "nokh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-488",
@@ -4877,7 +5364,8 @@
     "translation": "very",
     "level": "A1",
     "phonetic": "zair",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-489",
@@ -4887,7 +5375,8 @@
     "translation": "together",
     "level": "A1",
     "phonetic": "tsoo-zah-men",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-490",
@@ -4897,7 +5386,8 @@
     "translation": "alone",
     "level": "A1",
     "phonetic": "ah-line",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-491",
@@ -4907,7 +5397,8 @@
     "translation": "enough",
     "level": "A2",
     "phonetic": "geh-nook",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-492",
@@ -4917,7 +5408,8 @@
     "translation": "between",
     "level": "A2",
     "phonetic": "tsvish-en",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-493",
@@ -4927,7 +5419,8 @@
     "translation": "next to",
     "level": "A2",
     "phonetic": "nay-ben",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-494",
@@ -4937,7 +5430,8 @@
     "translation": "over/about",
     "level": "A1",
     "phonetic": "ew-ber",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-495",
@@ -4947,7 +5441,8 @@
     "translation": "under",
     "level": "A1",
     "phonetic": "oon-ter",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-496",
@@ -4957,7 +5452,8 @@
     "translation": "before/in front",
     "level": "A1",
     "phonetic": "for",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-497",
@@ -4967,7 +5463,8 @@
     "translation": "after/to",
     "level": "A1",
     "phonetic": "nahkh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-498",
@@ -4977,7 +5474,8 @@
     "translation": "with",
     "level": "A1",
     "phonetic": "mit",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-499",
@@ -4987,7 +5485,8 @@
     "translation": "without",
     "level": "A1",
     "phonetic": "oh-neh",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
   },
   {
     "id": "de-500",
@@ -4997,6 +5496,557 @@
     "translation": "against",
     "level": "A2",
     "phonetic": "gay-gen",
-    "category": "basics"
+    "category": "basics",
+    "difficulty": "single"
+  },
+  {
+    "id": "de-s01",
+    "word": "Wie geht es Ihnen?",
+    "bare": "Wie geht es Ihnen",
+    "article": "",
+    "translation": "How are you? (formal)",
+    "level": "A1",
+    "phonetic": "vee gayt es ee-nen",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s02",
+    "word": "Mir geht es gut.",
+    "bare": "Mir geht es gut",
+    "article": "",
+    "translation": "I am fine.",
+    "level": "A1",
+    "phonetic": "meer gayt es goot",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s03",
+    "word": "Wie heißen Sie?",
+    "bare": "Wie heißen Sie",
+    "article": "",
+    "translation": "What is your name? (formal)",
+    "level": "A1",
+    "phonetic": "vee hy-sen zee",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s04",
+    "word": "Ich heiße Anna.",
+    "bare": "Ich heiße Anna",
+    "article": "",
+    "translation": "My name is Anna.",
+    "level": "A1",
+    "phonetic": "ikh hy-seh ah-nah",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s05",
+    "word": "Woher kommen Sie?",
+    "bare": "Woher kommen Sie",
+    "article": "",
+    "translation": "Where are you from? (formal)",
+    "level": "A1",
+    "phonetic": "vo-hair ko-men zee",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s06",
+    "word": "Ich komme aus Vietnam.",
+    "bare": "Ich komme aus Vietnam",
+    "article": "",
+    "translation": "I come from Vietnam.",
+    "level": "A1",
+    "phonetic": "ikh ko-meh ows vee-et-nahm",
+    "category": "greetings",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s07",
+    "word": "Ich möchte Wasser.",
+    "bare": "Ich möchte Wasser",
+    "article": "",
+    "translation": "I would like water.",
+    "level": "A1",
+    "phonetic": "ikh merkh-teh vah-ser",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s08",
+    "word": "Wo ist die Toilette?",
+    "bare": "Wo ist die Toilette",
+    "article": "",
+    "translation": "Where is the toilet?",
+    "level": "A1",
+    "phonetic": "vo ist dee toy-leh-teh",
+    "category": "places",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s09",
+    "word": "Ich spreche ein bisschen Deutsch.",
+    "bare": "Ich spreche ein bisschen Deutsch",
+    "article": "",
+    "translation": "I speak a little German.",
+    "level": "A1",
+    "phonetic": "ikh shpre-kheh ayn bis-khen doytch",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s10",
+    "word": "Können Sie mir helfen?",
+    "bare": "Können Sie mir helfen",
+    "article": "",
+    "translation": "Can you help me?",
+    "level": "A2",
+    "phonetic": "ker-nen zee meer hel-fen",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s11",
+    "word": "Ich verstehe das nicht.",
+    "bare": "Ich verstehe das nicht",
+    "article": "",
+    "translation": "I don't understand that.",
+    "level": "A1",
+    "phonetic": "ikh fair-shtay-eh das nikht",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s12",
+    "word": "Sprechen Sie Englisch?",
+    "bare": "Sprechen Sie Englisch",
+    "article": "",
+    "translation": "Do you speak English?",
+    "level": "A1",
+    "phonetic": "shpre-khen zee eng-lish",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s13",
+    "word": "Das ist sehr schön.",
+    "bare": "Das ist sehr schön",
+    "article": "",
+    "translation": "That is very beautiful.",
+    "level": "A1",
+    "phonetic": "das ist zair shern",
+    "category": "adjectives",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s14",
+    "word": "Wie viel kostet das?",
+    "bare": "Wie viel kostet das",
+    "article": "",
+    "translation": "How much does that cost?",
+    "level": "A1",
+    "phonetic": "vee feel kos-tet das",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s15",
+    "word": "Ich bin müde.",
+    "bare": "Ich bin müde",
+    "article": "",
+    "translation": "I am tired.",
+    "level": "A1",
+    "phonetic": "ikh bin mew-deh",
+    "category": "emotions",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s16",
+    "word": "Ich habe Hunger.",
+    "bare": "Ich habe Hunger",
+    "article": "",
+    "translation": "I am hungry.",
+    "level": "A1",
+    "phonetic": "ikh hah-beh hoong-er",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s17",
+    "word": "Es tut mir leid.",
+    "bare": "Es tut mir leid",
+    "article": "",
+    "translation": "I am sorry.",
+    "level": "A1",
+    "phonetic": "es toot meer lyt",
+    "category": "emotions",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s18",
+    "word": "Ich gehe nach Hause.",
+    "bare": "Ich gehe nach Hause",
+    "article": "",
+    "translation": "I am going home.",
+    "level": "A1",
+    "phonetic": "ikh gay-eh nakh how-zeh",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s19",
+    "word": "Wann fährt der Zug?",
+    "bare": "Wann fährt der Zug",
+    "article": "",
+    "translation": "When does the train leave?",
+    "level": "A2",
+    "phonetic": "van fairt dair tsook",
+    "category": "transport",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s20",
+    "word": "Ich brauche einen Arzt.",
+    "bare": "Ich brauche einen Arzt",
+    "article": "",
+    "translation": "I need a doctor.",
+    "level": "A2",
+    "phonetic": "ikh brow-kheh ay-nen artst",
+    "category": "health",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s21",
+    "word": "Das Wetter ist heute schön.",
+    "bare": "Das Wetter ist heute schön",
+    "article": "",
+    "translation": "The weather is nice today.",
+    "level": "A1",
+    "phonetic": "das vet-er ist hoy-teh shern",
+    "category": "weather",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s22",
+    "word": "Ich wohne in Berlin.",
+    "bare": "Ich wohne in Berlin",
+    "article": "",
+    "translation": "I live in Berlin.",
+    "level": "A1",
+    "phonetic": "ikh vo-neh in bair-leen",
+    "category": "places",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s23",
+    "word": "Haben Sie einen Tisch frei?",
+    "bare": "Haben Sie einen Tisch frei",
+    "article": "",
+    "translation": "Do you have a free table?",
+    "level": "A2",
+    "phonetic": "hah-ben zee ay-nen tish fry",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s24",
+    "word": "Die Rechnung, bitte.",
+    "bare": "Die Rechnung bitte",
+    "article": "",
+    "translation": "The bill, please.",
+    "level": "A1",
+    "phonetic": "dee rekh-noong bih-teh",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s25",
+    "word": "Ich trinke gern Kaffee.",
+    "bare": "Ich trinke gern Kaffee",
+    "article": "",
+    "translation": "I like to drink coffee.",
+    "level": "A1",
+    "phonetic": "ikh tring-keh gairn kah-fay",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s26",
+    "word": "Wo ist der Bahnhof?",
+    "bare": "Wo ist der Bahnhof",
+    "article": "",
+    "translation": "Where is the train station?",
+    "level": "A1",
+    "phonetic": "vo ist dair bahn-hof",
+    "category": "transport",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s27",
+    "word": "Ich lerne Deutsch.",
+    "bare": "Ich lerne Deutsch",
+    "article": "",
+    "translation": "I am learning German.",
+    "level": "A1",
+    "phonetic": "ikh lair-neh doytch",
+    "category": "school",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s28",
+    "word": "Heute ist Montag.",
+    "bare": "Heute ist Montag",
+    "article": "",
+    "translation": "Today is Monday.",
+    "level": "A1",
+    "phonetic": "hoy-teh ist mohn-tahk",
+    "category": "time",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s29",
+    "word": "Es regnet draußen.",
+    "bare": "Es regnet draußen",
+    "article": "",
+    "translation": "It is raining outside.",
+    "level": "A1",
+    "phonetic": "es rayg-net drow-sen",
+    "category": "weather",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s30",
+    "word": "Ich habe zwei Kinder.",
+    "bare": "Ich habe zwei Kinder",
+    "article": "",
+    "translation": "I have two children.",
+    "level": "A1",
+    "phonetic": "ikh hah-beh tsvy kin-der",
+    "category": "family",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s31",
+    "word": "Mein Bruder ist älter.",
+    "bare": "Mein Bruder ist älter",
+    "article": "",
+    "translation": "My brother is older.",
+    "level": "A1",
+    "phonetic": "myn broo-der ist el-ter",
+    "category": "family",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s32",
+    "word": "Ich fahre mit dem Bus.",
+    "bare": "Ich fahre mit dem Bus",
+    "article": "",
+    "translation": "I take the bus.",
+    "level": "A1",
+    "phonetic": "ikh fah-reh mit daym boos",
+    "category": "transport",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s33",
+    "word": "Die Schule beginnt um acht.",
+    "bare": "Die Schule beginnt um acht",
+    "article": "",
+    "translation": "School starts at eight.",
+    "level": "A1",
+    "phonetic": "dee shoo-leh beh-gint oom akht",
+    "category": "school",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s34",
+    "word": "Ich mag Schokolade.",
+    "bare": "Ich mag Schokolade",
+    "article": "",
+    "translation": "I like chocolate.",
+    "level": "A1",
+    "phonetic": "ikh mahk sho-ko-lah-deh",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s35",
+    "word": "Er spielt gern Fußball.",
+    "bare": "Er spielt gern Fußball",
+    "article": "",
+    "translation": "He likes to play football.",
+    "level": "A1",
+    "phonetic": "air shpeelt gairn foos-bal",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s36",
+    "word": "Wir gehen ins Kino.",
+    "bare": "Wir gehen ins Kino",
+    "article": "",
+    "translation": "We are going to the cinema.",
+    "level": "A1",
+    "phonetic": "veer gay-en ins kee-no",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s37",
+    "word": "Ich stehe um sechs Uhr auf.",
+    "bare": "Ich stehe um sechs Uhr auf",
+    "article": "",
+    "translation": "I get up at six o'clock.",
+    "level": "A2",
+    "phonetic": "ikh shtay-eh oom zeks oor owf",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s38",
+    "word": "Kannst du mir das erklären?",
+    "bare": "Kannst du mir das erklären",
+    "article": "",
+    "translation": "Can you explain that to me?",
+    "level": "A2",
+    "phonetic": "kanst doo meer das air-klai-ren",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s39",
+    "word": "Ich bin gestern angekommen.",
+    "bare": "Ich bin gestern angekommen",
+    "article": "",
+    "translation": "I arrived yesterday.",
+    "level": "A2",
+    "phonetic": "ikh bin ges-tern an-geh-ko-men",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s40",
+    "word": "Das Essen schmeckt gut.",
+    "bare": "Das Essen schmeckt gut",
+    "article": "",
+    "translation": "The food tastes good.",
+    "level": "A1",
+    "phonetic": "das es-en shmekt goot",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s41",
+    "word": "Ich muss morgen arbeiten.",
+    "bare": "Ich muss morgen arbeiten",
+    "article": "",
+    "translation": "I have to work tomorrow.",
+    "level": "A2",
+    "phonetic": "ikh moos mor-gen ar-by-ten",
+    "category": "daily",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s42",
+    "word": "Wo kann ich das kaufen?",
+    "bare": "Wo kann ich das kaufen",
+    "article": "",
+    "translation": "Where can I buy that?",
+    "level": "A2",
+    "phonetic": "vo kan ikh das kow-fen",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s43",
+    "word": "Ich habe Kopfschmerzen.",
+    "bare": "Ich habe Kopfschmerzen",
+    "article": "",
+    "translation": "I have a headache.",
+    "level": "A2",
+    "phonetic": "ikh hah-beh kopf-shmair-tsen",
+    "category": "health",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s44",
+    "word": "Entschuldigung, wo ist...?",
+    "bare": "Entschuldigung wo ist",
+    "article": "",
+    "translation": "Excuse me, where is...?",
+    "level": "A1",
+    "phonetic": "ent-shool-di-goong vo ist",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s45",
+    "word": "Ich nehme das Schnitzel.",
+    "bare": "Ich nehme das Schnitzel",
+    "article": "",
+    "translation": "I'll take the schnitzel.",
+    "level": "A1",
+    "phonetic": "ikh nay-meh das shnit-sel",
+    "category": "food",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s46",
+    "word": "Darf ich hier sitzen?",
+    "bare": "Darf ich hier sitzen",
+    "article": "",
+    "translation": "May I sit here?",
+    "level": "A2",
+    "phonetic": "darf ikh heer zit-sen",
+    "category": "basics",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s47",
+    "word": "Sie hat blaue Augen.",
+    "bare": "Sie hat blaue Augen",
+    "article": "",
+    "translation": "She has blue eyes.",
+    "level": "A1",
+    "phonetic": "zee hat blow-eh ow-gen",
+    "category": "body",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s48",
+    "word": "Der Zug hat Verspätung.",
+    "bare": "Der Zug hat Verspätung",
+    "article": "",
+    "translation": "The train is delayed.",
+    "level": "A2",
+    "phonetic": "dair tsook hat fair-shpay-toong",
+    "category": "transport",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s49",
+    "word": "Ich freue mich auf morgen.",
+    "bare": "Ich freue mich auf morgen",
+    "article": "",
+    "translation": "I look forward to tomorrow.",
+    "level": "A2",
+    "phonetic": "ikh froy-eh mikh owf mor-gen",
+    "category": "emotions",
+    "difficulty": "sentence"
+  },
+  {
+    "id": "de-s50",
+    "word": "Herzlichen Glückwunsch!",
+    "bare": "Herzlichen Glückwunsch",
+    "article": "",
+    "translation": "Congratulations!",
+    "level": "A2",
+    "phonetic": "hairts-likh-en glewk-voonsh",
+    "category": "greetings",
+    "difficulty": "sentence"
   }
 ]
