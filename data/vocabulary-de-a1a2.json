@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "de-001",
+    "word": "Hallo",
+    "bare": "Hallo",
+    "article": "",
+    "translation": "hello",
+    "level": "A1",
+    "phonetic": "hah-loh",
+    "category": "greetings"
+  },
+  {
+    "id": "de-002",
+    "word": "Danke",
+    "bare": "Danke",
+    "article": "",
+    "translation": "thank you",
+    "level": "A1",
+    "phonetic": "dahn-keh",
+    "category": "greetings"
+  },
+  {
+    "id": "de-003",
+    "word": "Bitte",
+    "bare": "Bitte",
+    "article": "",
+    "translation": "please / you're welcome",
+    "level": "A1",
+    "phonetic": "bih-teh",
+    "category": "greetings"
+  },
+  {
+    "id": "de-004",
+    "word": "Guten Morgen",
+    "bare": "Guten Morgen",
+    "article": "",
+    "translation": "good morning",
+    "level": "A1",
+    "phonetic": "goo-ten mor-gen",
+    "category": "greetings"
+  },
+  {
+    "id": "de-005",
+    "word": "Guten Tag",
+    "bare": "Guten Tag",
+    "article": "",
+    "translation": "good day",
+    "level": "A1",
+    "phonetic": "goo-ten tahk",
+    "category": "greetings"
+  },
+  {
+    "id": "de-006",
+    "word": "Tschüss",
+    "bare": "Tschüss",
+    "article": "",
+    "translation": "bye",
+    "level": "A1",
+    "phonetic": "chews",
+    "category": "greetings"
+  },
+  {
+    "id": "de-007",
+    "word": "Auf Wiedersehen",
+    "bare": "Auf Wiedersehen",
+    "article": "",
+    "translation": "goodbye",
+    "level": "A1",
+    "phonetic": "owf vee-der-zay-en",
+    "category": "greetings"
+  },
+  {
+    "id": "de-008",
+    "word": "Entschuldigung",
+    "bare": "Entschuldigung",
+    "article": "",
+    "translation": "excuse me / sorry",
+    "level": "A1",
+    "phonetic": "ent-shool-dee-goong",
+    "category": "greetings"
+  },
+  {
+    "id": "de-009",
+    "word": "Ja",
+    "bare": "Ja",
+    "article": "",
+    "translation": "yes",
+    "level": "A1",
+    "phonetic": "yah",
+    "category": "greetings"
+  },
+  {
+    "id": "de-010",
+    "word": "Nein",
+    "bare": "Nein",
+    "article": "",
+    "translation": "no",
+    "level": "A1",
+    "phonetic": "nine",
+    "category": "greetings"
+  },
+  {
+    "id": "de-011",
+    "word": "eins",
+    "bare": "eins",
+    "article": "",
+    "translation": "one",
+    "level": "A1",
+    "phonetic": "eyns",
+    "category": "numbers"
+  },
+  {
+    "id": "de-012",
+    "word": "zwei",
+    "bare": "zwei",
+    "article": "",
+    "translation": "two",
+    "level": "A1",
+    "phonetic": "tsvye",
+    "category": "numbers"
+  },
+  {
+    "id": "de-013",
+    "word": "drei",
+    "bare": "drei",
+    "article": "",
+    "translation": "three",
+    "level": "A1",
+    "phonetic": "dry",
+    "category": "numbers"
+  },
+  {
+    "id": "de-014",
+    "word": "vier",
+    "bare": "vier",
+    "article": "",
+    "translation": "four",
+    "level": "A1",
+    "phonetic": "feer",
+    "category": "numbers"
+  },
+  {
+    "id": "de-015",
+    "word": "fünf",
+    "bare": "fünf",
+    "article": "",
+    "translation": "five",
+    "level": "A1",
+    "phonetic": "fewnf",
+    "category": "numbers"
+  },
+  {
+    "id": "de-016",
+    "word": "sechs",
+    "bare": "sechs",
+    "article": "",
+    "translation": "six",
+    "level": "A1",
+    "phonetic": "zeks",
+    "category": "numbers"
+  },
+  {
+    "id": "de-017",
+    "word": "sieben",
+    "bare": "sieben",
+    "article": "",
+    "translation": "seven",
+    "level": "A1",
+    "phonetic": "zee-ben",
+    "category": "numbers"
+  },
+  {
+    "id": "de-018",
+    "word": "acht",
+    "bare": "acht",
+    "article": "",
+    "translation": "eight",
+    "level": "A1",
+    "phonetic": "ahkht",
+    "category": "numbers"
+  },
+  {
+    "id": "de-019",
+    "word": "neun",
+    "bare": "neun",
+    "article": "",
+    "translation": "nine",
+    "level": "A1",
+    "phonetic": "noyn",
+    "category": "numbers"
+  },
+  {
+    "id": "de-020",
+    "word": "zehn",
+    "bare": "zehn",
+    "article": "",
+    "translation": "ten",
+    "level": "A1",
+    "phonetic": "tsayn",
+    "category": "numbers"
+  },
+  {
+    "id": "de-021",
+    "word": "die Mutter",
+    "bare": "Mutter",
+    "article": "die",
+    "translation": "the mother",
+    "level": "A1",
+    "phonetic": "moo-ter",
+    "category": "family"
+  },
+  {
+    "id": "de-022",
+    "word": "der Vater",
+    "bare": "Vater",
+    "article": "der",
+    "translation": "the father",
+    "level": "A1",
+    "phonetic": "fah-ter",
+    "category": "family"
+  },
+  {
+    "id": "de-023",
+    "word": "das Kind",
+    "bare": "Kind",
+    "article": "das",
+    "translation": "the child",
+    "level": "A1",
+    "phonetic": "kint",
+    "category": "family"
+  },
+  {
+    "id": "de-024",
+    "word": "der Bruder",
+    "bare": "Bruder",
+    "article": "der",
+    "translation": "the brother",
+    "level": "A1",
+    "phonetic": "broo-der",
+    "category": "family"
+  },
+  {
+    "id": "de-025",
+    "word": "die Schwester",
+    "bare": "Schwester",
+    "article": "die",
+    "translation": "the sister",
+    "level": "A1",
+    "phonetic": "shves-ter",
+    "category": "family"
+  },
+  {
+    "id": "de-026",
+    "word": "die Familie",
+    "bare": "Familie",
+    "article": "die",
+    "translation": "the family",
+    "level": "A1",
+    "phonetic": "fah-mee-lee-eh",
+    "category": "family"
+  },
+  {
+    "id": "de-027",
+    "word": "der Sohn",
+    "bare": "Sohn",
+    "article": "der",
+    "translation": "the son",
+    "level": "A1",
+    "phonetic": "zohn",
+    "category": "family"
+  },
+  {
+    "id": "de-028",
+    "word": "die Tochter",
+    "bare": "Tochter",
+    "article": "die",
+    "translation": "the daughter",
+    "level": "A1",
+    "phonetic": "tokh-ter",
+    "category": "family"
+  },
+  {
+    "id": "de-029",
+    "word": "die Eltern",
+    "bare": "Eltern",
+    "article": "die",
+    "translation": "the parents",
+    "level": "A1",
+    "phonetic": "el-tern",
+    "category": "family"
+  },
+  {
+    "id": "de-030",
+    "word": "der Mann",
+    "bare": "Mann",
+    "article": "der",
+    "translation": "the man / husband",
+    "level": "A1",
+    "phonetic": "mahn",
+    "category": "family"
+  },
+  {
+    "id": "de-031",
+    "word": "das Brot",
+    "bare": "Brot",
+    "article": "das",
+    "translation": "the bread",
+    "level": "A1",
+    "phonetic": "broht",
+    "category": "food"
+  },
+  {
+    "id": "de-032",
+    "word": "die Milch",
+    "bare": "Milch",
+    "article": "die",
+    "translation": "the milk",
+    "level": "A1",
+    "phonetic": "milkh",
+    "category": "food"
+  },
+  {
+    "id": "de-033",
+    "word": "der Apfel",
+    "bare": "Apfel",
+    "article": "der",
+    "translation": "the apple",
+    "level": "A1",
+    "phonetic": "ahp-fel",
+    "category": "food"
+  },
+  {
+    "id": "de-034",
+    "word": "der Kaffee",
+    "bare": "Kaffee",
+    "article": "der",
+    "translation": "the coffee",
+    "level": "A1",
+    "phonetic": "kah-fay",
+    "category": "food"
+  },
+  {
+    "id": "de-035",
+    "word": "das Wasser",
+    "bare": "Wasser",
+    "article": "das",
+    "translation": "the water",
+    "level": "A1",
+    "phonetic": "vah-ser",
+    "category": "food"
+  },
+  {
+    "id": "de-036",
+    "word": "der Tee",
+    "bare": "Tee",
+    "article": "der",
+    "translation": "the tea",
+    "level": "A1",
+    "phonetic": "tay",
+    "category": "food"
+  },
+  {
+    "id": "de-037",
+    "word": "das Ei",
+    "bare": "Ei",
+    "article": "das",
+    "translation": "the egg",
+    "level": "A1",
+    "phonetic": "eye",
+    "category": "food"
+  },
+  {
+    "id": "de-038",
+    "word": "der Käse",
+    "bare": "Käse",
+    "article": "der",
+    "translation": "the cheese",
+    "level": "A1",
+    "phonetic": "kay-zeh",
+    "category": "food"
+  },
+  {
+    "id": "de-039",
+    "word": "die Butter",
+    "bare": "Butter",
+    "article": "die",
+    "translation": "the butter",
+    "level": "A1",
+    "phonetic": "boo-ter",
+    "category": "food"
+  },
+  {
+    "id": "de-040",
+    "word": "der Zucker",
+    "bare": "Zucker",
+    "article": "der",
+    "translation": "the sugar",
+    "level": "A1",
+    "phonetic": "tsoo-ker",
+    "category": "food"
+  },
+  {
+    "id": "de-041",
+    "word": "der Hund",
+    "bare": "Hund",
+    "article": "der",
+    "translation": "the dog",
+    "level": "A1",
+    "phonetic": "hoont",
+    "category": "animals"
+  },
+  {
+    "id": "de-042",
+    "word": "die Katze",
+    "bare": "Katze",
+    "article": "die",
+    "translation": "the cat",
+    "level": "A1",
+    "phonetic": "kaht-seh",
+    "category": "animals"
+  },
+  {
+    "id": "de-043",
+    "word": "der Vogel",
+    "bare": "Vogel",
+    "article": "der",
+    "translation": "the bird",
+    "level": "A1",
+    "phonetic": "foh-gel",
+    "category": "animals"
+  },
+  {
+    "id": "de-044",
+    "word": "der Fisch",
+    "bare": "Fisch",
+    "article": "der",
+    "translation": "the fish",
+    "level": "A1",
+    "phonetic": "fish",
+    "category": "animals"
+  },
+  {
+    "id": "de-045",
+    "word": "das Pferd",
+    "bare": "Pferd",
+    "article": "das",
+    "translation": "the horse",
+    "level": "A1",
+    "phonetic": "pfairt",
+    "category": "animals"
+  },
+  {
+    "id": "de-046",
+    "word": "die Kuh",
+    "bare": "Kuh",
+    "article": "die",
+    "translation": "the cow",
+    "level": "A1",
+    "phonetic": "koo",
+    "category": "animals"
+  },
+  {
+    "id": "de-047",
+    "word": "die Maus",
+    "bare": "Maus",
+    "article": "die",
+    "translation": "the mouse",
+    "level": "A1",
+    "phonetic": "mows",
+    "category": "animals"
+  },
+  {
+    "id": "de-048",
+    "word": "der Bär",
+    "bare": "Bär",
+    "article": "der",
+    "translation": "the bear",
+    "level": "A2",
+    "phonetic": "bair",
+    "category": "animals"
+  },
+  {
+    "id": "de-049",
+    "word": "das Schwein",
+    "bare": "Schwein",
+    "article": "das",
+    "translation": "the pig",
+    "level": "A1",
+    "phonetic": "shvine",
+    "category": "animals"
+  },
+  {
+    "id": "de-050",
+    "word": "die Schlange",
+    "bare": "Schlange",
+    "article": "die",
+    "translation": "the snake",
+    "level": "A2",
+    "phonetic": "shlahn-geh",
+    "category": "animals"
+  },
+  {
+    "id": "de-051",
+    "word": "der Kopf",
+    "bare": "Kopf",
+    "article": "der",
+    "translation": "the head",
+    "level": "A1",
+    "phonetic": "kopf",
+    "category": "body"
+  },
+  {
+    "id": "de-052",
+    "word": "die Hand",
+    "bare": "Hand",
+    "article": "die",
+    "translation": "the hand",
+    "level": "A1",
+    "phonetic": "hahnt",
+    "category": "body"
+  },
+  {
+    "id": "de-053",
+    "word": "das Auge",
+    "bare": "Auge",
+    "article": "das",
+    "translation": "the eye",
+    "level": "A1",
+    "phonetic": "ow-geh",
+    "category": "body"
+  },
+  {
+    "id": "de-054",
+    "word": "die Nase",
+    "bare": "Nase",
+    "article": "die",
+    "translation": "the nose",
+    "level": "A1",
+    "phonetic": "nah-zeh",
+    "category": "body"
+  },
+  {
+    "id": "de-055",
+    "word": "der Mund",
+    "bare": "Mund",
+    "article": "der",
+    "translation": "the mouth",
+    "level": "A1",
+    "phonetic": "moont",
+    "category": "body"
+  },
+  {
+    "id": "de-056",
+    "word": "das Ohr",
+    "bare": "Ohr",
+    "article": "das",
+    "translation": "the ear",
+    "level": "A1",
+    "phonetic": "ohr",
+    "category": "body"
+  },
+  {
+    "id": "de-057",
+    "word": "der Arm",
+    "bare": "Arm",
+    "article": "der",
+    "translation": "the arm",
+    "level": "A1",
+    "phonetic": "ahrm",
+    "category": "body"
+  },
+  {
+    "id": "de-058",
+    "word": "das Bein",
+    "bare": "Bein",
+    "article": "das",
+    "translation": "the leg",
+    "level": "A1",
+    "phonetic": "bine",
+    "category": "body"
+  },
+  {
+    "id": "de-059",
+    "word": "der Fuß",
+    "bare": "Fuß",
+    "article": "der",
+    "translation": "the foot",
+    "level": "A1",
+    "phonetic": "foos",
+    "category": "body"
+  },
+  {
+    "id": "de-060",
+    "word": "der Finger",
+    "bare": "Finger",
+    "article": "der",
+    "translation": "the finger",
+    "level": "A1",
+    "phonetic": "fing-er",
+    "category": "body"
+  },
+  {
+    "id": "de-061",
+    "word": "das Haus",
+    "bare": "Haus",
+    "article": "das",
+    "translation": "the house",
+    "level": "A1",
+    "phonetic": "hows",
+    "category": "home"
+  },
+  {
+    "id": "de-062",
+    "word": "die Tür",
+    "bare": "Tür",
+    "article": "die",
+    "translation": "the door",
+    "level": "A1",
+    "phonetic": "tewr",
+    "category": "home"
+  },
+  {
+    "id": "de-063",
+    "word": "das Fenster",
+    "bare": "Fenster",
+    "article": "das",
+    "translation": "the window",
+    "level": "A1",
+    "phonetic": "fen-ster",
+    "category": "home"
+  },
+  {
+    "id": "de-064",
+    "word": "der Tisch",
+    "bare": "Tisch",
+    "article": "der",
+    "translation": "the table",
+    "level": "A1",
+    "phonetic": "tish",
+    "category": "home"
+  },
+  {
+    "id": "de-065",
+    "word": "der Stuhl",
+    "bare": "Stuhl",
+    "article": "der",
+    "translation": "the chair",
+    "level": "A1",
+    "phonetic": "shtool",
+    "category": "home"
+  },
+  {
+    "id": "de-066",
+    "word": "das Bett",
+    "bare": "Bett",
+    "article": "das",
+    "translation": "the bed",
+    "level": "A1",
+    "phonetic": "bet",
+    "category": "home"
+  },
+  {
+    "id": "de-067",
+    "word": "die Küche",
+    "bare": "Küche",
+    "article": "die",
+    "translation": "the kitchen",
+    "level": "A1",
+    "phonetic": "kew-kheh",
+    "category": "home"
+  },
+  {
+    "id": "de-068",
+    "word": "das Bad",
+    "bare": "Bad",
+    "article": "das",
+    "translation": "the bathroom",
+    "level": "A1",
+    "phonetic": "baht",
+    "category": "home"
+  },
+  {
+    "id": "de-069",
+    "word": "der Garten",
+    "bare": "Garten",
+    "article": "der",
+    "translation": "the garden",
+    "level": "A1",
+    "phonetic": "gar-ten",
+    "category": "home"
+  },
+  {
+    "id": "de-070",
+    "word": "die Lampe",
+    "bare": "Lampe",
+    "article": "die",
+    "translation": "the lamp",
+    "level": "A1",
+    "phonetic": "lahm-peh",
+    "category": "home"
+  },
+  {
+    "id": "de-071",
+    "word": "rot",
+    "bare": "rot",
+    "article": "",
+    "translation": "red",
+    "level": "A1",
+    "phonetic": "roht",
+    "category": "colors"
+  },
+  {
+    "id": "de-072",
+    "word": "blau",
+    "bare": "blau",
+    "article": "",
+    "translation": "blue",
+    "level": "A1",
+    "phonetic": "blow",
+    "category": "colors"
+  },
+  {
+    "id": "de-073",
+    "word": "grün",
+    "bare": "grün",
+    "article": "",
+    "translation": "green",
+    "level": "A1",
+    "phonetic": "grewn",
+    "category": "colors"
+  },
+  {
+    "id": "de-074",
+    "word": "gelb",
+    "bare": "gelb",
+    "article": "",
+    "translation": "yellow",
+    "level": "A1",
+    "phonetic": "gelp",
+    "category": "colors"
+  },
+  {
+    "id": "de-075",
+    "word": "schwarz",
+    "bare": "schwarz",
+    "article": "",
+    "translation": "black",
+    "level": "A1",
+    "phonetic": "shvarts",
+    "category": "colors"
+  },
+  {
+    "id": "de-076",
+    "word": "weiß",
+    "bare": "weiß",
+    "article": "",
+    "translation": "white",
+    "level": "A1",
+    "phonetic": "vice",
+    "category": "colors"
+  },
+  {
+    "id": "de-077",
+    "word": "braun",
+    "bare": "braun",
+    "article": "",
+    "translation": "brown",
+    "level": "A1",
+    "phonetic": "brown",
+    "category": "colors"
+  },
+  {
+    "id": "de-078",
+    "word": "grau",
+    "bare": "grau",
+    "article": "",
+    "translation": "gray",
+    "level": "A1",
+    "phonetic": "grow",
+    "category": "colors"
+  },
+  {
+    "id": "de-079",
+    "word": "orange",
+    "bare": "orange",
+    "article": "",
+    "translation": "orange",
+    "level": "A1",
+    "phonetic": "oh-rahn-zheh",
+    "category": "colors"
+  },
+  {
+    "id": "de-080",
+    "word": "rosa",
+    "bare": "rosa",
+    "article": "",
+    "translation": "pink",
+    "level": "A1",
+    "phonetic": "roh-zah",
+    "category": "colors"
+  },
+  {
+    "id": "de-081",
+    "word": "die Sonne",
+    "bare": "Sonne",
+    "article": "die",
+    "translation": "the sun",
+    "level": "A1",
+    "phonetic": "zoh-neh",
+    "category": "weather"
+  },
+  {
+    "id": "de-082",
+    "word": "der Regen",
+    "bare": "Regen",
+    "article": "der",
+    "translation": "the rain",
+    "level": "A1",
+    "phonetic": "ray-gen",
+    "category": "weather"
+  },
+  {
+    "id": "de-083",
+    "word": "der Wind",
+    "bare": "Wind",
+    "article": "der",
+    "translation": "the wind",
+    "level": "A1",
+    "phonetic": "vint",
+    "category": "weather"
+  },
+  {
+    "id": "de-084",
+    "word": "der Schnee",
+    "bare": "Schnee",
+    "article": "der",
+    "translation": "the snow",
+    "level": "A1",
+    "phonetic": "shnay",
+    "category": "weather"
+  },
+  {
+    "id": "de-085",
+    "word": "warm",
+    "bare": "warm",
+    "article": "",
+    "translation": "warm",
+    "level": "A1",
+    "phonetic": "vahrm",
+    "category": "weather"
+  },
+  {
+    "id": "de-086",
+    "word": "kalt",
+    "bare": "kalt",
+    "article": "",
+    "translation": "cold",
+    "level": "A1",
+    "phonetic": "kahlt",
+    "category": "weather"
+  },
+  {
+    "id": "de-087",
+    "word": "heiß",
+    "bare": "heiß",
+    "article": "",
+    "translation": "hot",
+    "level": "A1",
+    "phonetic": "hice",
+    "category": "weather"
+  },
+  {
+    "id": "de-088",
+    "word": "die Wolke",
+    "bare": "Wolke",
+    "article": "die",
+    "translation": "the cloud",
+    "level": "A2",
+    "phonetic": "vol-keh",
+    "category": "weather"
+  },
+  {
+    "id": "de-089",
+    "word": "der Himmel",
+    "bare": "Himmel",
+    "article": "der",
+    "translation": "the sky",
+    "level": "A2",
+    "phonetic": "him-mel",
+    "category": "weather"
+  },
+  {
+    "id": "de-090",
+    "word": "der Sturm",
+    "bare": "Sturm",
+    "article": "der",
+    "translation": "the storm",
+    "level": "A2",
+    "phonetic": "shtoorm",
+    "category": "weather"
+  },
+  {
+    "id": "de-091",
+    "word": "sein",
+    "bare": "sein",
+    "article": "",
+    "translation": "to be",
+    "level": "A1",
+    "phonetic": "zine",
+    "category": "verbs"
+  },
+  {
+    "id": "de-092",
+    "word": "haben",
+    "bare": "haben",
+    "article": "",
+    "translation": "to have",
+    "level": "A1",
+    "phonetic": "hah-ben",
+    "category": "verbs"
+  },
+  {
+    "id": "de-093",
+    "word": "gehen",
+    "bare": "gehen",
+    "article": "",
+    "translation": "to go",
+    "level": "A1",
+    "phonetic": "gay-en",
+    "category": "verbs"
+  },
+  {
+    "id": "de-094",
+    "word": "kommen",
+    "bare": "kommen",
+    "article": "",
+    "translation": "to come",
+    "level": "A1",
+    "phonetic": "koh-men",
+    "category": "verbs"
+  },
+  {
+    "id": "de-095",
+    "word": "sehen",
+    "bare": "sehen",
+    "article": "",
+    "translation": "to see",
+    "level": "A1",
+    "phonetic": "zay-en",
+    "category": "verbs"
+  },
+  {
+    "id": "de-096",
+    "word": "sprechen",
+    "bare": "sprechen",
+    "article": "",
+    "translation": "to speak",
+    "level": "A1",
+    "phonetic": "shpreh-khen",
+    "category": "verbs"
+  },
+  {
+    "id": "de-097",
+    "word": "essen",
+    "bare": "essen",
+    "article": "",
+    "translation": "to eat",
+    "level": "A1",
+    "phonetic": "eh-sen",
+    "category": "verbs"
+  },
+  {
+    "id": "de-098",
+    "word": "trinken",
+    "bare": "trinken",
+    "article": "",
+    "translation": "to drink",
+    "level": "A1",
+    "phonetic": "tring-ken",
+    "category": "verbs"
+  },
+  {
+    "id": "de-099",
+    "word": "schlafen",
+    "bare": "schlafen",
+    "article": "",
+    "translation": "to sleep",
+    "level": "A1",
+    "phonetic": "shlah-fen",
+    "category": "verbs"
+  },
+  {
+    "id": "de-100",
+    "word": "lernen",
+    "bare": "lernen",
+    "article": "",
+    "translation": "to learn",
+    "level": "A1",
+    "phonetic": "lair-nen",
+    "category": "verbs"
+  }
+]

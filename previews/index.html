@@ -3,175 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speak2Wake - UI Preview</title>
+    <title>Speak2Wake — Phase 1 UI Preview</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { jost: ['Jost', 'sans-serif'] },
+                    borderRadius: { card: '28px', button: '38px', pill: '24px' },
+                    colors: {
+                        violet: { DEFAULT: '#9E6DFB', light: '#8A70F8', pink: '#D28AED' },
+                        accent: { orange: '#F79F40', gold: '#FBF66E' },
+                        success: '#4ADE80',
+                        error: '#F87171',
+                        warning: '#FBBF24',
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        :root {
-            --grey-blueish: #363843;
-            --grey-medium: #7F8187;
-            --greydark: #1C1721;
-            --greys-dark: #2B2630;
-            --violet: #9E6DFB;
+        body { font-family: 'Jost', sans-serif; }
+        .phone-frame {
+            width: 375px; min-height: 812px; border-radius: 40px;
+            border: 3px solid rgba(255,255,255,0.1);
+            overflow: hidden; position: relative; flex-shrink: 0;
         }
-        body {
-            font-family: 'Jost', sans-serif;
-            background-color: #1a1a2e;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 3rem;
-            padding: 2rem;
-            flex-wrap: wrap;
-            min-height: 100vh;
-        }
-        .mobile-frame {
-            width: 390px;
-            height: 844px;
-            background: linear-gradient(2deg, rgba(138,112,248,1) 0%, rgba(210,138,237,1) 100%);
-            border-radius: 40px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            overflow: hidden;
-            position: relative;
-            color: white;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        /* Custom Animations from Review */
-        @keyframes fade-in { 0% { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
-        @keyframes pulse-ring {
-            0% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(247,159,64, 0.7); }
-            70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(247,159,64, 0); }
-            100% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(247,159,64, 0); }
-        }
-        .animate-fade-in { animation: fade-in 1s ease forwards; }
-        .animate-pulse-ring { animation: pulse-ring 2s infinite cubic-bezier(0.66, 0, 0, 1); }
+        .glass { background: rgba(255,255,255,0.15); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.2); }
+        .glass-dark { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); }
+        /* Light mode overrides */
+        .light .glass { background: rgba(255,255,255,0.85); border: 1px solid rgba(0,0,0,0.08); backdrop-filter: blur(12px); }
+        .light .glass-dark { background: rgba(245,243,248,0.9); border: 1px solid rgba(0,0,0,0.06); }
+        .light .text-adapt { color: #1C1721 !important; }
+        .light .text-adapt-sub { color: #7F8187 !important; }
+        .light .text-adapt-muted { color: rgba(28,23,33,0.4) !important; }
+        .light .bg-adapt { background: #FFFFFF !important; }
+        .light .gradient-adapt { background: linear-gradient(160deg, #F5F3F8 0%, #E8E3F5 100%) !important; }
 
-        /* The custom glow gradient for buttons */
-        .btn-glow {
-            background: radial-gradient(50% 50% at 49% 42%, #f79f40 0%, #f7a542 16%, #f8b44a 37%, #face55 60%, #fbe660 77%, #fbf36f 91%, #fbf672 93%, #fbf676 95%, #fbf783 96%, #fcf897 98%, #fdfab4 99%, #fdfbc2 100%);
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); opacity: 0.7; }
+            100% { transform: scale(1.4); opacity: 0; }
         }
+        .animate-pulse-ring { animation: pulse-ring 1.5s ease-out infinite; }
+        .animate-pulse-ring-delay { animation: pulse-ring 1.5s ease-out 0.5s infinite; }
+
+        @keyframes gentle-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+        .animate-gentle-pulse { animation: gentle-pulse 2s ease-in-out infinite; }
+
+        .toggle-track { width: 48px; height: 26px; border-radius: 13px; position: relative; cursor: pointer; }
+        .toggle-thumb { width: 22px; height: 22px; border-radius: 11px; position: absolute; top: 2px; transition: all 0.2s; }
+        .toggle-on .toggle-track { background: #9E6DFB; }
+        .toggle-on .toggle-thumb { left: 24px; background: #FBF66E; }
+        .toggle-off .toggle-track { background: rgba(255,255,255,0.2); }
+        .toggle-off .toggle-thumb { left: 2px; background: rgba(255,255,255,0.6); }
+        .light .toggle-off .toggle-track { background: rgba(0,0,0,0.12); }
+        .light .toggle-off .toggle-thumb { background: rgba(0,0,0,0.3); }
     </style>
 </head>
-<body>
+<body class="bg-[#0f0f1a] text-white p-6">
 
-    <!-- Screen 1: Home / Alarm List -->
-    <div class="mobile-frame animate-fade-in" style="animation-delay: 0.1s">
-        <!-- Top bar -->
-        <div class="flex justify-between items-center p-6 mt-8">
+    <!-- Theme Toggle -->
+    <div class="flex items-center justify-between mb-8 max-w-[2000px] mx-auto">
+        <div>
             <h1 class="text-3xl font-semibold">Speak2Wake</h1>
-            <button class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center hover:bg-white/30 transition">
-                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4"></path></svg>
-            </button>
+            <p class="text-white/40 text-sm">Phase 1 MVP — UI Preview (5 Screens)</p>
         </div>
-        
-        <!-- Next Alarm Info -->
-        <div class="mt-8 mb-6 text-center">
-            <p class="text-white/80 mb-1 text-sm font-medium tracking-wide uppercase">Next Alarm in 8h 30m</p>
-            <h2 class="text-6xl font-semibold tracking-wider">06<span class="text-4xl opacity-70">:</span>00</h2>
-            <p class="text-base mt-3 text-white">Morning challenge</p>
-        </div>
-
-        <!-- Alarms List -->
-        <div class="flex-1 overflow-y-auto space-y-4 px-6 mt-4 pb-8">
-            <!-- Active Alarm -->
-            <div class="bg-white/20 rounded-[28px] p-5 backdrop-blur-md border border-white/30 flex flex-col gap-3 shadow-[0_8px_32px_rgba(0,0,0,0.1)]">
-                <div class="flex justify-between items-center">
-                    <div>
-                        <h3 class="text-4xl font-medium tracking-wide">06:00</h3>
-                        <p class="text-sm text-white/80 mt-1">Every day</p>
-                    </div>
-                    <!-- Toggle Switch ON -->
-                    <div class="w-[52px] h-[30px] rounded-full relative cursor-pointer btn-glow flex items-center p-1 justify-end">
-                        <div class="w-6 h-6 bg-white rounded-full shadow-md"></div>
-                    </div>
-                </div>
-                <!-- Mini tags -->
-                <div class="flex gap-2 mt-1">
-                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Read Quotes</span>
-                    <span class="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Strict</span>
-                </div>
-            </div>
-            
-            <!-- Inactive Alarm -->
-            <div class="bg-black/10 rounded-[28px] p-5 backdrop-blur-sm flex flex-col gap-3 opacity-60 hover:opacity-100 transition duration-300 cursor-pointer">
-                <div class="flex justify-between items-center">
-                    <div>
-                        <h3 class="text-4xl font-medium text-white/70 tracking-wide">07:30</h3>
-                        <p class="text-sm text-white/50 mt-1">Mon, Tue, Wed</p>
-                    </div>
-                    <!-- Toggle Switch OFF -->
-                    <div class="w-[52px] h-[30px] bg-white/30 rounded-full relative cursor-pointer flex items-center p-1 justify-start">
-                        <div class="w-6 h-6 bg-white shadow-sm rounded-full"></div>
-                    </div>
-                </div>
-                <div class="flex gap-2 mt-1">
-                    <span class="px-3 py-1 bg-white/10 rounded-full text-xs font-medium text-white/70">Solve Math</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Bottom Navigation Concept -->
-        <div class="absolute bottom-0 w-full h-24 bg-gradient-to-t from-black/20 to-transparent flex justify-center items-end pb-8">
-            <div class="w-1/3 h-1 bg-white/80 rounded-full"></div>
-        </div>
+        <button id="themeToggle" onclick="toggleTheme()" class="px-5 py-2 rounded-full bg-white/10 hover:bg-white/20 transition text-sm">
+            🌙 Dark Mode
+        </button>
     </div>
 
-    <!-- Screen 2: Ringing / Voice Wake Up -->
-    <div class="mobile-frame animate-fade-in" style="animation-delay: 0.3s">
-        <!-- Time header -->
-        <div class="mt-24 text-center w-full">
-            <h2 class="text-7xl font-semibold tracking-wider mb-3">06:00</h2>
-            <p class="text-xl text-white">Wake up, it's a new day! ☀️</p>
-        </div>
+    <!-- Screen Grid -->
+    <div id="screenGrid" class="flex gap-6 overflow-x-auto pb-8 max-w-[2000px] mx-auto">
 
-        <!-- Voice interaction area (The central Mic wave) -->
-        <div class="flex-1 flex flex-col items-center justify-center w-full mt-4">
-            
-            <!-- Microphone Radar / Glow Array -->
-            <div class="relative w-64 h-64 flex items-center justify-center mb-10">
-               <!-- Expanding Rings -->
-               <div class="absolute inset-4 bg-white/10 rounded-full animate-pulse-ring"></div>
-               <div class="absolute inset-10 bg-white/20 rounded-full animate-pulse-ring" style="animation-delay: 0.8s"></div>
-               
-               <!-- Core Mic Button using the reference styling -->
-               <div class="relative w-28 h-28 rounded-[38px] flex items-center justify-center cursor-pointer shadow-lg hover:scale-105 transition-transform bg-[#7b60c4]">
-                    <!-- Inside glow similar to Locofy reference -->
-                    <div class="absolute inset-1.5 rounded-[32px] btn-glow opacity-90 blur-sm"></div>
-                    <div class="absolute inset-2 flex rounded-[32px] btn-glow items-center justify-center">
-                        <svg width="48" height="48" fill="none" stroke="#7b60c4" stroke-width="2.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
-                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
-                            <line x1="12" x2="12" y1="19" y2="22"></line>
-                        </svg>
+        <!-- ===== 1. HOME SCREEN ===== -->
+        <div class="phone-frame" style="background: linear-gradient(160deg, #8A70F8 0%, #D28AED 100%);">
+            <div class="p-6 pt-12">
+                <!-- Status bar -->
+                <div class="flex justify-between text-xs text-white/50 mb-6">
+                    <span>9:41</span>
+                    <span>⚡ 87%</span>
+                </div>
+                <!-- Header -->
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center text-lg cursor-pointer">⚙</div>
+                    <h2 class="text-xl font-semibold">Speak2Wake</h2>
+                    <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center text-2xl cursor-pointer">+</div>
+                </div>
+                <!-- Next Alarm Banner -->
+                <div class="glass rounded-card p-5 mb-5">
+                    <p class="text-white/50 text-sm">Next Alarm in 8h 30m</p>
+                    <p class="text-5xl font-semibold mt-1">07:30</p>
+                    <p class="text-white/40 text-sm mt-1">Wake German</p>
+                </div>
+                <!-- Alarm Cards -->
+                <div class="glass rounded-card p-4 mb-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-4xl font-semibold">07:30</p>
+                            <div class="flex items-center gap-2 mt-1">
+                                <span class="text-white/60 text-sm">Wake German</span>
+                                <span class="text-white/40 text-xs">Weekdays</span>
+                            </div>
+                            <div class="mt-2"><span class="bg-violet/30 text-violet-pink text-xs px-3 py-1 rounded-pill">Voice Challenge</span></div>
+                        </div>
+                        <div class="toggle-on"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
                     </div>
-               </div>
-            </div>
-            
-            <!-- Challenge phrase instruction -->
-            <div class="text-center px-10">
-                <p class="text-sm font-medium text-white/60 uppercase tracking-widest mb-3">Read this to turn off</p>
-                <div class="bg-black/20 p-4 rounded-2xl border border-white/20 backdrop-blur-md">
-                    <p class="text-2xl font-semibold leading-relaxed text-white">"I am awake and ready to shine today"</p>
+                </div>
+                <div class="glass rounded-card p-4 mb-3">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-4xl font-semibold text-white/40">12:00</p>
+                            <div class="flex items-center gap-2 mt-1">
+                                <span class="text-white/40 text-sm">Lunch</span>
+                                <span class="text-white/30 text-xs">Every day</span>
+                            </div>
+                        </div>
+                        <div class="toggle-off"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
+                    </div>
+                </div>
+                <div class="glass rounded-card p-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-4xl font-semibold">22:00</p>
+                            <div class="flex items-center gap-2 mt-1">
+                                <span class="text-white/60 text-sm">Evening Review</span>
+                                <span class="text-white/40 text-xs">Weekends</span>
+                            </div>
+                            <div class="mt-2"><span class="bg-violet/30 text-violet-pink text-xs px-3 py-1 rounded-pill">Voice Challenge</span></div>
+                        </div>
+                        <div class="toggle-on"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
+                    </div>
                 </div>
             </div>
+            <p class="text-center text-white/30 text-xs mt-4">1. Home Screen</p>
         </div>
 
-        <!-- Action Buttons (Bottom) -->
-        <div class="w-full px-8 pb-12 pt-4 flex justify-between gap-4">
-            <button class="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur-sm transition-colors py-4 rounded-[24px] font-medium text-lg border border-white/20 shadow-sm">
-                Snooze (5m)
-            </button>
-            <button class="w-16 h-[58px] bg-[#2B2630]/60 hover:bg-[#2B2630] backdrop-blur-sm transition-colors rounded-[24px] flex items-center justify-center border border-white/10">
-                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></svg>
-            </button>
+        <!-- ===== 2. ADD ALARM SCREEN ===== -->
+        <div class="phone-frame" style="background: linear-gradient(160deg, #8A70F8 0%, #D28AED 100%);">
+            <div class="p-6 pt-12">
+                <div class="flex justify-between text-xs text-white/50 mb-6"><span>9:41</span><span>⚡ 87%</span></div>
+                <!-- Header -->
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center text-lg">✕</div>
+                    <h2 class="text-xl font-semibold">New Alarm</h2>
+                    <div class="w-10"></div>
+                </div>
+                <!-- Time Picker -->
+                <div class="glass rounded-card p-6 mb-4 flex items-center justify-center gap-4">
+                    <div class="text-center">
+                        <p class="text-white/40 text-xl mb-1">▲</p>
+                        <p class="text-6xl font-semibold">07</p>
+                        <p class="text-white/40 text-xl mt-1">▼</p>
+                    </div>
+                    <p class="text-5xl font-semibold">:</p>
+                    <div class="text-center">
+                        <p class="text-white/40 text-xl mb-1">▲</p>
+                        <p class="text-6xl font-semibold">30</p>
+                        <p class="text-white/40 text-xl mt-1">▼</p>
+                    </div>
+                </div>
+                <!-- Label -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="text-white/50 text-sm mb-2">Label</p>
+                    <p class="text-white/30 border-b border-white/20 pb-2">Wake German</p>
+                </div>
+                <!-- Repeat Days -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="text-white/50 text-sm mb-3">Repeat</p>
+                    <div class="flex gap-2">
+                        <span class="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center text-xs text-white/50">S</span>
+                        <span class="w-9 h-9 rounded-full bg-violet flex items-center justify-center text-xs">M</span>
+                        <span class="w-9 h-9 rounded-full bg-violet flex items-center justify-center text-xs">T</span>
+                        <span class="w-9 h-9 rounded-full bg-violet flex items-center justify-center text-xs">W</span>
+                        <span class="w-9 h-9 rounded-full bg-violet flex items-center justify-center text-xs">T</span>
+                        <span class="w-9 h-9 rounded-full bg-violet flex items-center justify-center text-xs">F</span>
+                        <span class="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center text-xs text-white/50">S</span>
+                    </div>
+                </div>
+                <!-- Sound -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="text-white/50 text-sm mb-3">Sound</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-violet px-4 py-2 rounded-pill text-sm">Default</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Gentle</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Energetic</span>
+                    </div>
+                </div>
+                <!-- Toggles -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <div class="flex items-center justify-between mb-4">
+                        <span>Snooze</span>
+                        <div class="toggle-on"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
+                    </div>
+                    <div class="flex gap-2 mb-4">
+                        <span class="bg-violet px-3 py-1 rounded-pill text-sm">5m</span>
+                        <span class="bg-white/10 px-3 py-1 rounded-pill text-sm">10m</span>
+                        <span class="bg-white/10 px-3 py-1 rounded-pill text-sm">15m</span>
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span>Voice Challenge</span>
+                        <div class="toggle-on"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Vibration</span>
+                        <div class="toggle-on"><div class="toggle-track"><div class="toggle-thumb"></div></div></div>
+                    </div>
+                </div>
+                <!-- Save -->
+                <button class="w-full rounded-button py-4 text-white font-medium text-lg" style="background: linear-gradient(135deg, #F79F40, #FBF66E); color: #1C1721;">
+                    Save Alarm
+                </button>
+            </div>
+            <p class="text-center text-white/30 text-xs mt-4">2. Add Alarm</p>
         </div>
 
-        <div class="absolute bottom-0 w-full h-12 flex justify-center items-end pb-8">
-            <div class="w-1/3 h-1 bg-white/80 rounded-full"></div>
+        <!-- ===== 3. ALARM RING SCREEN ===== -->
+        <div class="phone-frame" style="background: linear-gradient(180deg, #1C1721 0%, #8A70F8 60%, #D28AED 100%);">
+            <div class="p-6 pt-12 flex flex-col items-center justify-between min-h-[812px]">
+                <div class="text-center mt-10">
+                    <p class="text-white/40 text-lg">Wake Up</p>
+                    <p class="text-7xl font-semibold mt-2 animate-gentle-pulse">07:30</p>
+                    <p class="text-white/60 mt-2">Wake German</p>
+                </div>
+                <!-- Bell glow -->
+                <div class="flex items-center justify-center">
+                    <div class="w-40 h-40 rounded-full bg-violet/20 flex items-center justify-center">
+                        <div class="w-28 h-28 rounded-full bg-violet/30 flex items-center justify-center">
+                            <span class="text-5xl">🔔</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Actions -->
+                <div class="w-full space-y-4 mb-10">
+                    <div class="glass rounded-card p-3">
+                        <button class="w-full rounded-button py-3 font-medium" style="background: linear-gradient(135deg, #8A70F8, #D28AED);">
+                            Snooze 5m
+                        </button>
+                    </div>
+                    <button class="w-full rounded-button py-4 font-medium text-lg" style="background: linear-gradient(135deg, #F79F40, #FBF66E); color: #1C1721;">
+                        Start Challenge
+                    </button>
+                </div>
+            </div>
+            <p class="text-center text-white/30 text-xs mt-4">3. Alarm Ring</p>
         </div>
+
+        <!-- ===== 4. VOICE CHALLENGE SCREEN ===== -->
+        <div class="phone-frame" style="background: linear-gradient(180deg, #1C1721 0%, #8A70F8 50%, #D28AED 100%);">
+            <div class="p-6 pt-12">
+                <div class="flex justify-between text-xs text-white/50 mb-4"><span>7:30</span><span>⚡ 87%</span></div>
+                <p class="text-center text-white/40 text-sm mb-6">Read this word to dismiss</p>
+                <!-- Word Card -->
+                <div class="glass rounded-card p-6 text-center mb-8">
+                    <p class="text-white/50 text-lg">der</p>
+                    <p class="text-4xl font-semibold mt-1">Hund</p>
+                    <p class="text-white/40 mt-2">the dog</p>
+                    <p class="text-violet-pink text-sm mt-1">/hoont/</p>
+                    <button class="mt-4 bg-white/10 rounded-full px-5 py-2 text-sm flex items-center gap-2 mx-auto">
+                        <span>🔊</span> Listen
+                    </button>
+                </div>
+                <!-- Mic Button -->
+                <div class="flex flex-col items-center mb-6">
+                    <div class="relative w-40 h-40 flex items-center justify-center">
+                        <div class="absolute inset-0 rounded-full border-2 border-accent-orange animate-pulse-ring"></div>
+                        <div class="absolute inset-0 rounded-full border-2 border-accent-orange animate-pulse-ring-delay"></div>
+                        <div class="w-20 h-20 rounded-full flex items-center justify-center text-3xl" style="background: radial-gradient(circle, #FBF66E, #F79F40);">
+                            🎤
+                        </div>
+                    </div>
+                    <p class="text-white/50 text-sm mt-2">Listening...</p>
+                </div>
+                <!-- Waveform -->
+                <div class="flex items-center justify-center gap-1 h-10 mb-4">
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 8px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 16px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 28px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 36px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 32px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 24px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 36px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 28px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 16px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 8px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 20px"></div>
+                    <div class="w-1.5 rounded-full bg-accent-orange/70" style="height: 30px"></div>
+                </div>
+                <p class="text-center text-white/40 text-sm mb-4">"hund..."</p>
+                <!-- Scoring Feedback -->
+                <div class="glass rounded-card p-4">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <p class="text-success text-2xl font-semibold">✓ 89%</p>
+                            <p class="text-white/60 text-sm mt-1">Correct! Well done.</p>
+                        </div>
+                        <p class="text-white/40 text-xs">Attempt 1/5</p>
+                    </div>
+                    <div class="flex gap-3 mt-3">
+                        <div class="bg-white/10 rounded-pill px-3 py-1"><p class="text-white/40 text-xs">Text</p><p class="text-sm font-medium">92%</p></div>
+                        <div class="bg-white/10 rounded-pill px-3 py-1"><p class="text-white/40 text-xs">Sound</p><p class="text-sm font-medium">85%</p></div>
+                        <div class="bg-white/10 rounded-pill px-3 py-1"><p class="text-white/40 text-xs">Conf</p><p class="text-sm font-medium">90%</p></div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-white/30 text-xs mt-4">4. Voice Challenge</p>
+        </div>
+
+        <!-- ===== 5. SETTINGS SCREEN ===== -->
+        <div class="phone-frame" style="background: linear-gradient(160deg, #8A70F8 0%, #D28AED 100%);">
+            <div class="p-6 pt-12">
+                <div class="flex justify-between text-xs text-white/50 mb-6"><span>9:41</span><span>⚡ 87%</span></div>
+                <div class="flex items-center justify-between mb-6">
+                    <div class="w-10 h-10 rounded-full bg-white/15 flex items-center justify-center text-lg">←</div>
+                    <h2 class="text-xl font-semibold">Settings</h2>
+                    <div class="w-10"></div>
+                </div>
+                <!-- Voice Recognition -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="font-semibold mb-3">Voice Recognition</p>
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-white/60 text-sm">STT Available</span>
+                        <span class="text-success text-sm font-medium">✓ Ready</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-white/60 text-sm">Language</span>
+                        <span class="text-white/80 text-sm">German (de-DE)</span>
+                    </div>
+                </div>
+                <!-- Default Snooze -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="font-semibold mb-3">Default Snooze</p>
+                    <div class="flex gap-2">
+                        <span class="bg-violet px-4 py-2 rounded-pill text-sm">5m</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">10m</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">15m</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">20m</span>
+                    </div>
+                </div>
+                <!-- Default Sound -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="font-semibold mb-3">Default Sound</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-violet px-4 py-2 rounded-pill text-sm">Default</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Gentle</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Energetic</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Nature</span>
+                        <span class="bg-white/10 px-4 py-2 rounded-pill text-sm">Digital</span>
+                    </div>
+                </div>
+                <!-- Vocabulary -->
+                <div class="glass rounded-card p-4 mb-4">
+                    <p class="font-semibold mb-2">Vocabulary</p>
+                    <p class="text-white/60 text-sm">100 German words loaded</p>
+                    <p class="text-white/40 text-xs mt-1">Categories: animals, body, colors, family, food, greetings, home, numbers, verbs, weather</p>
+                </div>
+                <!-- About -->
+                <div class="glass rounded-card p-4">
+                    <p class="font-semibold mb-2">About</p>
+                    <p class="text-white/40 text-sm">Speak2Wake v1.0.0</p>
+                    <p class="text-white/40 text-xs mt-1">Learn German by waking up</p>
+                </div>
+            </div>
+            <p class="text-center text-white/30 text-xs mt-4">5. Settings</p>
+        </div>
+
     </div>
 
+    <script>
+        let isDark = true;
+        function toggleTheme() {
+            isDark = !isDark;
+            const grid = document.getElementById('screenGrid');
+            const btn = document.getElementById('themeToggle');
+            if (isDark) {
+                grid.classList.remove('light');
+                document.body.className = 'bg-[#0f0f1a] text-white p-6';
+                btn.textContent = '🌙 Dark Mode';
+            } else {
+                grid.classList.add('light');
+                document.body.className = 'bg-[#E8E3F5] text-gray-900 p-6';
+                btn.textContent = '☀️ Light Mode';
+            }
+        }
+    </script>
 </body>
 </html>
