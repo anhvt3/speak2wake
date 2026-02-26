@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:1:1-58:12
+INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:1:1-58:12
+	package
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:2:5-39
+		INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:4:22-76
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:5:5-74
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:5:22-71
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:8:5-92
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:8:22-89
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:11:22-63
+application
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:13:5-56:19
+receiver#expo.modules.alarmengine.AlarmReceiver
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:16:9-23:20
+	android:enabled
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:18:13-35
+	android:exported
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:17:13-42
+intent-filter#action:name:expo.modules.alarmengine.ALARM_TRIGGERED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:20:13-22:29
+action#expo.modules.alarmengine.ALARM_TRIGGERED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:21:17-83
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:21:25-80
+receiver#expo.modules.alarmengine.BootReceiver
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:26:9-35:20
+	android:enabled
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:29:13-36
+	android:directBootAware
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:27:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:31:13-34:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:32:17-79
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:32:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:33:17-86
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:33:25-83
+service#expo.modules.alarmengine.AlarmForegroundService
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:38:9-42:61
+	android:enabled
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:41:13-37
+	android:foregroundServiceType
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:42:13-58
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:39:13-51
+activity#expo.modules.alarmengine.AlarmFullScreenActivity
+ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:45:9-54:51
+	android:turnScreenOn
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:49:13-40
+	android:excludeFromRecents
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:52:13-46
+	android:showWhenLocked
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:50:13-42
+	android:launchMode
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:54:13-48
+	android:exported
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:47:13-37
+	android:showOnLockScreen
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:48:13-44
+	android:theme
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:53:13-59
+	android:taskAffinity
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:46:13-52
+uses-sdk
+INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml
+INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml

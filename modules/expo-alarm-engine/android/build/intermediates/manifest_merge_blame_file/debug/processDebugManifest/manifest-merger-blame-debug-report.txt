@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.alarmengine" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+7-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:4:5-79
+7-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:4:22-76
+8    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+8-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:5:5-74
+8-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:5:22-71
+9    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+9-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:6:5-81
+9-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:6:22-78
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:7:5-77
+10-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:7:22-74
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+11-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:8:5-92
+11-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:8:22-89
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:9:5-81
+12-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:10:5-68
+13-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:10:22-65
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:11:5-66
+14-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:11:22-63
+15
+16    <application>
+16-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:13:5-56:19
+17
+18        <!-- Alarm trigger receiver -->
+19        <receiver
+19-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:16:9-23:20
+20            android:name="expo.modules.alarmengine.AlarmReceiver"
+20-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:17:13-42
+21            android:enabled="true"
+21-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:18:13-35
+22            android:exported="false" >
+22-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:19:13-37
+23            <intent-filter>
+23-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:20:13-22:29
+24                <action android:name="expo.modules.alarmengine.ALARM_TRIGGERED" />
+24-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:21:17-83
+24-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:21:25-80
+25            </intent-filter>
+26        </receiver>
+27
+28        <!-- Boot completed receiver to re-register alarms -->
+29        <receiver
+29-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:26:9-35:20
+30            android:name="expo.modules.alarmengine.BootReceiver"
+30-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:27:13-41
+31            android:directBootAware="true"
+31-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:30:13-43
+32            android:enabled="true"
+32-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:28:13-35
+33            android:exported="true" >
+33-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:29:13-36
+34            <intent-filter>
+34-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:31:13-34:29
+35                <action android:name="android.intent.action.BOOT_COMPLETED" />
+35-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:32:17-79
+35-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:32:25-76
+36                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+36-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:33:17-86
+36-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:33:25-83
+37            </intent-filter>
+38        </receiver>
+39
+40        <!-- Foreground service for playing alarm sound -->
+41        <service
+41-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:38:9-42:61
+42            android:name="expo.modules.alarmengine.AlarmForegroundService"
+42-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:39:13-51
+43            android:enabled="true"
+43-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:40:13-35
+44            android:exported="false"
+44-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:41:13-37
+45            android:foregroundServiceType="mediaPlayback" />
+45-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:42:13-58
+46
+47        <!-- Full-screen activity for lock screen display -->
+48        <activity
+48-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:45:9-54:51
+49            android:name="expo.modules.alarmengine.AlarmFullScreenActivity"
+49-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:46:13-52
+50            android:excludeFromRecents="true"
+50-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:52:13-46
+51            android:exported="false"
+51-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:47:13-37
+52            android:launchMode="singleInstance"
+52-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:54:13-48
+53            android:showOnLockScreen="true"
+53-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:48:13-44
+54            android:showWhenLocked="true"
+54-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:50:13-42
+55            android:taskAffinity=""
+55-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:51:13-36
+56            android:theme="@android:style/Theme.NoDisplay"
+56-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:53:13-59
+57            android:turnScreenOn="true" />
+57-->E:\Kethoatngheo\speak2wake\modules\expo-alarm-engine\android\src\main\AndroidManifest.xml:49:13-40
+58    </application>
+59
+60</manifest>

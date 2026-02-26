@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'org.jetbrains.kotlin.plugin.serialization'
 
 group = 'expo.modules.alarmengine'
 version = '0.1.0'
@@ -14,19 +13,15 @@ if (expoModulesCorePlugin.exists()) {
 android {
   namespace "expo.modules.alarmengine"
 
-  compileSdk 34
+  compileSdk rootProject.ext.has("compileSdkVersion") ? rootProject.ext.get("compileSdkVersion") : 36
 
   defaultConfig {
-    minSdk 24
-    targetSdk 34
+    minSdk rootProject.ext.has("minSdkVersion") ? rootProject.ext.get("minSdkVersion") : 24
+    targetSdk rootProject.ext.has("targetSdkVersion") ? rootProject.ext.get("targetSdkVersion") : 36
   }
 
   buildFeatures {
     buildConfig true
-  }
-
-  kotlinOptions {
-    freeCompilerArgs += "-module-name=expo-alarm-engine"
   }
 
   compileOptions {
@@ -41,6 +36,6 @@ android {
 
 dependencies {
   implementation project(':expo-modules-core')
-  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.24"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7"
   implementation "androidx.core:core-ktx:1.12.0"
 }
