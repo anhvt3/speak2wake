@@ -1,12 +1,9 @@
 import { type EventSubscription } from 'expo-modules-core';
 import ExpoAlarmEngineModule from './src/ExpoAlarmEngineModule';
 
-const emitter = {
-  addListener(eventName: string, listener: (...args: any[]) => void): EventSubscription {
-    const nativeEmitter = new (require('expo-modules-core').EventEmitter)(ExpoAlarmEngineModule);
-    return nativeEmitter.addListener(eventName, listener);
-  },
-};
+// Create EventEmitter once at module level (use require to avoid TS generic inference issue)
+const { EventEmitter } = require('expo-modules-core');
+const emitter = new EventEmitter(ExpoAlarmEngineModule);
 
 export type AlarmFiredEvent = {
   alarmId: string;
@@ -82,6 +79,22 @@ export function getNextAlarmTime(alarmId: string): number {
 }
 
 /**
+ * Pause the alarm sound and vibration.
+ * Used during voice challenge when mic is active or TTS is speaking.
+ */
+export function pauseAlarmSound(): void {
+  return ExpoAlarmEngineModule.pauseAlarmSound();
+}
+
+/**
+ * Resume the alarm sound and vibration.
+ * Called when mic stops or TTS finishes.
+ */
+export function resumeAlarmSound(): void {
+  return ExpoAlarmEngineModule.resumeAlarmSound();
+}
+
+/**
  * Subscribe to alarm fired events. Called when an alarm triggers.
  *
  * @param listener - Callback receiving the alarm ID that fired
@@ -99,5 +112,7 @@ export default {
   snoozeAlarm,
   dismissAlarm,
   getNextAlarmTime,
+  pauseAlarmSound,
+  resumeAlarmSound,
   addAlarmFiredListener,
 };

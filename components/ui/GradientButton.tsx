@@ -22,7 +22,7 @@ export function GradientButton({
   const colors: [string, string] =
     variant === 'accent'
       ? ['#F79F40', '#FBF66E']
-      : ['#8A70F8', '#D28AED'];
+      : ['#FF6B35', '#FFBE5C'];
 
   return (
     <Pressable

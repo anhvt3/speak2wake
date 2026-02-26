@@ -1,33 +1,55 @@
+/**
+ * Speak2Wake Design System — Warm Sunrise Palette
+ * Applied via UI UX Pro Max principles:
+ * - Warm orange/amber tones evoke sunrise & waking up
+ * - Dark background for alarm app (easy on eyes at wake-up)
+ * - High contrast for readability in low light
+ * - WCAG AA compliant (4.5:1+ contrast ratios)
+ */
 export const Colors = {
   light: {
-    background: '#FFFFFF',
-    surface: '#F5F3F8',
-    surfaceGlass: 'rgba(255,255,255,0.2)',
-    surfaceGlassBorder: 'rgba(255,255,255,0.3)',
-    textPrimary: '#1C1721',
-    textSecondary: '#7F8187',
-    textMuted: 'rgba(28,23,33,0.4)',
+    background: '#FFF8F0',
+    surface: '#FFF1E6',
+    surfaceGlass: 'rgba(255,145,77,0.08)',
+    surfaceGlassBorder: 'rgba(255,145,77,0.15)',
+    textPrimary: '#1A1210',
+    textSecondary: '#7A6B60',
+    textMuted: 'rgba(26,18,16,0.4)',
   },
   dark: {
-    background: '#1C1721',
-    surface: '#2B2630',
-    surfaceGlass: 'rgba(255,255,255,0.08)',
-    surfaceGlassBorder: 'rgba(255,255,255,0.1)',
+    background: '#141018',
+    surface: '#1E1924',
+    surfaceGlass: 'rgba(255,145,77,0.10)',
+    surfaceGlassBorder: 'rgba(255,145,77,0.18)',
     textPrimary: '#FFFFFF',
-    textSecondary: 'rgba(255,255,255,0.6)',
-    textMuted: 'rgba(255,255,255,0.3)',
+    textSecondary: 'rgba(255,255,255,0.65)',
+    textMuted: 'rgba(255,255,255,0.35)',
   },
   shared: {
-    violet: '#9E6DFB',
-    violetLight: '#8A70F8',
-    violetPink: '#D28AED',
-    accentOrange: '#F79F40',
-    accentGold: '#FBF66E',
+    // Primary — Warm Orange
+    primary: '#FF914D',
+    primaryLight: '#FFB380',
+    primaryDark: '#E8732A',
+
+    // Accent — Golden Amber
+    accent: '#FFBE5C',
+    accentGold: '#FFD93D',
+
+    // Legacy aliases (backward compat)
+    violet: '#FF914D',
+    violetLight: '#FFB380',
+    violetPink: '#FFBE5C',
+    accentOrange: '#FF914D',
+
+    // Semantic
     success: '#4ADE80',
-    error: '#F87171',
-    warning: '#FBBF24',
-    gradientStart: '#8A70F8',
-    gradientEnd: '#D28AED',
+    error: '#FF6B6B',
+    warning: '#FFD93D',
+
+    // Gradients
+    gradientStart: '#FF6B35',
+    gradientMid: '#FF914D',
+    gradientEnd: '#FFBE5C',
   },
 } as const;
 

@@ -31,6 +31,8 @@ class AlarmForegroundService : Service() {
     private const val TAG = "AlarmForegroundService"
     const val ACTION_START = "expo.modules.alarmengine.ACTION_START_ALARM"
     const val ACTION_STOP = "expo.modules.alarmengine.ACTION_STOP_ALARM"
+    const val ACTION_PAUSE_SOUND = "expo.modules.alarmengine.ACTION_PAUSE_SOUND"
+    const val ACTION_RESUME_SOUND = "expo.modules.alarmengine.ACTION_RESUME_SOUND"
     private const val CHANNEL_ID = "alarm_channel"
     private const val CHANNEL_NAME = "Alarm"
     private const val NOTIFICATION_ID = 9001
@@ -68,6 +70,24 @@ class AlarmForegroundService : Service() {
       ACTION_STOP -> {
         stopAlarm()
         stopSelf()
+      }
+      ACTION_PAUSE_SOUND -> {
+        // Pause sound + vibration (for mic/TTS in challenge screen)
+        try {
+          mediaPlayer?.let { if (it.isPlaying) it.pause() }
+          vibrator?.cancel()
+        } catch (e: Exception) {
+          Log.e(TAG, "Error pausing alarm", e)
+        }
+      }
+      ACTION_RESUME_SOUND -> {
+        // Resume sound + vibration
+        try {
+          mediaPlayer?.let { if (!it.isPlaying) it.start() }
+          startVibration()
+        } catch (e: Exception) {
+          Log.e(TAG, "Error resuming alarm", e)
+        }
       }
       else -> {
         stopSelf()
@@ -226,12 +246,9 @@ class AlarmForegroundService : Service() {
   }
 
   private fun sendAlarmFiredEvent(alarmId: String) {
-    // Send event to JS layer via a broadcast that the module can pick up
-    val intent = Intent("expo.modules.alarmengine.ALARM_FIRED_EVENT").apply {
-      putExtra("alarm_id", alarmId)
-      setPackage(packageName)
-    }
-    sendBroadcast(intent)
+    // Send via static bridge to the Expo module's JS event system
+    AlarmEngineModule.sendEventToJS(alarmId)
+    Log.d(TAG, "Sent alarm fired event for: $alarmId")
   }
 
   private fun acquireWakeLock() {

@@ -10,20 +10,24 @@ import { GradientButton } from '../../components/ui/GradientButton';
 import { DayPicker } from '../../components/ui/DayPicker';
 import { ToggleSwitch } from '../../components/ui/ToggleSwitch';
 import { useAlarmStore } from '../../stores/alarmStore';
-import { ALARM_SOUNDS, DEFAULT_SNOOZE_MINUTES } from '../../constants';
+import { useSettingsStore } from '../../stores/settingsStore';
+import { ALARM_SOUNDS } from '../../constants';
+import { AlarmService } from '../../services/AlarmService';
 import type { DayOfWeek } from '../../types/alarm';
 
 export default function CreateAlarmScreen() {
   const router = useRouter();
   const addAlarm = useAlarmStore((s) => s.addAlarm);
+  const defaultSnooze = useSettingsStore((s) => s.defaultSnoozeDuration);
+  const defaultSound = useSettingsStore((s) => s.defaultSoundId);
 
   const [hour, setHour] = useState(7);
   const [minute, setMinute] = useState(0);
   const [label, setLabel] = useState('');
   const [repeatDays, setRepeatDays] = useState<DayOfWeek[]>([]);
-  const [soundId, setSoundId] = useState('default');
+  const [soundId, setSoundId] = useState(defaultSound);
   const [snoozeEnabled, setSnoozeEnabled] = useState(true);
-  const [snoozeDuration, setSnoozeDuration] = useState(DEFAULT_SNOOZE_MINUTES);
+  const [snoozeDuration, setSnoozeDuration] = useState(defaultSnooze);
   const [challengeEnabled, setChallengeEnabled] = useState(true);
   const [vibrationEnabled, setVibrationEnabled] = useState(true);
 
@@ -41,8 +45,8 @@ export default function CreateAlarmScreen() {
     }
   };
 
-  const handleSave = () => {
-    addAlarm({
+  const handleSave = async () => {
+    const alarm = addAlarm({
       time: { hour, minute },
       label: label || 'Alarm',
       enabled: true,
@@ -53,12 +57,20 @@ export default function CreateAlarmScreen() {
       snoozeDuration,
       challengeEnabled,
     });
+
+    // Schedule with native AlarmManager
+    try {
+      await AlarmService.scheduleAlarm(alarm);
+    } catch (e) {
+      console.warn('Failed to schedule native alarm:', e);
+    }
+
     router.back();
   };
 
   return (
     <LinearGradient
-      colors={['#8A70F8', '#D28AED']}
+      colors={['#141018', '#1E1020', '#2A1525']}
       start={{ x: 0, y: 0 }}
       end={{ x: 0.5, y: 1 }}
       className="flex-1"
@@ -135,7 +147,7 @@ export default function CreateAlarmScreen() {
                   onPress={() => setSoundId(sound.id)}
                   className={`px-4 py-2 rounded-pill ${
                     soundId === sound.id
-                      ? 'bg-violet'
+                      ? 'bg-[#FF914D]'
                       : 'bg-white/10'
                   }`}
                 >
@@ -165,7 +177,7 @@ export default function CreateAlarmScreen() {
                     key={mins}
                     onPress={() => setSnoozeDuration(mins)}
                     className={`px-4 py-2 rounded-pill ${
-                      snoozeDuration === mins ? 'bg-violet' : 'bg-white/10'
+                      snoozeDuration === mins ? 'bg-[#FF914D]' : 'bg-white/10'
                     }`}
                   >
                     <Text className="text-white font-jost-regular text-sm">

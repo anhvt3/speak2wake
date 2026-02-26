@@ -20,7 +20,7 @@ export function DayPicker({ selectedDays, onToggleDay }: DayPickerProps) {
             onPress={() => onToggleDay(day)}
             className={`w-9 h-9 rounded-full items-center justify-center ${
               isSelected
-                ? 'bg-violet'
+                ? 'bg-[#FF914D]'
                 : 'bg-white/20 dark:bg-white/[0.08]'
             }`}
           >

@@ -98,7 +98,7 @@ export function MicButton({ isListening, onPress, disabled = false }: MicButtonP
       </Pressable>
 
       <Text className="text-white/60 font-jost-regular text-sm mt-3">
-        {isListening ? 'Listening...' : 'Tap to speak'}
+        {isListening ? 'Listening...' : 'Tap to retry'}
       </Text>
     </View>
   );

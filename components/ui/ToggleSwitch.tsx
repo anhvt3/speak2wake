@@ -14,7 +14,7 @@ interface ToggleSwitchProps {
 export function ToggleSwitch({ value, onToggle }: ToggleSwitchProps) {
   const trackStyle = useAnimatedStyle(() => ({
     backgroundColor: withTiming(
-      value ? '#9E6DFB' : 'rgba(255,255,255,0.2)',
+      value ? '#FF914D' : 'rgba(255,255,255,0.2)',
       { duration: 200 }
     ),
   }));

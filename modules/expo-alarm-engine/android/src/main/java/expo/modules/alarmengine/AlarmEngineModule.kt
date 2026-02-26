@@ -17,6 +17,13 @@ class AlarmEngineModule : Module() {
     const val PREFS_NAME = "expo_alarm_engine_prefs"
     const val ALARMS_KEY = "scheduled_alarms"
     const val EVENT_ALARM_FIRED = "onAlarmFired"
+
+    // Static reference for service -> module event bridge
+    private var instance: AlarmEngineModule? = null
+
+    fun sendEventToJS(alarmId: String) {
+      instance?.sendEvent(EVENT_ALARM_FIRED, mapOf("alarmId" to alarmId))
+    }
   }
 
   private val context: Context
@@ -29,6 +36,14 @@ class AlarmEngineModule : Module() {
     Name("ExpoAlarmEngine")
 
     Events(EVENT_ALARM_FIRED)
+
+    OnCreate {
+      instance = this@AlarmEngineModule
+    }
+
+    OnDestroy {
+      instance = null
+    }
 
     Function("scheduleAlarm") { alarmId: String, hour: Int, minute: Int, repeatDays: List<Int>, soundId: String, label: String ->
       scheduleAlarmInternal(alarmId, hour, minute, repeatDays, soundId, label)
@@ -48,6 +63,22 @@ class AlarmEngineModule : Module() {
 
     Function("getNextAlarmTime") { alarmId: String ->
       getNextAlarmTimeInternal(alarmId)
+    }
+
+    Function("pauseAlarmSound") {
+      // Send pause intent to foreground service
+      val intent = Intent(context, AlarmForegroundService::class.java).apply {
+        action = AlarmForegroundService.ACTION_PAUSE_SOUND
+      }
+      context.startService(intent)
+    }
+
+    Function("resumeAlarmSound") {
+      // Send resume intent to foreground service
+      val intent = Intent(context, AlarmForegroundService::class.java).apply {
+        action = AlarmForegroundService.ACTION_RESUME_SOUND
+      }
+      context.startService(intent)
     }
   }
 

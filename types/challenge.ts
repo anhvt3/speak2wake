@@ -7,6 +7,7 @@ export interface VocabWord {
   level: 'A1' | 'A2';
   phonetic?: string;     // pronunciation hint
   category: string;
+  difficulty?: 'single' | 'compound' | 'sentence';
 }
 
 export interface ScoringResult {

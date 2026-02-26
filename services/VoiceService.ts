@@ -1,6 +1,6 @@
 /**
- * VoiceService wraps @react-native-voice/voice for STT.
- * In development/preview, provides a mock implementation.
+ * VoiceService wraps expo-speech-recognition for STT.
+ * Uses the modern Expo module instead of deprecated @react-native-voice/voice.
  */
 
 type VoiceCallback = (text: string, confidence: number) => void;
@@ -8,12 +8,12 @@ type PartialCallback = (text: string) => void;
 type VolumeCallback = (volume: number) => void;
 type ErrorCallback = (error: { code: string; message: string }) => void;
 
-let Voice: any = null;
+let ExpoSpeechRecognition: any = null;
 
 try {
-  Voice = require('@react-native-voice/voice').default;
+  ExpoSpeechRecognition = require('expo-speech-recognition');
 } catch {
-  // Voice module not available (web/preview mode)
+  // Module not available (web/preview mode)
 }
 
 class VoiceServiceImpl {
@@ -21,46 +21,13 @@ class VoiceServiceImpl {
   private onPartialCallback: PartialCallback | null = null;
   private onVolumeCallback: VolumeCallback | null = null;
   private onErrorCallback: ErrorCallback | null = null;
-  private initialized = false;
-
-  async initialize(): Promise<void> {
-    if (this.initialized || !Voice) return;
-
-    Voice.onSpeechResults = (e: any) => {
-      const results: string[] = e.value || [];
-      if (results.length > 0 && this.onResultCallback) {
-        this.onResultCallback(results[0], 0.8);
-      }
-    };
-
-    Voice.onSpeechPartialResults = (e: any) => {
-      const results: string[] = e.value || [];
-      if (results.length > 0 && this.onPartialCallback) {
-        this.onPartialCallback(results[0]);
-      }
-    };
-
-    Voice.onSpeechVolumeChanged = (e: any) => {
-      if (this.onVolumeCallback) {
-        this.onVolumeCallback(e.value || 0);
-      }
-    };
-
-    Voice.onSpeechError = (e: any) => {
-      if (this.onErrorCallback) {
-        this.onErrorCallback({
-          code: e.error?.code || 'unknown',
-          message: e.error?.message || 'Speech recognition error',
-        });
-      }
-    };
-
-    this.initialized = true;
-  }
+  private subscriptions: any[] = [];
+  private permissionGranted: boolean | null = null;
+  private listenTimeout: ReturnType<typeof setTimeout> | null = null;
 
   async startListening(locale: string = 'de-DE'): Promise<void> {
-    if (!Voice) {
-      // Mock for development
+    if (!ExpoSpeechRecognition) {
+      // Mock for development — return the expected word so dev can test full flow
       setTimeout(() => {
         this.onPartialCallback?.('mock...');
         setTimeout(() => {
@@ -70,24 +37,93 @@ class VoiceServiceImpl {
       return;
     }
 
-    await this.initialize();
-    await Voice.start(locale);
+    // Request permissions (cache result)
+    if (this.permissionGranted === null) {
+      const { status } = await ExpoSpeechRecognition.requestPermissionsAsync();
+      this.permissionGranted = status === 'granted';
+    }
+    if (!this.permissionGranted) {
+      this.onErrorCallback?.({ code: 'permission', message: 'Microphone permission denied' });
+      return;
+    }
+
+    // Remove old listeners before adding new ones
+    this.removeAllSubscriptions();
+
+    // Listen for results
+    const resultSub = ExpoSpeechRecognition.addSpeechEventListener('result', (event: any) => {
+      if (event.isFinal && event.results && event.results.length > 0) {
+        this.clearTimeout();
+        const result = event.results[0];
+        this.onResultCallback?.(result.transcript, result.confidence || 0.8);
+      } else if (!event.isFinal && event.results && event.results.length > 0) {
+        this.onPartialCallback?.(event.results[0].transcript);
+      }
+    });
+
+    const errorSub = ExpoSpeechRecognition.addSpeechEventListener('error', (event: any) => {
+      this.clearTimeout();
+      this.onErrorCallback?.({
+        code: event.error || 'unknown',
+        message: event.message || 'Speech recognition error',
+      });
+    });
+
+    const volumeSub = ExpoSpeechRecognition.addSpeechEventListener('volumechange', (event: any) => {
+      this.onVolumeCallback?.(event.value || 0);
+    });
+
+    this.subscriptions = [resultSub, errorSub, volumeSub];
+
+    // Start recognition
+    ExpoSpeechRecognition.start({
+      lang: locale,
+      interimResults: true,
+      maxAlternatives: 1,
+      continuous: false,
+    });
+
+    // 10-second timeout — auto-stop if no final result
+    this.listenTimeout = setTimeout(() => {
+      this.stopListening();
+      this.onErrorCallback?.({ code: 'timeout', message: 'No speech detected (10s timeout)' });
+    }, 10000);
+  }
+
+  private clearTimeout(): void {
+    if (this.listenTimeout) {
+      clearTimeout(this.listenTimeout);
+      this.listenTimeout = null;
+    }
+  }
+
+  private removeAllSubscriptions(): void {
+    for (const sub of this.subscriptions) {
+      try { sub?.remove(); } catch {}
+    }
+    this.subscriptions = [];
   }
 
   async stopListening(): Promise<void> {
-    if (!Voice) return;
-    await Voice.stop();
+    this.clearTimeout();
+    if (!ExpoSpeechRecognition) return;
+    ExpoSpeechRecognition.stop();
   }
 
   async cancel(): Promise<void> {
-    if (!Voice) return;
-    await Voice.cancel();
+    this.clearTimeout();
+    if (!ExpoSpeechRecognition) return;
+    ExpoSpeechRecognition.abort();
   }
 
   async isAvailable(): Promise<boolean> {
-    if (!Voice) return false;
-    const available = await Voice.isAvailable();
-    return available === 1 || available === true;
+    if (!ExpoSpeechRecognition) return false;
+    try {
+      const result = await ExpoSpeechRecognition.isRecognitionAvailable();
+      return result === true;
+    } catch {
+      return false;
+    }
   }
 
   onResult(callback: VoiceCallback): void {
@@ -107,12 +143,17 @@ class VoiceServiceImpl {
   }
 
   destroy(): void {
-    if (Voice) Voice.destroy();
+    this.clearTimeout();
+    if (ExpoSpeechRecognition) {
+      try {
+        ExpoSpeechRecognition.stop();
+      } catch {}
+    }
+    this.removeAllSubscriptions();
     this.onResultCallback = null;
     this.onPartialCallback = null;
     this.onVolumeCallback = null;
     this.onErrorCallback = null;
-    this.initialized = false;
   }
 }
 

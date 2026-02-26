@@ -16,7 +16,7 @@ export default function HomeScreen() {
 
   return (
     <LinearGradient
-      colors={['#8A70F8', '#D28AED']}
+      colors={['#141018', '#1E1020', '#2A1525']}
       start={{ x: 0, y: 0 }}
       end={{ x: 0.5, y: 1 }}
       className="flex-1"

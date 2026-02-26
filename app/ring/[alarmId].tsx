@@ -54,6 +54,7 @@ export default function AlarmRingScreen() {
 
   const handleDismiss = () => {
     if (alarm?.challengeEnabled) {
+      // Navigate to challenge WITHOUT dismissing alarm — sound keeps playing
       router.replace(`/challenge/${alarmId}`);
     } else {
       AlarmService.dismissAlarm(alarmId!);
@@ -68,7 +69,7 @@ export default function AlarmRingScreen() {
 
   return (
     <LinearGradient
-      colors={['#1C1721', '#8A70F8', '#D28AED']}
+      colors={['#141018', '#FF6B35', '#FFBE5C']}
       locations={[0, 0.6, 1]}
       className="flex-1"
     >
@@ -90,8 +91,8 @@ export default function AlarmRingScreen() {
 
         {/* Middle — decorative glow */}
         <View className="items-center">
-          <View className="w-40 h-40 rounded-full bg-violet/20 items-center justify-center">
-            <View className="w-28 h-28 rounded-full bg-violet/30 items-center justify-center">
+          <View className="w-40 h-40 rounded-full bg-[#FF914D]/20 items-center justify-center">
+            <View className="w-28 h-28 rounded-full bg-[#FF914D]/30 items-center justify-center">
               <Text className="text-5xl">🔔</Text>
             </View>
           </View>

@@ -10,6 +10,7 @@ import { GradientButton } from '../../components/ui/GradientButton';
 import { DayPicker } from '../../components/ui/DayPicker';
 import { ToggleSwitch } from '../../components/ui/ToggleSwitch';
 import { useAlarmStore } from '../../stores/alarmStore';
+import { AlarmService } from '../../services/AlarmService';
 import { ALARM_SOUNDS } from '../../constants';
 import type { DayOfWeek } from '../../types/alarm';
 
@@ -49,8 +50,8 @@ export default function EditAlarmScreen() {
     else setMinute((m) => (m + delta + 60) % 60);
   };
 
-  const handleSave = () => {
-    updateAlarm(id!, {
+  const handleSave = async () => {
+    const updatedAlarm = {
       time: { hour, minute },
       label: label || 'Alarm',
       repeatDays,
@@ -59,7 +60,19 @@ export default function EditAlarmScreen() {
       snoozeEnabled,
       snoozeDuration,
       challengeEnabled,
-    });
+    };
+    updateAlarm(id!, updatedAlarm);
+
+    // Cancel old native alarm and reschedule with new settings
+    try {
+      await AlarmService.cancelAlarm(id!);
+      if (alarm!.enabled) {
+        await AlarmService.scheduleAlarm({ ...alarm!, ...updatedAlarm, id: id! });
+      }
+    } catch (e) {
+      console.warn('Failed to reschedule native alarm:', e);
+    }
+
     router.back();
   };
 
@@ -69,7 +82,13 @@ export default function EditAlarmScreen() {
       {
         text: 'Delete',
         style: 'destructive',
-        onPress: () => {
+        onPress: async () => {
+          // Cancel native alarm before removing from store
+          try {
+            await AlarmService.cancelAlarm(id!);
+          } catch (e) {
+            console.warn('Failed to cancel native alarm:', e);
+          }
           removeAlarm(id!);
           router.back();
         },
@@ -79,7 +98,7 @@ export default function EditAlarmScreen() {
 
   return (
     <LinearGradient
-      colors={['#8A70F8', '#D28AED']}
+      colors={['#141018', '#1E1020', '#2A1525']}
       start={{ x: 0, y: 0 }}
       end={{ x: 0.5, y: 1 }}
       className="flex-1"
@@ -149,7 +168,7 @@ export default function EditAlarmScreen() {
                   key={sound.id}
                   onPress={() => setSoundId(sound.id)}
                   className={`px-4 py-2 rounded-pill ${
-                    soundId === sound.id ? 'bg-violet' : 'bg-white/10'
+                    soundId === sound.id ? 'bg-[#FF914D]' : 'bg-white/10'
                   }`}
                 >
                   <Text className="text-white font-jost-regular text-sm">{sound.name}</Text>
@@ -170,7 +189,7 @@ export default function EditAlarmScreen() {
                   <Pressable
                     key={mins}
                     onPress={() => setSnoozeDuration(mins)}
-                    className={`px-4 py-2 rounded-pill ${snoozeDuration === mins ? 'bg-violet' : 'bg-white/10'}`}
+                    className={`px-4 py-2 rounded-pill ${snoozeDuration === mins ? 'bg-[#FF914D]' : 'bg-white/10'}`}
                   >
                     <Text className="text-white font-jost-regular text-sm">{mins}m</Text>
                   </Pressable>

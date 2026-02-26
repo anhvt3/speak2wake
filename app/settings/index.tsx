@@ -26,7 +26,7 @@ export default function SettingsScreen() {
 
   return (
     <LinearGradient
-      colors={['#8A70F8', '#D28AED']}
+      colors={['#141018', '#1E1020', '#2A1525']}
       start={{ x: 0, y: 0 }}
       end={{ x: 0.5, y: 1 }}
       className="flex-1"
@@ -85,7 +85,7 @@ export default function SettingsScreen() {
                   onPress={() => settings.setDefaultSnoozeDuration(mins)}
                   className={`px-4 py-2 rounded-pill ${
                     settings.defaultSnoozeDuration === mins
-                      ? 'bg-violet'
+                      ? 'bg-[#FF914D]'
                       : 'bg-white/10'
                   }`}
                 >
@@ -109,7 +109,7 @@ export default function SettingsScreen() {
                   onPress={() => settings.setDefaultSoundId(sound.id)}
                   className={`px-4 py-2 rounded-pill ${
                     settings.defaultSoundId === sound.id
-                      ? 'bg-violet'
+                      ? 'bg-[#FF914D]'
                       : 'bg-white/10'
                   }`}
                 >

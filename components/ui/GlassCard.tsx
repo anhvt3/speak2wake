@@ -9,7 +9,7 @@ interface GlassCardProps {
 export function GlassCard({ children, className = '' }: GlassCardProps) {
   return (
     <View
-      className={`bg-white/20 dark:bg-white/[0.08] rounded-card border border-white/30 dark:border-white/10 p-5 ${className}`}
+      className={`bg-white/[0.08] rounded-card border border-[#FF914D]/20 p-5 ${className}`}
     >
       {children}
     </View>

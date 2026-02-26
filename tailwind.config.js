@@ -10,31 +10,42 @@ module.exports = {
     extend: {
       colors: {
         background: {
-          DEFAULT: "#FFFFFF",
-          dark: "#1C1721",
+          DEFAULT: "#FFF8F0",
+          dark: "#141018",
         },
         surface: {
-          DEFAULT: "#F5F3F8",
-          dark: "#2B2630",
+          DEFAULT: "#FFF1E6",
+          dark: "#1E1924",
         },
-        violet: {
-          DEFAULT: "#9E6DFB",
-          light: "#8A70F8",
-          pink: "#D28AED",
+        primary: {
+          DEFAULT: "#FF914D",
+          light: "#FFB380",
+          dark: "#E8732A",
         },
         accent: {
-          orange: "#F79F40",
-          gold: "#FBF66E",
+          DEFAULT: "#FFBE5C",
+          gold: "#FFD93D",
+        },
+        // Legacy aliases (components still use text-violet etc)
+        violet: {
+          DEFAULT: "#FF914D",
+          light: "#FFB380",
+          pink: "#FFBE5C",
         },
         grey: {
           blueish: "#363843",
-          medium: "#7F8187",
-          dark: "#1C1721",
-          surface: "#2B2630",
+          medium: "#7A6B60",
+          dark: "#141018",
+          surface: "#1E1924",
         },
         success: "#4ADE80",
-        error: "#F87171",
-        warning: "#FBBF24",
+        error: "#FF6B6B",
+        warning: "#FFD93D",
+        gradient: {
+          start: "#FF6B35",
+          mid: "#FF914D",
+          end: "#FFBE5C",
+        },
       },
       fontFamily: {
         "jost-regular": ["Jost_400Regular"],

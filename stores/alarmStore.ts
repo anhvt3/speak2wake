@@ -47,11 +47,27 @@ export const useAlarmStore = create<AlarmState>()(
       },
 
       toggleAlarm: (id) => {
+        const alarm = get().alarms.find((a) => a.id === id);
+        if (!alarm) return;
+
+        const newEnabled = !alarm.enabled;
         set((state) => ({
           alarms: state.alarms.map((a) =>
-            a.id === id ? { ...a, enabled: !a.enabled } : a
+            a.id === id ? { ...a, enabled: newEnabled } : a
           ),
         }));
+
+        // Schedule/cancel with native module
+        const { AlarmService } = require('../services/AlarmService');
+        if (newEnabled) {
+          AlarmService.scheduleAlarm({ ...alarm, enabled: true }).catch(
+            (e: any) => console.warn('Failed to schedule:', e)
+          );
+        } else {
+          AlarmService.cancelAlarm(id).catch(
+            (e: any) => console.warn('Failed to cancel:', e)
+          );
+        }
       },
 
       setActiveAlarm: (id) => {
@@ -64,6 +80,7 @@ export const useAlarmStore = create<AlarmState>()(
 
       getNextAlarm: () => {
         const now = new Date();
+        const currentDay = now.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
         const currentMinutes = now.getHours() * 60 + now.getMinutes();
         const enabled = get().alarms.filter((a) => a.enabled);
 
@@ -74,11 +91,27 @@ export const useAlarmStore = create<AlarmState>()(
 
         for (const alarm of enabled) {
           const alarmMinutes = alarm.time.hour * 60 + alarm.time.minute;
-          let diff = alarmMinutes - currentMinutes;
-          if (diff <= 0) diff += 24 * 60; // tomorrow
-          if (diff < closestDiff) {
-            closestDiff = diff;
-            closest = alarm;
+
+          if (alarm.repeatDays.length === 0) {
+            // One-shot alarm: next occurrence is today or tomorrow
+            let diff = alarmMinutes - currentMinutes;
+            if (diff <= 0) diff += 24 * 60;
+            if (diff < closestDiff) {
+              closestDiff = diff;
+              closest = alarm;
+            }
+          } else {
+            // Repeating alarm: find nearest scheduled day
+            for (const day of alarm.repeatDays) {
+              let daysUntil = (day as number) - currentDay;
+              if (daysUntil < 0) daysUntil += 7;
+              if (daysUntil === 0 && alarmMinutes <= currentMinutes) daysUntil = 7;
+              const diff = daysUntil * 24 * 60 + (alarmMinutes - currentMinutes);
+              if (diff < closestDiff) {
+                closestDiff = diff;
+                closest = alarm;
+              }
+            }
           }
         }
 

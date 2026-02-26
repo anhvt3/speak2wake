@@ -2,6 +2,7 @@ package expo.modules.alarmengine
 
 import android.app.Activity
 import android.app.KeyguardManager
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.WindowManager
@@ -9,8 +10,8 @@ import android.util.Log
 
 /**
  * Activity that displays over the lock screen when an alarm fires.
- * Uses appropriate flags for different Android versions to ensure
- * the alarm is visible even when the device is locked.
+ * Turns on screen, dismisses keyguard, and launches the main React Native
+ * activity so the user sees the Ring screen.
  */
 class AlarmFullScreenActivity : Activity() {
 
@@ -26,9 +27,27 @@ class AlarmFullScreenActivity : Activity() {
 
     setupLockScreenFlags()
 
-    // Finish this activity immediately - the React Native app will handle
-    // the UI via the onAlarmFired event. This activity is only needed
-    // to turn on the screen and show over lock screen.
+    // Launch the main React Native activity to bring app to foreground
+    // This ensures the JS layer receives the onAlarmFired event
+    try {
+      val launchIntent = packageManager.getLaunchIntentForPackage(packageName)
+      if (launchIntent != null) {
+        launchIntent.addFlags(
+          Intent.FLAG_ACTIVITY_NEW_TASK or
+          Intent.FLAG_ACTIVITY_REORDER_TO_FRONT or
+          Intent.FLAG_ACTIVITY_SINGLE_TOP
+        )
+        launchIntent.putExtra("alarm_id", alarmId)
+        startActivity(launchIntent)
+        Log.d(TAG, "Launched main activity for alarm: $alarmId")
+      } else {
+        Log.e(TAG, "Could not get launch intent for package: $packageName")
+      }
+    } catch (e: Exception) {
+      Log.e(TAG, "Failed to launch main activity", e)
+    }
+
+    // Finish this helper activity
     finish()
   }
 

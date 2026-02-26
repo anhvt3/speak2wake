@@ -12,9 +12,11 @@ import type { Alarm } from '../types/alarm';
 let ExpoAlarmEngine: any = null;
 try {
   if (Platform.OS === 'android') {
+    // Import from our local expo module (registered as ExpoAlarmEngine)
     ExpoAlarmEngine = require('../modules/expo-alarm-engine');
   }
-} catch {
+} catch (e) {
+  console.warn('ExpoAlarmEngine not available:', e);
   // Native module not available — will fall back to notifications
 }
 
@@ -97,8 +99,19 @@ class AlarmServiceImpl {
       return;
     }
 
+    // Fallback: cancel specific notification by identifier
     if (!Notifications) return;
-    await Notifications.cancelAllScheduledNotificationsAsync();
+    try {
+      const scheduled = await Notifications.getAllScheduledNotificationsAsync();
+      for (const notif of scheduled) {
+        if (notif.content?.data?.alarmId === alarmId) {
+          await Notifications.cancelScheduledNotificationAsync(notif.identifier);
+        }
+      }
+    } catch {
+      // Fallback to cancel all if individual cancel fails
+      await Notifications.cancelAllScheduledNotificationsAsync();
+    }
   }
 
   async snoozeAlarm(alarmId: string, minutes: number): Promise<void> {
@@ -130,9 +143,18 @@ class AlarmServiceImpl {
       return;
     }
 
-    // Fallback: expo-notifications
+    // Fallback: dismiss specific notification by identifier
     if (!Notifications) return;
-    await Notifications.dismissAllNotificationsAsync();
+    try {
+      const presented = await Notifications.getPresentedNotificationsAsync();
+      for (const notif of presented) {
+        if (notif.request?.content?.data?.alarmId === alarmId) {
+          await Notifications.dismissNotificationAsync(notif.request.identifier);
+        }
+      }
+    } catch {
+      await Notifications.dismissAllNotificationsAsync();
+    }
   }
 
   /**
@@ -144,6 +166,24 @@ class AlarmServiceImpl {
       return ExpoAlarmEngine.getNextAlarmTime(alarmId);
     }
     return -1;
+  }
+
+  /**
+   * Pause alarm sound and vibration (for voice challenge mic/TTS).
+   */
+  async pauseAlarmSound(): Promise<void> {
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.pauseAlarmSound();
+    }
+  }
+
+  /**
+   * Resume alarm sound and vibration.
+   */
+  async resumeAlarmSound(): Promise<void> {
+    if (useNativeAlarm) {
+      ExpoAlarmEngine.resumeAlarmSound();
+    }
   }
 
   onAlarmFired(callback: (alarmId: string) => void): () => void {

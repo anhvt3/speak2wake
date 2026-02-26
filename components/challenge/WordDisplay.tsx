@@ -6,11 +6,31 @@ import type { VocabWord } from '../../types/challenge';
 
 interface WordDisplayProps {
   word: VocabWord;
+  onSpeakStart?: () => void;
+  onSpeakEnd?: () => void;
 }
 
-export function WordDisplay({ word }: WordDisplayProps) {
-  const handleSpeak = () => {
-    TTSService.speak(word.word);
+export function WordDisplay({ word, onSpeakStart, onSpeakEnd }: WordDisplayProps) {
+  const handleSpeak = async () => {
+    onSpeakStart?.();
+    try {
+      await TTSService.speak(word.word);
+    } catch (e) {
+      console.warn('TTS error:', e);
+    }
+    // Wait for TTS to finish, then call onSpeakEnd
+    const checkDone = setInterval(async () => {
+      const speaking = await TTSService.isSpeaking();
+      if (!speaking) {
+        clearInterval(checkDone);
+        onSpeakEnd?.();
+      }
+    }, 300);
+    // Safety timeout — 5 seconds max
+    setTimeout(() => {
+      clearInterval(checkDone);
+      onSpeakEnd?.();
+    }, 5000);
   };
 
   return (

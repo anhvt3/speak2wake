@@ -34,7 +34,7 @@ export function AlarmCard({ alarm, onToggle, onPress }: AlarmCardProps) {
             </View>
             {alarm.challengeEnabled && (
               <View className="mt-2 flex-row">
-                <View className="bg-violet/30 rounded-pill px-3 py-1">
+                <View className="bg-[#FF914D]/30 rounded-pill px-3 py-1">
                   <Text className="text-violet-pink font-jost-medium text-xs">
                     Voice Challenge
                   </Text>

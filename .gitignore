@@ -9,3 +9,12 @@ node_modules/
 
 # IDE
 .vscode/
+
+# Android build artifacts
+android/app/build/
+**/android/build/
+**/.gradle/
+*.apk
+
+# Claude
+.claude/
