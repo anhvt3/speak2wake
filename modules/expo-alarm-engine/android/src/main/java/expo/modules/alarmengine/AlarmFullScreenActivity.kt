@@ -5,6 +5,8 @@ import android.app.KeyguardManager
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.WindowManager
 import android.util.Log
 
@@ -47,8 +49,8 @@ class AlarmFullScreenActivity : Activity() {
       Log.e(TAG, "Failed to launch main activity", e)
     }
 
-    // Finish this helper activity
-    finish()
+    // Delay finish to let main activity take over screen-on/keyguard flags
+    Handler(Looper.getMainLooper()).postDelayed({ finish() }, 1500)
   }
 
   @Suppress("DEPRECATION")

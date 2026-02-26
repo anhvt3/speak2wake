@@ -48,6 +48,8 @@ class AlarmForegroundService : Service() {
   private var wakeLock: PowerManager.WakeLock? = null
   private var volumeTimer: Timer? = null
   private var currentAlarmId: String? = null
+  private var isAlarmActive = false
+  @Volatile private var isSoundPlaying = false
 
   override fun onBind(intent: Intent?): IBinder? = null
 
@@ -61,8 +63,10 @@ class AlarmForegroundService : Service() {
       ACTION_START -> {
         val alarmId = intent.getStringExtra("alarm_id") ?: "unknown"
         currentAlarmId = alarmId
-        acquireWakeLock()
+        isAlarmActive = true
+        // CRITICAL: call startForeground FIRST to avoid ANR/crash on Android 12+
         startForegroundNotification(alarmId)
+        acquireWakeLock()
         startAlarmSound()
         startVibration()
         sendAlarmFiredEvent(alarmId)
@@ -72,18 +76,22 @@ class AlarmForegroundService : Service() {
         stopSelf()
       }
       ACTION_PAUSE_SOUND -> {
-        // Pause sound + vibration (for mic/TTS in challenge screen)
+        if (!isAlarmActive) { stopSelf(); return START_NOT_STICKY }
         try {
-          mediaPlayer?.let { if (it.isPlaying) it.pause() }
+          mediaPlayer?.let {
+            if (isSoundPlaying) { it.pause(); isSoundPlaying = false }
+          }
           vibrator?.cancel()
         } catch (e: Exception) {
           Log.e(TAG, "Error pausing alarm", e)
         }
       }
       ACTION_RESUME_SOUND -> {
-        // Resume sound + vibration
+        if (!isAlarmActive) { stopSelf(); return START_NOT_STICKY }
         try {
-          mediaPlayer?.let { if (!it.isPlaying) it.start() }
+          mediaPlayer?.let {
+            if (!isSoundPlaying) { it.start(); isSoundPlaying = true }
+          }
           startVibration()
         } catch (e: Exception) {
           Log.e(TAG, "Error resuming alarm", e)
@@ -179,6 +187,12 @@ class AlarmForegroundService : Service() {
     try {
       val alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
         ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+        ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE)
+
+      if (alarmUri == null) {
+        Log.e(TAG, "No default alarm/notification/ringtone URI found on this device")
+        return
+      }
 
       mediaPlayer = MediaPlayer().apply {
         setAudioAttributes(
@@ -193,6 +207,7 @@ class AlarmForegroundService : Service() {
         prepare()
         start()
       }
+      isSoundPlaying = true
 
       // Gradually increase volume from 0 to 1 over VOLUME_RAMP_DURATION_MS
       startGradualVolumeIncrease()
@@ -262,6 +277,10 @@ class AlarmForegroundService : Service() {
   }
 
   private fun stopAlarm() {
+    if (!isAlarmActive) return
+    isAlarmActive = false
+    isSoundPlaying = false
+
     // Stop volume ramp timer
     volumeTimer?.cancel()
     volumeTimer = null
@@ -269,9 +288,7 @@ class AlarmForegroundService : Service() {
     // Stop and release MediaPlayer
     try {
       mediaPlayer?.let {
-        if (it.isPlaying) {
-          it.stop()
-        }
+        try { it.stop() } catch (_: Exception) {}
         it.release()
       }
     } catch (e: Exception) {

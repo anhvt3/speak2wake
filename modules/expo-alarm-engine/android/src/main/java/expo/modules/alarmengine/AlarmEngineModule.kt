@@ -66,19 +66,27 @@ class AlarmEngineModule : Module() {
     }
 
     Function("pauseAlarmSound") {
-      // Send pause intent to foreground service
-      val intent = Intent(context, AlarmForegroundService::class.java).apply {
-        action = AlarmForegroundService.ACTION_PAUSE_SOUND
+      // Only send pause if service is active (has a current alarm)
+      try {
+        val intent = Intent(context, AlarmForegroundService::class.java).apply {
+          action = AlarmForegroundService.ACTION_PAUSE_SOUND
+        }
+        context.startService(intent)
+      } catch (e: Exception) {
+        // Service not running — safe to ignore
       }
-      context.startService(intent)
     }
 
     Function("resumeAlarmSound") {
-      // Send resume intent to foreground service
-      val intent = Intent(context, AlarmForegroundService::class.java).apply {
-        action = AlarmForegroundService.ACTION_RESUME_SOUND
+      // Only send resume if service is active
+      try {
+        val intent = Intent(context, AlarmForegroundService::class.java).apply {
+          action = AlarmForegroundService.ACTION_RESUME_SOUND
+        }
+        context.startService(intent)
+      } catch (e: Exception) {
+        // Service not running — safe to ignore
       }
-      context.startService(intent)
     }
   }
 
@@ -204,11 +212,8 @@ class AlarmEngineModule : Module() {
       PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
     )
 
-    alarmManager.setExactAndAllowWhileIdle(
-      AlarmManager.RTC_WAKEUP,
-      triggerTime,
-      pendingIntent
-    )
+    // Use the same exact-alarm API-level check as setExactAlarm()
+    setExactAlarm(snoozeId, triggerTime)
   }
 
   private fun dismissAlarmInternal(alarmId: String) {

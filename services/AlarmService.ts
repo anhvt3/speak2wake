@@ -33,6 +33,7 @@ const useNativeAlarm = Platform.OS === 'android' && ExpoAlarmEngine != null;
 class AlarmServiceImpl {
   private listeners: ((alarmId: string) => void)[] = [];
   private nativeSubscription: any = null;
+  private notificationSubscription: any = null;
 
   async initialize(): Promise<void> {
     if (useNativeAlarm) {
@@ -53,12 +54,14 @@ class AlarmServiceImpl {
       console.warn('Notification permissions not granted');
     }
 
-    Notifications.addNotificationResponseReceivedListener((response: any) => {
-      const alarmId = response.notification.request.content.data?.alarmId;
-      if (alarmId) {
-        this.listeners.forEach((cb) => cb(alarmId));
+    this.notificationSubscription = Notifications.addNotificationResponseReceivedListener(
+      (response: any) => {
+        const alarmId = response.notification.request.content.data?.alarmId;
+        if (alarmId) {
+          this.listeners.forEach((cb) => cb(alarmId));
+        }
       }
-    });
+    );
   }
 
   async scheduleAlarm(alarm: Alarm): Promise<void> {
@@ -74,23 +77,44 @@ class AlarmServiceImpl {
       return;
     }
 
-    // Fallback: expo-notifications
+    // Fallback: expo-notifications — schedule per-day for repeating alarms
     if (!Notifications) return;
 
-    await Notifications.scheduleNotificationAsync({
-      content: {
-        title: 'Speak2Wake',
-        body: alarm.label || 'Time to wake up!',
-        data: { alarmId: alarm.id },
-        sound: true,
-      },
-      trigger: {
-        type: 'calendar',
-        hour: alarm.time.hour,
-        minute: alarm.time.minute,
-        repeats: alarm.repeatDays.length > 0,
-      } as any,
-    });
+    if (alarm.repeatDays.length > 0) {
+      // Schedule one notification per repeat day
+      for (const day of alarm.repeatDays) {
+        await Notifications.scheduleNotificationAsync({
+          content: {
+            title: 'Speak2Wake',
+            body: alarm.label || 'Time to wake up!',
+            data: { alarmId: alarm.id },
+            sound: true,
+          },
+          trigger: {
+            type: 'calendar',
+            hour: alarm.time.hour,
+            minute: alarm.time.minute,
+            weekday: (day as number) + 1, // expo uses 1=Sunday, 2=Monday, etc.
+            repeats: true,
+          } as any,
+        });
+      }
+    } else {
+      await Notifications.scheduleNotificationAsync({
+        content: {
+          title: 'Speak2Wake',
+          body: alarm.label || 'Time to wake up!',
+          data: { alarmId: alarm.id },
+          sound: true,
+        },
+        trigger: {
+          type: 'calendar',
+          hour: alarm.time.hour,
+          minute: alarm.time.minute,
+          repeats: false,
+        } as any,
+      });
+    }
   }
 
   async cancelAlarm(alarmId: string): Promise<void> {
@@ -99,7 +123,7 @@ class AlarmServiceImpl {
       return;
     }
 
-    // Fallback: cancel specific notification by identifier
+    // Fallback: cancel specific notifications matching this alarm
     if (!Notifications) return;
     try {
       const scheduled = await Notifications.getAllScheduledNotificationsAsync();
@@ -108,9 +132,8 @@ class AlarmServiceImpl {
           await Notifications.cancelScheduledNotificationAsync(notif.identifier);
         }
       }
-    } catch {
-      // Fallback to cancel all if individual cancel fails
-      await Notifications.cancelAllScheduledNotificationsAsync();
+    } catch (e) {
+      console.warn('Failed to cancel specific notification for alarm', alarmId, e);
     }
   }
 
@@ -143,7 +166,7 @@ class AlarmServiceImpl {
       return;
     }
 
-    // Fallback: dismiss specific notification by identifier
+    // Fallback: dismiss specific notifications matching this alarm
     if (!Notifications) return;
     try {
       const presented = await Notifications.getPresentedNotificationsAsync();
@@ -152,8 +175,8 @@ class AlarmServiceImpl {
           await Notifications.dismissNotificationAsync(notif.request.identifier);
         }
       }
-    } catch {
-      await Notifications.dismissAllNotificationsAsync();
+    } catch (e) {
+      console.warn('Failed to dismiss specific notification for alarm', alarmId, e);
     }
   }
 
@@ -173,7 +196,7 @@ class AlarmServiceImpl {
    */
   async pauseAlarmSound(): Promise<void> {
     if (useNativeAlarm) {
-      ExpoAlarmEngine.pauseAlarmSound();
+      await ExpoAlarmEngine.pauseAlarmSound();
     }
   }
 
@@ -182,7 +205,7 @@ class AlarmServiceImpl {
    */
   async resumeAlarmSound(): Promise<void> {
     if (useNativeAlarm) {
-      ExpoAlarmEngine.resumeAlarmSound();
+      await ExpoAlarmEngine.resumeAlarmSound();
     }
   }
 
@@ -194,12 +217,16 @@ class AlarmServiceImpl {
   }
 
   /**
-   * Clean up native event subscriptions.
+   * Clean up event subscriptions.
    */
   destroy(): void {
     if (this.nativeSubscription) {
       this.nativeSubscription.remove();
       this.nativeSubscription = null;
+    }
+    if (this.notificationSubscription) {
+      this.notificationSubscription.remove();
+      this.notificationSubscription = null;
     }
   }
 }

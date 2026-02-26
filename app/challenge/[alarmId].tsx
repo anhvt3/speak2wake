@@ -33,6 +33,7 @@ export default function ChallengeScreen() {
   const retryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const autoStartTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const isMountedRef = useRef(true);
+  const dismissedRef = useRef(false);
 
   const {
     currentWord,
@@ -154,10 +155,15 @@ export default function ChallengeScreen() {
       clearTimers();
       VoiceService.destroy();
       reset();
+      // Safety: ensure alarm sound is stopped if screen unmounts unexpectedly
+      if (!dismissedRef.current) {
+        AlarmService.dismissAlarm(alarmId!).catch(() => {});
+      }
     };
   }, []);
 
   const handleDismiss = useCallback(async () => {
+    dismissedRef.current = true;
     clearTimers();
     await AlarmService.dismissAlarm(alarmId!);
     reset();
@@ -177,6 +183,15 @@ export default function ChallengeScreen() {
       startMic();
     }
   };
+
+  // Stop voice/timers when entering failsafe mode
+  useEffect(() => {
+    if (failsafeActive) {
+      clearTimers();
+      VoiceService.stopListening().catch(() => {});
+      setListening(false);
+    }
+  }, [failsafeActive, clearTimers]);
 
   if (!currentWord) return null;
 

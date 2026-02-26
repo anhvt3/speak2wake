@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { View, Text, BackHandler } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -21,12 +21,31 @@ export default function AlarmRingScreen() {
   const { alarmId } = useLocalSearchParams<{ alarmId: string }>();
   const getAlarm = useAlarmStore((s) => s.getAlarm);
   const alarm = getAlarm(alarmId!);
+  const dismissedRef = useRef(false);
+
+  // Guard: if alarm not found, dismiss sound and go home
+  useEffect(() => {
+    if (!alarm && !dismissedRef.current) {
+      dismissedRef.current = true;
+      AlarmService.dismissAlarm(alarmId!).catch(() => {});
+      router.replace('/');
+    }
+  }, [alarm, alarmId, router]);
 
   // Prevent back navigation
   useEffect(() => {
     const handler = BackHandler.addEventListener('hardwareBackPress', () => true);
     return () => handler.remove();
   }, []);
+
+  // Safety net: stop alarm sound if screen unmounts unexpectedly
+  useEffect(() => {
+    return () => {
+      if (!dismissedRef.current) {
+        AlarmService.dismissAlarm(alarmId!).catch(() => {});
+      }
+    };
+  }, [alarmId]);
 
   // Pulsing time animation
   const pulse = useSharedValue(1);
@@ -46,13 +65,15 @@ export default function AlarmRingScreen() {
   }));
 
   const handleSnooze = async () => {
+    dismissedRef.current = true;
     if (alarm) {
       await AlarmService.snoozeAlarm(alarm.id, alarm.snoozeDuration);
     }
-    router.back();
+    router.replace('/');
   };
 
   const handleDismiss = () => {
+    dismissedRef.current = true;
     if (alarm?.challengeEnabled) {
       // Navigate to challenge WITHOUT dismissing alarm — sound keeps playing
       router.replace(`/challenge/${alarmId}`);

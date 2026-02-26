@@ -1,16 +1,21 @@
 import * as Speech from 'expo-speech';
 
 export const TTSService = {
-  async speak(text: string, locale: string = 'de-DE'): Promise<void> {
-    await Speech.speak(text, {
-      language: locale,
-      rate: 0.8,
-      pitch: 1.0,
+  speak(text: string, locale: string = 'de-DE'): Promise<void> {
+    return new Promise((resolve, reject) => {
+      Speech.speak(text, {
+        language: locale,
+        rate: 0.8,
+        pitch: 1.0,
+        onDone: () => resolve(),
+        onError: (err) => reject(err),
+        onStopped: () => resolve(),
+      });
     });
   },
 
-  async stop(): Promise<void> {
-    await Speech.stop();
+  stop(): void {
+    Speech.stop();
   },
 
   isSpeaking(): Promise<boolean> {
