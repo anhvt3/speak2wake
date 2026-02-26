@@ -236,6 +236,60 @@ JS receives event → _layout.tsx listener
 
 ## 10. 📝 Changelog
 
+### v0.4.0 (2026-02-26) — Challenge UX Overhaul + Dark Theme
+
+#### 🔴 UX Overhaul — Challenge Screen (`app/challenge/[alarmId].tsx`):
+- ✅ **Auto-start mic** after 2s delay — no more "tap to speak"
+- ✅ **10s timeout auto-retry**: no speech detected → resume alarm → auto-retry after 3s
+- ✅ **Alarm keeps playing** when entering challenge (Ring screen no longer dismisses)
+- ✅ **Alarm pauses** only while mic active or TTS speaking, resumes otherwise
+- ✅ Status text + attempt counter shown at top of screen
+
+#### 🟠 Native Module — Pause/Resume Alarm Sound:
+- ✅ **`AlarmForegroundService.kt`**: Added `ACTION_PAUSE_SOUND` (pause MediaPlayer + cancel vibration) and `ACTION_RESUME_SOUND` (resume both)
+- ✅ **`AlarmEngineModule.kt`**: Added `pauseAlarmSound()` and `resumeAlarmSound()` functions
+- ✅ **`modules/expo-alarm-engine/index.ts`**: Exported new functions
+- ✅ **`services/AlarmService.ts`**: Added `pauseAlarmSound()` / `resumeAlarmSound()` methods
+
+#### 🟠 Alarm Popup Fix:
+- ✅ **`AlarmFullScreenActivity.kt`**: Now launches main React Native activity via `getLaunchIntentForPackage()` before `finish()` — ensures app comes to foreground even when killed
+
+#### 🟡 Dark Theme (readability fix):
+- ✅ All screens: bright orange gradient → dark gradient (`#141018` → `#1E1020` → `#2A1525`)
+- ✅ GlassCard: `bg-white/[0.08]` + `border-[#FF914D]/20` (dark glass effect)
+- ✅ Files: `index.tsx`, `[id].tsx`, `create.tsx`, `settings/index.tsx`, `ring/[alarmId].tsx`, `GlassCard.tsx`
+
+#### 🟡 Component Updates:
+- ✅ **`WordDisplay.tsx`**: Added `onSpeakStart`/`onSpeakEnd` callbacks for alarm pause/resume during TTS
+- ✅ **`MicButton.tsx`**: Label changed "Tap to speak" → "Tap to retry"
+- ✅ **`app/ring/[alarmId].tsx`**: Challenge navigation without dismissing alarm
+
+#### 📦 Build & Git:
+- ✅ `.gitignore`: Added build artifacts, APKs, .gradle, .claude, .vscode
+- ✅ `app.json`: Version 0.4.0
+- ✅ Built `Speak2Wake_v0.4.0.apk` (105.8MB, all architectures)
+- ✅ `android/gradle.properties`: all 4 CPU architectures for emulator testing
+
+#### 📁 Files Modified:
+| File | Change |
+|---|---|
+| `app/challenge/[alarmId].tsx` | Complete rewrite — auto-mic, timeout retry, alarm control |
+| `app/ring/[alarmId].tsx` | Don't dismiss alarm before challenge |
+| `components/challenge/WordDisplay.tsx` | onSpeakStart/onSpeakEnd TTS callbacks |
+| `components/challenge/MicButton.tsx` | Label update |
+| `components/ui/GlassCard.tsx` | Dark glass effect |
+| `app/index.tsx` | Dark gradient background |
+| `app/alarm/[id].tsx` | Dark gradient background |
+| `app/alarm/create.tsx` | Dark gradient background |
+| `app/settings/index.tsx` | Dark gradient background |
+| `modules/.../AlarmEngineModule.kt` | pauseAlarmSound/resumeAlarmSound functions |
+| `modules/.../AlarmForegroundService.kt` | PAUSE/RESUME sound actions |
+| `modules/.../AlarmFullScreenActivity.kt` | Launch main app on alarm fire |
+| `modules/expo-alarm-engine/index.ts` | Export pause/resume |
+| `services/AlarmService.ts` | pauseAlarmSound/resumeAlarmSound methods |
+| `.gitignore` | Exclude build artifacts |
+| `app.json` | Version 0.4.0 |
+
 ### v0.3.0 (2026-02-26) — Critical Bug Fixes & Stability
 
 #### 🔴 Critical Fixes:
