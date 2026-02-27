@@ -11,6 +11,7 @@ export interface Alarm {
   snoozeEnabled: boolean;
   snoozeDuration: number; // minutes
   challengeEnabled: boolean;
+  challengeLevel: number; // 1, 2, or 3
   createdAt: number;
   lastTriggeredAt?: number;
 }

@@ -29,6 +29,7 @@ export default function CreateAlarmScreen() {
   const [snoozeEnabled, setSnoozeEnabled] = useState(true);
   const [snoozeDuration, setSnoozeDuration] = useState(defaultSnooze);
   const [challengeEnabled, setChallengeEnabled] = useState(true);
+  const [challengeLevel, setChallengeLevel] = useState(1);
   const [vibrationEnabled, setVibrationEnabled] = useState(true);
 
   const toggleDay = (day: DayOfWeek) => {
@@ -56,6 +57,7 @@ export default function CreateAlarmScreen() {
       snoozeEnabled,
       snoozeDuration,
       challengeEnabled,
+      challengeLevel,
     });
 
     // Schedule with native AlarmManager
@@ -145,11 +147,10 @@ export default function CreateAlarmScreen() {
                 <Pressable
                   key={sound.id}
                   onPress={() => setSoundId(sound.id)}
-                  className={`px-4 py-2 rounded-pill ${
-                    soundId === sound.id
+                  className={`px-4 py-2 rounded-pill ${soundId === sound.id
                       ? 'bg-[#FF914D]'
                       : 'bg-white/10'
-                  }`}
+                    }`}
                 >
                   <Text className="text-white font-jost-regular text-sm">
                     {sound.name}
@@ -176,9 +177,8 @@ export default function CreateAlarmScreen() {
                   <Pressable
                     key={mins}
                     onPress={() => setSnoozeDuration(mins)}
-                    className={`px-4 py-2 rounded-pill ${
-                      snoozeDuration === mins ? 'bg-[#FF914D]' : 'bg-white/10'
-                    }`}
+                    className={`px-4 py-2 rounded-pill ${snoozeDuration === mins ? 'bg-[#FF914D]' : 'bg-white/10'
+                      }`}
                   >
                     <Text className="text-white font-jost-regular text-sm">
                       {mins}m
@@ -196,6 +196,26 @@ export default function CreateAlarmScreen() {
                 onToggle={() => setChallengeEnabled(!challengeEnabled)}
               />
             </View>
+            {challengeEnabled && (
+              <View className="flex-row flex-wrap gap-2 mb-4">
+                {[
+                  { value: 1, label: 'L1 (Word)' },
+                  { value: 2, label: 'L2 (Question)' },
+                  { value: 3, label: 'L3 (Sentence)' },
+                ].map((lvl) => (
+                  <Pressable
+                    key={lvl.value}
+                    onPress={() => setChallengeLevel(lvl.value)}
+                    className={`px-4 py-2 rounded-pill ${challengeLevel === lvl.value ? 'bg-[#FF914D]' : 'bg-white/10'
+                      }`}
+                  >
+                    <Text className="text-white font-jost-regular text-sm">
+                      {lvl.label}
+                    </Text>
+                  </Pressable>
+                ))}
+              </View>
+            )}
             <View className="flex-row items-center justify-between">
               <Text className="text-white font-jost-regular text-base">
                 Vibration

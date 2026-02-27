@@ -1,9 +1,9 @@
 import { create } from 'zustand';
-import type { VocabWord, ScoringResult, ChallengeState } from '../types/challenge';
+import type { ChallengeItem, ScoringResult, ChallengeState } from '../types/challenge';
 import { MAX_VOICE_ATTEMPTS } from '../constants';
 
 interface ChallengeStoreState extends ChallengeState {
-  startChallenge: (word: VocabWord) => void;
+  startChallenge: (item: ChallengeItem) => void;
   recordAttempt: (result: ScoringResult) => void;
   setListening: (listening: boolean) => void;
   setPartialText: (text: string) => void;
@@ -12,7 +12,7 @@ interface ChallengeStoreState extends ChallengeState {
 }
 
 export const useChallengeStore = create<ChallengeStoreState>()((set, get) => ({
-  currentWord: null,
+  currentItem: null,
   attempts: 0,
   maxAttempts: MAX_VOICE_ATTEMPTS,
   lastResult: null,
@@ -20,9 +20,9 @@ export const useChallengeStore = create<ChallengeStoreState>()((set, get) => ({
   partialText: '',
   failsafeActive: false,
 
-  startChallenge: (word) => {
+  startChallenge: (item) => {
     set({
-      currentWord: word,
+      currentItem: item,
       attempts: 0,
       lastResult: null,
       isListening: false,
@@ -55,7 +55,7 @@ export const useChallengeStore = create<ChallengeStoreState>()((set, get) => ({
 
   reset: () => {
     set({
-      currentWord: null,
+      currentItem: null,
       attempts: 0,
       lastResult: null,
       isListening: false,

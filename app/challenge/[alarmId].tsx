@@ -13,6 +13,7 @@ import { VocabularyService } from '../../services/VocabularyService';
 import { VoiceService } from '../../services/VoiceService';
 import { ScoringService } from '../../services/ScoringService';
 import { AlarmService } from '../../services/AlarmService';
+import { useAlarmStore } from '../../stores/alarmStore';
 
 /**
  * Challenge Screen UX Flow:
@@ -36,7 +37,7 @@ export default function ChallengeScreen() {
   const dismissedRef = useRef(false);
 
   const {
-    currentWord,
+    currentItem,
     attempts,
     maxAttempts,
     lastResult,
@@ -74,7 +75,7 @@ export default function ChallengeScreen() {
     const store = useChallengeStore.getState();
     if (store.failsafeActive) return;
 
-    setStatusText('Listening... say the word');
+    setStatusText('Listening... speak now');
     setListening(true);
 
     // Pause alarm sound while user speaks
@@ -101,15 +102,17 @@ export default function ChallengeScreen() {
   // Initialize challenge
   useEffect(() => {
     isMountedRef.current = true;
-    const word = VocabularyService.getRandomWord();
-    startChallenge(word);
+    const alarm = useAlarmStore.getState().getAlarm(alarmId!);
+    const level = alarm?.challengeLevel || 1;
+    const item = VocabularyService.getRandomItem(undefined, level);
+    startChallenge(item);
 
     // Voice result handler
     VoiceService.onResult((text, confidence) => {
       setListening(false);
       const store = useChallengeStore.getState();
-      if (store.currentWord) {
-        const result = ScoringService.evaluate(store.currentWord.bare, text, confidence);
+      if (store.currentItem) {
+        const result = ScoringService.evaluate(store.currentItem, text, confidence);
         recordAttempt(result);
         if (result.passed) {
           setStatusText('✓ Correct! Dismissing alarm...');
@@ -193,7 +196,7 @@ export default function ChallengeScreen() {
     }
   }, [failsafeActive, clearTimers]);
 
-  if (!currentWord) return null;
+  if (!currentItem) return null;
 
   if (failsafeActive) {
     return (
@@ -202,7 +205,7 @@ export default function ChallengeScreen() {
         className="flex-1"
       >
         <SafeAreaView className="flex-1">
-          <FailsafeModal word={currentWord} onDismiss={handleDismiss} />
+          <FailsafeModal item={currentItem} onDismiss={handleDismiss} />
         </SafeAreaView>
       </LinearGradient>
     );
@@ -225,7 +228,7 @@ export default function ChallengeScreen() {
 
         {/* Word */}
         <WordDisplay
-          word={currentWord}
+          item={currentItem}
           onSpeakStart={async () => {
             // Stop mic and pause alarm while TTS speaks the word
             clearTimers();

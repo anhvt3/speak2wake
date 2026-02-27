@@ -6048,5 +6048,232 @@
     "phonetic": "hairts-likh-en glewk-voonsh",
     "category": "greetings",
     "difficulty": "sentence"
+  },
+  {
+    "id": "de-L2-001",
+    "level": 2,
+    "category": "greetings",
+    "translation": "What is your name?",
+    "question": "Wie heißt du?",
+    "keywords": [
+      "heiße",
+      "Namen",
+      "bin"
+    ],
+    "hint": "Ich heiße..."
+  },
+  {
+    "id": "de-L2-002",
+    "level": 2,
+    "category": "personal",
+    "translation": "Where do you come from?",
+    "question": "Woher kommst du?",
+    "keywords": [
+      "komme",
+      "aus",
+      "Vietnam",
+      "Deutschland"
+    ],
+    "hint": "Ich komme aus..."
+  },
+  {
+    "id": "de-L2-003",
+    "level": 2,
+    "category": "food",
+    "translation": "What is your favorite drink?",
+    "question": "Was trinkst du gern?",
+    "keywords": [
+      "trinke",
+      "Kaffee",
+      "Tee",
+      "Wasser",
+      "Milch",
+      "gern"
+    ],
+    "hint": "Ich trinke gern..."
+  },
+  {
+    "id": "de-L2-004",
+    "level": 2,
+    "category": "food",
+    "translation": "What is your favorite food?",
+    "question": "Was isst du gern?",
+    "keywords": [
+      "esse",
+      "Brot",
+      "Käse",
+      "Apfel",
+      "gern"
+    ],
+    "hint": "Ich esse gern..."
+  },
+  {
+    "id": "de-L2-005",
+    "level": 2,
+    "category": "activities",
+    "translation": "What do you do in your free time?",
+    "question": "Was machst du in deiner Freizeit?",
+    "keywords": [
+      "Freizeit",
+      "Sport",
+      "lese",
+      "Musik",
+      "spiele"
+    ],
+    "hint": "Ich spiele..."
+  },
+  {
+    "id": "de-L2-006",
+    "level": 2,
+    "category": "time",
+    "translation": "What time is it?",
+    "question": "Wie spät ist es?",
+    "keywords": [
+      "Uhr",
+      "Viertel",
+      "halb",
+      "ist"
+    ],
+    "hint": "Es ist ... Uhr"
+  },
+  {
+    "id": "de-L2-007",
+    "level": 2,
+    "category": "weather",
+    "translation": "How is the weather?",
+    "question": "Wie ist das Wetter?",
+    "keywords": [
+      "schön",
+      "schlecht",
+      "regnet",
+      "Sonne",
+      "warm",
+      "kalt"
+    ],
+    "hint": "Das Wetter ist..."
+  },
+  {
+    "id": "de-L2-008",
+    "level": 2,
+    "category": "home",
+    "translation": "Where do you live?",
+    "question": "Wo wohnst du?",
+    "keywords": [
+      "wohne",
+      "in",
+      "Stadt",
+      "Haus"
+    ],
+    "hint": "Ich wohne in..."
+  },
+  {
+    "id": "de-L2-009",
+    "level": 2,
+    "category": "family",
+    "translation": "Do you have siblings?",
+    "question": "Hast du Geschwister?",
+    "keywords": [
+      "habe",
+      "Bruder",
+      "Schwester",
+      "keine",
+      "Ja",
+      "Nein"
+    ],
+    "hint": "Ja, ich habe..."
+  },
+  {
+    "id": "de-L2-010",
+    "level": 2,
+    "category": "languages",
+    "translation": "Do you speak English?",
+    "question": "Sprichst du Englisch?",
+    "keywords": [
+      "spreche",
+      "Ja",
+      "Nein",
+      "bisschen"
+    ],
+    "hint": "Ja, ich spreche..."
+  },
+  {
+    "id": "de-L3-001",
+    "level": 3,
+    "category": "food",
+    "translation": "I drink coffee with milk.",
+    "targetText": "Ich trinke Kaffee mit Milch",
+    "hint": "Ich trinke ..."
+  },
+  {
+    "id": "de-L3-002",
+    "level": 3,
+    "category": "personal",
+    "translation": "I am learning German.",
+    "targetText": "Ich lerne Deutsch",
+    "hint": "Ich lerne ..."
+  },
+  {
+    "id": "de-L3-003",
+    "level": 3,
+    "category": "home",
+    "translation": "My house is big and beautiful.",
+    "targetText": "Mein Haus ist groß und schön",
+    "hint": "Mein Haus ist ..."
+  },
+  {
+    "id": "de-L3-004",
+    "level": 3,
+    "category": "travel",
+    "translation": "I am traveling to Berlin tomorrow.",
+    "targetText": "Ich reise morgen nach Berlin",
+    "hint": "Ich reise morgen ..."
+  },
+  {
+    "id": "de-L3-005",
+    "level": 3,
+    "category": "activities",
+    "translation": "I like to read books.",
+    "targetText": "Ich lese gern Bücher",
+    "hint": "Ich lese gern ..."
+  },
+  {
+    "id": "de-L3-006",
+    "level": 3,
+    "category": "family",
+    "translation": "My brother lives in Germany.",
+    "targetText": "Mein Bruder wohnt in Deutschland",
+    "hint": "Mein Bruder wohnt ..."
+  },
+  {
+    "id": "de-L3-007",
+    "level": 3,
+    "category": "food",
+    "translation": "The apple is red and sweet.",
+    "targetText": "Der Apfel ist rot und süß",
+    "hint": "Der Apfel ist ..."
+  },
+  {
+    "id": "de-L3-008",
+    "level": 3,
+    "category": "weather",
+    "translation": "The weather is very nice today.",
+    "targetText": "Das Wetter ist heute sehr schön",
+    "hint": "Das Wetter ist heute ..."
+  },
+  {
+    "id": "de-L3-009",
+    "level": 3,
+    "category": "daily",
+    "translation": "I have to work today.",
+    "targetText": "Ich muss heute arbeiten",
+    "hint": "Ich muss heute ..."
+  },
+  {
+    "id": "de-L3-010",
+    "level": 3,
+    "category": "questions",
+    "translation": "Where is the train station?",
+    "targetText": "Wo ist der Bahnhof",
+    "hint": "Wo ist ..."
   }
 ]

@@ -2,7 +2,7 @@ import { levenshteinScore } from './levenshtein';
 import { phoneticScore } from './phonetic';
 import { normalize } from './normalizer';
 import { SCORING_WEIGHTS, DYNAMIC_THRESHOLDS } from '../constants';
-import type { ScoringResult } from '../types/challenge';
+import { ChallengeLevel, getEffectiveLevel, type ScoringResult, type ChallengeItem } from '../types/challenge';
 
 /**
  * Get dynamic threshold based on word length.
@@ -23,16 +23,65 @@ export function getDynamicThreshold(wordLength: number): number {
  * Combines Levenshtein, phonetic, and STT confidence scores.
  */
 export function evaluateChallenge(
-  expected: string,
+  item: ChallengeItem,
   spoken: string,
   sttConfidence: number
 ): ScoringResult {
-  const normalizedExpected = normalize(expected);
   const normalizedSpoken = normalize(spoken);
+  const clampedConfidence = Math.max(0, Math.min(1, sttConfidence));
+  const level = getEffectiveLevel(item);
+
+  if (level === ChallengeLevel.SHORT_ANSWER) {
+    const keywords = item.keywords || [];
+    let passed = false;
+    for (const kw of keywords) {
+      if (normalizedSpoken.includes(normalize(kw))) {
+        passed = true;
+        break;
+      }
+    }
+    return {
+      levenshteinScore: passed ? 1 : 0,
+      phoneticScore: passed ? 1 : 0,
+      confidenceScore: clampedConfidence,
+      combinedScore: passed ? 1 : 0,
+      threshold: 0.8,
+      passed,
+      feedback: passed ? 'Correct keyword detected!' : 'Try again. Missing key information.',
+    };
+  }
+
+  if (level === ChallengeLevel.SENTENCE) {
+    const expected = item.targetText || item.translation;
+    const normalizedExpected = normalize(expected);
+    const levScore = levenshteinScore(normalizedExpected, normalizedSpoken);
+
+    // For sentences, rely more heavily on Levenshtein and slightly less on phonetic nuances
+    const phonScore = phoneticScore(normalizedExpected, normalizedSpoken);
+    const combinedScore = (levScore * 0.6) + (phonScore * 0.2) + (clampedConfidence * 0.2);
+
+    // Sentences are inherently harder, use a slightly more lenient threshold logic
+    const baseThreshold = getDynamicThreshold(normalizedExpected.length);
+    const threshold = Math.max(0.6, baseThreshold - 0.05);
+    const passed = combinedScore >= threshold;
+
+    return {
+      levenshteinScore: levScore,
+      phoneticScore: phonScore,
+      confidenceScore: clampedConfidence,
+      combinedScore,
+      threshold,
+      passed,
+      feedback: passed ? 'Excellent sentence!' : 'Not quite right. Try again.',
+    };
+  }
+
+  // Fallback to Level 1 (Word recognition)
+  const expected = item.bare || item.word || '';
+  const normalizedExpected = normalize(expected);
 
   const levScore = levenshteinScore(normalizedExpected, normalizedSpoken);
   const phonScore = phoneticScore(normalizedExpected, normalizedSpoken);
-  const clampedConfidence = Math.max(0, Math.min(1, sttConfidence));
 
   const combinedScore =
     levScore * SCORING_WEIGHTS.LEVENSHTEIN +

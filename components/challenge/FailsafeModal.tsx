@@ -3,21 +3,28 @@ import { View, Text, TextInput, Pressable } from 'react-native';
 import { GlassCard } from '../ui/GlassCard';
 import { GradientButton } from '../ui/GradientButton';
 import { generateMathProblem, checkTextFailsafe } from '../../engine/failsafe';
-import type { VocabWord, MathProblem } from '../../types/challenge';
+import { ChallengeLevel, getEffectiveLevel, type ChallengeItem, type MathProblem } from '../../types/challenge';
 
 interface FailsafeModalProps {
-  word: VocabWord;
+  item: ChallengeItem;
   onDismiss: () => void;
 }
 
-export function FailsafeModal({ word, onDismiss }: FailsafeModalProps) {
+export function FailsafeModal({ item, onDismiss }: FailsafeModalProps) {
   const [mode, setMode] = useState<'choose' | 'text' | 'math'>('choose');
   const [input, setInput] = useState('');
   const [error, setError] = useState('');
   const [mathProblem] = useState<MathProblem>(() => generateMathProblem());
+  const level = getEffectiveLevel(item);
+
+  // Determine the expected text for the typing failsafe
+  const expectedText = level === ChallengeLevel.SHORT_ANSWER ? (item.keywords?.[0] || '')
+    : level === ChallengeLevel.SENTENCE ? (item.targetText || '')
+      : (item.bare || '');
 
   const handleTextSubmit = () => {
-    if (checkTextFailsafe(word.bare, input)) {
+
+    if (checkTextFailsafe(expectedText, input)) {
       onDismiss();
     } else {
       setError('Incorrect. Try again.');
@@ -45,7 +52,7 @@ export function FailsafeModal({ word, onDismiss }: FailsafeModalProps) {
             Choose an alternative way to dismiss:
           </Text>
           <GradientButton
-            label={`Type "${word.bare}"`}
+            label={`Type: "${expectedText}"`}
             onPress={() => { setMode('text'); setError(''); setInput(''); }}
             className="mb-3 w-full"
           />
@@ -64,7 +71,7 @@ export function FailsafeModal({ word, onDismiss }: FailsafeModalProps) {
     <View className="flex-1 justify-center px-5">
       <GlassCard>
         <Text className="text-white font-jost-semibold text-xl mb-4 text-center">
-          {mode === 'text' ? `Type: "${word.bare}"` : mathProblem.question}
+          {mode === 'text' ? `Type: "${expectedText}"` : mathProblem.question}
         </Text>
 
         <TextInput

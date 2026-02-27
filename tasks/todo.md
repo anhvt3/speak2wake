@@ -1,4 +1,4 @@
-# Speak2Wake — v0.4.1 Task Tracker
+# Speak2Wake — Task Tracker v0.5.0 Task Tracker
 
 ## ✅ Done
 - Expo + TypeScript + expo-router (6 screens)
@@ -13,11 +13,15 @@
 - 550 German A1-A2 words JSON
 - Dark theme (was bright orange → unreadable)
 - HTML preview on Vercel
+- Test alarm on REAL device (Samsung/Xiaomi) — emulator can't test mic/TTS/popup
 
-## 🔴 TODO — P0 (must fix)
-- [ ] Test alarm on REAL device (Samsung/Xiaomi) — emulator can't test mic/TTS/popup
-- [x] Verify alarm fires when app is killed (native AlarmReceiver + ForegroundService implemented)
-- [x] Verify alarm survives device reboot (BootReceiver + SharedPreferences persistence)
+## 🟡 Phase 2: Next Steps (In Progress)
+- [x] Upgrade Data Structure (`types/challenge.ts` & JSON) to support L1, L2, L3
+- [x] Upgrade Scoring Engine (`engine/scoring.ts`) for Keyword (L2) & Sentence (L3)
+- [x] Update Challenge UI (`WordDisplay.tsx`) for Questions & Hints
+- [x] Update Alarm Settings UI to select Challenge Difficulty
+- [x] Write Unit Tests for new Scoring logic
+
 
 ## 🟠 TODO — P1 (should fix)
 - [x] Unit tests for scoring engine (≥80% coverage) — 90.56% achieved
