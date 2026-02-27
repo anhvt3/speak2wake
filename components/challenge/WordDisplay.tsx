@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { View, Text, Pressable } from 'react-native';
 import { GlassCard } from '../ui/GlassCard';
 import { TTSService } from '../../services/TTSService';
@@ -12,7 +12,27 @@ interface WordDisplayProps {
 
 export function WordDisplay({ item, onSpeakStart, onSpeakEnd }: WordDisplayProps) {
   const level = getEffectiveLevel(item);
+  const checkDoneRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const safetyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const speakingRef = useRef(false);
+
+  // Cleanup timers on unmount
+  useEffect(() => {
+    return () => {
+      if (checkDoneRef.current) clearInterval(checkDoneRef.current);
+      if (safetyTimeoutRef.current) clearTimeout(safetyTimeoutRef.current);
+    };
+  }, []);
+
   const handleSpeak = async () => {
+    // Prevent overlapping speak operations
+    if (speakingRef.current) return;
+    speakingRef.current = true;
+
+    // Clear any leftover timers from previous call
+    if (checkDoneRef.current) clearInterval(checkDoneRef.current);
+    if (safetyTimeoutRef.current) clearTimeout(safetyTimeoutRef.current);
+
     onSpeakStart?.();
     try {
       const textToSpeak = level === ChallengeLevel.SENTENCE ? (item.targetText || item.translation) : (item.word || item.bare || '');
@@ -25,15 +45,16 @@ export function WordDisplay({ item, onSpeakStart, onSpeakEnd }: WordDisplayProps
     const finish = () => {
       if (ended) return;
       ended = true;
-      clearInterval(checkDone);
-      clearTimeout(safetyTimeout);
+      speakingRef.current = false;
+      if (checkDoneRef.current) { clearInterval(checkDoneRef.current); checkDoneRef.current = null; }
+      if (safetyTimeoutRef.current) { clearTimeout(safetyTimeoutRef.current); safetyTimeoutRef.current = null; }
       onSpeakEnd?.();
     };
-    const checkDone = setInterval(async () => {
+    checkDoneRef.current = setInterval(async () => {
       const speaking = await TTSService.isSpeaking();
       if (!speaking) finish();
     }, 300);
-    const safetyTimeout = setTimeout(finish, 5000);
+    safetyTimeoutRef.current = setTimeout(finish, 5000);
   };
 
   return (

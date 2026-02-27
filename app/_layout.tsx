@@ -31,6 +31,8 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
+    let onboardingTimer: ReturnType<typeof setTimeout> | null = null;
+
     async function init() {
       try {
         await StorageService.initialize();
@@ -41,7 +43,7 @@ export default function RootLayout() {
         const hasOnboarded = await AsyncStorage.getItem('@speak2wake/has_onboarded');
         if (!hasOnboarded) {
           // Delay to ensure layout is mounted before navigating
-          setTimeout(() => router.replace('/onboarding'), 100);
+          onboardingTimer = setTimeout(() => router.replace('/onboarding'), 100);
         }
       } catch (e) {
         console.warn('Init error:', e);
@@ -57,6 +59,7 @@ export default function RootLayout() {
     });
 
     return () => {
+      if (onboardingTimer) clearTimeout(onboardingTimer);
       unsubscribe();
       AlarmService.destroy();
     };

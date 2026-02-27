@@ -23,6 +23,9 @@ export const VocabularyService = {
     }
 
     const pool = filtered.length > 0 ? filtered : vocab;
+    if (pool.length === 0) {
+      throw new Error('VocabularyService: no vocabulary items available');
+    }
     return pool[Math.floor(Math.random() * pool.length)];
   },
 

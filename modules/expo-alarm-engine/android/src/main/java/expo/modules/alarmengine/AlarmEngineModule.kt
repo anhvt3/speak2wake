@@ -7,9 +7,11 @@ import android.content.Intent
 import android.os.Build
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
+import android.util.Log
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.Calendar
+import java.util.zip.CRC32
 
 class AlarmEngineModule : Module() {
 
@@ -23,6 +25,13 @@ class AlarmEngineModule : Module() {
 
     fun sendEventToJS(alarmId: String) {
       instance?.sendEvent(EVENT_ALARM_FIRED, mapOf("alarmId" to alarmId))
+    }
+
+    /** Stable request code from string — avoids hashCode() collision across JVM runs */
+    fun stableRequestCode(id: String): Int {
+      val crc = CRC32()
+      crc.update(id.toByteArray())
+      return crc.value.toInt() and 0x7FFFFFFF // ensure positive
     }
   }
 
@@ -122,7 +131,7 @@ class AlarmEngineModule : Module() {
       putExtra("composite_id", alarmId)
     }
 
-    val requestCode = alarmId.hashCode()
+    val requestCode = stableRequestCode(alarmId)
     val pendingIntent = PendingIntent.getBroadcast(
       context,
       requestCode,
@@ -130,23 +139,32 @@ class AlarmEngineModule : Module() {
       PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
     )
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-      if (alarmManager.canScheduleExactAlarms()) {
+    try {
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+        if (alarmManager.canScheduleExactAlarms()) {
+          alarmManager.setExactAndAllowWhileIdle(
+            AlarmManager.RTC_WAKEUP,
+            triggerTimeMillis,
+            pendingIntent
+          )
+        } else {
+          // Fallback: setAndAllowWhileIdle (inexact but still works)
+          alarmManager.setAndAllowWhileIdle(
+            AlarmManager.RTC_WAKEUP,
+            triggerTimeMillis,
+            pendingIntent
+          )
+        }
+      } else {
         alarmManager.setExactAndAllowWhileIdle(
           AlarmManager.RTC_WAKEUP,
           triggerTimeMillis,
           pendingIntent
         )
-      } else {
-        // Fallback: setAndAllowWhileIdle (inexact but still works)
-        alarmManager.setAndAllowWhileIdle(
-          AlarmManager.RTC_WAKEUP,
-          triggerTimeMillis,
-          pendingIntent
-        )
       }
-    } else {
-      alarmManager.setExactAndAllowWhileIdle(
+    } catch (e: SecurityException) {
+      Log.e("AlarmEngineModule", "Exact alarm permission revoked, falling back to inexact", e)
+      alarmManager.setAndAllowWhileIdle(
         AlarmManager.RTC_WAKEUP,
         triggerTimeMillis,
         pendingIntent
@@ -178,7 +196,7 @@ class AlarmEngineModule : Module() {
     val intent = Intent(context, AlarmReceiver::class.java).apply {
       action = "expo.modules.alarmengine.ALARM_TRIGGERED"
     }
-    val requestCode = alarmId.hashCode()
+    val requestCode = stableRequestCode(alarmId)
     val pendingIntent = PendingIntent.getBroadcast(
       context,
       requestCode,
@@ -193,26 +211,9 @@ class AlarmEngineModule : Module() {
     // First dismiss the current alarm
     dismissAlarmInternal(alarmId)
 
-    // Schedule a new alarm X minutes from now
+    // Schedule a new alarm X minutes from now via setExactAlarm
     val triggerTime = System.currentTimeMillis() + (minutes * 60 * 1000L)
     val snoozeId = "${alarmId}_snooze"
-
-    val intent = Intent(context, AlarmReceiver::class.java).apply {
-      action = "expo.modules.alarmengine.ALARM_TRIGGERED"
-      putExtra("alarm_id", alarmId)
-      putExtra("composite_id", snoozeId)
-      putExtra("is_snooze", true)
-    }
-
-    val requestCode = snoozeId.hashCode()
-    val pendingIntent = PendingIntent.getBroadcast(
-      context,
-      requestCode,
-      intent,
-      PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-    )
-
-    // Use the same exact-alarm API-level check as setExactAlarm()
     setExactAlarm(snoozeId, triggerTime)
   }
 

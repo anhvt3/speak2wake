@@ -7,11 +7,15 @@ export function getCountdownText(targetHour: number, targetMinute: number): stri
   const target = new Date();
   target.setHours(targetHour, targetMinute, 0, 0);
 
-  if (target <= now) {
+  if (target.getTime() <= now.getTime()) {
     target.setDate(target.getDate() + 1);
   }
 
+  // Use actual ms diff — automatically handles DST transitions
+  // because Date.getTime() is always UTC-based
   const diffMs = target.getTime() - now.getTime();
+  if (diffMs <= 0) return '0m';
+
   const hours = Math.floor(diffMs / (1000 * 60 * 60));
   const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
 

@@ -73,6 +73,7 @@ export default function EditAlarmScreen() {
       }
     } catch (e) {
       console.warn('Failed to reschedule native alarm:', e);
+      Alert.alert('Warning', 'Changes saved but native scheduling failed. Alarm may not ring reliably.');
     }
 
     router.back();

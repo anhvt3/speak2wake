@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, ScrollView, Pressable, TextInput } from 'react-native';
+import { View, Text, ScrollView, Pressable, TextInput, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 import { LinearGradient } from 'expo-linear-gradient';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -65,6 +65,7 @@ export default function CreateAlarmScreen() {
       await AlarmService.scheduleAlarm(alarm);
     } catch (e) {
       console.warn('Failed to schedule native alarm:', e);
+      Alert.alert('Warning', 'Alarm saved but native scheduling failed. It may not ring reliably.');
     }
 
     router.back();

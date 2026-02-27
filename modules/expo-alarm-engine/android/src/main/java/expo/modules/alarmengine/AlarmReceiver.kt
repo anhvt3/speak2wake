@@ -34,11 +34,21 @@ class AlarmReceiver : BroadcastReceiver() {
     wakeLock.acquire(WAKELOCK_TIMEOUT)
 
     try {
+      // Read label from prefs here (receiver runs off main thread) to avoid
+      // blocking the main thread in the foreground service
+      val label = try {
+        val prefs = context.getSharedPreferences(AlarmEngineModule.PREFS_NAME, Context.MODE_PRIVATE)
+        val alarmsJson = prefs.getString(AlarmEngineModule.ALARMS_KEY, "{}") ?: "{}"
+        val alarms = org.json.JSONObject(alarmsJson)
+        if (alarms.has(alarmId)) alarms.getJSONObject(alarmId).optString("label", "Alarm") else "Alarm"
+      } catch (_: Exception) { "Alarm" }
+
       // Start the foreground service to play alarm sound and show notification
       val serviceIntent = Intent(context, AlarmForegroundService::class.java).apply {
         action = AlarmForegroundService.ACTION_START
         putExtra("alarm_id", alarmId)
         putExtra("is_snooze", isSnooze)
+        putExtra("alarm_label", label)
       }
 
       if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

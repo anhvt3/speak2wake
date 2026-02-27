@@ -41,6 +41,10 @@ export const useSettingsStore = create<SettingsState>()(
     {
       name: '@speak2wake/settings',
       storage: createJSONStorage(() => AsyncStorage),
+      merge: (persisted, current) => ({
+        ...current,
+        ...(persisted as Partial<SettingsState>),
+      }),
     }
   )
 );

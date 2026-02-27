@@ -99,6 +99,22 @@ export default function ChallengeScreen() {
     }, delayMs);
   }, [startMic, clearTimers]);
 
+  const handleDismiss = useCallback(async () => {
+    dismissedRef.current = true;
+    clearTimers();
+    await AlarmService.dismissAlarm(alarmId!);
+    reset();
+    router.replace('/');
+  }, [alarmId, clearTimers, reset, router]);
+
+  // Use refs to keep latest callback references for VoiceService (avoids stale closures)
+  const handleDismissRef = useRef(handleDismiss);
+  const resumeAlarmRef = useRef(resumeAlarm);
+  const scheduleRetryRef = useRef(scheduleRetry);
+  handleDismissRef.current = handleDismiss;
+  resumeAlarmRef.current = resumeAlarm;
+  scheduleRetryRef.current = scheduleRetry;
+
   // Initialize challenge
   useEffect(() => {
     isMountedRef.current = true;
@@ -107,7 +123,7 @@ export default function ChallengeScreen() {
     const item = VocabularyService.getRandomItem(undefined, level);
     startChallenge(item);
 
-    // Voice result handler
+    // Voice result handler — uses refs to always call latest callbacks
     VoiceService.onResult((text, confidence) => {
       setListening(false);
       const store = useChallengeStore.getState();
@@ -116,12 +132,12 @@ export default function ChallengeScreen() {
         recordAttempt(result);
         if (result.passed) {
           setStatusText('✓ Correct! Dismissing alarm...');
-          handleDismiss();
+          handleDismissRef.current();
         } else {
           setStatusText(`✗ Try again (${store.attempts + 1}/${store.maxAttempts})`);
           // Resume alarm sound, then auto-retry after 3s feedback time
-          resumeAlarm();
-          scheduleRetry(3000);
+          resumeAlarmRef.current();
+          scheduleRetryRef.current(3000);
         }
       }
     });
@@ -143,8 +159,8 @@ export default function ChallengeScreen() {
         setStatusText('Mic error. Retrying...');
       }
       // Resume alarm sound, auto-retry after 3s
-      resumeAlarm();
-      scheduleRetry(3000);
+      resumeAlarmRef.current();
+      scheduleRetryRef.current(3000);
     });
 
     // Auto-start mic after 2s (give user time to see the word)
@@ -164,14 +180,6 @@ export default function ChallengeScreen() {
       }
     };
   }, []);
-
-  const handleDismiss = useCallback(async () => {
-    dismissedRef.current = true;
-    clearTimers();
-    await AlarmService.dismissAlarm(alarmId!);
-    reset();
-    router.replace('/');
-  }, [alarmId, clearTimers]);
 
   // Manual mic toggle (user can still tap to restart manually)
   const handleMicPress = async () => {
@@ -219,12 +227,7 @@ export default function ChallengeScreen() {
     >
       <SafeAreaView className="flex-1">
         {/* Header */}
-        <View className="items-center mt-4 mb-2">
-          {/* We moved statusText to the MicButton, but keep the space or you can leave it here as well. 
-              Let's hide it here if we pass it down to avoid duplication, OR we keep it here and don't pass it to MicButton.
-              Wait, the bug report says "Label dưới nút Record vẫn hiển thị chữ Listening...".
-              Ah, that MEANS we don't need statusText up here anymore, or we just keep it in one place. Let's hide the top one to clean up UI! */}
-        </View>
+        <View className="items-center mt-4 mb-2" />
 
         {/* Word */}
         <WordDisplay

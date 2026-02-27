@@ -1,25 +1,34 @@
 /**
- * Calculate Levenshtein distance between two strings
+ * Calculate Levenshtein distance between two strings.
+ * Uses O(min(m,n)) space with single-row DP instead of full 2D matrix.
  */
 export function levenshteinDistance(a: string, b: string): number {
-  const m = a.length;
-  const n = b.length;
-  const dp: number[][] = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
-
-  for (let i = 0; i <= m; i++) dp[i][0] = i;
-  for (let j = 0; j <= n; j++) dp[0][j] = j;
-
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      if (a[i - 1] === b[j - 1]) {
-        dp[i][j] = dp[i - 1][j - 1];
-      } else {
-        dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
-      }
-    }
+  // Ensure a is the shorter string to minimize space usage
+  if (a.length > b.length) {
+    [a, b] = [b, a];
   }
 
-  return dp[m][n];
+  const m = a.length;
+  const n = b.length;
+
+  // Previous row of distances
+  let prev = new Array(m + 1);
+  for (let i = 0; i <= m; i++) prev[i] = i;
+
+  for (let j = 1; j <= n; j++) {
+    const curr = new Array(m + 1);
+    curr[0] = j;
+    for (let i = 1; i <= m; i++) {
+      if (a[i - 1] === b[j - 1]) {
+        curr[i] = prev[i - 1];
+      } else {
+        curr[i] = 1 + Math.min(prev[i], curr[i - 1], prev[i - 1]);
+      }
+    }
+    prev = curr;
+  }
+
+  return prev[m];
 }
 
 /**

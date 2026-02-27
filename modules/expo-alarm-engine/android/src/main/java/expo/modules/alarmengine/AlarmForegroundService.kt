@@ -49,7 +49,7 @@ class AlarmForegroundService : Service() {
   private var wakeLock: PowerManager.WakeLock? = null
   private var volumeTimer: Timer? = null
   private var currentAlarmId: String? = null
-  private var isAlarmActive = false
+  @Volatile private var isAlarmActive = false
   @Volatile private var isSoundPlaying = false
 
   override fun onBind(intent: Intent?): IBinder? = null
@@ -63,10 +63,11 @@ class AlarmForegroundService : Service() {
     when (intent?.action) {
       ACTION_START -> {
         val alarmId = intent.getStringExtra("alarm_id") ?: "unknown"
+        val label = intent.getStringExtra("alarm_label") ?: "Alarm"
         currentAlarmId = alarmId
         isAlarmActive = true
         // CRITICAL: call startForeground FIRST to avoid ANR/crash on Android 12+
-        startForegroundNotification(alarmId)
+        startForegroundNotification(alarmId, label)
         acquireWakeLock()
         startAlarmSound()
         startVibration()
@@ -93,6 +94,8 @@ class AlarmForegroundService : Service() {
           mediaPlayer?.let {
             if (!isSoundPlaying) { it.start(); isSoundPlaying = true }
           }
+          // Cancel existing vibration before restarting to prevent stacking
+          vibrator?.cancel()
           startVibration()
         } catch (e: Exception) {
           Log.e(TAG, "Error resuming alarm", e)
@@ -129,17 +132,7 @@ class AlarmForegroundService : Service() {
     }
   }
 
-  private fun startForegroundNotification(alarmId: String) {
-    // Load alarm label from prefs
-    val prefs = getSharedPreferences(AlarmEngineModule.PREFS_NAME, Context.MODE_PRIVATE)
-    val alarmsJson = prefs.getString(AlarmEngineModule.ALARMS_KEY, "{}") ?: "{}"
-    val alarms = org.json.JSONObject(alarmsJson)
-    val label = if (alarms.has(alarmId)) {
-      alarms.getJSONObject(alarmId).optString("label", "Alarm")
-    } else {
-      "Alarm"
-    }
-
+  private fun startForegroundNotification(alarmId: String, label: String = "Alarm") {
     // Create full-screen intent for lock screen display
     val fullScreenIntent = Intent(this, AlarmFullScreenActivity::class.java).apply {
       putExtra("alarm_id", alarmId)
@@ -147,7 +140,7 @@ class AlarmForegroundService : Service() {
     }
     val fullScreenPendingIntent = PendingIntent.getActivity(
       this,
-      alarmId.hashCode(),
+      AlarmEngineModule.stableRequestCode(alarmId),
       fullScreenIntent,
       PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
     )
@@ -159,7 +152,7 @@ class AlarmForegroundService : Service() {
     }
     val dismissPendingIntent = PendingIntent.getService(
       this,
-      (alarmId + "_dismiss").hashCode(),
+      AlarmEngineModule.stableRequestCode(alarmId + "_dismiss"),
       dismissIntent,
       PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
     )
@@ -215,6 +208,9 @@ class AlarmForegroundService : Service() {
       startGradualVolumeIncrease()
     } catch (e: Exception) {
       Log.e(TAG, "Failed to start alarm sound", e)
+      // Release partially-initialized MediaPlayer to prevent leak
+      try { mediaPlayer?.release() } catch (_: Exception) {}
+      mediaPlayer = null
     }
   }
 
@@ -272,6 +268,9 @@ class AlarmForegroundService : Service() {
   }
 
   private fun startGradualVolumeIncrease() {
+    // Cancel any existing timer before starting a new one
+    volumeTimer?.cancel()
+
     val totalSteps = (VOLUME_RAMP_DURATION_MS / VOLUME_STEP_INTERVAL_MS).toInt()
     var currentStep = 0
 
@@ -283,7 +282,9 @@ class AlarmForegroundService : Service() {
           try {
             mediaPlayer?.setVolume(volume, volume)
           } catch (e: Exception) {
-            Log.e(TAG, "Error setting volume", e)
+            Log.e(TAG, "Error setting volume, stopping timer", e)
+            cancel() // Stop timer if MediaPlayer is no longer valid
+            return
           }
           if (currentStep >= totalSteps) {
             cancel()

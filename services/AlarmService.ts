@@ -36,6 +36,9 @@ class AlarmServiceImpl {
   private notificationSubscription: any = null;
 
   async initialize(): Promise<void> {
+    // Clean up existing subscriptions before re-initializing to prevent duplicates
+    this.destroy();
+
     if (useNativeAlarm) {
       // Subscribe to native alarm fired events
       this.nativeSubscription = ExpoAlarmEngine.addAlarmFiredListener(

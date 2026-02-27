@@ -80,7 +80,7 @@ class BootReceiver : BroadcastReceiver() {
       putExtra("composite_id", compositeId)
     }
 
-    val requestCode = compositeId.hashCode()
+    val requestCode = AlarmEngineModule.stableRequestCode(compositeId)
     val pendingIntent = PendingIntent.getBroadcast(
       context,
       requestCode,

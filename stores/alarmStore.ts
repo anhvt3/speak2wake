@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { Alarm } from '../types/alarm';
 import { generateId } from '../utils/id';
+import { AlarmService } from '../services/AlarmService';
 
 interface AlarmState {
   alarms: Alarm[];
@@ -57,15 +58,22 @@ export const useAlarmStore = create<AlarmState>()(
           ),
         }));
 
-        // Schedule/cancel with native module
-        const { AlarmService } = require('../services/AlarmService');
+        // Schedule/cancel with native module — rollback UI on failure
+        const rollback = () => {
+          set((state) => ({
+            alarms: state.alarms.map((a) =>
+              a.id === id ? { ...a, enabled: !newEnabled } : a
+            ),
+          }));
+        };
+
         if (newEnabled) {
           AlarmService.scheduleAlarm({ ...alarm, enabled: true }).catch(
-            (e: any) => console.warn('Failed to schedule:', e)
+            (e: any) => { console.warn('Failed to schedule:', e); rollback(); }
           );
         } else {
           AlarmService.cancelAlarm(id).catch(
-            (e: any) => console.warn('Failed to cancel:', e)
+            (e: any) => { console.warn('Failed to cancel:', e); rollback(); }
           );
         }
       },

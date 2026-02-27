@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { View, Text } from 'react-native';
 import { GlassCard } from '../ui/GlassCard';
 import { useAlarmStore } from '../../stores/alarmStore';
 import { formatTime, getCountdownText } from '../../utils/time';
 
 export function NextAlarmBanner() {
-  const getNextAlarm = useAlarmStore((s) => s.getNextAlarm);
+  const alarms = useAlarmStore((s) => s.alarms);
   const [countdown, setCountdown] = useState('');
-  const nextAlarm = getNextAlarm();
+
+  const nextAlarm = useMemo(() => {
+    return useAlarmStore.getState().getNextAlarm();
+  }, [alarms]);
 
   useEffect(() => {
     if (!nextAlarm) return;
