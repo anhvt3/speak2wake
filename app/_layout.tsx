@@ -3,6 +3,7 @@ import { useColorScheme } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   useFonts,
   Jost_400Regular,
@@ -35,6 +36,13 @@ export default function RootLayout() {
         await StorageService.initialize();
         VocabularyService.load();
         await AlarmService.initialize();
+
+        // Check onboarding status
+        const hasOnboarded = await AsyncStorage.getItem('@speak2wake/has_onboarded');
+        if (!hasOnboarded) {
+          // Delay to ensure layout is mounted before navigating
+          setTimeout(() => router.replace('/onboarding'), 100);
+        }
       } catch (e) {
         console.warn('Init error:', e);
       } finally {
@@ -92,6 +100,13 @@ export default function RootLayout() {
           }}
         />
         <Stack.Screen name="settings/index" />
+        <Stack.Screen
+          name="onboarding"
+          options={{
+            presentation: 'fullScreenModal',
+            gestureEnabled: false,
+          }}
+        />
       </Stack>
     </ThemeProvider>
   );

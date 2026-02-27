@@ -78,14 +78,14 @@ export default function ChallengeScreen() {
     setListening(true);
 
     // Pause alarm sound while user speaks
-    try { await AlarmService.pauseAlarmSound(); } catch {}
+    try { await AlarmService.pauseAlarmSound(); } catch { }
 
     await VoiceService.startListening('de-DE');
   }, []);
 
   // Resume alarm sound
   const resumeAlarm = useCallback(async () => {
-    try { await AlarmService.resumeAlarmSound(); } catch {}
+    try { await AlarmService.resumeAlarmSound(); } catch { }
   }, []);
 
   // Schedule auto-retry after delay
@@ -157,7 +157,7 @@ export default function ChallengeScreen() {
       reset();
       // Safety: ensure alarm sound is stopped if screen unmounts unexpectedly
       if (!dismissedRef.current) {
-        AlarmService.dismissAlarm(alarmId!).catch(() => {});
+        AlarmService.dismissAlarm(alarmId!).catch(() => { });
       }
     };
   }, []);
@@ -188,7 +188,7 @@ export default function ChallengeScreen() {
   useEffect(() => {
     if (failsafeActive) {
       clearTimers();
-      VoiceService.stopListening().catch(() => {});
+      VoiceService.stopListening().catch(() => { });
       setListening(false);
     }
   }, [failsafeActive, clearTimers]);
@@ -217,28 +217,38 @@ export default function ChallengeScreen() {
       <SafeAreaView className="flex-1">
         {/* Header */}
         <View className="items-center mt-4 mb-2">
-          <Text className="text-[#FF914D] font-jost-medium text-sm">
-            {statusText}
-          </Text>
-          <Text className="text-white/30 font-jost-regular text-xs mt-1">
-            Attempt {attempts}/{maxAttempts}
-          </Text>
+          {/* We moved statusText to the MicButton, but keep the space or you can leave it here as well. 
+              Let's hide it here if we pass it down to avoid duplication, OR we keep it here and don't pass it to MicButton.
+              Wait, the bug report says "Label dưới nút Record vẫn hiển thị chữ Listening...".
+              Ah, that MEANS we don't need statusText up here anymore, or we just keep it in one place. Let's hide the top one to clean up UI! */}
         </View>
 
         {/* Word */}
-        <WordDisplay word={currentWord} onSpeakStart={() => {
-          // Pause alarm while TTS speaks the word
-          AlarmService.pauseAlarmSound().catch(() => {});
-        }} onSpeakEnd={() => {
-          // Resume alarm after TTS finishes (if not listening)
-          if (!useChallengeStore.getState().isListening) {
-            AlarmService.resumeAlarmSound().catch(() => {});
-          }
-        }} />
+        <WordDisplay
+          word={currentWord}
+          onSpeakStart={async () => {
+            // Stop mic and pause alarm while TTS speaks the word
+            clearTimers();
+            if (useChallengeStore.getState().isListening) {
+              await VoiceService.stopListening();
+              setListening(false);
+            }
+            setStatusText('Hearing pronunciation...');
+            AlarmService.pauseAlarmSound().catch(() => { });
+          }}
+          onSpeakEnd={() => {
+            // Resume alarm and start mic after TTS finishes
+            scheduleRetry(500); // add a short 500ms delay to let TTS fully complete before starting mic
+          }}
+        />
 
         {/* Mic + Waveform */}
         <View className="flex-1 items-center justify-center">
-          <MicButton isListening={isListening} onPress={handleMicPress} />
+          <MicButton
+            isListening={isListening}
+            onPress={handleMicPress}
+            customStatusText={statusText}
+          />
           <View className="mt-4">
             <WaveformVisual volume={volume} isActive={isListening} />
           </View>

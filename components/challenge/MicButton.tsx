@@ -15,9 +15,10 @@ interface MicButtonProps {
   isListening: boolean;
   onPress: () => void;
   disabled?: boolean;
+  customStatusText?: string;
 }
 
-export function MicButton({ isListening, onPress, disabled = false }: MicButtonProps) {
+export function MicButton({ isListening, onPress, disabled = false, customStatusText }: MicButtonProps) {
   const ring1Scale = useSharedValue(0.8);
   const ring1Opacity = useSharedValue(0);
   const ring2Scale = useSharedValue(0.8);
@@ -98,7 +99,7 @@ export function MicButton({ isListening, onPress, disabled = false }: MicButtonP
       </Pressable>
 
       <Text className="text-white/60 font-jost-regular text-sm mt-3">
-        {isListening ? 'Listening...' : 'Tap to retry'}
+        {customStatusText || (isListening ? 'Listening...' : 'Tap to retry')}
       </Text>
     </View>
   );

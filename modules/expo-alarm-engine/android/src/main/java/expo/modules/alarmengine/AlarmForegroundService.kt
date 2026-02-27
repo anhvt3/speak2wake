@@ -10,6 +10,7 @@ import android.content.Intent
 import android.media.AudioAttributes
 import android.media.MediaPlayer
 import android.media.RingtoneManager
+import android.net.Uri
 import android.os.Build
 import android.os.IBinder
 import android.os.PowerManager
@@ -185,14 +186,15 @@ class AlarmForegroundService : Service() {
 
   private fun startAlarmSound() {
     try {
-      val alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
-        ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-        ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE)
+      val soundId = getSoundIdForCurrentAlarm()
+      val alarmUri = getSoundUri(soundId)
 
       if (alarmUri == null) {
-        Log.e(TAG, "No default alarm/notification/ringtone URI found on this device")
+        Log.e(TAG, "No alarm URI found for soundId=$soundId")
         return
       }
+
+      Log.d(TAG, "Playing alarm sound: soundId=$soundId, uri=$alarmUri")
 
       mediaPlayer = MediaPlayer().apply {
         setAudioAttributes(
@@ -213,6 +215,59 @@ class AlarmForegroundService : Service() {
       startGradualVolumeIncrease()
     } catch (e: Exception) {
       Log.e(TAG, "Failed to start alarm sound", e)
+    }
+  }
+
+  /**
+   * Read the soundId for the currently firing alarm from SharedPreferences.
+   */
+  private fun getSoundIdForCurrentAlarm(): String {
+    val alarmId = currentAlarmId ?: return "default"
+    try {
+      val prefs = getSharedPreferences(AlarmEngineModule.PREFS_NAME, Context.MODE_PRIVATE)
+      val alarmsJson = prefs.getString(AlarmEngineModule.ALARMS_KEY, "{}") ?: "{}"
+      val alarms = org.json.JSONObject(alarmsJson)
+      if (alarms.has(alarmId)) {
+        return alarms.getJSONObject(alarmId).optString("soundId", "default")
+      }
+    } catch (e: Exception) {
+      Log.e(TAG, "Error reading soundId from prefs", e)
+    }
+    return "default"
+  }
+
+  /**
+   * Map a soundId string to a raw resource URI, falling back to system default.
+   */
+  private fun getSoundUri(soundId: String): Uri? {
+    val resId = when (soundId) {
+      "default"   -> getResourceId("alarm_default")
+      "gentle"    -> getResourceId("alarm_gentle")
+      "energetic" -> getResourceId("alarm_energetic")
+      "nature"    -> getResourceId("alarm_nature")
+      "digital"   -> getResourceId("alarm_digital")
+      else        -> 0
+    }
+
+    if (resId != 0) {
+      return Uri.parse("android.resource://$packageName/$resId")
+    }
+
+    // Fallback to system default alarm sound
+    return RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM)
+      ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+      ?: RingtoneManager.getDefaultUri(RingtoneManager.TYPE_RINGTONE)
+  }
+
+  /**
+   * Safely look up a raw resource ID by name.
+   */
+  private fun getResourceId(name: String): Int {
+    return try {
+      resources.getIdentifier(name, "raw", packageName)
+    } catch (e: Exception) {
+      Log.w(TAG, "Resource not found: raw/$name")
+      0
     }
   }
 
