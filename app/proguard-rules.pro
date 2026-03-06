@@ -1,0 +1,2 @@
+-keep class com.speak2wake.** { *; }
+-keepclassmembers class com.speak2wake.** { *; }

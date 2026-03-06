@@ -1,0 +1,8002 @@
+[
+  {
+    "german": "Hallo",
+    "english": "hello",
+    "vietnamese": "",
+    "phonetic": "hah-loh",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Danke",
+    "english": "thank you",
+    "vietnamese": "",
+    "phonetic": "dahn-keh",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Bitte",
+    "english": "please / you're welcome",
+    "vietnamese": "",
+    "phonetic": "bih-teh",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Guten Morgen",
+    "english": "good morning",
+    "vietnamese": "",
+    "phonetic": "goo-ten mor-gen",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Guten Tag",
+    "english": "good day",
+    "vietnamese": "",
+    "phonetic": "goo-ten tahk",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Tschüss",
+    "english": "bye",
+    "vietnamese": "",
+    "phonetic": "chews",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Auf Wiedersehen",
+    "english": "goodbye",
+    "vietnamese": "",
+    "phonetic": "owf vee-der-zay-en",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Entschuldigung",
+    "english": "excuse me / sorry",
+    "vietnamese": "",
+    "phonetic": "ent-shool-dee-goong",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Ja",
+    "english": "yes",
+    "vietnamese": "",
+    "phonetic": "yah",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Nein",
+    "english": "no",
+    "vietnamese": "",
+    "phonetic": "nine",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "eins",
+    "english": "one",
+    "vietnamese": "",
+    "phonetic": "eyns",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "zwei",
+    "english": "two",
+    "vietnamese": "",
+    "phonetic": "tsvye",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "drei",
+    "english": "three",
+    "vietnamese": "",
+    "phonetic": "dry",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "vier",
+    "english": "four",
+    "vietnamese": "",
+    "phonetic": "feer",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "fünf",
+    "english": "five",
+    "vietnamese": "",
+    "phonetic": "fewnf",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "sechs",
+    "english": "six",
+    "vietnamese": "",
+    "phonetic": "zeks",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "sieben",
+    "english": "seven",
+    "vietnamese": "",
+    "phonetic": "zee-ben",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "acht",
+    "english": "eight",
+    "vietnamese": "",
+    "phonetic": "ahkht",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "neun",
+    "english": "nine",
+    "vietnamese": "",
+    "phonetic": "noyn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "zehn",
+    "english": "ten",
+    "vietnamese": "",
+    "phonetic": "tsayn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "die Mutter",
+    "english": "the mother",
+    "vietnamese": "",
+    "phonetic": "moo-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Vater",
+    "english": "the father",
+    "vietnamese": "",
+    "phonetic": "fah-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "das Kind",
+    "english": "the child",
+    "vietnamese": "",
+    "phonetic": "kint",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Bruder",
+    "english": "the brother",
+    "vietnamese": "",
+    "phonetic": "broo-der",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Schwester",
+    "english": "the sister",
+    "vietnamese": "",
+    "phonetic": "shves-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Familie",
+    "english": "the family",
+    "vietnamese": "",
+    "phonetic": "fah-mee-lee-eh",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Sohn",
+    "english": "the son",
+    "vietnamese": "",
+    "phonetic": "zohn",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Tochter",
+    "english": "the daughter",
+    "vietnamese": "",
+    "phonetic": "tokh-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Eltern",
+    "english": "the parents",
+    "vietnamese": "",
+    "phonetic": "el-tern",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Mann",
+    "english": "the man / husband",
+    "vietnamese": "",
+    "phonetic": "mahn",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "das Brot",
+    "english": "the bread",
+    "vietnamese": "",
+    "phonetic": "broht",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Milch",
+    "english": "the milk",
+    "vietnamese": "",
+    "phonetic": "milkh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Apfel",
+    "english": "the apple",
+    "vietnamese": "",
+    "phonetic": "ahp-fel",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Kaffee",
+    "english": "the coffee",
+    "vietnamese": "",
+    "phonetic": "kah-fay",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Wasser",
+    "english": "the water",
+    "vietnamese": "",
+    "phonetic": "vah-ser",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Tee",
+    "english": "the tea",
+    "vietnamese": "",
+    "phonetic": "tay",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Ei",
+    "english": "the egg",
+    "vietnamese": "",
+    "phonetic": "eye",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Käse",
+    "english": "the cheese",
+    "vietnamese": "",
+    "phonetic": "kay-zeh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Butter",
+    "english": "the butter",
+    "vietnamese": "",
+    "phonetic": "boo-ter",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Zucker",
+    "english": "the sugar",
+    "vietnamese": "",
+    "phonetic": "tsoo-ker",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Hund",
+    "english": "the dog",
+    "vietnamese": "",
+    "phonetic": "hoont",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "die Katze",
+    "english": "the cat",
+    "vietnamese": "",
+    "phonetic": "kaht-seh",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "der Vogel",
+    "english": "the bird",
+    "vietnamese": "",
+    "phonetic": "foh-gel",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "der Fisch",
+    "english": "the fish",
+    "vietnamese": "",
+    "phonetic": "fish",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "das Pferd",
+    "english": "the horse",
+    "vietnamese": "",
+    "phonetic": "pfairt",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "die Kuh",
+    "english": "the cow",
+    "vietnamese": "",
+    "phonetic": "koo",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "die Maus",
+    "english": "the mouse",
+    "vietnamese": "",
+    "phonetic": "mows",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "der Bär",
+    "english": "the bear",
+    "vietnamese": "",
+    "phonetic": "bair",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "das Schwein",
+    "english": "the pig",
+    "vietnamese": "",
+    "phonetic": "shvine",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "die Schlange",
+    "english": "the snake",
+    "vietnamese": "",
+    "phonetic": "shlahn-geh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Kopf",
+    "english": "the head",
+    "vietnamese": "",
+    "phonetic": "kopf",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "die Hand",
+    "english": "the hand",
+    "vietnamese": "",
+    "phonetic": "hahnt",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "das Auge",
+    "english": "the eye",
+    "vietnamese": "",
+    "phonetic": "ow-geh",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "die Nase",
+    "english": "the nose",
+    "vietnamese": "",
+    "phonetic": "nah-zeh",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "der Mund",
+    "english": "the mouth",
+    "vietnamese": "",
+    "phonetic": "moont",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "das Ohr",
+    "english": "the ear",
+    "vietnamese": "",
+    "phonetic": "ohr",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "der Arm",
+    "english": "the arm",
+    "vietnamese": "",
+    "phonetic": "ahrm",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "das Bein",
+    "english": "the leg",
+    "vietnamese": "",
+    "phonetic": "bine",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "der Fuß",
+    "english": "the foot",
+    "vietnamese": "",
+    "phonetic": "foos",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "der Finger",
+    "english": "the finger",
+    "vietnamese": "",
+    "phonetic": "fing-er",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "das Haus",
+    "english": "the house",
+    "vietnamese": "",
+    "phonetic": "hows",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "die Tür",
+    "english": "the door",
+    "vietnamese": "",
+    "phonetic": "tewr",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Fenster",
+    "english": "the window",
+    "vietnamese": "",
+    "phonetic": "fen-ster",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Tisch",
+    "english": "the table",
+    "vietnamese": "",
+    "phonetic": "tish",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Stuhl",
+    "english": "the chair",
+    "vietnamese": "",
+    "phonetic": "shtool",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Bett",
+    "english": "the bed",
+    "vietnamese": "",
+    "phonetic": "bet",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "die Küche",
+    "english": "the kitchen",
+    "vietnamese": "",
+    "phonetic": "kew-kheh",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Bad",
+    "english": "the bathroom",
+    "vietnamese": "",
+    "phonetic": "baht",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Garten",
+    "english": "the garden",
+    "vietnamese": "",
+    "phonetic": "gar-ten",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "die Lampe",
+    "english": "the lamp",
+    "vietnamese": "",
+    "phonetic": "lahm-peh",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "rot",
+    "english": "red",
+    "vietnamese": "",
+    "phonetic": "roht",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "blau",
+    "english": "blue",
+    "vietnamese": "",
+    "phonetic": "blow",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "grün",
+    "english": "green",
+    "vietnamese": "",
+    "phonetic": "grewn",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "gelb",
+    "english": "yellow",
+    "vietnamese": "",
+    "phonetic": "gelp",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "schwarz",
+    "english": "black",
+    "vietnamese": "",
+    "phonetic": "shvarts",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "weiß",
+    "english": "white",
+    "vietnamese": "",
+    "phonetic": "vice",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "braun",
+    "english": "brown",
+    "vietnamese": "",
+    "phonetic": "brown",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "grau",
+    "english": "gray",
+    "vietnamese": "",
+    "phonetic": "grow",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "orange",
+    "english": "orange",
+    "vietnamese": "",
+    "phonetic": "oh-rahn-zheh",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "rosa",
+    "english": "pink",
+    "vietnamese": "",
+    "phonetic": "roh-zah",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "die Sonne",
+    "english": "the sun",
+    "vietnamese": "",
+    "phonetic": "zoh-neh",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Regen",
+    "english": "the rain",
+    "vietnamese": "",
+    "phonetic": "ray-gen",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Wind",
+    "english": "the wind",
+    "vietnamese": "",
+    "phonetic": "vint",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Schnee",
+    "english": "the snow",
+    "vietnamese": "",
+    "phonetic": "shnay",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "warm",
+    "english": "warm",
+    "vietnamese": "",
+    "phonetic": "vahrm",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "kalt",
+    "english": "cold",
+    "vietnamese": "",
+    "phonetic": "kahlt",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "heiß",
+    "english": "hot",
+    "vietnamese": "",
+    "phonetic": "hice",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "die Wolke",
+    "english": "the cloud",
+    "vietnamese": "",
+    "phonetic": "vol-keh",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "der Himmel",
+    "english": "the sky",
+    "vietnamese": "",
+    "phonetic": "him-mel",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "der Sturm",
+    "english": "the storm",
+    "vietnamese": "",
+    "phonetic": "shtoorm",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "sein",
+    "english": "to be",
+    "vietnamese": "",
+    "phonetic": "zine",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "haben",
+    "english": "to have",
+    "vietnamese": "",
+    "phonetic": "hah-ben",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "gehen",
+    "english": "to go",
+    "vietnamese": "",
+    "phonetic": "gay-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "kommen",
+    "english": "to come",
+    "vietnamese": "",
+    "phonetic": "koh-men",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "sehen",
+    "english": "to see",
+    "vietnamese": "",
+    "phonetic": "zay-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "sprechen",
+    "english": "to speak",
+    "vietnamese": "",
+    "phonetic": "shpreh-khen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "essen",
+    "english": "to eat",
+    "vietnamese": "",
+    "phonetic": "eh-sen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "trinken",
+    "english": "to drink",
+    "vietnamese": "",
+    "phonetic": "tring-ken",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "schlafen",
+    "english": "to sleep",
+    "vietnamese": "",
+    "phonetic": "shlah-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "lernen",
+    "english": "to learn",
+    "vietnamese": "",
+    "phonetic": "lair-nen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "elf",
+    "english": "eleven",
+    "vietnamese": "",
+    "phonetic": "elf",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "zwölf",
+    "english": "twelve",
+    "vietnamese": "",
+    "phonetic": "tsverlf",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "dreizehn",
+    "english": "thirteen",
+    "vietnamese": "",
+    "phonetic": "dry-tsayn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "vierzehn",
+    "english": "fourteen",
+    "vietnamese": "",
+    "phonetic": "feer-tsayn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "fünfzehn",
+    "english": "fifteen",
+    "vietnamese": "",
+    "phonetic": "fewnf-tsayn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "zwanzig",
+    "english": "twenty",
+    "vietnamese": "",
+    "phonetic": "tsvahn-tsig",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "dreißig",
+    "english": "thirty",
+    "vietnamese": "",
+    "phonetic": "dry-sig",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "vierzig",
+    "english": "forty",
+    "vietnamese": "",
+    "phonetic": "feer-tsig",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "hundert",
+    "english": "hundred",
+    "vietnamese": "",
+    "phonetic": "hoon-dert",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "german": "tausend",
+    "english": "thousand",
+    "vietnamese": "",
+    "phonetic": "tow-zent",
+    "level": "A2",
+    "category": "numbers"
+  },
+  {
+    "german": "Wie geht's",
+    "english": "how are you",
+    "vietnamese": "",
+    "phonetic": "vee gayts",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Guten Abend",
+    "english": "good evening",
+    "vietnamese": "",
+    "phonetic": "goo-ten ah-bent",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Gute Nacht",
+    "english": "good night",
+    "vietnamese": "",
+    "phonetic": "goo-teh nakht",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Willkommen",
+    "english": "welcome",
+    "vietnamese": "",
+    "phonetic": "vil-koh-men",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Prost",
+    "english": "cheers",
+    "vietnamese": "",
+    "phonetic": "prohst",
+    "level": "A2",
+    "category": "greetings"
+  },
+  {
+    "german": "die Frau",
+    "english": "the woman / wife",
+    "vietnamese": "",
+    "phonetic": "frow",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Großmutter",
+    "english": "the grandmother",
+    "vietnamese": "",
+    "phonetic": "grohs-moo-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Großvater",
+    "english": "the grandfather",
+    "vietnamese": "",
+    "phonetic": "grohs-fah-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Onkel",
+    "english": "the uncle",
+    "vietnamese": "",
+    "phonetic": "ohn-kel",
+    "level": "A2",
+    "category": "family"
+  },
+  {
+    "german": "die Tante",
+    "english": "the aunt",
+    "vietnamese": "",
+    "phonetic": "tahn-teh",
+    "level": "A2",
+    "category": "family"
+  },
+  {
+    "german": "das Fleisch",
+    "english": "the meat",
+    "vietnamese": "",
+    "phonetic": "flysh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Reis",
+    "english": "the rice",
+    "vietnamese": "",
+    "phonetic": "rice",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Kartoffel",
+    "english": "the potato",
+    "vietnamese": "",
+    "phonetic": "kar-toh-fel",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Tomate",
+    "english": "the tomato",
+    "vietnamese": "",
+    "phonetic": "toh-mah-teh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Gurke",
+    "english": "the cucumber",
+    "vietnamese": "",
+    "phonetic": "goor-keh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Zwiebel",
+    "english": "the onion",
+    "vietnamese": "",
+    "phonetic": "tsvee-bel",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "der Salat",
+    "english": "the salad",
+    "vietnamese": "",
+    "phonetic": "zah-laht",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Suppe",
+    "english": "the soup",
+    "vietnamese": "",
+    "phonetic": "zoo-peh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Hähnchen",
+    "english": "the chicken",
+    "vietnamese": "",
+    "phonetic": "hayn-khen",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "die Wurst",
+    "english": "the sausage",
+    "vietnamese": "",
+    "phonetic": "voorst",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Kuchen",
+    "english": "the cake",
+    "vietnamese": "",
+    "phonetic": "koo-khen",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Eis",
+    "english": "the ice cream",
+    "vietnamese": "",
+    "phonetic": "ice",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Schokolade",
+    "english": "the chocolate",
+    "vietnamese": "",
+    "phonetic": "shoh-koh-lah-deh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Saft",
+    "english": "the juice",
+    "vietnamese": "",
+    "phonetic": "zahft",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Bier",
+    "english": "the beer",
+    "vietnamese": "",
+    "phonetic": "beer",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Wein",
+    "english": "the wine",
+    "vietnamese": "",
+    "phonetic": "vine",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "die Banane",
+    "english": "the banana",
+    "vietnamese": "",
+    "phonetic": "bah-nah-neh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Orange",
+    "english": "the orange",
+    "vietnamese": "",
+    "phonetic": "oh-rahn-zheh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Erdbeere",
+    "english": "the strawberry",
+    "vietnamese": "",
+    "phonetic": "airt-bay-reh",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "die Karotte",
+    "english": "the carrot",
+    "vietnamese": "",
+    "phonetic": "kah-roh-teh",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "der Elefant",
+    "english": "the elephant",
+    "vietnamese": "",
+    "phonetic": "eh-leh-fahnt",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Löwe",
+    "english": "the lion",
+    "vietnamese": "",
+    "phonetic": "ler-veh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Affe",
+    "english": "the monkey",
+    "vietnamese": "",
+    "phonetic": "ah-feh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Hase",
+    "english": "the rabbit",
+    "vietnamese": "",
+    "phonetic": "hah-zeh",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "die Ente",
+    "english": "the duck",
+    "vietnamese": "",
+    "phonetic": "en-teh",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "german": "der Schmetterling",
+    "english": "the butterfly",
+    "vietnamese": "",
+    "phonetic": "shmet-ter-ling",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "die Biene",
+    "english": "the bee",
+    "vietnamese": "",
+    "phonetic": "bee-neh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Wolf",
+    "english": "the wolf",
+    "vietnamese": "",
+    "phonetic": "volf",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "die Schildkröte",
+    "english": "the turtle",
+    "vietnamese": "",
+    "phonetic": "shilt-krer-teh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Frosch",
+    "english": "the frog",
+    "vietnamese": "",
+    "phonetic": "frosh",
+    "level": "A2",
+    "category": "animals"
+  },
+  {
+    "german": "der Rücken",
+    "english": "the back",
+    "vietnamese": "",
+    "phonetic": "rew-ken",
+    "level": "A2",
+    "category": "body"
+  },
+  {
+    "german": "der Hals",
+    "english": "the neck",
+    "vietnamese": "",
+    "phonetic": "hahls",
+    "level": "A2",
+    "category": "body"
+  },
+  {
+    "german": "die Schulter",
+    "english": "the shoulder",
+    "vietnamese": "",
+    "phonetic": "shool-ter",
+    "level": "A2",
+    "category": "body"
+  },
+  {
+    "german": "das Knie",
+    "english": "the knee",
+    "vietnamese": "",
+    "phonetic": "k-nee",
+    "level": "A2",
+    "category": "body"
+  },
+  {
+    "german": "der Zahn",
+    "english": "the tooth",
+    "vietnamese": "",
+    "phonetic": "tsahn",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "der Spiegel",
+    "english": "the mirror",
+    "vietnamese": "",
+    "phonetic": "shpee-gel",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "der Schrank",
+    "english": "the closet",
+    "vietnamese": "",
+    "phonetic": "shrahnk",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "die Treppe",
+    "english": "the stairs",
+    "vietnamese": "",
+    "phonetic": "trep-peh",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "das Dach",
+    "english": "the roof",
+    "vietnamese": "",
+    "phonetic": "dahkh",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "der Keller",
+    "english": "the basement",
+    "vietnamese": "",
+    "phonetic": "kel-ler",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "der Nebel",
+    "english": "the fog",
+    "vietnamese": "",
+    "phonetic": "nay-bel",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "das Gewitter",
+    "english": "the thunderstorm",
+    "vietnamese": "",
+    "phonetic": "geh-vit-ter",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "der Regenbogen",
+    "english": "the rainbow",
+    "vietnamese": "",
+    "phonetic": "ray-gen-boh-gen",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "der Frost",
+    "english": "the frost",
+    "vietnamese": "",
+    "phonetic": "frosst",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "die Hitze",
+    "english": "the heat",
+    "vietnamese": "",
+    "phonetic": "hit-seh",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "lesen",
+    "english": "to read",
+    "vietnamese": "",
+    "phonetic": "lay-zen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "schreiben",
+    "english": "to write",
+    "vietnamese": "",
+    "phonetic": "shry-ben",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "hören",
+    "english": "to hear",
+    "vietnamese": "",
+    "phonetic": "her-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "verstehen",
+    "english": "to understand",
+    "vietnamese": "",
+    "phonetic": "fer-shtay-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "wissen",
+    "english": "to know",
+    "vietnamese": "",
+    "phonetic": "vis-sen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "denken",
+    "english": "to think",
+    "vietnamese": "",
+    "phonetic": "den-ken",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "glauben",
+    "english": "to believe",
+    "vietnamese": "",
+    "phonetic": "glow-ben",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "helfen",
+    "english": "to help",
+    "vietnamese": "",
+    "phonetic": "hel-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "brauchen",
+    "english": "to need",
+    "vietnamese": "",
+    "phonetic": "brow-khen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "bekommen",
+    "english": "to get",
+    "vietnamese": "",
+    "phonetic": "beh-koh-men",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "bringen",
+    "english": "to bring",
+    "vietnamese": "",
+    "phonetic": "bring-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "nehmen",
+    "english": "to take",
+    "vietnamese": "",
+    "phonetic": "nay-men",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "geben",
+    "english": "to give",
+    "vietnamese": "",
+    "phonetic": "gay-ben",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "fahren",
+    "english": "to drive",
+    "vietnamese": "",
+    "phonetic": "fah-ren",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "fliegen",
+    "english": "to fly",
+    "vietnamese": "",
+    "phonetic": "flee-gen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "schwimmen",
+    "english": "to swim",
+    "vietnamese": "",
+    "phonetic": "shvim-men",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "laufen",
+    "english": "to run",
+    "vietnamese": "",
+    "phonetic": "low-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "sitzen",
+    "english": "to sit",
+    "vietnamese": "",
+    "phonetic": "zit-sen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "stehen",
+    "english": "to stand",
+    "vietnamese": "",
+    "phonetic": "shtay-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "liegen",
+    "english": "to lie down",
+    "vietnamese": "",
+    "phonetic": "lee-gen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "öffnen",
+    "english": "to open",
+    "vietnamese": "",
+    "phonetic": "erf-nen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "schließen",
+    "english": "to close",
+    "vietnamese": "",
+    "phonetic": "shlee-sen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "beginnen",
+    "english": "to begin",
+    "vietnamese": "",
+    "phonetic": "beh-gin-nen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "vergessen",
+    "english": "to forget",
+    "vietnamese": "",
+    "phonetic": "fer-ges-sen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "erinnern",
+    "english": "to remember",
+    "vietnamese": "",
+    "phonetic": "er-in-nern",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "versuchen",
+    "english": "to try",
+    "vietnamese": "",
+    "phonetic": "fer-zoo-khen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "warten",
+    "english": "to wait",
+    "vietnamese": "",
+    "phonetic": "var-ten",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "zeigen",
+    "english": "to show",
+    "vietnamese": "",
+    "phonetic": "tsy-gen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "das Hemd",
+    "english": "the shirt",
+    "vietnamese": "",
+    "phonetic": "hemt",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "die Hose",
+    "english": "the pants",
+    "vietnamese": "",
+    "phonetic": "hoh-zeh",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Rock",
+    "english": "the skirt",
+    "vietnamese": "",
+    "phonetic": "rok",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "das Kleid",
+    "english": "the dress",
+    "vietnamese": "",
+    "phonetic": "klite",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "die Jacke",
+    "english": "the jacket",
+    "vietnamese": "",
+    "phonetic": "yah-keh",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Mantel",
+    "english": "the coat",
+    "vietnamese": "",
+    "phonetic": "mahn-tel",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Schuh",
+    "english": "the shoe",
+    "vietnamese": "",
+    "phonetic": "shoo",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "die Socke",
+    "english": "the sock",
+    "vietnamese": "",
+    "phonetic": "zoh-keh",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Hut",
+    "english": "the hat",
+    "vietnamese": "",
+    "phonetic": "hoot",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "die Mütze",
+    "english": "the cap",
+    "vietnamese": "",
+    "phonetic": "mew-tseh",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "der Schal",
+    "english": "the scarf",
+    "vietnamese": "",
+    "phonetic": "shahl",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Handschuhe",
+    "english": "the gloves",
+    "vietnamese": "",
+    "phonetic": "hahnt-shoo-eh",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "der Gürtel",
+    "english": "the belt",
+    "vietnamese": "",
+    "phonetic": "gewr-tel",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Brille",
+    "english": "the glasses",
+    "vietnamese": "",
+    "phonetic": "bril-leh",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Pullover",
+    "english": "the sweater",
+    "vietnamese": "",
+    "phonetic": "pool-oh-ver",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "das T-Shirt",
+    "english": "the t-shirt",
+    "vietnamese": "",
+    "phonetic": "tee-shirt",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "die Bluse",
+    "english": "the blouse",
+    "vietnamese": "",
+    "phonetic": "bloo-zeh",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "der Anzug",
+    "english": "the suit",
+    "vietnamese": "",
+    "phonetic": "ahn-tsook",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Krawatte",
+    "english": "the tie",
+    "vietnamese": "",
+    "phonetic": "krah-vah-teh",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "der Stiefel",
+    "english": "the boot",
+    "vietnamese": "",
+    "phonetic": "shtee-fel",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Unterwäsche",
+    "english": "the underwear",
+    "vietnamese": "",
+    "phonetic": "oon-ter-veh-sheh",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "der Regenschirm",
+    "english": "the umbrella",
+    "vietnamese": "",
+    "phonetic": "ray-gen-shirm",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Tasche",
+    "english": "the bag",
+    "vietnamese": "",
+    "phonetic": "tah-sheh",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "der Ring",
+    "english": "the ring",
+    "vietnamese": "",
+    "phonetic": "ring",
+    "level": "A2",
+    "category": "clothing"
+  },
+  {
+    "german": "die Uhr",
+    "english": "the watch",
+    "vietnamese": "",
+    "phonetic": "oor",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "das Auto",
+    "english": "the car",
+    "vietnamese": "",
+    "phonetic": "ow-toh",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "der Bus",
+    "english": "the bus",
+    "vietnamese": "",
+    "phonetic": "boos",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "der Zug",
+    "english": "the train",
+    "vietnamese": "",
+    "phonetic": "tsook",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "das Fahrrad",
+    "english": "the bicycle",
+    "vietnamese": "",
+    "phonetic": "fahr-raht",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "das Flugzeug",
+    "english": "the airplane",
+    "vietnamese": "",
+    "phonetic": "flook-tsoyk",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "das Schiff",
+    "english": "the ship",
+    "vietnamese": "",
+    "phonetic": "shif",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "die Straße",
+    "english": "the street",
+    "vietnamese": "",
+    "phonetic": "shtrah-seh",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "die U-Bahn",
+    "english": "the subway",
+    "vietnamese": "",
+    "phonetic": "oo-bahn",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "die Haltestelle",
+    "english": "the stop",
+    "vietnamese": "",
+    "phonetic": "hahl-teh-shtel-leh",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "der Bahnhof",
+    "english": "the train station",
+    "vietnamese": "",
+    "phonetic": "bahn-hohf",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "der Flughafen",
+    "english": "the airport",
+    "vietnamese": "",
+    "phonetic": "flook-hah-fen",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "das Taxi",
+    "english": "the taxi",
+    "vietnamese": "",
+    "phonetic": "tahk-see",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "die Ampel",
+    "english": "the traffic light",
+    "vietnamese": "",
+    "phonetic": "ahm-pel",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "der Parkplatz",
+    "english": "the parking lot",
+    "vietnamese": "",
+    "phonetic": "park-plahts",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "der Führerschein",
+    "english": "the driver's license",
+    "vietnamese": "",
+    "phonetic": "few-rer-shine",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "das Benzin",
+    "english": "the gasoline",
+    "vietnamese": "",
+    "phonetic": "ben-tseen",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "die Brücke",
+    "english": "the bridge",
+    "vietnamese": "",
+    "phonetic": "brew-keh",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "der Weg",
+    "english": "the way / path",
+    "vietnamese": "",
+    "phonetic": "vayk",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "die Kreuzung",
+    "english": "the intersection",
+    "vietnamese": "",
+    "phonetic": "kroy-tsoong",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "der Stau",
+    "english": "the traffic jam",
+    "vietnamese": "",
+    "phonetic": "shtow",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "die Stunde",
+    "english": "the hour",
+    "vietnamese": "",
+    "phonetic": "shtoon-deh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "die Minute",
+    "english": "the minute",
+    "vietnamese": "",
+    "phonetic": "mee-noo-teh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "die Sekunde",
+    "english": "the second",
+    "vietnamese": "",
+    "phonetic": "zeh-koon-deh",
+    "level": "A2",
+    "category": "time"
+  },
+  {
+    "german": "der Tag",
+    "english": "the day",
+    "vietnamese": "",
+    "phonetic": "tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "die Woche",
+    "english": "the week",
+    "vietnamese": "",
+    "phonetic": "voh-kheh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Monat",
+    "english": "the month",
+    "vietnamese": "",
+    "phonetic": "moh-naht",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "das Jahr",
+    "english": "the year",
+    "vietnamese": "",
+    "phonetic": "yahr",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "heute",
+    "english": "today",
+    "vietnamese": "",
+    "phonetic": "hoy-teh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "gestern",
+    "english": "yesterday",
+    "vietnamese": "",
+    "phonetic": "ges-tern",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "morgen",
+    "english": "tomorrow",
+    "vietnamese": "",
+    "phonetic": "mor-gen",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Montag",
+    "english": "Monday",
+    "vietnamese": "",
+    "phonetic": "mohn-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Dienstag",
+    "english": "Tuesday",
+    "vietnamese": "",
+    "phonetic": "deens-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Mittwoch",
+    "english": "Wednesday",
+    "vietnamese": "",
+    "phonetic": "mit-vokh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Donnerstag",
+    "english": "Thursday",
+    "vietnamese": "",
+    "phonetic": "don-ners-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Freitag",
+    "english": "Friday",
+    "vietnamese": "",
+    "phonetic": "fry-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Samstag",
+    "english": "Saturday",
+    "vietnamese": "",
+    "phonetic": "zahms-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Sonntag",
+    "english": "Sunday",
+    "vietnamese": "",
+    "phonetic": "zon-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Morgen",
+    "english": "the morning",
+    "vietnamese": "",
+    "phonetic": "mor-gen",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Abend",
+    "english": "the evening",
+    "vietnamese": "",
+    "phonetic": "ah-bent",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "die Nacht",
+    "english": "the night",
+    "vietnamese": "",
+    "phonetic": "nakht",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "die Schule",
+    "english": "the school",
+    "vietnamese": "",
+    "phonetic": "shoo-leh",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Lehrer",
+    "english": "the teacher (m)",
+    "vietnamese": "",
+    "phonetic": "lay-rer",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "die Lehrerin",
+    "english": "the teacher (f)",
+    "vietnamese": "",
+    "phonetic": "lay-reh-rin",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Schüler",
+    "english": "the student (m)",
+    "vietnamese": "",
+    "phonetic": "shew-ler",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "das Buch",
+    "english": "the book",
+    "vietnamese": "",
+    "phonetic": "bookh",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Stift",
+    "english": "the pen",
+    "vietnamese": "",
+    "phonetic": "shtift",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "das Heft",
+    "english": "the notebook",
+    "vietnamese": "",
+    "phonetic": "heft",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "die Tafel",
+    "english": "the blackboard",
+    "vietnamese": "",
+    "phonetic": "tah-fel",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Computer",
+    "english": "the computer",
+    "vietnamese": "",
+    "phonetic": "kohm-pyoo-ter",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "das Papier",
+    "english": "the paper",
+    "vietnamese": "",
+    "phonetic": "pah-peer",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "die Aufgabe",
+    "english": "the task",
+    "vietnamese": "",
+    "phonetic": "owf-gah-beh",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Prüfung",
+    "english": "the exam",
+    "vietnamese": "",
+    "phonetic": "prew-foong",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Arbeit",
+    "english": "the work",
+    "vietnamese": "",
+    "phonetic": "ar-bite",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "das Büro",
+    "english": "the office",
+    "vietnamese": "",
+    "phonetic": "bew-roh",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Chef",
+    "english": "the boss",
+    "vietnamese": "",
+    "phonetic": "shef",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Firma",
+    "english": "the company",
+    "vietnamese": "",
+    "phonetic": "feer-mah",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "das Geld",
+    "english": "the money",
+    "vietnamese": "",
+    "phonetic": "gelt",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Beruf",
+    "english": "the profession",
+    "vietnamese": "",
+    "phonetic": "beh-roof",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Universität",
+    "english": "the university",
+    "vietnamese": "",
+    "phonetic": "oo-nee-ver-zee-tayt",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Klasse",
+    "english": "the class",
+    "vietnamese": "",
+    "phonetic": "klah-seh",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "groß",
+    "english": "big / tall",
+    "vietnamese": "",
+    "phonetic": "grohs",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "klein",
+    "english": "small",
+    "vietnamese": "",
+    "phonetic": "kline",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "gut",
+    "english": "good",
+    "vietnamese": "",
+    "phonetic": "goot",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "schlecht",
+    "english": "bad",
+    "vietnamese": "",
+    "phonetic": "shlekht",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "schön",
+    "english": "beautiful",
+    "vietnamese": "",
+    "phonetic": "shern",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "hässlich",
+    "english": "ugly",
+    "vietnamese": "",
+    "phonetic": "hes-likh",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "schnell",
+    "english": "fast",
+    "vietnamese": "",
+    "phonetic": "shnel",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "langsam",
+    "english": "slow",
+    "vietnamese": "",
+    "phonetic": "lahng-zahm",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "alt",
+    "english": "old",
+    "vietnamese": "",
+    "phonetic": "ahlt",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "jung",
+    "english": "young",
+    "vietnamese": "",
+    "phonetic": "yoong",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "neu",
+    "english": "new",
+    "vietnamese": "",
+    "phonetic": "noy",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "teuer",
+    "english": "expensive",
+    "vietnamese": "",
+    "phonetic": "toy-er",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "billig",
+    "english": "cheap",
+    "vietnamese": "",
+    "phonetic": "bil-lig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "schwer",
+    "english": "heavy / difficult",
+    "vietnamese": "",
+    "phonetic": "shvair",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "leicht",
+    "english": "light / easy",
+    "vietnamese": "",
+    "phonetic": "lykht",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "lang",
+    "english": "long",
+    "vietnamese": "",
+    "phonetic": "lahng",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "kurz",
+    "english": "short",
+    "vietnamese": "",
+    "phonetic": "koorts",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "richtig",
+    "english": "correct",
+    "vietnamese": "",
+    "phonetic": "rikh-tig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "falsch",
+    "english": "wrong",
+    "vietnamese": "",
+    "phonetic": "fahlsh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "müde",
+    "english": "tired",
+    "vietnamese": "",
+    "phonetic": "mew-deh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "hungrig",
+    "english": "hungry",
+    "vietnamese": "",
+    "phonetic": "hoong-rig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "durstig",
+    "english": "thirsty",
+    "vietnamese": "",
+    "phonetic": "door-stig",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "lustig",
+    "english": "funny",
+    "vietnamese": "",
+    "phonetic": "loos-tig",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "traurig",
+    "english": "sad",
+    "vietnamese": "",
+    "phonetic": "trow-rig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "glücklich",
+    "english": "happy",
+    "vietnamese": "",
+    "phonetic": "glewk-likh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "wichtig",
+    "english": "important",
+    "vietnamese": "",
+    "phonetic": "vikh-tig",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "einfach",
+    "english": "simple / easy",
+    "vietnamese": "",
+    "phonetic": "ine-fahkh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "schwierig",
+    "english": "difficult",
+    "vietnamese": "",
+    "phonetic": "shvee-rig",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "die Stadt",
+    "english": "the city",
+    "vietnamese": "",
+    "phonetic": "shtaht",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "das Dorf",
+    "english": "the village",
+    "vietnamese": "",
+    "phonetic": "dorf",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "der Markt",
+    "english": "the market",
+    "vietnamese": "",
+    "phonetic": "markt",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "die Kirche",
+    "english": "the church",
+    "vietnamese": "",
+    "phonetic": "keer-kheh",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "das Museum",
+    "english": "the museum",
+    "vietnamese": "",
+    "phonetic": "moo-zay-oom",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "der Park",
+    "english": "the park",
+    "vietnamese": "",
+    "phonetic": "park",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "die Bank",
+    "english": "the bank",
+    "vietnamese": "",
+    "phonetic": "bahnk",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "die Post",
+    "english": "the post office",
+    "vietnamese": "",
+    "phonetic": "post",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "die Apotheke",
+    "english": "the pharmacy",
+    "vietnamese": "",
+    "phonetic": "ah-poh-tay-keh",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "das Krankenhaus",
+    "english": "the hospital",
+    "vietnamese": "",
+    "phonetic": "krahnk-en-hows",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "das Restaurant",
+    "english": "the restaurant",
+    "vietnamese": "",
+    "phonetic": "res-toh-rahng",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "das Hotel",
+    "english": "the hotel",
+    "vietnamese": "",
+    "phonetic": "hoh-tel",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "der Supermarkt",
+    "english": "the supermarket",
+    "vietnamese": "",
+    "phonetic": "zoo-per-markt",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "die Bäckerei",
+    "english": "the bakery",
+    "vietnamese": "",
+    "phonetic": "bek-er-eye",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "die Bibliothek",
+    "english": "the library",
+    "vietnamese": "",
+    "phonetic": "bib-lee-oh-tayk",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "das Kino",
+    "english": "the cinema",
+    "vietnamese": "",
+    "phonetic": "kee-noh",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "das Theater",
+    "english": "the theater",
+    "vietnamese": "",
+    "phonetic": "tay-ah-ter",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "der Spielplatz",
+    "english": "the playground",
+    "vietnamese": "",
+    "phonetic": "shpeel-plahts",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "die Polizei",
+    "english": "the police",
+    "vietnamese": "",
+    "phonetic": "poh-lee-tsy",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "german": "der Laden",
+    "english": "the shop",
+    "vietnamese": "",
+    "phonetic": "lah-den",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "der Baum",
+    "english": "the tree",
+    "vietnamese": "",
+    "phonetic": "bowm",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "die Blume",
+    "english": "the flower",
+    "vietnamese": "",
+    "phonetic": "bloo-meh",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "der Berg",
+    "english": "the mountain",
+    "vietnamese": "",
+    "phonetic": "bairk",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "der Fluss",
+    "english": "the river",
+    "vietnamese": "",
+    "phonetic": "floos",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "der See",
+    "english": "the lake",
+    "vietnamese": "",
+    "phonetic": "zay",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "das Meer",
+    "english": "the sea",
+    "vietnamese": "",
+    "phonetic": "mair",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "der Wald",
+    "english": "the forest",
+    "vietnamese": "",
+    "phonetic": "vahlt",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "die Wiese",
+    "english": "the meadow",
+    "vietnamese": "",
+    "phonetic": "vee-zeh",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "der Strand",
+    "english": "the beach",
+    "vietnamese": "",
+    "phonetic": "shtrahnt",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "die Insel",
+    "english": "the island",
+    "vietnamese": "",
+    "phonetic": "in-zel",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "der Stein",
+    "english": "the stone",
+    "vietnamese": "",
+    "phonetic": "shtine",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "die Erde",
+    "english": "the earth",
+    "vietnamese": "",
+    "phonetic": "air-deh",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "die Luft",
+    "english": "the air",
+    "vietnamese": "",
+    "phonetic": "looft",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "das Feuer",
+    "english": "the fire",
+    "vietnamese": "",
+    "phonetic": "foy-er",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "das Gras",
+    "english": "the grass",
+    "vietnamese": "",
+    "phonetic": "grahs",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "die Rose",
+    "english": "the rose",
+    "vietnamese": "",
+    "phonetic": "roh-zeh",
+    "level": "A2",
+    "category": "nature"
+  },
+  {
+    "german": "der Stern",
+    "english": "the star",
+    "vietnamese": "",
+    "phonetic": "shtern",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "der Mond",
+    "english": "the moon",
+    "vietnamese": "",
+    "phonetic": "mohnt",
+    "level": "A1",
+    "category": "nature"
+  },
+  {
+    "german": "die Liebe",
+    "english": "the love",
+    "vietnamese": "",
+    "phonetic": "lee-beh",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "die Angst",
+    "english": "the fear",
+    "vietnamese": "",
+    "phonetic": "ahngst",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "die Freude",
+    "english": "the joy",
+    "vietnamese": "",
+    "phonetic": "froy-deh",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "der Spaß",
+    "english": "the fun",
+    "vietnamese": "",
+    "phonetic": "shpahs",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "die Hoffnung",
+    "english": "the hope",
+    "vietnamese": "",
+    "phonetic": "hof-noong",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "die Sorge",
+    "english": "the worry",
+    "vietnamese": "",
+    "phonetic": "zor-geh",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "der Traum",
+    "english": "the dream",
+    "vietnamese": "",
+    "phonetic": "trowm",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "das Glück",
+    "english": "the luck",
+    "vietnamese": "",
+    "phonetic": "glewk",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "die Ruhe",
+    "english": "the calm",
+    "vietnamese": "",
+    "phonetic": "roo-eh",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "lachen",
+    "english": "to laugh",
+    "vietnamese": "",
+    "phonetic": "lah-khen",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "weinen",
+    "english": "to cry",
+    "vietnamese": "",
+    "phonetic": "vy-nen",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "lieben",
+    "english": "to love",
+    "vietnamese": "",
+    "phonetic": "lee-ben",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "hassen",
+    "english": "to hate",
+    "vietnamese": "",
+    "phonetic": "hah-sen",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "fühlen",
+    "english": "to feel",
+    "vietnamese": "",
+    "phonetic": "few-len",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "wünschen",
+    "english": "to wish",
+    "vietnamese": "",
+    "phonetic": "vewn-shen",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "hoffen",
+    "english": "to hope",
+    "vietnamese": "",
+    "phonetic": "hoh-fen",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "freuen",
+    "english": "to be happy",
+    "vietnamese": "",
+    "phonetic": "froy-en",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "ärgern",
+    "english": "to annoy",
+    "vietnamese": "",
+    "phonetic": "air-gern",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "überraschen",
+    "english": "to surprise",
+    "vietnamese": "",
+    "phonetic": "ew-ber-rah-shen",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "danken",
+    "english": "to thank",
+    "vietnamese": "",
+    "phonetic": "dahn-ken",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "aufstehen",
+    "english": "to get up",
+    "vietnamese": "",
+    "phonetic": "owf-shtay-en",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "aufwachen",
+    "english": "to wake up",
+    "vietnamese": "",
+    "phonetic": "owf-vah-khen",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "duschen",
+    "english": "to shower",
+    "vietnamese": "",
+    "phonetic": "doo-shen",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "frühstücken",
+    "english": "to have breakfast",
+    "vietnamese": "",
+    "phonetic": "frew-shtew-ken",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "kochen",
+    "english": "to cook",
+    "vietnamese": "",
+    "phonetic": "kokh-en",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "putzen",
+    "english": "to clean",
+    "vietnamese": "",
+    "phonetic": "poot-sen",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "waschen",
+    "english": "to wash",
+    "vietnamese": "",
+    "phonetic": "vah-shen",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "träumen",
+    "english": "to dream",
+    "vietnamese": "",
+    "phonetic": "troy-men",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "anziehen",
+    "english": "to get dressed",
+    "vietnamese": "",
+    "phonetic": "ahn-tsee-en",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "ausziehen",
+    "english": "to get undressed",
+    "vietnamese": "",
+    "phonetic": "ows-tsee-en",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "einkaufen",
+    "english": "to shop",
+    "vietnamese": "",
+    "phonetic": "ine-kow-fen",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "spazieren",
+    "english": "to walk",
+    "vietnamese": "",
+    "phonetic": "shpah-tsee-ren",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "fernsehen",
+    "english": "to watch TV",
+    "vietnamese": "",
+    "phonetic": "fern-zay-en",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "telefonieren",
+    "english": "to phone",
+    "vietnamese": "",
+    "phonetic": "teh-leh-foh-nee-ren",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "spielen",
+    "english": "to play",
+    "vietnamese": "",
+    "phonetic": "shpee-len",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "arbeiten",
+    "english": "to work",
+    "vietnamese": "",
+    "phonetic": "ar-by-ten",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "der Arzt",
+    "english": "the doctor (m)",
+    "vietnamese": "",
+    "phonetic": "artst",
+    "level": "A1",
+    "category": "health"
+  },
+  {
+    "german": "die Ärztin",
+    "english": "the doctor (f)",
+    "vietnamese": "",
+    "phonetic": "airts-tin",
+    "level": "A1",
+    "category": "health"
+  },
+  {
+    "german": "die Medizin",
+    "english": "the medicine",
+    "vietnamese": "",
+    "phonetic": "meh-dee-tseen",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "der Schmerz",
+    "english": "the pain",
+    "vietnamese": "",
+    "phonetic": "shmairts",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "das Fieber",
+    "english": "the fever",
+    "vietnamese": "",
+    "phonetic": "fee-ber",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "der Husten",
+    "english": "the cough",
+    "vietnamese": "",
+    "phonetic": "hoo-sten",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "der Schnupfen",
+    "english": "the cold",
+    "vietnamese": "",
+    "phonetic": "shnoop-fen",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "die Tablette",
+    "english": "the pill",
+    "vietnamese": "",
+    "phonetic": "tah-blet-teh",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "gesund",
+    "english": "healthy",
+    "vietnamese": "",
+    "phonetic": "geh-zoont",
+    "level": "A1",
+    "category": "health"
+  },
+  {
+    "german": "krank",
+    "english": "sick",
+    "vietnamese": "",
+    "phonetic": "krahnk",
+    "level": "A1",
+    "category": "health"
+  },
+  {
+    "german": "der Kopfschmerz",
+    "english": "the headache",
+    "vietnamese": "",
+    "phonetic": "kopf-shmairts",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "die Erkältung",
+    "english": "the cold (illness)",
+    "vietnamese": "",
+    "phonetic": "er-kel-toong",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "der Termin",
+    "english": "the appointment",
+    "vietnamese": "",
+    "phonetic": "ter-meen",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "das Rezept",
+    "english": "the prescription",
+    "vietnamese": "",
+    "phonetic": "reh-tsept",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "laut",
+    "english": "loud",
+    "vietnamese": "",
+    "phonetic": "lowt",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "leise",
+    "english": "quiet",
+    "vietnamese": "",
+    "phonetic": "ly-zeh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "stark",
+    "english": "strong",
+    "vietnamese": "",
+    "phonetic": "shtark",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "schwach",
+    "english": "weak",
+    "vietnamese": "",
+    "phonetic": "shvakh",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "dunkel",
+    "english": "dark",
+    "vietnamese": "",
+    "phonetic": "doon-kel",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "hell",
+    "english": "bright",
+    "vietnamese": "",
+    "phonetic": "hel",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "sauber",
+    "english": "clean",
+    "vietnamese": "",
+    "phonetic": "zow-ber",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "schmutzig",
+    "english": "dirty",
+    "vietnamese": "",
+    "phonetic": "shmoo-tsig",
+    "level": "A2",
+    "category": "adjectives"
+  },
+  {
+    "german": "fertig",
+    "english": "ready/done",
+    "vietnamese": "",
+    "phonetic": "fair-tig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "frei",
+    "english": "free",
+    "vietnamese": "",
+    "phonetic": "fry",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "ich",
+    "english": "I",
+    "vietnamese": "",
+    "phonetic": "ikh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "du",
+    "english": "you",
+    "vietnamese": "",
+    "phonetic": "doo",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "er",
+    "english": "he",
+    "vietnamese": "",
+    "phonetic": "air",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "sie",
+    "english": "she/they",
+    "vietnamese": "",
+    "phonetic": "zee",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "wir",
+    "english": "we",
+    "vietnamese": "",
+    "phonetic": "veer",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "ihr",
+    "english": "you (pl)",
+    "vietnamese": "",
+    "phonetic": "eer",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "was",
+    "english": "what",
+    "vietnamese": "",
+    "phonetic": "vahs",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "wer",
+    "english": "who",
+    "vietnamese": "",
+    "phonetic": "vair",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "wo",
+    "english": "where",
+    "vietnamese": "",
+    "phonetic": "voh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "wann",
+    "english": "when",
+    "vietnamese": "",
+    "phonetic": "vahn",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "warum",
+    "english": "why",
+    "vietnamese": "",
+    "phonetic": "vah-room",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "wie",
+    "english": "how",
+    "vietnamese": "",
+    "phonetic": "vee",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "hier",
+    "english": "here",
+    "vietnamese": "",
+    "phonetic": "heer",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "dort",
+    "english": "there",
+    "vietnamese": "",
+    "phonetic": "dort",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "jetzt",
+    "english": "now",
+    "vietnamese": "",
+    "phonetic": "yetst",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "finden",
+    "english": "to find",
+    "vietnamese": "",
+    "phonetic": "fin-den",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "kaufen",
+    "english": "to buy",
+    "vietnamese": "",
+    "phonetic": "kow-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "verkaufen",
+    "english": "to sell",
+    "vietnamese": "",
+    "phonetic": "fer-kow-fen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "bezahlen",
+    "english": "to pay",
+    "vietnamese": "",
+    "phonetic": "beh-tsah-len",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "anrufen",
+    "english": "to call",
+    "vietnamese": "",
+    "phonetic": "ahn-roo-fen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "besuchen",
+    "english": "to visit",
+    "vietnamese": "",
+    "phonetic": "beh-zoo-khen",
+    "level": "A2",
+    "category": "verbs"
+  },
+  {
+    "german": "kennen",
+    "english": "to know (person)",
+    "vietnamese": "",
+    "phonetic": "ken-nen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "mögen",
+    "english": "to like",
+    "vietnamese": "",
+    "phonetic": "mer-gen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "müssen",
+    "english": "must",
+    "vietnamese": "",
+    "phonetic": "mew-sen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "können",
+    "english": "can",
+    "vietnamese": "",
+    "phonetic": "ker-nen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "das Gemüse",
+    "english": "the vegetables",
+    "vietnamese": "",
+    "phonetic": "geh-mew-zeh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Obst",
+    "english": "the fruit",
+    "vietnamese": "",
+    "phonetic": "ohpst",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Nudel",
+    "english": "the noodle",
+    "vietnamese": "",
+    "phonetic": "noo-del",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Pizza",
+    "english": "the pizza",
+    "vietnamese": "",
+    "phonetic": "peet-sa",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Frühstück",
+    "english": "the breakfast",
+    "vietnamese": "",
+    "phonetic": "frew-shtewk",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Mittagessen",
+    "english": "the lunch",
+    "vietnamese": "",
+    "phonetic": "mit-tahg-es-sen",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Abendessen",
+    "english": "the dinner",
+    "vietnamese": "",
+    "phonetic": "ah-bent-es-sen",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "der Teller",
+    "english": "the plate",
+    "vietnamese": "",
+    "phonetic": "tel-ler",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Gabel",
+    "english": "the fork",
+    "vietnamese": "",
+    "phonetic": "gah-bel",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "der Fernseher",
+    "english": "the TV",
+    "vietnamese": "",
+    "phonetic": "fern-zay-er",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Telefon",
+    "english": "the telephone",
+    "vietnamese": "",
+    "phonetic": "teh-leh-fohn",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Kühlschrank",
+    "english": "the fridge",
+    "vietnamese": "",
+    "phonetic": "kewl-shrahnk",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "die Waschmaschine",
+    "english": "the washing machine",
+    "vietnamese": "",
+    "phonetic": "vahsh-mah-shee-neh",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "der Herd",
+    "english": "the stove",
+    "vietnamese": "",
+    "phonetic": "hairt",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "der Teppich",
+    "english": "the carpet",
+    "vietnamese": "",
+    "phonetic": "tep-pikh",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "german": "das Sofa",
+    "english": "the sofa",
+    "vietnamese": "",
+    "phonetic": "zoh-fah",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "die Dusche",
+    "english": "the shower",
+    "vietnamese": "",
+    "phonetic": "doo-sheh",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Schlüssel",
+    "english": "the key",
+    "vietnamese": "",
+    "phonetic": "shlew-sel",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "die Wohnung",
+    "english": "the apartment",
+    "vietnamese": "",
+    "phonetic": "voh-noong",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "lila",
+    "english": "purple",
+    "vietnamese": "",
+    "phonetic": "lee-lah",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "german": "gold",
+    "english": "gold",
+    "vietnamese": "",
+    "phonetic": "golt",
+    "level": "A2",
+    "category": "colors"
+  },
+  {
+    "german": "silber",
+    "english": "silver",
+    "vietnamese": "",
+    "phonetic": "zil-ber",
+    "level": "A2",
+    "category": "colors"
+  },
+  {
+    "german": "bunt",
+    "english": "colorful",
+    "vietnamese": "",
+    "phonetic": "boont",
+    "level": "A2",
+    "category": "colors"
+  },
+  {
+    "german": "dunkelblau",
+    "english": "dark blue",
+    "vietnamese": "",
+    "phonetic": "doon-kel-blow",
+    "level": "A2",
+    "category": "colors"
+  },
+  {
+    "german": "trocken",
+    "english": "dry",
+    "vietnamese": "",
+    "phonetic": "trok-ken",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "feucht",
+    "english": "humid/moist",
+    "vietnamese": "",
+    "phonetic": "foykht",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "mild",
+    "english": "mild",
+    "vietnamese": "",
+    "phonetic": "milt",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "bewölkt",
+    "english": "cloudy",
+    "vietnamese": "",
+    "phonetic": "beh-verlkt",
+    "level": "A2",
+    "category": "weather"
+  },
+  {
+    "german": "die Musik",
+    "english": "the music",
+    "vietnamese": "",
+    "phonetic": "moo-zeek",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "der Sport",
+    "english": "the sport",
+    "vietnamese": "",
+    "phonetic": "shport",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "die Sprache",
+    "english": "the language",
+    "vietnamese": "",
+    "phonetic": "shprah-kheh",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "die Zeitung",
+    "english": "the newspaper",
+    "vietnamese": "",
+    "phonetic": "tsy-toong",
+    "level": "A2",
+    "category": "school"
+  },
+  {
+    "german": "das Handy",
+    "english": "the cell phone",
+    "vietnamese": "",
+    "phonetic": "hen-dee",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "viel",
+    "english": "much/many",
+    "vietnamese": "",
+    "phonetic": "feel",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "wenig",
+    "english": "few/little",
+    "vietnamese": "",
+    "phonetic": "vay-nig",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "alle",
+    "english": "all/everyone",
+    "vietnamese": "",
+    "phonetic": "ah-leh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "nichts",
+    "english": "nothing",
+    "vietnamese": "",
+    "phonetic": "nikhts",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "etwas",
+    "english": "something",
+    "vietnamese": "",
+    "phonetic": "et-vahs",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "immer",
+    "english": "always",
+    "vietnamese": "",
+    "phonetic": "im-mer",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "nie",
+    "english": "never",
+    "vietnamese": "",
+    "phonetic": "nee",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "manchmal",
+    "english": "sometimes",
+    "vietnamese": "",
+    "phonetic": "mahnkh-mahl",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "nur",
+    "english": "only",
+    "vietnamese": "",
+    "phonetic": "noor",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "auch",
+    "english": "also",
+    "vietnamese": "",
+    "phonetic": "owkh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "schon",
+    "english": "already",
+    "vietnamese": "",
+    "phonetic": "shohn",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "noch",
+    "english": "still/yet",
+    "vietnamese": "",
+    "phonetic": "nokh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "sehr",
+    "english": "very",
+    "vietnamese": "",
+    "phonetic": "zair",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "zusammen",
+    "english": "together",
+    "vietnamese": "",
+    "phonetic": "tsoo-zah-men",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "allein",
+    "english": "alone",
+    "vietnamese": "",
+    "phonetic": "ah-line",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "genug",
+    "english": "enough",
+    "vietnamese": "",
+    "phonetic": "geh-nook",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "zwischen",
+    "english": "between",
+    "vietnamese": "",
+    "phonetic": "tsvish-en",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "neben",
+    "english": "next to",
+    "vietnamese": "",
+    "phonetic": "nay-ben",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "über",
+    "english": "over/about",
+    "vietnamese": "",
+    "phonetic": "ew-ber",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "unter",
+    "english": "under",
+    "vietnamese": "",
+    "phonetic": "oon-ter",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "vor",
+    "english": "before/in front",
+    "vietnamese": "",
+    "phonetic": "for",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "nach",
+    "english": "after/to",
+    "vietnamese": "",
+    "phonetic": "nahkh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "mit",
+    "english": "with",
+    "vietnamese": "",
+    "phonetic": "mit",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "ohne",
+    "english": "without",
+    "vietnamese": "",
+    "phonetic": "oh-neh",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "gegen",
+    "english": "against",
+    "vietnamese": "",
+    "phonetic": "gay-gen",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "Wie geht es Ihnen?",
+    "english": "How are you? (formal)",
+    "vietnamese": "",
+    "phonetic": "vee gayt es ee-nen",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Mir geht es gut.",
+    "english": "I am fine.",
+    "vietnamese": "",
+    "phonetic": "meer gayt es goot",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Wie heißen Sie?",
+    "english": "What is your name? (formal)",
+    "vietnamese": "",
+    "phonetic": "vee hy-sen zee",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Ich heiße Anna.",
+    "english": "My name is Anna.",
+    "vietnamese": "",
+    "phonetic": "ikh hy-seh ah-nah",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Woher kommen Sie?",
+    "english": "Where are you from? (formal)",
+    "vietnamese": "",
+    "phonetic": "vo-hair ko-men zee",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Ich komme aus Vietnam.",
+    "english": "I come from Vietnam.",
+    "vietnamese": "",
+    "phonetic": "ikh ko-meh ows vee-et-nahm",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "german": "Ich möchte Wasser.",
+    "english": "I would like water.",
+    "vietnamese": "",
+    "phonetic": "ikh merkh-teh vah-ser",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Wo ist die Toilette?",
+    "english": "Where is the toilet?",
+    "vietnamese": "",
+    "phonetic": "vo ist dee toy-leh-teh",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "Ich spreche ein bisschen Deutsch.",
+    "english": "I speak a little German.",
+    "vietnamese": "",
+    "phonetic": "ikh shpre-kheh ayn bis-khen doytch",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "Können Sie mir helfen?",
+    "english": "Can you help me?",
+    "vietnamese": "",
+    "phonetic": "ker-nen zee meer hel-fen",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "Ich verstehe das nicht.",
+    "english": "I don't understand that.",
+    "vietnamese": "",
+    "phonetic": "ikh fair-shtay-eh das nikht",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "Sprechen Sie Englisch?",
+    "english": "Do you speak English?",
+    "vietnamese": "",
+    "phonetic": "shpre-khen zee eng-lish",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "Das ist sehr schön.",
+    "english": "That is very beautiful.",
+    "vietnamese": "",
+    "phonetic": "das ist zair shern",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "Wie viel kostet das?",
+    "english": "How much does that cost?",
+    "vietnamese": "",
+    "phonetic": "vee feel kos-tet das",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "Ich bin müde.",
+    "english": "I am tired.",
+    "vietnamese": "",
+    "phonetic": "ikh bin mew-deh",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "Ich habe Hunger.",
+    "english": "I am hungry.",
+    "vietnamese": "",
+    "phonetic": "ikh hah-beh hoong-er",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Es tut mir leid.",
+    "english": "I am sorry.",
+    "vietnamese": "",
+    "phonetic": "es toot meer lyt",
+    "level": "A1",
+    "category": "emotions"
+  },
+  {
+    "german": "Ich gehe nach Hause.",
+    "english": "I am going home.",
+    "vietnamese": "",
+    "phonetic": "ikh gay-eh nakh how-zeh",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "Wann fährt der Zug?",
+    "english": "When does the train leave?",
+    "vietnamese": "",
+    "phonetic": "van fairt dair tsook",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "Ich brauche einen Arzt.",
+    "english": "I need a doctor.",
+    "vietnamese": "",
+    "phonetic": "ikh brow-kheh ay-nen artst",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "Das Wetter ist heute schön.",
+    "english": "The weather is nice today.",
+    "vietnamese": "",
+    "phonetic": "das vet-er ist hoy-teh shern",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "Ich wohne in Berlin.",
+    "english": "I live in Berlin.",
+    "vietnamese": "",
+    "phonetic": "ikh vo-neh in bair-leen",
+    "level": "A1",
+    "category": "places"
+  },
+  {
+    "german": "Haben Sie einen Tisch frei?",
+    "english": "Do you have a free table?",
+    "vietnamese": "",
+    "phonetic": "hah-ben zee ay-nen tish fry",
+    "level": "A2",
+    "category": "food"
+  },
+  {
+    "german": "Die Rechnung, bitte.",
+    "english": "The bill, please.",
+    "vietnamese": "",
+    "phonetic": "dee rekh-noong bih-teh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Ich trinke gern Kaffee.",
+    "english": "I like to drink coffee.",
+    "vietnamese": "",
+    "phonetic": "ikh tring-keh gairn kah-fay",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Wo ist der Bahnhof?",
+    "english": "Where is the train station?",
+    "vietnamese": "",
+    "phonetic": "vo ist dair bahn-hof",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "Ich lerne Deutsch.",
+    "english": "I am learning German.",
+    "vietnamese": "",
+    "phonetic": "ikh lair-neh doytch",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "Heute ist Montag.",
+    "english": "Today is Monday.",
+    "vietnamese": "",
+    "phonetic": "hoy-teh ist mohn-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "Es regnet draußen.",
+    "english": "It is raining outside.",
+    "vietnamese": "",
+    "phonetic": "es rayg-net drow-sen",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "Ich habe zwei Kinder.",
+    "english": "I have two children.",
+    "vietnamese": "",
+    "phonetic": "ikh hah-beh tsvy kin-der",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "Mein Bruder ist älter.",
+    "english": "My brother is older.",
+    "vietnamese": "",
+    "phonetic": "myn broo-der ist el-ter",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "Ich fahre mit dem Bus.",
+    "english": "I take the bus.",
+    "vietnamese": "",
+    "phonetic": "ikh fah-reh mit daym boos",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "Die Schule beginnt um acht.",
+    "english": "School starts at eight.",
+    "vietnamese": "",
+    "phonetic": "dee shoo-leh beh-gint oom akht",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "german": "Ich mag Schokolade.",
+    "english": "I like chocolate.",
+    "vietnamese": "",
+    "phonetic": "ikh mahk sho-ko-lah-deh",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Er spielt gern Fußball.",
+    "english": "He likes to play football.",
+    "vietnamese": "",
+    "phonetic": "air shpeelt gairn foos-bal",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "Wir gehen ins Kino.",
+    "english": "We are going to the cinema.",
+    "vietnamese": "",
+    "phonetic": "veer gay-en ins kee-no",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "german": "Ich stehe um sechs Uhr auf.",
+    "english": "I get up at six o'clock.",
+    "vietnamese": "",
+    "phonetic": "ikh shtay-eh oom zeks oor owf",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "Kannst du mir das erklären?",
+    "english": "Can you explain that to me?",
+    "vietnamese": "",
+    "phonetic": "kanst doo meer das air-klai-ren",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "Ich bin gestern angekommen.",
+    "english": "I arrived yesterday.",
+    "vietnamese": "",
+    "phonetic": "ikh bin ges-tern an-geh-ko-men",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "Das Essen schmeckt gut.",
+    "english": "The food tastes good.",
+    "vietnamese": "",
+    "phonetic": "das es-en shmekt goot",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Ich muss morgen arbeiten.",
+    "english": "I have to work tomorrow.",
+    "vietnamese": "",
+    "phonetic": "ikh moos mor-gen ar-by-ten",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "Wo kann ich das kaufen?",
+    "english": "Where can I buy that?",
+    "vietnamese": "",
+    "phonetic": "vo kan ikh das kow-fen",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "Ich habe Kopfschmerzen.",
+    "english": "I have a headache.",
+    "vietnamese": "",
+    "phonetic": "ikh hah-beh kopf-shmair-tsen",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "german": "Entschuldigung, wo ist...?",
+    "english": "Excuse me, where is...?",
+    "vietnamese": "",
+    "phonetic": "ent-shool-di-goong vo ist",
+    "level": "A1",
+    "category": "basics"
+  },
+  {
+    "german": "Ich nehme das Schnitzel.",
+    "english": "I'll take the schnitzel.",
+    "vietnamese": "",
+    "phonetic": "ikh nay-meh das shnit-sel",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "Darf ich hier sitzen?",
+    "english": "May I sit here?",
+    "vietnamese": "",
+    "phonetic": "darf ikh heer zit-sen",
+    "level": "A2",
+    "category": "basics"
+  },
+  {
+    "german": "Sie hat blaue Augen.",
+    "english": "She has blue eyes.",
+    "vietnamese": "",
+    "phonetic": "zee hat blow-eh ow-gen",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "german": "Der Zug hat Verspätung.",
+    "english": "The train is delayed.",
+    "vietnamese": "",
+    "phonetic": "dair tsook hat fair-shpay-toong",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "german": "Ich freue mich auf morgen.",
+    "english": "I look forward to tomorrow.",
+    "vietnamese": "",
+    "phonetic": "ikh froy-eh mikh owf mor-gen",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "german": "Herzlichen Glückwunsch!",
+    "english": "Congratulations!",
+    "vietnamese": "",
+    "phonetic": "hairts-likh-en glewk-voonsh",
+    "level": "A2",
+    "category": "greetings"
+  },
+  {
+    "german": "die Bewerbung",
+    "english": "application",
+    "vietnamese": "đơn xin",
+    "phonetic": "be-VER-boong",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "das Gehalt",
+    "english": "salary",
+    "vietnamese": "lương",
+    "phonetic": "ge-HALT",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "der Vertrag",
+    "english": "contract",
+    "vietnamese": "hợp đồng",
+    "phonetic": "fer-TRAHK",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "kündigen",
+    "english": "to quit",
+    "vietnamese": "nghỉ việc",
+    "phonetic": "KUEN-di-gen",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Erfahrung",
+    "english": "experience",
+    "vietnamese": "kinh nghiệm",
+    "phonetic": "er-FAH-roong",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Ausbildung",
+    "english": "training",
+    "vietnamese": "đào tạo",
+    "phonetic": "OWS-bil-doong",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "der Kollege",
+    "english": "colleague",
+    "vietnamese": "đồng nghiệp",
+    "phonetic": "ko-LAY-ge",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Besprechung",
+    "english": "meeting",
+    "vietnamese": "cuộc họp",
+    "phonetic": "be-SHPRE-khoong",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "das Projekt",
+    "english": "project",
+    "vietnamese": "dự án",
+    "phonetic": "pro-YEKT",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "verantwortlich",
+    "english": "responsible",
+    "vietnamese": "trách nhiệm",
+    "phonetic": "fer-ANT-vort-likh",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "der Erfolg",
+    "english": "success",
+    "vietnamese": "thành công",
+    "phonetic": "er-FOLK",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Karriere",
+    "english": "career",
+    "vietnamese": "sự nghiệp",
+    "phonetic": "ka-RYEH-re",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Abteilung",
+    "english": "department",
+    "vietnamese": "phòng ban",
+    "phonetic": "AP-tai-loong",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "bewerben",
+    "english": "to apply",
+    "vietnamese": "ứng tuyển",
+    "phonetic": "be-VER-ben",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Überstunde",
+    "english": "overtime",
+    "vietnamese": "tăng ca",
+    "phonetic": "UE-ber-shtoon-de",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "german": "die Gesundheit",
+    "english": "health",
+    "vietnamese": "sức khỏe",
+    "phonetic": "ge-ZOONT-hait",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "die Krankheit",
+    "english": "illness",
+    "vietnamese": "bệnh",
+    "phonetic": "KRANK-hait",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "sich erkälten",
+    "english": "to catch cold",
+    "vietnamese": "bị cảm",
+    "phonetic": "zikh er-KEL-ten",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "die Operation",
+    "english": "surgery",
+    "vietnamese": "phẫu thuật",
+    "phonetic": "o-pe-ra-TSYON",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "die Versicherung",
+    "english": "insurance",
+    "vietnamese": "bảo hiểm",
+    "phonetic": "fer-ZI-khe-roong",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "allergisch",
+    "english": "allergic",
+    "vietnamese": "dị ứng",
+    "phonetic": "a-LER-gish",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "die Untersuchung",
+    "english": "exam",
+    "vietnamese": "khám",
+    "phonetic": "oon-ter-ZOO-khoong",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "heilen",
+    "english": "to heal",
+    "vietnamese": "chữa",
+    "phonetic": "HAI-len",
+    "level": "B1",
+    "category": "health"
+  },
+  {
+    "german": "die Reise",
+    "english": "journey",
+    "vietnamese": "chuyến đi",
+    "phonetic": "RAI-ze",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "der Koffer",
+    "english": "suitcase",
+    "vietnamese": "vali",
+    "phonetic": "KO-fer",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "das Visum",
+    "english": "visa",
+    "vietnamese": "thị thực",
+    "phonetic": "VEE-zoom",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Unterkunft",
+    "english": "lodging",
+    "vietnamese": "chỗ ở",
+    "phonetic": "OON-ter-koonft",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "buchen",
+    "english": "to book",
+    "vietnamese": "đặt",
+    "phonetic": "BOO-khen",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Abfahrt",
+    "english": "departure",
+    "vietnamese": "khởi hành",
+    "phonetic": "AP-fahrt",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Ankunft",
+    "english": "arrival",
+    "vietnamese": "đến nơi",
+    "phonetic": "AN-koonft",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Verspätung",
+    "english": "delay",
+    "vietnamese": "trễ",
+    "phonetic": "fer-SHPAY-toong",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "der Reisepass",
+    "english": "passport",
+    "vietnamese": "hộ chiếu",
+    "phonetic": "RAI-ze-pas",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Währung",
+    "english": "currency",
+    "vietnamese": "tiền tệ",
+    "phonetic": "VAY-roong",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "umsteigen",
+    "english": "to transfer",
+    "vietnamese": "đổi tàu",
+    "phonetic": "OOM-shtai-gen",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "das Gepäck",
+    "english": "luggage",
+    "vietnamese": "hành lý",
+    "phonetic": "ge-PEK",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "der Fahrplan",
+    "english": "timetable",
+    "vietnamese": "lịch trình",
+    "phonetic": "FAHR-plahn",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Fahrkarte",
+    "english": "ticket",
+    "vietnamese": "vé",
+    "phonetic": "FAHR-kar-te",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "der Ausflug",
+    "english": "excursion",
+    "vietnamese": "dã ngoại",
+    "phonetic": "OWS-flook",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Grenze",
+    "english": "border",
+    "vietnamese": "biên giới",
+    "phonetic": "GREN-tse",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Landschaft",
+    "english": "landscape",
+    "vietnamese": "phong cảnh",
+    "phonetic": "LANT-shaft",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Küste",
+    "english": "coast",
+    "vietnamese": "bờ biển",
+    "phonetic": "KUES-te",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "die Sehenswürdigkeit",
+    "english": "sight",
+    "vietnamese": "thắng cảnh",
+    "phonetic": "ZAY-ens-vuer-dikh-kait",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "german": "das Semester",
+    "english": "semester",
+    "vietnamese": "học kỳ",
+    "phonetic": "ze-MES-ter",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "die Vorlesung",
+    "english": "lecture",
+    "vietnamese": "bài giảng",
+    "phonetic": "FOR-lay-zoong",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "bestehen",
+    "english": "to pass",
+    "vietnamese": "đỗ",
+    "phonetic": "be-SHTAY-en",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "der Abschluss",
+    "english": "degree",
+    "vietnamese": "bằng cấp",
+    "phonetic": "AP-shloos",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "der Kurs",
+    "english": "course",
+    "vietnamese": "khóa học",
+    "phonetic": "KOORS",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "die Note",
+    "english": "grade",
+    "vietnamese": "điểm",
+    "phonetic": "NOH-te",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "das Stipendium",
+    "english": "scholarship",
+    "vietnamese": "học bổng",
+    "phonetic": "shti-PEN-di-oom",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "die Forschung",
+    "english": "research",
+    "vietnamese": "nghiên cứu",
+    "phonetic": "FOR-shoong",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "das Wissen",
+    "english": "knowledge",
+    "vietnamese": "kiến thức",
+    "phonetic": "VI-sen",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "der Unterricht",
+    "english": "lesson",
+    "vietnamese": "bài học",
+    "phonetic": "OON-ter-ikht",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "das Zeugnis",
+    "english": "certificate",
+    "vietnamese": "chứng chỉ",
+    "phonetic": "TSOYG-nis",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "german": "die Umwelt",
+    "english": "environment",
+    "vietnamese": "môi trường",
+    "phonetic": "OOM-velt",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "der Klimawandel",
+    "english": "climate change",
+    "vietnamese": "khí hậu",
+    "phonetic": "KLEE-ma-van-del",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Verschmutzung",
+    "english": "pollution",
+    "vietnamese": "ô nhiễm",
+    "phonetic": "fer-SHMOO-tsoong",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "recyceln",
+    "english": "to recycle",
+    "vietnamese": "tái chế",
+    "phonetic": "ree-SAI-keln",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Energie",
+    "english": "energy",
+    "vietnamese": "năng lượng",
+    "phonetic": "e-ner-GEE",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "erneuerbar",
+    "english": "renewable",
+    "vietnamese": "tái tạo",
+    "phonetic": "er-NOY-er-bar",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Natur",
+    "english": "nature",
+    "vietnamese": "thiên nhiên",
+    "phonetic": "na-TOOR",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "schützen",
+    "english": "to protect",
+    "vietnamese": "bảo vệ",
+    "phonetic": "SHUE-tsen",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "der Müll",
+    "english": "trash",
+    "vietnamese": "rác",
+    "phonetic": "MUEL",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "nachhaltig",
+    "english": "sustainable",
+    "vietnamese": "bền vững",
+    "phonetic": "NAKH-hal-tikh",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Pflanze",
+    "english": "plant",
+    "vietnamese": "cây",
+    "phonetic": "PFLAN-tse",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "das Tier",
+    "english": "animal",
+    "vietnamese": "động vật",
+    "phonetic": "TEER",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Ressource",
+    "english": "resource",
+    "vietnamese": "tài nguyên",
+    "phonetic": "re-SOR-se",
+    "level": "B1",
+    "category": "environment"
+  },
+  {
+    "german": "die Trauer",
+    "english": "sadness",
+    "vietnamese": "buồn",
+    "phonetic": "TROW-er",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "die Wut",
+    "english": "anger",
+    "vietnamese": "giận",
+    "phonetic": "VOOT",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "die Überraschung",
+    "english": "surprise",
+    "vietnamese": "bất ngờ",
+    "phonetic": "UE-ber-ra-shoong",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "sich freuen",
+    "english": "to be happy",
+    "vietnamese": "vui",
+    "phonetic": "zikh FROY-en",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "sich ärgern",
+    "english": "to be annoyed",
+    "vietnamese": "bực",
+    "phonetic": "zikh ER-gern",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "enttäuscht",
+    "english": "disappointed",
+    "vietnamese": "thất vọng",
+    "phonetic": "ent-TOYSHT",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "zufrieden",
+    "english": "satisfied",
+    "vietnamese": "hài lòng",
+    "phonetic": "tsoo-FREE-den",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "stolz",
+    "english": "proud",
+    "vietnamese": "tự hào",
+    "phonetic": "SHTOLTS",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "einsam",
+    "english": "lonely",
+    "vietnamese": "cô đơn",
+    "phonetic": "AIN-zahm",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "nervös",
+    "english": "nervous",
+    "vietnamese": "lo lắng",
+    "phonetic": "ner-VOES",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "begeistert",
+    "english": "excited",
+    "vietnamese": "hào hứng",
+    "phonetic": "be-GAIS-tert",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "dankbar",
+    "english": "grateful",
+    "vietnamese": "biết ơn",
+    "phonetic": "DANK-bar",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "mutig",
+    "english": "brave",
+    "vietnamese": "dũng cảm",
+    "phonetic": "MOO-tikh",
+    "level": "B1",
+    "category": "emotions"
+  },
+  {
+    "german": "die Gesellschaft",
+    "english": "society",
+    "vietnamese": "xã hội",
+    "phonetic": "ge-ZEL-shaft",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Kultur",
+    "english": "culture",
+    "vietnamese": "văn hóa",
+    "phonetic": "kool-TOOR",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Tradition",
+    "english": "tradition",
+    "vietnamese": "truyền thống",
+    "phonetic": "tra-di-TSYON",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Politik",
+    "english": "politics",
+    "vietnamese": "chính trị",
+    "phonetic": "po-li-TEEK",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Demokratie",
+    "english": "democracy",
+    "vietnamese": "dân chủ",
+    "phonetic": "de-mo-kra-TEE",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "das Gesetz",
+    "english": "law",
+    "vietnamese": "luật",
+    "phonetic": "ge-ZETS",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Freiheit",
+    "english": "freedom",
+    "vietnamese": "tự do",
+    "phonetic": "FRAI-hait",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Meinung",
+    "english": "opinion",
+    "vietnamese": "ý kiến",
+    "phonetic": "MAI-noong",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Diskussion",
+    "english": "discussion",
+    "vietnamese": "thảo luận",
+    "phonetic": "dis-koo-SYON",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "der Bürger",
+    "english": "citizen",
+    "vietnamese": "công dân",
+    "phonetic": "BUER-ger",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Verantwortung",
+    "english": "responsibility",
+    "vietnamese": "trách nhiệm",
+    "phonetic": "fer-ANT-vor-toong",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "die Gemeinschaft",
+    "english": "community",
+    "vietnamese": "cộng đồng",
+    "phonetic": "ge-MAIN-shaft",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "german": "das Internet",
+    "english": "internet",
+    "vietnamese": "internet",
+    "phonetic": "in-ter-NET",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "die Software",
+    "english": "software",
+    "vietnamese": "phần mềm",
+    "phonetic": "SOFT-ver",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "das Passwort",
+    "english": "password",
+    "vietnamese": "mật khẩu",
+    "phonetic": "PAS-vort",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "herunterladen",
+    "english": "to download",
+    "vietnamese": "tải",
+    "phonetic": "her-OON-ter-lah-den",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "die Datei",
+    "english": "file",
+    "vietnamese": "tập tin",
+    "phonetic": "da-TAI",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "der Bildschirm",
+    "english": "screen",
+    "vietnamese": "màn hình",
+    "phonetic": "BILT-shirm",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "die Tastatur",
+    "english": "keyboard",
+    "vietnamese": "bàn phím",
+    "phonetic": "tas-ta-TOOR",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "das Netzwerk",
+    "english": "network",
+    "vietnamese": "mạng",
+    "phonetic": "NETS-verk",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "speichern",
+    "english": "to save",
+    "vietnamese": "lưu",
+    "phonetic": "SHPAI-khern",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "aktualisieren",
+    "english": "to update",
+    "vietnamese": "cập nhật",
+    "phonetic": "ak-too-a-li-ZEE-ren",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "drucken",
+    "english": "to print",
+    "vietnamese": "in",
+    "phonetic": "DROO-ken",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "digital",
+    "english": "digital",
+    "vietnamese": "số",
+    "phonetic": "di-gi-TAHL",
+    "level": "B1",
+    "category": "technology"
+  },
+  {
+    "german": "die Miete",
+    "english": "rent",
+    "vietnamese": "thuê",
+    "phonetic": "MEE-te",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "einziehen",
+    "english": "to move in",
+    "vietnamese": "dọn vào",
+    "phonetic": "AIN-tsee-en",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "renovieren",
+    "english": "to renovate",
+    "vietnamese": "sửa",
+    "phonetic": "re-no-VEE-ren",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "die Heizung",
+    "english": "heating",
+    "vietnamese": "sưởi",
+    "phonetic": "HAI-tsoong",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "der Aufzug",
+    "english": "elevator",
+    "vietnamese": "thang máy",
+    "phonetic": "OWF-tsook",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "möbliert",
+    "english": "furnished",
+    "vietnamese": "nội thất",
+    "phonetic": "moe-BLEERT",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "der Umzug",
+    "english": "move",
+    "vietnamese": "chuyển nhà",
+    "phonetic": "OOM-tsook",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "die Nachbarschaft",
+    "english": "neighborhood",
+    "vietnamese": "khu phố",
+    "phonetic": "NAKH-bar-shaft",
+    "level": "B1",
+    "category": "housing"
+  },
+  {
+    "german": "die Zutat",
+    "english": "ingredient",
+    "vietnamese": "nguyên liệu",
+    "phonetic": "TSOO-taht",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "braten",
+    "english": "to fry",
+    "vietnamese": "chiên",
+    "phonetic": "BRAH-ten",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "backen",
+    "english": "to bake",
+    "vietnamese": "nướng",
+    "phonetic": "BA-ken",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "schmecken",
+    "english": "to taste",
+    "vietnamese": "nếm",
+    "phonetic": "SHME-ken",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "die Pfanne",
+    "english": "pan",
+    "vietnamese": "chảo",
+    "phonetic": "PFA-ne",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "der Topf",
+    "english": "pot",
+    "vietnamese": "nồi",
+    "phonetic": "TOPF",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "das Gericht",
+    "english": "dish",
+    "vietnamese": "món ăn",
+    "phonetic": "ge-RIKHT",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "die Mahlzeit",
+    "english": "meal",
+    "vietnamese": "bữa ăn",
+    "phonetic": "MAHL-tsait",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "vegetarisch",
+    "english": "vegetarian",
+    "vietnamese": "chay",
+    "phonetic": "ve-ge-TAH-rish",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "die Soße",
+    "english": "sauce",
+    "vietnamese": "nước sốt",
+    "phonetic": "ZOH-se",
+    "level": "B1",
+    "category": "cooking"
+  },
+  {
+    "german": "die Möglichkeit",
+    "english": "possibility",
+    "vietnamese": "khả năng",
+    "phonetic": "MOEG-likh-kait",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Gelegenheit",
+    "english": "opportunity",
+    "vietnamese": "cơ hội",
+    "phonetic": "ge-LAY-gen-hait",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Lösung",
+    "english": "solution",
+    "vietnamese": "giải pháp",
+    "phonetic": "LOE-zoong",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Unterschied",
+    "english": "difference",
+    "vietnamese": "khác biệt",
+    "phonetic": "OON-ter-sheet",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Bedeutung",
+    "english": "meaning",
+    "vietnamese": "ý nghĩa",
+    "phonetic": "be-DOY-toong",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Grund",
+    "english": "reason",
+    "vietnamese": "lý do",
+    "phonetic": "GROONT",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Ursache",
+    "english": "cause",
+    "vietnamese": "nguyên nhân",
+    "phonetic": "OOR-za-khe",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Folge",
+    "english": "consequence",
+    "vietnamese": "hậu quả",
+    "phonetic": "FOL-ge",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Vorteil",
+    "english": "advantage",
+    "vietnamese": "lợi thế",
+    "phonetic": "FOR-tail",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Nachteil",
+    "english": "disadvantage",
+    "vietnamese": "bất lợi",
+    "phonetic": "NAKH-tail",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Vorschlag",
+    "english": "suggestion",
+    "vietnamese": "đề xuất",
+    "phonetic": "FOR-shlahk",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Entwicklung",
+    "english": "development",
+    "vietnamese": "phát triển",
+    "phonetic": "ent-VIK-loong",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Entscheidung",
+    "english": "decision",
+    "vietnamese": "quyết định",
+    "phonetic": "ent-SHAI-doong",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "die Beziehung",
+    "english": "relationship",
+    "vietnamese": "quan hệ",
+    "phonetic": "be-TSEE-oong",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "der Einfluss",
+    "english": "influence",
+    "vietnamese": "ảnh hưởng",
+    "phonetic": "AIN-floos",
+    "level": "B1",
+    "category": "abstract"
+  },
+  {
+    "german": "mitteilen",
+    "english": "to inform",
+    "vietnamese": "thông báo",
+    "phonetic": "MIT-tai-len",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "erklären",
+    "english": "to explain",
+    "vietnamese": "giải thích",
+    "phonetic": "er-KLAY-ren",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "beschreiben",
+    "english": "to describe",
+    "vietnamese": "mô tả",
+    "phonetic": "be-SHRAI-ben",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "vorschlagen",
+    "english": "to suggest",
+    "vietnamese": "đề xuất",
+    "phonetic": "FOR-shlah-gen",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "zustimmen",
+    "english": "to agree",
+    "vietnamese": "đồng ý",
+    "phonetic": "TSOO-shtim-men",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "ablehnen",
+    "english": "to reject",
+    "vietnamese": "từ chối",
+    "phonetic": "AP-lay-nen",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "sich beschweren",
+    "english": "to complain",
+    "vietnamese": "phàn nàn",
+    "phonetic": "zikh be-SHVAY-ren",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "übersetzen",
+    "english": "to translate",
+    "vietnamese": "dịch",
+    "phonetic": "ue-ber-ZE-tsen",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "diskutieren",
+    "english": "to discuss",
+    "vietnamese": "thảo luận",
+    "phonetic": "dis-koo-TEE-ren",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "verhandeln",
+    "english": "to negotiate",
+    "vietnamese": "đàm phán",
+    "phonetic": "fer-HAN-deln",
+    "level": "B1",
+    "category": "communication"
+  },
+  {
+    "german": "der Alltag",
+    "english": "daily life",
+    "vietnamese": "hàng ngày",
+    "phonetic": "AL-tahk",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "die Gewohnheit",
+    "english": "habit",
+    "vietnamese": "thói quen",
+    "phonetic": "ge-VOHN-hait",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "aufräumen",
+    "english": "to tidy up",
+    "vietnamese": "dọn dẹp",
+    "phonetic": "OWF-roi-men",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "pünktlich",
+    "english": "punctual",
+    "vietnamese": "đúng giờ",
+    "phonetic": "PUENKT-likh",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "sich beeilen",
+    "english": "to hurry",
+    "vietnamese": "vội",
+    "phonetic": "zikh be-AI-len",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "die Hausarbeit",
+    "english": "housework",
+    "vietnamese": "việc nhà",
+    "phonetic": "HOWS-ar-bait",
+    "level": "B1",
+    "category": "daily"
+  },
+  {
+    "german": "die Wirtschaft",
+    "english": "economy",
+    "vietnamese": "kinh tế",
+    "phonetic": "VIRT-shaft",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "das Unternehmen",
+    "english": "enterprise",
+    "vietnamese": "doanh nghiệp",
+    "phonetic": "oon-ter-NAY-men",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Wettbewerb",
+    "english": "competition",
+    "vietnamese": "cạnh tranh",
+    "phonetic": "VET-be-verp",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Investition",
+    "english": "investment",
+    "vietnamese": "đầu tư",
+    "phonetic": "in-ves-ti-TSYON",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Umsatz",
+    "english": "turnover",
+    "vietnamese": "doanh thu",
+    "phonetic": "OOM-zats",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Verlust",
+    "english": "loss",
+    "vietnamese": "thua lỗ",
+    "phonetic": "fer-LOOST",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Aktie",
+    "english": "share/stock",
+    "vietnamese": "cổ phiếu",
+    "phonetic": "AK-tsye",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "das Kapital",
+    "english": "capital",
+    "vietnamese": "vốn",
+    "phonetic": "ka-pi-TAHL",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Verbraucher",
+    "english": "consumer",
+    "vietnamese": "người tiêu dùng",
+    "phonetic": "fer-BROW-kher",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Produktion",
+    "english": "production",
+    "vietnamese": "sản xuất",
+    "phonetic": "pro-dook-TSYON",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "das Risiko",
+    "english": "risk",
+    "vietnamese": "rủi ro",
+    "phonetic": "REE-zi-ko",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Steuer",
+    "english": "tax",
+    "vietnamese": "thuế",
+    "phonetic": "SHTOY-er",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Schulden",
+    "english": "debts",
+    "vietnamese": "nợ",
+    "phonetic": "SHOOL-den",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Zins",
+    "english": "interest",
+    "vietnamese": "lãi suất",
+    "phonetic": "TSINS",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "sparen",
+    "english": "to save",
+    "vietnamese": "tiết kiệm",
+    "phonetic": "SHPAH-ren",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "gründen",
+    "english": "to found",
+    "vietnamese": "thành lập",
+    "phonetic": "GRUEN-den",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Mitarbeiter",
+    "english": "employee",
+    "vietnamese": "nhân viên",
+    "phonetic": "MIT-ar-bai-ter",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Gewerkschaft",
+    "english": "trade union",
+    "vietnamese": "công đoàn",
+    "phonetic": "ge-VERK-shaft",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Streik",
+    "english": "strike",
+    "vietnamese": "đình công",
+    "phonetic": "SHTRAIK",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "das Einkommen",
+    "english": "income",
+    "vietnamese": "thu nhập",
+    "phonetic": "AIN-ko-men",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Rente",
+    "english": "pension",
+    "vietnamese": "lương hưu",
+    "phonetic": "REN-te",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Anwalt",
+    "english": "lawyer",
+    "vietnamese": "luật sư",
+    "phonetic": "AN-valt",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Richter",
+    "english": "judge",
+    "vietnamese": "thẩm phán",
+    "phonetic": "RIKH-ter",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "das Urteil",
+    "english": "verdict",
+    "vietnamese": "bản án",
+    "phonetic": "OOR-tail",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Prozess",
+    "english": "trial",
+    "vietnamese": "phiên tòa",
+    "phonetic": "pro-TSES",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "die Strafe",
+    "english": "punishment",
+    "vietnamese": "hình phạt",
+    "phonetic": "SHTRAH-fe",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "das Gefängnis",
+    "english": "prison",
+    "vietnamese": "nhà tù",
+    "phonetic": "ge-FENG-nis",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "verhaften",
+    "english": "to arrest",
+    "vietnamese": "bắt giữ",
+    "phonetic": "fer-HAF-ten",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Zeuge",
+    "english": "witness",
+    "vietnamese": "nhân chứng",
+    "phonetic": "TSOY-ge",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Beweis",
+    "english": "evidence",
+    "vietnamese": "bằng chứng",
+    "phonetic": "be-VAIS",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "unschuldig",
+    "english": "innocent",
+    "vietnamese": "vô tội",
+    "phonetic": "OON-shool-dikh",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "die Schuld",
+    "english": "guilt",
+    "vietnamese": "tội lỗi",
+    "phonetic": "SHOOLT",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "das Verbrechen",
+    "english": "crime",
+    "vietnamese": "tội phạm",
+    "phonetic": "fer-BRE-khen",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Diebstahl",
+    "english": "theft",
+    "vietnamese": "trộm cắp",
+    "phonetic": "DEEP-shtahl",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "der Betrug",
+    "english": "fraud",
+    "vietnamese": "lừa đảo",
+    "phonetic": "be-TROOK",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "verteidigen",
+    "english": "to defend",
+    "vietnamese": "bảo vệ",
+    "phonetic": "fer-TAI-di-gen",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "das Recht",
+    "english": "right",
+    "vietnamese": "quyền lợi",
+    "phonetic": "REKHT",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "die Pflicht",
+    "english": "duty",
+    "vietnamese": "nghĩa vụ",
+    "phonetic": "PFLIKHT",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "die Bevölkerung",
+    "english": "population",
+    "vietnamese": "dân số",
+    "phonetic": "be-FOEL-ke-roong",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Mehrheit",
+    "english": "majority",
+    "vietnamese": "đa số",
+    "phonetic": "MAYR-hait",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Minderheit",
+    "english": "minority",
+    "vietnamese": "thiểu số",
+    "phonetic": "MIN-der-hait",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Gleichberechtigung",
+    "english": "equality",
+    "vietnamese": "bình đẳng",
+    "phonetic": "GLAIKH-be-rekh-ti-goong",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "das Vorurteil",
+    "english": "prejudice",
+    "vietnamese": "định kiến",
+    "phonetic": "FOR-oor-tail",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Armut",
+    "english": "poverty",
+    "vietnamese": "nghèo đói",
+    "phonetic": "AR-moot",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Reichtum",
+    "english": "wealth",
+    "vietnamese": "sự giàu có",
+    "phonetic": "RAIKH-toom",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Integration",
+    "english": "integration",
+    "vietnamese": "hội nhập",
+    "phonetic": "in-te-gra-TSYON",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Arbeitslosigkeit",
+    "english": "unemployment",
+    "vietnamese": "thất nghiệp",
+    "phonetic": "AR-baits-lo-zikh-kait",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Regierung",
+    "english": "government",
+    "vietnamese": "chính phủ",
+    "phonetic": "re-GEE-roong",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "der Staat",
+    "english": "state",
+    "vietnamese": "nhà nước",
+    "phonetic": "SHTAHT",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Wahl",
+    "english": "election",
+    "vietnamese": "bầu cử",
+    "phonetic": "VAHL",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Partei",
+    "english": "party",
+    "vietnamese": "đảng",
+    "phonetic": "par-TAI",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "der Politiker",
+    "english": "politician",
+    "vietnamese": "chính trị gia",
+    "phonetic": "po-LI-ti-ker",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "der Präsident",
+    "english": "president",
+    "vietnamese": "tổng thống",
+    "phonetic": "pre-zi-DENT",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "das Parlament",
+    "english": "parliament",
+    "vietnamese": "quốc hội",
+    "phonetic": "par-la-MENT",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Macht",
+    "english": "power",
+    "vietnamese": "quyền lực",
+    "phonetic": "MAKHT",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Opposition",
+    "english": "opposition",
+    "vietnamese": "phe đối lập",
+    "phonetic": "o-po-zi-TSYON",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Verfassung",
+    "english": "constitution",
+    "vietnamese": "hiến pháp",
+    "phonetic": "fer-FAS-oong",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Erderwärmung",
+    "english": "global warming",
+    "vietnamese": "sự nóng lên toàn cầu",
+    "phonetic": "ERT-er-ver-moong",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "der Umweltschutz",
+    "english": "environmental protection",
+    "vietnamese": "bảo vệ môi trường",
+    "phonetic": "OOM-velt-shoots",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "die Nachhaltigkeit",
+    "english": "sustainability",
+    "vietnamese": "sự bền vững",
+    "phonetic": "NAKH-hal-tikh-kait",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "das Ökosystem",
+    "english": "ecosystem",
+    "vietnamese": "hệ sinh thái",
+    "phonetic": "OE-ko-zues-taym",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "die Emission",
+    "english": "emission",
+    "vietnamese": "khí thải",
+    "phonetic": "e-mi-SYON",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "erneuerbare Energien",
+    "english": "renewable energies",
+    "vietnamese": "năng lượng tái tạo",
+    "phonetic": "er-NOY-er-bah-re e-ner-GEE-en",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "das Recycling",
+    "english": "recycling",
+    "vietnamese": "tái chế",
+    "phonetic": "ri-SAIK-ling",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "verschmutzen",
+    "english": "to pollute",
+    "vietnamese": "làm ô nhiễm",
+    "phonetic": "fer-SHMOO-tsen",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "die Wissenschaft",
+    "english": "science",
+    "vietnamese": "khoa học",
+    "phonetic": "VIS-en-shaft",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "der Forscher",
+    "english": "researcher",
+    "vietnamese": "nhà nghiên cứu",
+    "phonetic": "FOR-sher",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "das Experiment",
+    "english": "experiment",
+    "vietnamese": "thí nghiệm",
+    "phonetic": "eks-pe-ri-MENT",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Theorie",
+    "english": "theory",
+    "vietnamese": "lý thuyết",
+    "phonetic": "teo-REE",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Entdeckung",
+    "english": "discovery",
+    "vietnamese": "sự khám phá",
+    "phonetic": "ent-DEK-oong",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "der Fortschritt",
+    "english": "progress",
+    "vietnamese": "tiến bộ",
+    "phonetic": "FORT-shrit",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Technologie",
+    "english": "technology",
+    "vietnamese": "công nghệ",
+    "phonetic": "tekh-no-lo-GEE",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Erfindung",
+    "english": "invention",
+    "vietnamese": "phát minh",
+    "phonetic": "er-FIN-doong",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die künstliche Intelligenz",
+    "english": "artificial intelligence",
+    "vietnamese": "trí tuệ nhân tạo",
+    "phonetic": "KUENST-li-khe in-te-li-GENTS",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "der Weltraum",
+    "english": "space",
+    "vietnamese": "vũ trụ",
+    "phonetic": "VELT-rowm",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "das Universum",
+    "english": "universe",
+    "vietnamese": "vũ trụ",
+    "phonetic": "oo-ni-VER-zoom",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "das Gen",
+    "english": "gene",
+    "vietnamese": "gen",
+    "phonetic": "GAYN",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Zelle",
+    "english": "cell",
+    "vietnamese": "tế bào",
+    "phonetic": "TSEL-le",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "das Symptom",
+    "english": "symptom",
+    "vietnamese": "triệu chứng",
+    "phonetic": "zump-TOHM",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Diagnose",
+    "english": "diagnosis",
+    "vietnamese": "sự chẩn đoán",
+    "phonetic": "di-ag-NO-ze",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Therapie",
+    "english": "therapy",
+    "vietnamese": "trị liệu",
+    "phonetic": "te-ra-PEE",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "das Medikament",
+    "english": "medicine",
+    "vietnamese": "thuốc",
+    "phonetic": "me-di-ka-MENT",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "der Chirurg",
+    "english": "surgeon",
+    "vietnamese": "bác sĩ phẫu thuật",
+    "phonetic": "khi-ROORK",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Psyche",
+    "english": "psyche",
+    "vietnamese": "tâm lý",
+    "phonetic": "PSUE-khe",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Sucht",
+    "english": "addiction",
+    "vietnamese": "sự nghiện ngập",
+    "phonetic": "ZOOKHT",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Ernährung",
+    "english": "nutrition",
+    "vietnamese": "dinh dưỡng",
+    "phonetic": "er-NAY-roong",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "der Körper",
+    "english": "body",
+    "vietnamese": "cơ thể",
+    "phonetic": "KOER-per",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "das Gehirn",
+    "english": "brain",
+    "vietnamese": "não bộ",
+    "phonetic": "ge-HIRN",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "das Herz",
+    "english": "heart",
+    "vietnamese": "trái tim",
+    "phonetic": "HERTS",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "der Muskel",
+    "english": "muscle",
+    "vietnamese": "cơ bắp",
+    "phonetic": "MOOS-kel",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Bildung",
+    "english": "education",
+    "vietnamese": "giáo dục",
+    "phonetic": "BIL-doong",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "die Erziehung",
+    "english": "upbringing",
+    "vietnamese": "sự nuôi dạy",
+    "phonetic": "er-TSEE-oong",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "das Studium",
+    "english": "studies",
+    "vietnamese": "việc học đại học",
+    "phonetic": "SHTOO-di-oom",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "das Diplom",
+    "english": "diploma",
+    "vietnamese": "bằng cấp",
+    "phonetic": "di-PLOHM",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "die Qualifikation",
+    "english": "qualification",
+    "vietnamese": "trình độ chuyên môn",
+    "phonetic": "kva-li-fi-ka-TSYON",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "der Dozent",
+    "english": "lecturer",
+    "vietnamese": "giảng viên",
+    "phonetic": "do-TSENT",
+    "level": "B2",
+    "category": "education"
+  },
+  {
+    "german": "die Kunst",
+    "english": "art",
+    "vietnamese": "nghệ thuật",
+    "phonetic": "KOONST",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Literatur",
+    "english": "literature",
+    "vietnamese": "văn học",
+    "phonetic": "li-te-ra-TOOR",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "der Film",
+    "english": "movie",
+    "vietnamese": "phim",
+    "phonetic": "FILM",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "der Schauspieler",
+    "english": "actor",
+    "vietnamese": "diễn viên",
+    "phonetic": "SHOW-shpee-ler",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "der Regisseur",
+    "english": "director",
+    "vietnamese": "đạo diễn",
+    "phonetic": "re-zhi-SOER",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Ausstellung",
+    "english": "exhibition",
+    "vietnamese": "triển lãm",
+    "phonetic": "OWS-shtel-oong",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "das Meisterwerk",
+    "english": "masterpiece",
+    "vietnamese": "kiệt tác",
+    "phonetic": "MAIS-ter-verk",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Medien",
+    "english": "media",
+    "vietnamese": "truyền thông",
+    "phonetic": "MAY-di-en",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "die Nachricht",
+    "english": "news",
+    "vietnamese": "tin tức",
+    "phonetic": "NAKH-rikht",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "der Journalist",
+    "english": "journalist",
+    "vietnamese": "nhà báo",
+    "phonetic": "zhoor-na-LIST",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "das Interview",
+    "english": "interview",
+    "vietnamese": "phỏng vấn",
+    "phonetic": "IN-ter-vyoo",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "der Artikel",
+    "english": "article",
+    "vietnamese": "bài báo",
+    "phonetic": "ar-TI-kel",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "das Fernsehen",
+    "english": "television",
+    "vietnamese": "vô tuyến",
+    "phonetic": "FERN-zay-en",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "das Radio",
+    "english": "radio",
+    "vietnamese": "đài phát thanh",
+    "phonetic": "RA-di-oh",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "das soziale Netzwerk",
+    "english": "social network",
+    "vietnamese": "mạng xã hội",
+    "phonetic": "zo-TSYA-le NETS-verk",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "die Werbung",
+    "english": "advertising",
+    "vietnamese": "quảng cáo",
+    "phonetic": "VER-boong",
+    "level": "B2",
+    "category": "media"
+  },
+  {
+    "german": "die Auswirkung",
+    "english": "impact",
+    "vietnamese": "tác động",
+    "phonetic": "OWS-vir-koong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Konsequenz",
+    "english": "consequence",
+    "vietnamese": "hậu quả",
+    "phonetic": "kon-ze-KVENTS",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Zusammenhang",
+    "english": "connection",
+    "vietnamese": "mối liên hệ",
+    "phonetic": "tsoo-ZAM-en-hang",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Bedingung",
+    "english": "condition",
+    "vietnamese": "điều kiện",
+    "phonetic": "be-DING-oong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Voraussetzung",
+    "english": "prerequisite",
+    "vietnamese": "điều kiện tiên quyết",
+    "phonetic": "fo-ROWS-ze-tsoong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Priorität",
+    "english": "priority",
+    "vietnamese": "sự ưu tiên",
+    "phonetic": "pri-o-ri-TAYT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Alternative",
+    "english": "alternative",
+    "vietnamese": "sự thay thế",
+    "phonetic": "al-ter-na-TEE-ve",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Wahrscheinlichkeit",
+    "english": "probability",
+    "vietnamese": "xác suất",
+    "phonetic": "var-SHAIN-likh-kait",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Herausforderung",
+    "english": "challenge",
+    "vietnamese": "thử thách",
+    "phonetic": "her-OWS-for-de-roong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Ziel",
+    "english": "goal",
+    "vietnamese": "mục tiêu",
+    "phonetic": "TSEEL",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Zweck",
+    "english": "purpose",
+    "vietnamese": "mục đích",
+    "phonetic": "TSVEK",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Prinzip",
+    "english": "principle",
+    "vietnamese": "nguyên tắc",
+    "phonetic": "prin-TSEEP",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Methode",
+    "english": "method",
+    "vietnamese": "phương pháp",
+    "phonetic": "me-TO-de",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Struktur",
+    "english": "structure",
+    "vietnamese": "cấu trúc",
+    "phonetic": "shtrook-TOOR",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Funktion",
+    "english": "function",
+    "vietnamese": "chức năng",
+    "phonetic": "foonk-TSYON",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Qualität",
+    "english": "quality",
+    "vietnamese": "chất lượng",
+    "phonetic": "kva-li-TAYT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Quantität",
+    "english": "quantity",
+    "vietnamese": "số lượng",
+    "phonetic": "kvan-ti-TAYT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Detail",
+    "english": "detail",
+    "vietnamese": "chi tiết",
+    "phonetic": "de-TAIL",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Ereignis",
+    "english": "event",
+    "vietnamese": "sự kiện",
+    "phonetic": "er-AIG-nis",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Situation",
+    "english": "situation",
+    "vietnamese": "tình huống",
+    "phonetic": "zi-too-a-TSYON",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Veränderung",
+    "english": "change",
+    "vietnamese": "sự thay đổi",
+    "phonetic": "fer-EN-de-roong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Vergleich",
+    "english": "comparison",
+    "vietnamese": "sự so sánh",
+    "phonetic": "fer-GLAIKH",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Ähnlichkeit",
+    "english": "similarity",
+    "vietnamese": "sự giống nhau",
+    "phonetic": "AYN-likh-kait",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Wahrheit",
+    "english": "truth",
+    "vietnamese": "sự thật",
+    "phonetic": "VAR-hait",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Lüge",
+    "english": "lie",
+    "vietnamese": "lời nói dối",
+    "phonetic": "LUE-ge",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Geheimnis",
+    "english": "secret",
+    "vietnamese": "bí mật",
+    "phonetic": "ge-HAIM-nis",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Schicksal",
+    "english": "fate",
+    "vietnamese": "định mệnh",
+    "phonetic": "SHIK-zahl",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Zufall",
+    "english": "coincidence",
+    "vietnamese": "sự trùng hợp",
+    "phonetic": "TSOO-fal",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Enttäuschung",
+    "english": "disappointment",
+    "vietnamese": "sự thất vọng",
+    "phonetic": "ent-TOY-shoong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Zweifel",
+    "english": "doubt",
+    "vietnamese": "sự nghi ngờ",
+    "phonetic": "TSVAI-fel",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Vertrauen",
+    "english": "trust",
+    "vietnamese": "niềm tin",
+    "phonetic": "fer-TROW-en",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Glaube",
+    "english": "belief",
+    "vietnamese": "đức tin",
+    "phonetic": "GLOW-be",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Religion",
+    "english": "religion",
+    "vietnamese": "tôn giáo",
+    "phonetic": "re-li-GYON",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Philosophie",
+    "english": "philosophy",
+    "vietnamese": "triết học",
+    "phonetic": "fi-lo-zo-FEE",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Moral",
+    "english": "morality",
+    "vietnamese": "đạo đức",
+    "phonetic": "mo-RAHL",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Ethik",
+    "english": "ethics",
+    "vietnamese": "luân lý",
+    "phonetic": "AY-tik",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "der Wert",
+    "english": "value",
+    "vietnamese": "giá trị",
+    "phonetic": "VERT",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Tugend",
+    "english": "virtue",
+    "vietnamese": "đức hạnh",
+    "phonetic": "TOO-gent",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "das Gewissen",
+    "english": "conscience",
+    "vietnamese": "lương tâm",
+    "phonetic": "ge-VIS-en",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Reue",
+    "english": "remorse",
+    "vietnamese": "sự hối hận",
+    "phonetic": "ROY-e",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Vergebung",
+    "english": "forgiveness",
+    "vietnamese": "sự tha thứ",
+    "phonetic": "fer-GAY-boong",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Geduld",
+    "english": "patience",
+    "vietnamese": "sự kiên nhẫn",
+    "phonetic": "ge-DOOLT",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Leidenschaft",
+    "english": "passion",
+    "vietnamese": "đam mê",
+    "phonetic": "LAI-den-shaft",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "das Material",
+    "english": "material",
+    "vietnamese": "vật liệu",
+    "phonetic": "ma-te-RYAHL",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Substanz",
+    "english": "substance",
+    "vietnamese": "vật chất",
+    "phonetic": "zoop-STANTS",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Flüssigkeit",
+    "english": "liquid",
+    "vietnamese": "chất lỏng",
+    "phonetic": "FLUES-ikh-kait",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Atmosphäre",
+    "english": "atmosphere",
+    "vietnamese": "bầu khí quyển",
+    "phonetic": "at-mos-FAY-re",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Temperatur",
+    "english": "temperature",
+    "vietnamese": "nhiệt độ",
+    "phonetic": "tem-pe-ra-TOOR",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "das Klima",
+    "english": "climate",
+    "vietnamese": "khí hậu",
+    "phonetic": "KLEE-ma",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "die Katastrophe",
+    "english": "catastrophe",
+    "vietnamese": "thảm họa",
+    "phonetic": "ka-tas-TRO-fe",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "der Unfall",
+    "english": "accident",
+    "vietnamese": "tai nạn",
+    "phonetic": "OON-fal",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "die Verletzung",
+    "english": "injury",
+    "vietnamese": "chấn thương",
+    "phonetic": "fer-LE-tsoong",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "der Rettungsdienst",
+    "english": "rescue service",
+    "vietnamese": "dịch vụ cứu hộ",
+    "phonetic": "RE-toongs-deenst",
+    "level": "B2",
+    "category": "health"
+  },
+  {
+    "german": "das Opfer",
+    "english": "victim",
+    "vietnamese": "nạn nhân",
+    "phonetic": "OP-fer",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Täter",
+    "english": "perpetrator",
+    "vietnamese": "thủ phạm",
+    "phonetic": "TAY-ter",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "german": "die Sicherheit",
+    "english": "security",
+    "vietnamese": "an ninh",
+    "phonetic": "ZI-kher-hait",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Gefahr",
+    "english": "danger",
+    "vietnamese": "sự nguy hiểm",
+    "phonetic": "ge-FAHR",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Schutz",
+    "english": "protection",
+    "vietnamese": "sự bảo vệ",
+    "phonetic": "SHOOTS",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Verteidigung",
+    "english": "defense",
+    "vietnamese": "sự phòng thủ",
+    "phonetic": "fer-TAI-di-goong",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Angriff",
+    "english": "attack",
+    "vietnamese": "cuộc tấn công",
+    "phonetic": "AN-grif",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Krieg",
+    "english": "war",
+    "vietnamese": "chiến tranh",
+    "phonetic": "KREEK",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "der Frieden",
+    "english": "peace",
+    "vietnamese": "hòa bình",
+    "phonetic": "FREE-den",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "german": "die Waffe",
+    "english": "weapon",
+    "vietnamese": "vũ khí",
+    "phonetic": "VA-fe",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Soldat",
+    "english": "soldier",
+    "vietnamese": "người lính",
+    "phonetic": "zol-DAHT",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Armee",
+    "english": "army",
+    "vietnamese": "quân đội",
+    "phonetic": "ar-MAY",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Strategie",
+    "english": "strategy",
+    "vietnamese": "chiến lược",
+    "phonetic": "shtra-te-GEE",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "die Taktik",
+    "english": "tactics",
+    "vietnamese": "chiến thuật",
+    "phonetic": "TAK-tik",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "der Plan",
+    "english": "plan",
+    "vietnamese": "kế hoạch",
+    "phonetic": "PLAHN",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "german": "das Konzept",
+    "english": "concept",
+    "vietnamese": "khái niệm",
+    "phonetic": "kon-TSEPT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Idee",
+    "english": "idea",
+    "vietnamese": "ý tưởng",
+    "phonetic": "i-DAY",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Gedanke",
+    "english": "thought",
+    "vietnamese": "suy nghĩ",
+    "phonetic": "ge-DANG-ke",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Erinnerung",
+    "english": "memory",
+    "vietnamese": "kí ức",
+    "phonetic": "er-IN-e-roong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Fantasie",
+    "english": "imagination",
+    "vietnamese": "tưởng tượng",
+    "phonetic": "fan-ta-ZEE",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Realität",
+    "english": "reality",
+    "vietnamese": "thực tại",
+    "phonetic": "re-a-li-TAYT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Illusion",
+    "english": "illusion",
+    "vietnamese": "ảo giác",
+    "phonetic": "il-loo-ZYON",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Wunder",
+    "english": "miracle",
+    "vietnamese": "điều kỳ diệu",
+    "phonetic": "VOON-der",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Schatten",
+    "english": "shadow",
+    "vietnamese": "bóng râm",
+    "phonetic": "SHA-ten",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Licht",
+    "english": "light",
+    "vietnamese": "ánh sáng",
+    "phonetic": "LIKHT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Raum",
+    "english": "space/room",
+    "vietnamese": "không gian",
+    "phonetic": "ROWM",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Zeit",
+    "english": "time",
+    "vietnamese": "thời gian",
+    "phonetic": "TSAIT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Vergangenheit",
+    "english": "past",
+    "vietnamese": "quá khứ",
+    "phonetic": "fer-GANG-en-hait",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Gegenwart",
+    "english": "present",
+    "vietnamese": "hiện tại",
+    "phonetic": "GAY-gen-vart",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Zukunft",
+    "english": "future",
+    "vietnamese": "tương lai",
+    "phonetic": "TSOO-koonft",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Anfang",
+    "english": "beginning",
+    "vietnamese": "sự bắt đầu",
+    "phonetic": "AN-fang",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Ende",
+    "english": "end",
+    "vietnamese": "sự kết thúc",
+    "phonetic": "EN-de",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Rhythmus",
+    "english": "rhythm",
+    "vietnamese": "nhịp điệu",
+    "phonetic": "RUET-moos",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Harmonie",
+    "english": "harmony",
+    "vietnamese": "sự hòa hợp",
+    "phonetic": "har-mo-NEE",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "das Gleichgewicht",
+    "english": "balance",
+    "vietnamese": "sự cân bằng",
+    "phonetic": "GLAIKH-ge-vikht",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Symmetrie",
+    "english": "symmetry",
+    "vietnamese": "tính đối xứng",
+    "phonetic": "zue-me-TREE",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Chaos",
+    "english": "chaos",
+    "vietnamese": "sự hỗn loạn",
+    "phonetic": "KA-os",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Ordnung",
+    "english": "order",
+    "vietnamese": "trật tự",
+    "phonetic": "ORT-noong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das System",
+    "english": "system",
+    "vietnamese": "hệ thống",
+    "phonetic": "zues-TAYM",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Maß",
+    "english": "measure",
+    "vietnamese": "số đo",
+    "phonetic": "MAHS",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Form",
+    "english": "shape",
+    "vietnamese": "hình dạng",
+    "phonetic": "FORM",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Farbe",
+    "english": "color",
+    "vietnamese": "màu sắc",
+    "phonetic": "FAR-be",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Ton",
+    "english": "sound",
+    "vietnamese": "âm thanh",
+    "phonetic": "TOHN",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Geruch",
+    "english": "smell",
+    "vietnamese": "mùi hương",
+    "phonetic": "ge-ROOKH",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Geschmack",
+    "english": "taste",
+    "vietnamese": "hương vị",
+    "phonetic": "ge-SHMAK",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Gefühl",
+    "english": "feeling",
+    "vietnamese": "cảm giác",
+    "phonetic": "ge-FUEL",
+    "level": "B2",
+    "category": "emotions"
+  },
+  {
+    "german": "die Berührung",
+    "english": "touch",
+    "vietnamese": "sự chạm",
+    "phonetic": "be-RUE-roong",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Leben",
+    "english": "life",
+    "vietnamese": "sự sống",
+    "phonetic": "LAY-ben",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Tod",
+    "english": "death",
+    "vietnamese": "cái chết",
+    "phonetic": "TOHT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Geburt",
+    "english": "birth",
+    "vietnamese": "sự ra đời",
+    "phonetic": "ge-BOORT",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "das Alter",
+    "english": "age/old age",
+    "vietnamese": "tuổi tác",
+    "phonetic": "AL-ter",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "die Jugend",
+    "english": "youth",
+    "vietnamese": "tuổi trẻ",
+    "phonetic": "YOO-gent",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "german": "der Erwachsene",
+    "english": "adult",
+    "vietnamese": "người lớn",
+    "phonetic": "er-VAK-se-ne",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Mensch",
+    "english": "human",
+    "vietnamese": "con người",
+    "phonetic": "MENSH",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "die Menschheit",
+    "english": "humanity",
+    "vietnamese": "nhân loại",
+    "phonetic": "MENSH-hait",
+    "level": "B2",
+    "category": "society"
+  },
+  {
+    "german": "der Gott",
+    "english": "God",
+    "vietnamese": "Chúa",
+    "phonetic": "GOT",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "german": "die Welt",
+    "english": "world",
+    "vietnamese": "thế giới",
+    "phonetic": "VELT",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "der Planet",
+    "english": "planet",
+    "vietnamese": "hành tinh",
+    "phonetic": "pla-NAYT",
+    "level": "B2",
+    "category": "science"
+  },
+  {
+    "german": "der Ozean",
+    "english": "ocean",
+    "vietnamese": "đại dương",
+    "phonetic": "O-tse-ahn",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "die Wüste",
+    "english": "desert",
+    "vietnamese": "sa mạc",
+    "phonetic": "VUES-te",
+    "level": "B2",
+    "category": "environment"
+  },
+  {
+    "german": "die Frage",
+    "english": "question",
+    "vietnamese": "câu hỏi",
+    "phonetic": "FRAH-ge",
+    "level": "A1",
+    "category": "education"
+  },
+  {
+    "german": "die Antwort",
+    "english": "answer",
+    "vietnamese": "câu trả lời",
+    "phonetic": "ANT-vort",
+    "level": "A1",
+    "category": "education"
+  },
+  {
+    "german": "der Student",
+    "english": "university student",
+    "vietnamese": "sinh viên",
+    "phonetic": "shtoo-DENT",
+    "level": "A1",
+    "category": "education"
+  },
+  {
+    "german": "das Zimmer",
+    "english": "room",
+    "vietnamese": "căn phòng",
+    "phonetic": "TSIM-er",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Wohnzimmer",
+    "english": "living room",
+    "vietnamese": "phòng khách",
+    "phonetic": "VOHN-tsim-er",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "das Schlafzimmer",
+    "english": "bedroom",
+    "vietnamese": "phòng ngủ",
+    "phonetic": "SHLAHF-tsim-er",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "german": "der Platz",
+    "english": "square",
+    "vietnamese": "quảng trường",
+    "phonetic": "PLATS",
+    "level": "A1",
+    "category": "transport"
+  },
+  {
+    "german": "das Land",
+    "english": "country",
+    "vietnamese": "quốc gia",
+    "phonetic": "LANT",
+    "level": "A1",
+    "category": "geography"
+  },
+  {
+    "german": "der Preis",
+    "english": "price",
+    "vietnamese": "giá cả",
+    "phonetic": "PRAIS",
+    "level": "A1",
+    "category": "shopping"
+  },
+  {
+    "german": "das Geschäft",
+    "english": "shop",
+    "vietnamese": "cửa hàng",
+    "phonetic": "ge-SHEFT",
+    "level": "A1",
+    "category": "shopping"
+  },
+  {
+    "german": "die Kleidung",
+    "english": "clothing",
+    "vietnamese": "quần áo",
+    "phonetic": "KLAI-doong",
+    "level": "A1",
+    "category": "clothing"
+  },
+  {
+    "german": "das Essen",
+    "english": "food",
+    "vietnamese": "thức ăn",
+    "phonetic": "ES-en",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Trinken",
+    "english": "drink",
+    "vietnamese": "đồ uống",
+    "phonetic": "TRIN-ken",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "das Salz",
+    "english": "salt",
+    "vietnamese": "muối",
+    "phonetic": "ZALTS",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "german": "die Oma",
+    "english": "grandma",
+    "vietnamese": "bà",
+    "phonetic": "O-ma",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Opa",
+    "english": "grandpa",
+    "vietnamese": "ông",
+    "phonetic": "O-pa",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Cousin",
+    "english": "cousin (m)",
+    "vietnamese": "anh em họ (nam)",
+    "phonetic": "koo-ZANG",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "die Cousine",
+    "english": "cousin (f)",
+    "vietnamese": "chị em họ (nữ)",
+    "phonetic": "koo-ZEE-ne",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "german": "der Freund",
+    "english": "friend (m)",
+    "vietnamese": "bạn (nam)",
+    "phonetic": "FROYNT",
+    "level": "A1",
+    "category": "relationships"
+  },
+  {
+    "german": "die Freundin",
+    "english": "friend (f)",
+    "vietnamese": "bạn (nữ)",
+    "phonetic": "FROYN-din",
+    "level": "A1",
+    "category": "relationships"
+  },
+  {
+    "german": "das Lied",
+    "english": "song",
+    "vietnamese": "bài hát",
+    "phonetic": "LEET",
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "german": "das Spiel",
+    "english": "game",
+    "vietnamese": "trò chơi",
+    "phonetic": "SHPEEL",
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "german": "der Fußball",
+    "english": "football",
+    "vietnamese": "bóng đá",
+    "phonetic": "FOOS-bal",
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "german": "das Schwimmen",
+    "english": "swimming",
+    "vietnamese": "bơi lội",
+    "phonetic": "SHVIM-en",
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "german": "das Hobby",
+    "english": "hobby",
+    "vietnamese": "sở thích",
+    "phonetic": "HO-bee",
+    "level": "A1",
+    "category": "media"
+  },
+  {
+    "german": "die Freizeit",
+    "english": "free time",
+    "vietnamese": "thời gian rảnh",
+    "phonetic": "FRAI-tsait",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Vormittag",
+    "english": "late morning",
+    "vietnamese": "gần trưa",
+    "phonetic": "FOR-mit-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Mittag",
+    "english": "noon",
+    "vietnamese": "buổi trưa",
+    "phonetic": "MIT-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Nachmittag",
+    "english": "afternoon",
+    "vietnamese": "buổi chiều",
+    "phonetic": "NAKH-mit-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Montag",
+    "english": "Monday",
+    "vietnamese": "thứ hai",
+    "phonetic": "MOHN-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Dienstag",
+    "english": "Tuesday",
+    "vietnamese": "thứ ba",
+    "phonetic": "DEENS-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Mittwoch",
+    "english": "Wednesday",
+    "vietnamese": "thứ tư",
+    "phonetic": "MIT-vokh",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Donnerstag",
+    "english": "Thursday",
+    "vietnamese": "thứ năm",
+    "phonetic": "DON-ers-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Freitag",
+    "english": "Friday",
+    "vietnamese": "thứ sáu",
+    "phonetic": "FRAI-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Samstag",
+    "english": "Saturday",
+    "vietnamese": "thứ bảy",
+    "phonetic": "ZAMS-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Sonntag",
+    "english": "Sunday",
+    "vietnamese": "chủ nhật",
+    "phonetic": "ZON-tahk",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Januar",
+    "english": "January",
+    "vietnamese": "tháng một",
+    "phonetic": "YA-noo-ar",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Februar",
+    "english": "February",
+    "vietnamese": "tháng hai",
+    "phonetic": "FAY-broo-ar",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der März",
+    "english": "March",
+    "vietnamese": "tháng ba",
+    "phonetic": "MERTS",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der April",
+    "english": "April",
+    "vietnamese": "tháng tư",
+    "phonetic": "a-PRIL",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Mai",
+    "english": "May",
+    "vietnamese": "tháng năm",
+    "phonetic": "MAI",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Juni",
+    "english": "June",
+    "vietnamese": "tháng sáu",
+    "phonetic": "YOO-nee",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Juli",
+    "english": "July",
+    "vietnamese": "tháng bảy",
+    "phonetic": "YOO-lee",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der August",
+    "english": "August",
+    "vietnamese": "tháng tám",
+    "phonetic": "ow-GOOST",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der September",
+    "english": "September",
+    "vietnamese": "tháng chín",
+    "phonetic": "zep-TEM-ber",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Oktober",
+    "english": "October",
+    "vietnamese": "tháng mười",
+    "phonetic": "ok-TO-ber",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der November",
+    "english": "November",
+    "vietnamese": "tháng mười một",
+    "phonetic": "no-VEM-ber",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Dezember",
+    "english": "December",
+    "vietnamese": "tháng mười hai",
+    "phonetic": "de-TSEM-ber",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "german": "der Frühling",
+    "english": "spring",
+    "vietnamese": "mùa xuân",
+    "phonetic": "FRUE-ling",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Sommer",
+    "english": "summer",
+    "vietnamese": "mùa hè",
+    "phonetic": "ZO-mer",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Herbst",
+    "english": "autumn",
+    "vietnamese": "mùa thu",
+    "phonetic": "HERPST",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "der Winter",
+    "english": "winter",
+    "vietnamese": "mùa đông",
+    "phonetic": "VIN-ter",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "das Wetter",
+    "english": "weather",
+    "vietnamese": "thời tiết",
+    "phonetic": "VET-ter",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "german": "reich",
+    "english": "rich",
+    "vietnamese": "giàu",
+    "phonetic": "RAIKH",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "arm",
+    "english": "poor",
+    "vietnamese": "nghèo",
+    "phonetic": "ARM",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "interessant",
+    "english": "interesting",
+    "vietnamese": "thú vị",
+    "phonetic": "in-te-re-SANT",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "langweilig",
+    "english": "boring",
+    "vietnamese": "nhàm chán",
+    "phonetic": "LANG-vai-likh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "voll",
+    "english": "full",
+    "vietnamese": "đầy",
+    "phonetic": "FOL",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "leer",
+    "english": "empty",
+    "vietnamese": "trống rỗng",
+    "phonetic": "LAYR",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "offen",
+    "english": "open",
+    "vietnamese": "mở",
+    "phonetic": "OF-en",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "geschlossen",
+    "english": "closed",
+    "vietnamese": "đóng",
+    "phonetic": "ge-SHLOS-en",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "nah",
+    "english": "near",
+    "vietnamese": "gần",
+    "phonetic": "NAH",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "weit",
+    "english": "far",
+    "vietnamese": "xa",
+    "phonetic": "VAIT",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "german": "machen",
+    "english": "to make/do",
+    "vietnamese": "làm",
+    "phonetic": "MA-khen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "werden",
+    "english": "to become",
+    "vietnamese": "trở thành",
+    "phonetic": "VER-den",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "wollen",
+    "english": "to want",
+    "vietnamese": "muốn",
+    "phonetic": "VOL-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "sollen",
+    "english": "should",
+    "vietnamese": "nên",
+    "phonetic": "ZOL-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "dürfen",
+    "english": "to be allowed",
+    "vietnamese": "được phép",
+    "phonetic": "DUER-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "sagen",
+    "english": "to say",
+    "vietnamese": "nói",
+    "phonetic": "ZAH-gen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "suchen",
+    "english": "to search",
+    "vietnamese": "tìm kiếm",
+    "phonetic": "ZOO-khen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "bleiben",
+    "english": "to stay",
+    "vietnamese": "ở lại",
+    "phonetic": "BLAI-ben",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "legen",
+    "english": "to lay/put",
+    "vietnamese": "đặt/để",
+    "phonetic": "LAY-gen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "tragen",
+    "english": "to carry/wear",
+    "vietnamese": "mang/mặc",
+    "phonetic": "TRAH-gen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "fragen",
+    "english": "to ask",
+    "vietnamese": "hỏi",
+    "phonetic": "FRAH-gen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "antworten",
+    "english": "to answer",
+    "vietnamese": "trả lời",
+    "phonetic": "ANT-vor-ten",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "bedeuten",
+    "english": "to mean",
+    "vietnamese": "có nghĩa là",
+    "phonetic": "be-DOY-ten",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "aufhören",
+    "english": "to stop",
+    "vietnamese": "dừng",
+    "phonetic": "OWF-hoe-ren",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "wohnen",
+    "english": "to live/reside",
+    "vietnamese": "sống",
+    "phonetic": "VOH-nen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "leben",
+    "english": "to live(be alive)",
+    "vietnamese": "sống",
+    "phonetic": "LAY-ben",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "tanzen",
+    "english": "to dance",
+    "vietnamese": "nhảy múa",
+    "phonetic": "TAN-tsen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "singen",
+    "english": "to sing",
+    "vietnamese": "hát",
+    "phonetic": "ZING-en",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "treffen",
+    "english": "to meet",
+    "vietnamese": "gặp gỡ",
+    "phonetic": "TRE-fen",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "german": "gähnen",
+    "english": "to yawn",
+    "vietnamese": "ngáp",
+    "phonetic": "GEH-nen",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "wecken",
+    "english": "to wake (someone)",
+    "vietnamese": "đánh thức",
+    "phonetic": "VEK-en",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "einschlafen",
+    "english": "to fall asleep",
+    "vietnamese": "ngủ thiếp đi",
+    "phonetic": "AIN-shlah-fen",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "german": "lächeln",
+    "english": "to smile",
+    "vietnamese": "mỉm cười",
+    "phonetic": "LEH-kheln",
+    "level": "A1",
+    "category": "emotions"
+  }
+]

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Speak2WakeApplication"
+        android:label="Speak2Wake"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.Speak2Wake"
+        android:allowBackup="true">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            AlarmActivity — wakes screen, immediately hands off to MainActivity.
+            Note: showWhenLocked + turnScreenOn are set programmatically in AlarmActivity.kt
+        -->
+        <activity
+            android:name="com.speak2wake.core.alarm.AlarmActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:excludeFromRecents="true" />
+
+        <!--
+            CRITICAL FIX — AlarmBroadcastReceiver:
+            android:exported="false" prevents any other app's broadcast from triggering our receiver.
+            Only our own AlarmManager (with setPackage) can deliver to this receiver.
+        -->
+        <receiver
+            android:name="com.speak2wake.core.alarm.AlarmBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.speak2wake.ACTION_ALARM_TRIGGER" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+            BootReceiver — re-registers alarms after device reboot.
+            Must be exported to receive ACTION_BOOT_COMPLETED.
+        -->
+        <receiver
+            android:name="com.speak2wake.core.alarm.BootReceiver"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+            AlarmForegroundService — plays sound, vibrates.
+            foregroundServiceType required on Android 14+.
+        -->
+        <service
+            android:name="com.speak2wake.core.alarm.AlarmForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+    </application>
+
+</manifest>
