@@ -8,8 +8,8 @@ android {
     namespace = "com.speak2wake"
     defaultConfig {
         applicationId = "com.speak2wake"
-        versionCode = 5
-        versionName = "2.4"
+        versionCode = 9
+        versionName = "2.8"
     }
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.10" }

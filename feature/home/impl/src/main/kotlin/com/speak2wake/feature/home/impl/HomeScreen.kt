@@ -131,7 +131,7 @@ private fun AlarmCard(alarm: Alarm, onToggle: (Boolean) -> Unit, onClick: () -> 
                 Text(alarm.time.format(timeFormatter), fontSize = 36.sp, fontWeight = FontWeight.Bold, color = if (alarm.isEnabled) TextPrimary else TextSecondary)
                 if (alarm.label.isNotBlank()) Text(alarm.label, style = MaterialTheme.typography.bodyMedium, color = TextSecondary)
                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 4.dp)) {
-                    if (alarm.challengeEnabled) Chip("🎤 DE ${alarm.vocabularyLevel}")
+                    if (alarm.challengeEnabled) Chip("🎤 ${alarm.challengeLanguage} ${alarm.vocabularyLevel}")
                     if (alarm.repeatDays.isNotEmpty()) Chip(alarm.repeatDays.joinToString("") { it.name.take(1) })
                 }
             }

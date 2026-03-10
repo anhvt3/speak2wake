@@ -25,7 +25,7 @@ class AlarmForegroundService : Service() {
         const val ACTION_SNOOZE = "com.speak2wake.alarm.SNOOZE"
         const val NOTIFICATION_ID = 1001
         const val CHANNEL_ID = "speak2wake_alarm_channel"
-        private const val VOLUME_RAMP_DURATION_MS = 30_000L
+        private const val VOLUME_RAMP_DURATION_MS = 10_000L
         private const val SNOOZE_DURATION_MS = 10 * 60 * 1000L
     }
 
@@ -158,15 +158,16 @@ class AlarmForegroundService : Service() {
     }
 
     private fun rampVolume() {
-        currentVolume = 0f
-        val steps = 30
+        currentVolume = 0.3f
+        mediaPlayer?.setVolume(currentVolume, currentVolume)
+        val steps = 20
         val intervalMs = VOLUME_RAMP_DURATION_MS / steps
         volumeHandler = Handler(Looper.getMainLooper())
         var step = 0
         val runnable = object : Runnable {
             override fun run() {
                 if (step < steps) {
-                    currentVolume = step.toFloat() / steps
+                    currentVolume = 0.3f + (0.7f * step.toFloat() / steps)
                     mediaPlayer?.setVolume(currentVolume, currentVolume)
                     step++
                     volumeHandler?.postDelayed(this, intervalMs)
@@ -185,7 +186,7 @@ class AlarmForegroundService : Service() {
         } else {
             @Suppress("DEPRECATION") getSystemService(Vibrator::class.java)
         }
-        val pattern = longArrayOf(0, 500, 500)
+        val pattern = longArrayOf(0, 800, 200, 800, 200)
         vibrator?.vibrate(VibrationEffect.createWaveform(pattern, 0))
     }
 

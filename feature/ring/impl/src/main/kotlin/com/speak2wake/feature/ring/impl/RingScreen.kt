@@ -1,5 +1,6 @@
 package com.speak2wake.feature.ring.impl
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
@@ -61,6 +62,9 @@ internal fun RingScreen(
         onDismiss: () -> Unit,
         onStartChallenge: () -> Unit,
 ) {
+    // Block back button — user must use Snooze or Start Challenge
+    BackHandler { /* intentionally empty — prevent alarm bypass */ }
+
     val gradient =
             Brush.radialGradient(
                     colors = listOf(BackgroundMid, BackgroundDeep, BackgroundDeep),

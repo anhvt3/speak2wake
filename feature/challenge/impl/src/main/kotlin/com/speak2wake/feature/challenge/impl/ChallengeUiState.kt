@@ -15,7 +15,11 @@ sealed interface ChallengeUiState {
         val lastTranscript: String? = null,
         val showFailsafe: Boolean = false,
         val languageCode: String = "en",
+        val challengeLanguage: String = "de",
         val alwaysPronounce: Boolean = false,
+        val currentWordIndex: Int = 1,
+        val totalWords: Int = 1,
+        val micPermissionNeeded: Boolean = false,
     ) : ChallengeUiState
     data object Passed : ChallengeUiState
     data object AlarmDismissed : ChallengeUiState

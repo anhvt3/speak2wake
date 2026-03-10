@@ -6,6 +6,7 @@ data class VocabularyWord(
     val english: String,
     val vietnamese: String = "",
     val phonetic: String = "",
+    val language: String = "de",
     val level: String = "A1",
     val category: String = "",
 )

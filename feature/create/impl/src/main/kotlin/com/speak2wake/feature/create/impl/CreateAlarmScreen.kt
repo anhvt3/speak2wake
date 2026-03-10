@@ -11,12 +11,17 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -27,6 +32,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.speak2wake.core.designsystem.strings.LocalStrings
 import com.speak2wake.core.designsystem.theme.*
+import com.speak2wake.core.model.ChallengeLanguage
 import com.speak2wake.core.model.VocabularyLevel
 import java.time.DayOfWeek
 
@@ -64,6 +70,8 @@ internal fun CreateAlarmRoute(
         onChallengeToggle = viewModel::onChallengeToggle,
         onVocabLevelChange = viewModel::onVocabLevelChange,
         onAlwaysPronounceToggle = viewModel::onAlwaysPronounceToggle,
+        onWordCountChange = viewModel::onWordCountChange,
+        onChallengeLanguageChange = viewModel::onChallengeLanguageChange,
         onPickSound = {
             val intent = Intent(RingtoneManager.ACTION_RINGTONE_PICKER).apply {
                 putExtra(RingtoneManager.EXTRA_RINGTONE_TYPE, RingtoneManager.TYPE_ALL)
@@ -93,6 +101,8 @@ internal fun CreateAlarmScreen(
     onChallengeToggle: () -> Unit,
     onVocabLevelChange: (VocabularyLevel) -> Unit,
     onAlwaysPronounceToggle: () -> Unit,
+    onWordCountChange: (Int) -> Unit,
+    onChallengeLanguageChange: (ChallengeLanguage) -> Unit,
     onPickSound: () -> Unit,
     onClearSound: () -> Unit,
     onSave: () -> Unit,
@@ -196,11 +206,32 @@ internal fun CreateAlarmScreen(
                 SectionCard {
                     ToggleRow(s.vibrate, form.vibrate, onVibrateToggle)
                     HorizontalDivider(color = GlassBorder, modifier = Modifier.padding(vertical = 4.dp))
-                    ToggleRow(s.germanChallenge, form.challengeEnabled, onChallengeToggle)
+                    ToggleRow(s.voiceChallenge, form.challengeEnabled, onChallengeToggle)
                 }
 
-                // Vocab level
+                // Challenge settings
                 if (form.challengeEnabled) {
+                    // Challenge language selector
+                    SectionCard {
+                        Text(s.challengeLanguageLabel, style = MaterialTheme.typography.titleMedium, color = TextPrimary)
+                        Spacer(Modifier.height(8.dp))
+                        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            FilterChip(
+                                selected = form.challengeLanguage == ChallengeLanguage.DE,
+                                onClick = { onChallengeLanguageChange(ChallengeLanguage.DE) },
+                                label = { Text(s.germanChallenge) },
+                                colors = FilterChipDefaults.filterChipColors(selectedContainerColor = OrangeAccent, selectedLabelColor = BackgroundDeep, labelColor = TextSecondary),
+                            )
+                            FilterChip(
+                                selected = form.challengeLanguage == ChallengeLanguage.VI,
+                                onClick = { onChallengeLanguageChange(ChallengeLanguage.VI) },
+                                label = { Text(s.vietnameseChallenge) },
+                                colors = FilterChipDefaults.filterChipColors(selectedContainerColor = OrangeAccent, selectedLabelColor = BackgroundDeep, labelColor = TextSecondary),
+                            )
+                        }
+                    }
+
+                    // Vocab level
                     SectionCard {
                         Text(s.vocabularyLevel, style = MaterialTheme.typography.titleMedium, color = TextPrimary)
                         Spacer(Modifier.height(8.dp))
@@ -218,6 +249,16 @@ internal fun CreateAlarmScreen(
 
                     SectionCard {
                         ToggleRow(s.alwaysPronounce, form.alwaysPronounce, onAlwaysPronounceToggle)
+                    }
+
+                    SectionCard {
+                        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+                            Text(s.wordCount, style = MaterialTheme.typography.bodyLarge, color = TextPrimary)
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                NumberPicker(form.challengeWordCount, 1..10, onWordCountChange)
+                                Text(s.wordCountWords, style = MaterialTheme.typography.bodyMedium, color = TextSecondary)
+                            }
+                        }
                     }
                 }
                 Spacer(Modifier.height(8.dp))
@@ -248,9 +289,53 @@ private fun ToggleRow(label: String, checked: Boolean, onToggle: () -> Unit) {
 
 @Composable
 private fun NumberPicker(value: Int, range: IntRange, onValueChange: (Int) -> Unit) {
+    var showDialog by remember { mutableStateOf(false) }
     Row(verticalAlignment = Alignment.CenterVertically) {
         TextButton(onClick = { if (value > range.first) onValueChange(value - 1) else onValueChange(range.last) }, colors = ButtonDefaults.textButtonColors(contentColor = OrangeAccent)) { Text("−", fontSize = 24.sp) }
-        Text("%02d".format(value), fontSize = 28.sp, fontWeight = FontWeight.Bold, color = TextPrimary, modifier = Modifier.widthIn(min = 48.dp))
+        Text(
+            "%02d".format(value), fontSize = 28.sp, fontWeight = FontWeight.Bold, color = TextPrimary,
+            modifier = Modifier.widthIn(min = 48.dp).clickable { showDialog = true },
+        )
         TextButton(onClick = { if (value < range.last) onValueChange(value + 1) else onValueChange(range.first) }, colors = ButtonDefaults.textButtonColors(contentColor = OrangeAccent)) { Text("+", fontSize = 24.sp) }
     }
+    if (showDialog) {
+        NumberInputDialog(
+            currentValue = value,
+            range = range,
+            onConfirm = { onValueChange(it); showDialog = false },
+            onDismiss = { showDialog = false },
+        )
+    }
+}
+
+@Composable
+private fun NumberInputDialog(currentValue: Int, range: IntRange, onConfirm: (Int) -> Unit, onDismiss: () -> Unit) {
+    var text by remember { mutableStateOf(currentValue.toString()) }
+    val focusRequester = remember { FocusRequester() }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = BackgroundMid,
+        title = { Text("Enter value (${range.first}–${range.last})", color = TextPrimary) },
+        text = {
+            OutlinedTextField(
+                value = text,
+                onValueChange = { text = it.filter { c -> c.isDigit() } },
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
+                colors = OutlinedTextFieldDefaults.colors(focusedBorderColor = OrangeAccent, unfocusedBorderColor = GlassBorder, focusedTextColor = TextPrimary, unfocusedTextColor = TextPrimary),
+            )
+            LaunchedEffect(Unit) { focusRequester.requestFocus() }
+        },
+        confirmButton = {
+            TextButton(onClick = {
+                val num = text.toIntOrNull()?.coerceIn(range) ?: currentValue
+                onConfirm(num)
+            }) { Text("OK", color = OrangeAccent, fontWeight = FontWeight.Bold) }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) { Text("Cancel", color = TextSecondary) }
+        },
+    )
 }

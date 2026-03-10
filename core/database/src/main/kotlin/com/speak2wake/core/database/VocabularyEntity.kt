@@ -12,6 +12,7 @@ data class VocabularyEntity(
     val vietnamese: String = "",
     val phonetic: String = "",
     val level: String = "A1",
+    val language: String = "de",
     val category: String = "",
     val timesShown: Int = 0,
     val timesPassed: Int = 0,
@@ -20,5 +21,5 @@ data class VocabularyEntity(
 
 fun VocabularyEntity.toModel() = VocabularyWord(
     id = id, german = german, english = english,
-    vietnamese = vietnamese, phonetic = phonetic, level = level, category = category,
+    vietnamese = vietnamese, phonetic = phonetic, language = language, level = level, category = category,
 )

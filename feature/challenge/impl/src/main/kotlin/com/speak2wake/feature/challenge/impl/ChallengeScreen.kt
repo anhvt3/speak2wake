@@ -1,11 +1,17 @@
 package com.speak2wake.feature.challenge.impl
 
+import android.Manifest
+import androidx.activity.compose.BackHandler
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Mic
@@ -34,7 +40,16 @@ internal fun ChallengeRoute(
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
+    val micPermissionLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { granted -> viewModel.onMicPermissionResult(granted) }
+
+    // Auto-request mic permission when needed
     LaunchedEffect(uiState) {
+        val active = uiState as? ChallengeUiState.Active
+        if (active?.micPermissionNeeded == true) {
+            micPermissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+        }
         if (uiState is ChallengeUiState.Passed || uiState is ChallengeUiState.AlarmDismissed) {
             onDismissed()
         }
@@ -57,6 +72,9 @@ internal fun ChallengeScreen(
     onListen: () -> Unit = {},
     onChangeWord: () -> Unit = {},
 ) {
+    // Block back button — user must complete challenge to dismiss alarm
+    BackHandler { /* intentionally empty — prevent challenge bypass */ }
+
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -94,10 +112,22 @@ private fun ActiveChallenge(
     Column(
         modifier = Modifier
             .fillMaxWidth()
+            .verticalScroll(rememberScrollState())
+            .imePadding()
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
+        // Word progress (only shown when multiple words)
+        if (state.totalWords > 1) {
+            Text(
+                text = s.wordProgressFormat.format(state.currentWordIndex, state.totalWords),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                color = OrangeAccent,
+            )
+        }
+
         // Attempt counter
         Text(
             text = s.attemptFormat.format(state.attempt, state.maxAttempts),
@@ -106,7 +136,7 @@ private fun ActiveChallenge(
         )
 
         // Word display
-        WordDisplay(word = state.word, languageCode = state.languageCode)
+        WordDisplay(word = state.word, languageCode = state.languageCode, challengeLanguage = state.challengeLanguage)
 
         // Listen & Change word buttons
         Row(
@@ -117,7 +147,7 @@ private fun ActiveChallenge(
                 onClick = onListen,
                 colors = ButtonDefaults.buttonColors(
                     containerColor = GlassSurface,
-                    contentColor = OrangeAccent,
+                    contentColor = Color.White,
                 ),
                 shape = RoundedCornerShape(12.dp),
             ) {
@@ -131,7 +161,7 @@ private fun ActiveChallenge(
             }
 
             TextButton(onClick = onChangeWord) {
-                Text(s.changeWord, color = OrangeAccent, fontWeight = FontWeight.Bold)
+                Text(s.changeWord, color = Color.White, fontWeight = FontWeight.Bold)
             }
         }
 
@@ -151,6 +181,7 @@ private fun ActiveChallenge(
         if (state.showFailsafe) {
             FailsafeInput(
                 expectedWord = state.word.german,
+                challengeLanguage = state.challengeLanguage,
                 onSubmit = onFailsafeSubmit,
             )
         }
@@ -158,16 +189,30 @@ private fun ActiveChallenge(
 }
 
 @Composable
-private fun WordDisplay(word: VocabularyWord, languageCode: String = "en") {
-    val primaryTranslation = if (languageCode == "vi" && word.vietnamese.isNotBlank()) {
-        word.vietnamese
+private fun WordDisplay(word: VocabularyWord, languageCode: String = "en", challengeLanguage: String = "de") {
+    // For Vietnamese challenge: german field = Vietnamese word, show English as translation
+    // For German challenge: german field = German word, show Vietnamese/English as translations
+    val isViChallenge = challengeLanguage == "vi"
+
+    val primaryTranslation: String
+    val secondaryTranslation: String
+
+    if (isViChallenge) {
+        // VI challenge: gold text = Vietnamese word, translation = English
+        primaryTranslation = word.english
+        secondaryTranslation = ""
     } else {
-        word.english
-    }
-    val secondaryTranslation = if (languageCode == "vi") {
-        word.english
-    } else {
-        word.vietnamese
+        // DE challenge: gold text = German word, translations based on UI language
+        primaryTranslation = if (languageCode == "vi" && word.vietnamese.isNotBlank()) {
+            word.vietnamese
+        } else {
+            word.english
+        }
+        secondaryTranslation = if (languageCode == "vi") {
+            word.english
+        } else {
+            word.vietnamese
+        }
     }
 
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
@@ -238,7 +283,7 @@ private fun MicButton(phase: ChallengePhase, onRetry: () -> Unit) {
             shape = CircleShape,
             colors = ButtonDefaults.buttonColors(
                 containerColor = if (isListening) OrangeAccent else GlassSurface,
-                contentColor = if (isListening) BackgroundDeep else OrangeAccent,
+                contentColor = if (isListening) BackgroundDeep else Color.White,
             ),
             contentPadding = PaddingValues(0.dp),
             enabled = phase != ChallengePhase.SCORING,
@@ -291,9 +336,10 @@ private fun ScoreFeedback(score: Float, passed: Boolean, transcript: String?) {
 }
 
 @Composable
-private fun FailsafeInput(expectedWord: String, onSubmit: (String) -> Unit) {
+private fun FailsafeInput(expectedWord: String, challengeLanguage: String = "de", onSubmit: (String) -> Unit) {
     val s = LocalStrings.current
     var text by remember { mutableStateOf("") }
+    val placeholder = if (challengeLanguage == "vi") s.typeInVietnamese else s.typeInGerman
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -312,7 +358,7 @@ private fun FailsafeInput(expectedWord: String, onSubmit: (String) -> Unit) {
         OutlinedTextField(
             value = text,
             onValueChange = { text = it },
-            placeholder = { Text(s.typeInGerman, color = TextSecondary) },
+            placeholder = { Text(placeholder, color = TextSecondary) },
             modifier = Modifier.fillMaxWidth(),
             colors = OutlinedTextFieldDefaults.colors(
                 focusedBorderColor = OrangeAccent,

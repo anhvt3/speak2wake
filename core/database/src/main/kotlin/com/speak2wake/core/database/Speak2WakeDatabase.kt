@@ -11,7 +11,7 @@ import androidx.room.RoomDatabase
                         ChallengeSessionEntity::class,
                         ChallengeAttemptEntity::class,
                 ],
-        version = 3,
+        version = 5,
         exportSchema = true,
 )
 abstract class Speak2WakeDatabase : RoomDatabase() {

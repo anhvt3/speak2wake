@@ -1,0 +1,7002 @@
+[
+  {
+    "vietnamese": "xin chào",
+    "english": "hello",
+    "phonetic": "sin chào",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "cảm ơn",
+    "english": "thank you",
+    "phonetic": "kảm ơn",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "xin lỗi",
+    "english": "sorry",
+    "phonetic": "sin lỗi",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "vâng",
+    "english": "yes",
+    "phonetic": "vưng",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "không",
+    "english": "no",
+    "phonetic": "không",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "chào buổi sáng",
+    "english": "good morning",
+    "phonetic": "chào buổi sáng",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "chào buổi tối",
+    "english": "good evening",
+    "phonetic": "chào buổi tối",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "tạm biệt",
+    "english": "goodbye",
+    "phonetic": "tạm biệt",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "hẹn gặp lại",
+    "english": "see you again",
+    "phonetic": "hẹn gặp lại",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "xin phép",
+    "english": "excuse me",
+    "phonetic": "sin phép",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "không có gì",
+    "english": "you're welcome",
+    "phonetic": "không kó gì",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "rất vui",
+    "english": "nice to meet you",
+    "phonetic": "rất vui",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "bạn khỏe không",
+    "english": "how are you",
+    "phonetic": "bạn khỏe không",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "tôi khỏe",
+    "english": "I am fine",
+    "phonetic": "tôi khỏe",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "chào anh",
+    "english": "hello sir",
+    "phonetic": "chào anh",
+    "level": "A1",
+    "category": "greetings"
+  },
+  {
+    "vietnamese": "một",
+    "english": "one",
+    "phonetic": "một",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "hai",
+    "english": "two",
+    "phonetic": "hai",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "ba",
+    "english": "three",
+    "phonetic": "ba",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "bốn",
+    "english": "four",
+    "phonetic": "bốn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "năm",
+    "english": "five",
+    "phonetic": "năm",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "sáu",
+    "english": "six",
+    "phonetic": "sáu",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "bảy",
+    "english": "seven",
+    "phonetic": "bảy",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "tám",
+    "english": "eight",
+    "phonetic": "tám",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "chín",
+    "english": "nine",
+    "phonetic": "chín",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "mười",
+    "english": "ten",
+    "phonetic": "mười",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "mười một",
+    "english": "eleven",
+    "phonetic": "mười một",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "mười hai",
+    "english": "twelve",
+    "phonetic": "mười hai",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "hai mươi",
+    "english": "twenty",
+    "phonetic": "hai mươi",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "ba mươi",
+    "english": "thirty",
+    "phonetic": "ba mươi",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "một trăm",
+    "english": "one hundred",
+    "phonetic": "một trăm",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "một nghìn",
+    "english": "one thousand",
+    "phonetic": "một nghìn",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "số không",
+    "english": "zero",
+    "phonetic": "số không",
+    "level": "A1",
+    "category": "numbers"
+  },
+  {
+    "vietnamese": "mẹ",
+    "english": "mother",
+    "phonetic": "mẹ",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "bố",
+    "english": "father",
+    "phonetic": "bố",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "con",
+    "english": "child",
+    "phonetic": "kon",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "anh",
+    "english": "older brother",
+    "phonetic": "anh",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "chị",
+    "english": "older sister",
+    "phonetic": "chị",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "em",
+    "english": "younger sibling",
+    "phonetic": "em",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "ông",
+    "english": "grandfather",
+    "phonetic": "ông",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "bà",
+    "english": "grandmother",
+    "phonetic": "bà",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "con trai",
+    "english": "son",
+    "phonetic": "kon trai",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "con gái",
+    "english": "daughter",
+    "phonetic": "kon gái",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "chồng",
+    "english": "husband",
+    "phonetic": "chồng",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "vợ",
+    "english": "wife",
+    "phonetic": "vợ",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "gia đình",
+    "english": "family",
+    "phonetic": "za đình",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "bác",
+    "english": "uncle or aunt",
+    "phonetic": "bác",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "cô",
+    "english": "aunt",
+    "phonetic": "kô",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "chú",
+    "english": "uncle",
+    "phonetic": "chú",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "cháu",
+    "english": "grandchild / nephew",
+    "phonetic": "cháu",
+    "level": "A1",
+    "category": "family"
+  },
+  {
+    "vietnamese": "cơm",
+    "english": "rice",
+    "phonetic": "kơm",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "nước",
+    "english": "water",
+    "phonetic": "nước",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "sữa",
+    "english": "milk",
+    "phonetic": "sữa",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "trứng",
+    "english": "egg",
+    "phonetic": "trứng",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "thịt",
+    "english": "meat",
+    "phonetic": "thịt",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "cá",
+    "english": "fish",
+    "phonetic": "ká",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "rau",
+    "english": "vegetable",
+    "phonetic": "zau",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "trái cây",
+    "english": "fruit",
+    "phonetic": "trái kây",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "bánh mì",
+    "english": "bread",
+    "phonetic": "bánh mì",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "phở",
+    "english": "pho noodle soup",
+    "phonetic": "phở",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "bún",
+    "english": "rice vermicelli",
+    "phonetic": "bún",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "chè",
+    "english": "sweet soup",
+    "phonetic": "chè",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "cà phê",
+    "english": "coffee",
+    "phonetic": "kà phê",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "trà",
+    "english": "tea",
+    "phonetic": "trà",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "bia",
+    "english": "beer",
+    "phonetic": "bia",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "đường",
+    "english": "sugar",
+    "phonetic": "đường",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "muối",
+    "english": "salt",
+    "phonetic": "muối",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "tiêu",
+    "english": "pepper",
+    "phonetic": "tiêu",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "dầu ăn",
+    "english": "cooking oil",
+    "phonetic": "zầu ăn",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "nước mắm",
+    "english": "fish sauce",
+    "phonetic": "nước mắm",
+    "level": "A1",
+    "category": "food"
+  },
+  {
+    "vietnamese": "đỏ",
+    "english": "red",
+    "phonetic": "đỏ",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "xanh",
+    "english": "green / blue",
+    "phonetic": "sanh",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "vàng",
+    "english": "yellow",
+    "phonetic": "vàng",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "trắng",
+    "english": "white",
+    "phonetic": "trắng",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "đen",
+    "english": "black",
+    "phonetic": "đen",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "nâu",
+    "english": "brown",
+    "phonetic": "nâu",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "hồng",
+    "english": "pink",
+    "phonetic": "hồng",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "tím",
+    "english": "purple",
+    "phonetic": "tím",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "cam",
+    "english": "orange",
+    "phonetic": "kam",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "xám",
+    "english": "gray",
+    "phonetic": "sám",
+    "level": "A1",
+    "category": "colors"
+  },
+  {
+    "vietnamese": "đầu",
+    "english": "head",
+    "phonetic": "đầu",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "tay",
+    "english": "hand",
+    "phonetic": "tay",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "chân",
+    "english": "foot / leg",
+    "phonetic": "chân",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "mắt",
+    "english": "eye",
+    "phonetic": "mắt",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "mũi",
+    "english": "nose",
+    "phonetic": "mũi",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "miệng",
+    "english": "mouth",
+    "phonetic": "miệng",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "tai",
+    "english": "ear",
+    "phonetic": "tai",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "tóc",
+    "english": "hair",
+    "phonetic": "tốk",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "răng",
+    "english": "tooth",
+    "phonetic": "răng",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "lưng",
+    "english": "back",
+    "phonetic": "lưng",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "ngón tay",
+    "english": "finger",
+    "phonetic": "ngón tay",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "bụng",
+    "english": "stomach",
+    "phonetic": "bụng",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "vai",
+    "english": "shoulder",
+    "phonetic": "vai",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "cổ",
+    "english": "neck",
+    "phonetic": "kổ",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "đầu gối",
+    "english": "knee",
+    "phonetic": "đầu gối",
+    "level": "A1",
+    "category": "body"
+  },
+  {
+    "vietnamese": "nhà",
+    "english": "house",
+    "phonetic": "nhà",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "cửa",
+    "english": "door",
+    "phonetic": "kửa",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "cửa sổ",
+    "english": "window",
+    "phonetic": "kửa sổ",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "bàn",
+    "english": "table",
+    "phonetic": "bàn",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "ghế",
+    "english": "chair",
+    "phonetic": "ghế",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "giường",
+    "english": "bed",
+    "phonetic": "giường",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "tủ",
+    "english": "cabinet",
+    "phonetic": "tủ",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "đèn",
+    "english": "lamp",
+    "phonetic": "đèn",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "bếp",
+    "english": "kitchen",
+    "phonetic": "bếp",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "phòng ngủ",
+    "english": "bedroom",
+    "phonetic": "phòng ngủ",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "phòng tắm",
+    "english": "bathroom",
+    "phonetic": "phòng tắm",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "sân",
+    "english": "yard",
+    "phonetic": "sân",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "tường",
+    "english": "wall",
+    "phonetic": "tường",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "mái nhà",
+    "english": "roof",
+    "phonetic": "mái nhà",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "sàn",
+    "english": "floor",
+    "phonetic": "sàn",
+    "level": "A1",
+    "category": "home"
+  },
+  {
+    "vietnamese": "là",
+    "english": "to be",
+    "phonetic": "là",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "có",
+    "english": "to have",
+    "phonetic": "kó",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "đi",
+    "english": "to go",
+    "phonetic": "đi",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "đến",
+    "english": "to come",
+    "phonetic": "đến",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "ăn",
+    "english": "to eat",
+    "phonetic": "ăn",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "uống",
+    "english": "to drink",
+    "phonetic": "uống",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "ngủ",
+    "english": "to sleep",
+    "phonetic": "ngủ",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "nói",
+    "english": "to speak",
+    "phonetic": "nói",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "nghe",
+    "english": "to listen",
+    "phonetic": "nghe",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "đọc",
+    "english": "to read",
+    "phonetic": "đọk",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "viết",
+    "english": "to write",
+    "phonetic": "viết",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "học",
+    "english": "to learn",
+    "phonetic": "họk",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "làm",
+    "english": "to do / make",
+    "phonetic": "làm",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "mua",
+    "english": "to buy",
+    "phonetic": "mua",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "bán",
+    "english": "to sell",
+    "phonetic": "bán",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "cho",
+    "english": "to give",
+    "phonetic": "cho",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "lấy",
+    "english": "to take",
+    "phonetic": "lấy",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "nhìn",
+    "english": "to look",
+    "phonetic": "nhìn",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "chạy",
+    "english": "to run",
+    "phonetic": "chạy",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "đứng",
+    "english": "to stand",
+    "phonetic": "đứng",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "ngồi",
+    "english": "to sit",
+    "phonetic": "ngồi",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "yêu",
+    "english": "to love",
+    "phonetic": "yêu",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "thích",
+    "english": "to like",
+    "phonetic": "thích",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "muốn",
+    "english": "to want",
+    "phonetic": "muốn",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "cần",
+    "english": "to need",
+    "phonetic": "kần",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "biết",
+    "english": "to know",
+    "phonetic": "biết",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "hiểu",
+    "english": "to understand",
+    "phonetic": "hiểu",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "hỏi",
+    "english": "to ask",
+    "phonetic": "hỏi",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "trả lời",
+    "english": "to answer",
+    "phonetic": "trả lời",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "chơi",
+    "english": "to play",
+    "phonetic": "chơi",
+    "level": "A1",
+    "category": "verbs"
+  },
+  {
+    "vietnamese": "giờ",
+    "english": "hour",
+    "phonetic": "giờ",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "phút",
+    "english": "minute",
+    "phonetic": "phút",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "giây",
+    "english": "second",
+    "phonetic": "giây",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "sáng",
+    "english": "morning",
+    "phonetic": "sáng",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "trưa",
+    "english": "noon",
+    "phonetic": "trưa",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "chiều",
+    "english": "afternoon",
+    "phonetic": "chiều",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "tối",
+    "english": "evening",
+    "phonetic": "tối",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "đêm",
+    "english": "night",
+    "phonetic": "đêm",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "hôm nay",
+    "english": "today",
+    "phonetic": "hôm nay",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "ngày mai",
+    "english": "tomorrow",
+    "phonetic": "ngày mai",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "hôm qua",
+    "english": "yesterday",
+    "phonetic": "hôm qua",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "tuần",
+    "english": "week",
+    "phonetic": "tuần",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "tháng",
+    "english": "month",
+    "phonetic": "tháng",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "năm nay",
+    "english": "this year",
+    "phonetic": "năm nay",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "thứ hai",
+    "english": "Monday",
+    "phonetic": "thứ hai",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "chủ nhật",
+    "english": "Sunday",
+    "phonetic": "chủ nhật",
+    "level": "A1",
+    "category": "time"
+  },
+  {
+    "vietnamese": "con chó",
+    "english": "dog",
+    "phonetic": "kon chó",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con mèo",
+    "english": "cat",
+    "phonetic": "kon mèo",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con gà",
+    "english": "chicken",
+    "phonetic": "kon gà",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con lợn",
+    "english": "pig",
+    "phonetic": "kon lợn",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con bò",
+    "english": "cow",
+    "phonetic": "kon bò",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con trâu",
+    "english": "buffalo",
+    "phonetic": "kon trâu",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con cá",
+    "english": "fish",
+    "phonetic": "kon ká",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con chim",
+    "english": "bird",
+    "phonetic": "kon chim",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con vịt",
+    "english": "duck",
+    "phonetic": "kon vịt",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "con ngựa",
+    "english": "horse",
+    "phonetic": "kon ngựa",
+    "level": "A1",
+    "category": "animals"
+  },
+  {
+    "vietnamese": "mặt trời",
+    "english": "sun",
+    "phonetic": "mặt trời",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "mưa",
+    "english": "rain",
+    "phonetic": "mưa",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "gió",
+    "english": "wind",
+    "phonetic": "gió",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "nóng",
+    "english": "hot",
+    "phonetic": "nóng",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "lạnh",
+    "english": "cold",
+    "phonetic": "lạnh",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "nắng",
+    "english": "sunny",
+    "phonetic": "nắng",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "mây",
+    "english": "cloud",
+    "phonetic": "mây",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "trời",
+    "english": "sky",
+    "phonetic": "trời",
+    "level": "A1",
+    "category": "weather"
+  },
+  {
+    "vietnamese": "to",
+    "english": "big",
+    "phonetic": "to",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "nhỏ",
+    "english": "small",
+    "phonetic": "nhỏ",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "dài",
+    "english": "long",
+    "phonetic": "dài",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "ngắn",
+    "english": "short",
+    "phonetic": "ngắn",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "cao",
+    "english": "tall",
+    "phonetic": "kao",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "thấp",
+    "english": "low",
+    "phonetic": "thấp",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "nhanh",
+    "english": "fast",
+    "phonetic": "nhanh",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "chậm",
+    "english": "slow",
+    "phonetic": "chậm",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "đẹp",
+    "english": "beautiful",
+    "phonetic": "đẹp",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "xấu",
+    "english": "ugly",
+    "phonetic": "sấu",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "tốt",
+    "english": "good",
+    "phonetic": "tốt",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "mới",
+    "english": "new",
+    "phonetic": "mới",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "cũ",
+    "english": "old",
+    "phonetic": "kũ",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "nhiều",
+    "english": "many",
+    "phonetic": "nhiều",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "ít",
+    "english": "few",
+    "phonetic": "ít",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "sạch",
+    "english": "clean",
+    "phonetic": "sạch",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "bẩn",
+    "english": "dirty",
+    "phonetic": "bẩn",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "dễ",
+    "english": "easy",
+    "phonetic": "dễ",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "khó",
+    "english": "difficult",
+    "phonetic": "khó",
+    "level": "A1",
+    "category": "adjectives"
+  },
+  {
+    "vietnamese": "trường học",
+    "english": "school",
+    "phonetic": "trường họk",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "lớp học",
+    "english": "classroom",
+    "phonetic": "lớp họk",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "sách",
+    "english": "book",
+    "phonetic": "sách",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "bút",
+    "english": "pen",
+    "phonetic": "bút",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "giấy",
+    "english": "paper",
+    "phonetic": "giấy",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "thầy giáo",
+    "english": "male teacher",
+    "phonetic": "thầy giáo",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "cô giáo",
+    "english": "female teacher",
+    "phonetic": "kô giáo",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "bạn bè",
+    "english": "friends",
+    "phonetic": "bạn bè",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "bài tập",
+    "english": "homework",
+    "phonetic": "bài tập",
+    "level": "A1",
+    "category": "school"
+  },
+  {
+    "vietnamese": "tôi",
+    "english": "I / me",
+    "phonetic": "tôi",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "bạn",
+    "english": "you",
+    "phonetic": "bạn",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "anh ấy",
+    "english": "he",
+    "phonetic": "anh ấy",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "cô ấy",
+    "english": "she",
+    "phonetic": "kô ấy",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "chúng tôi",
+    "english": "we",
+    "phonetic": "chúng tôi",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "họ",
+    "english": "they",
+    "phonetic": "họ",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "này",
+    "english": "this",
+    "phonetic": "này",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "kia",
+    "english": "that",
+    "phonetic": "kia",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "đây",
+    "english": "here",
+    "phonetic": "đây",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "đó",
+    "english": "there",
+    "phonetic": "đó",
+    "level": "A1",
+    "category": "pronouns"
+  },
+  {
+    "vietnamese": "áo",
+    "english": "shirt",
+    "phonetic": "áo",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "quần",
+    "english": "pants",
+    "phonetic": "quần",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "giày",
+    "english": "shoes",
+    "phonetic": "giày",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "mũ",
+    "english": "hat",
+    "phonetic": "mũ",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "áo khoác",
+    "english": "jacket",
+    "phonetic": "áo khoác",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "váy",
+    "english": "skirt",
+    "phonetic": "váy",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "áo dài",
+    "english": "traditional dress",
+    "phonetic": "áo dài",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "tất",
+    "english": "socks",
+    "phonetic": "tất",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "khăn",
+    "english": "scarf",
+    "phonetic": "khăn",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "đồng hồ",
+    "english": "watch / clock",
+    "phonetic": "đồng hồ",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "kính",
+    "english": "glasses",
+    "phonetic": "kính",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "ví",
+    "english": "wallet",
+    "phonetic": "ví",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "túi xách",
+    "english": "bag",
+    "phonetic": "túi sách",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "dép",
+    "english": "sandals",
+    "phonetic": "dép",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "ô",
+    "english": "umbrella",
+    "phonetic": "ô",
+    "level": "A2",
+    "category": "clothes"
+  },
+  {
+    "vietnamese": "xe máy",
+    "english": "motorbike",
+    "phonetic": "se máy",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "xe đạp",
+    "english": "bicycle",
+    "phonetic": "se đạp",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "ô tô",
+    "english": "car",
+    "phonetic": "ô tô",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "xe buýt",
+    "english": "bus",
+    "phonetic": "se buýt",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "máy bay",
+    "english": "airplane",
+    "phonetic": "máy bay",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "tàu hỏa",
+    "english": "train",
+    "phonetic": "tàu hỏa",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "tàu thủy",
+    "english": "ship",
+    "phonetic": "tàu thủy",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "cầu",
+    "english": "bridge",
+    "phonetic": "kầu",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "bến xe",
+    "english": "bus station",
+    "phonetic": "bến se",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "sân bay",
+    "english": "airport",
+    "phonetic": "sân bay",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "vé",
+    "english": "ticket",
+    "phonetic": "vé",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "lái xe",
+    "english": "to drive",
+    "phonetic": "lái se",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "đỗ xe",
+    "english": "to park",
+    "phonetic": "đỗ se",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "taxi",
+    "english": "taxi",
+    "phonetic": "tắc si",
+    "level": "A2",
+    "category": "transport"
+  },
+  {
+    "vietnamese": "bệnh viện",
+    "english": "hospital",
+    "phonetic": "bệnh viện",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "bác sĩ",
+    "english": "doctor",
+    "phonetic": "bác sĩ",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "thuốc",
+    "english": "medicine",
+    "phonetic": "thuốk",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "đau",
+    "english": "pain",
+    "phonetic": "đau",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "sốt",
+    "english": "fever",
+    "phonetic": "sốt",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "ho",
+    "english": "cough",
+    "phonetic": "ho",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "cảm",
+    "english": "cold / flu",
+    "phonetic": "kảm",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "khỏe",
+    "english": "healthy",
+    "phonetic": "khỏe",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "yếu",
+    "english": "weak",
+    "phonetic": "yếu",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "mệt",
+    "english": "tired",
+    "phonetic": "mệt",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "ốm",
+    "english": "sick",
+    "phonetic": "ốm",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "đau đầu",
+    "english": "headache",
+    "phonetic": "đau đầu",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "đau bụng",
+    "english": "stomachache",
+    "phonetic": "đau bụng",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "chóng mặt",
+    "english": "dizzy",
+    "phonetic": "chóng mặt",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "dị ứng",
+    "english": "allergy",
+    "phonetic": "dị ứng",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "vietnamese": "chợ",
+    "english": "market",
+    "phonetic": "chợ",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "siêu thị",
+    "english": "supermarket",
+    "phonetic": "siêu thị",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "nhà hàng",
+    "english": "restaurant",
+    "phonetic": "nhà hàng",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "khách sạn",
+    "english": "hotel",
+    "phonetic": "khách sạn",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "ngân hàng",
+    "english": "bank",
+    "phonetic": "ngân hàng",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "bưu điện",
+    "english": "post office",
+    "phonetic": "bưu điện",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "công viên",
+    "english": "park",
+    "phonetic": "kông viên",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "nhà thờ",
+    "english": "church",
+    "phonetic": "nhà thờ",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "chùa",
+    "english": "pagoda",
+    "phonetic": "chùa",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "hiệu sách",
+    "english": "bookstore",
+    "phonetic": "hiệu sách",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "tiệm thuốc",
+    "english": "pharmacy",
+    "phonetic": "tiệm thuốk",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "rạp phim",
+    "english": "cinema",
+    "phonetic": "rạp phim",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "bảo tàng",
+    "english": "museum",
+    "phonetic": "bảo tàng",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "thư viện",
+    "english": "library",
+    "phonetic": "thư viện",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "cửa hàng",
+    "english": "shop",
+    "phonetic": "kửa hàng",
+    "level": "A2",
+    "category": "places"
+  },
+  {
+    "vietnamese": "thịt bò",
+    "english": "beef",
+    "phonetic": "thịt bò",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "thịt gà",
+    "english": "chicken meat",
+    "phonetic": "thịt gà",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "thịt lợn",
+    "english": "pork",
+    "phonetic": "thịt lợn",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "tôm",
+    "english": "shrimp",
+    "phonetic": "tôm",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "mực",
+    "english": "squid",
+    "phonetic": "mực",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "rau muống",
+    "english": "morning glory",
+    "phonetic": "rau muống",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "bắp cải",
+    "english": "cabbage",
+    "phonetic": "bắp kải",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "cà chua",
+    "english": "tomato",
+    "phonetic": "kà chua",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "khoai tây",
+    "english": "potato",
+    "phonetic": "khoai tây",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "hành",
+    "english": "onion",
+    "phonetic": "hành",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "tỏi",
+    "english": "garlic",
+    "phonetic": "tỏi",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "gừng",
+    "english": "ginger",
+    "phonetic": "gừng",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "xoài",
+    "english": "mango",
+    "phonetic": "soài",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "chuối",
+    "english": "banana",
+    "phonetic": "chuối",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "táo",
+    "english": "apple",
+    "phonetic": "táo",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "dưa hấu",
+    "english": "watermelon",
+    "phonetic": "dưa hấu",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "bưởi",
+    "english": "pomelo",
+    "phonetic": "bưởi",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "nho",
+    "english": "grape",
+    "phonetic": "nho",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "ổi",
+    "english": "guava",
+    "phonetic": "ổi",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "mít",
+    "english": "jackfruit",
+    "phonetic": "mít",
+    "level": "A2",
+    "category": "food2"
+  },
+  {
+    "vietnamese": "nấu ăn",
+    "english": "to cook",
+    "phonetic": "nấu ăn",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "rửa",
+    "english": "to wash",
+    "phonetic": "rửa",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "dọn",
+    "english": "to clean up",
+    "phonetic": "dọn",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "giặt",
+    "english": "to do laundry",
+    "phonetic": "giặt",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "lau",
+    "english": "to wipe",
+    "phonetic": "lau",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "cắt",
+    "english": "to cut",
+    "phonetic": "kắt",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "mở",
+    "english": "to open",
+    "phonetic": "mở",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "đóng",
+    "english": "to close",
+    "phonetic": "đóng",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "bật",
+    "english": "to turn on",
+    "phonetic": "bật",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "tắt",
+    "english": "to turn off",
+    "phonetic": "tắt",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "gọi",
+    "english": "to call",
+    "phonetic": "gọi",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "gửi",
+    "english": "to send",
+    "phonetic": "gửi",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "nhận",
+    "english": "to receive",
+    "phonetic": "nhận",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "trả",
+    "english": "to pay / return",
+    "phonetic": "trả",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "đổi",
+    "english": "to exchange",
+    "phonetic": "đổi",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "đợi",
+    "english": "to wait",
+    "phonetic": "đợi",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "tìm",
+    "english": "to find / search",
+    "phonetic": "tìm",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "mang",
+    "english": "to bring / carry",
+    "phonetic": "mang",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "đặt",
+    "english": "to place / book",
+    "phonetic": "đặt",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "quên",
+    "english": "to forget",
+    "phonetic": "quên",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "nhớ",
+    "english": "to remember",
+    "phonetic": "nhớ",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "giúp",
+    "english": "to help",
+    "phonetic": "giúp",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "hát",
+    "english": "to sing",
+    "phonetic": "hát",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "nhảy",
+    "english": "to dance / jump",
+    "phonetic": "nhảy",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "vẽ",
+    "english": "to draw",
+    "phonetic": "vẽ",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "bơi",
+    "english": "to swim",
+    "phonetic": "bơi",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "bay",
+    "english": "to fly",
+    "phonetic": "bay",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "lên",
+    "english": "to go up",
+    "phonetic": "lên",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "xuống",
+    "english": "to go down",
+    "phonetic": "suống",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "vào",
+    "english": "to enter",
+    "phonetic": "vào",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "ra",
+    "english": "to exit",
+    "phonetic": "ra",
+    "level": "A2",
+    "category": "verbs2"
+  },
+  {
+    "vietnamese": "tiền",
+    "english": "money",
+    "phonetic": "tiền",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "giá",
+    "english": "price",
+    "phonetic": "giá",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "đắt",
+    "english": "expensive",
+    "phonetic": "đắt",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "rẻ",
+    "english": "cheap",
+    "phonetic": "rẻ",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "mặc cả",
+    "english": "to bargain",
+    "phonetic": "mặc kả",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "hóa đơn",
+    "english": "bill / receipt",
+    "phonetic": "hóa đơn",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "thẻ",
+    "english": "card",
+    "phonetic": "thẻ",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "trả tiền",
+    "english": "to pay",
+    "phonetic": "trả tiền",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "miễn phí",
+    "english": "free of charge",
+    "phonetic": "miễn phí",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "giảm giá",
+    "english": "discount",
+    "phonetic": "giảm giá",
+    "level": "A2",
+    "category": "shopping"
+  },
+  {
+    "vietnamese": "vui",
+    "english": "happy",
+    "phonetic": "vui",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "buồn",
+    "english": "sad",
+    "phonetic": "buồn",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "giận",
+    "english": "angry",
+    "phonetic": "giận",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "sợ",
+    "english": "afraid",
+    "phonetic": "sợ",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "lo lắng",
+    "english": "worried",
+    "phonetic": "lo lắng",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "ngạc nhiên",
+    "english": "surprised",
+    "phonetic": "ngạc nhiên",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "chán",
+    "english": "bored",
+    "phonetic": "chán",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "hạnh phúc",
+    "english": "happiness",
+    "phonetic": "hạnh phúc",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "tự hào",
+    "english": "proud",
+    "phonetic": "tự hào",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "xấu hổ",
+    "english": "embarrassed",
+    "phonetic": "sấu hổ",
+    "level": "A2",
+    "category": "emotions"
+  },
+  {
+    "vietnamese": "con voi",
+    "english": "elephant",
+    "phonetic": "kon voi",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con hổ",
+    "english": "tiger",
+    "phonetic": "kon hổ",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con rắn",
+    "english": "snake",
+    "phonetic": "kon rắn",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con khỉ",
+    "english": "monkey",
+    "phonetic": "kon khỉ",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con thỏ",
+    "english": "rabbit",
+    "phonetic": "kon thỏ",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con rùa",
+    "english": "turtle",
+    "phonetic": "kon rùa",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con ong",
+    "english": "bee",
+    "phonetic": "kon ong",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con bướm",
+    "english": "butterfly",
+    "phonetic": "kon bướm",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con kiến",
+    "english": "ant",
+    "phonetic": "kon kiến",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "con chuột",
+    "english": "mouse",
+    "phonetic": "kon chuột",
+    "level": "A2",
+    "category": "animals2"
+  },
+  {
+    "vietnamese": "thời tiết",
+    "english": "weather",
+    "phonetic": "thời tiết",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "bão",
+    "english": "storm",
+    "phonetic": "bão",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "sương mù",
+    "english": "fog",
+    "phonetic": "sương mù",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "mát",
+    "english": "cool",
+    "phonetic": "mát",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "ẩm",
+    "english": "humid",
+    "phonetic": "ẩm",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "khô",
+    "english": "dry",
+    "phonetic": "khô",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "mùa xuân",
+    "english": "spring",
+    "phonetic": "mùa suân",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "mùa hè",
+    "english": "summer",
+    "phonetic": "mùa hè",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "mùa thu",
+    "english": "autumn",
+    "phonetic": "mùa thu",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "mùa đông",
+    "english": "winter",
+    "phonetic": "mùa đông",
+    "level": "A2",
+    "category": "weather2"
+  },
+  {
+    "vietnamese": "nặng",
+    "english": "heavy",
+    "phonetic": "nặng",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "nhẹ",
+    "english": "light weight",
+    "phonetic": "nhẹ",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "rộng",
+    "english": "wide",
+    "phonetic": "rộng",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "hẹp",
+    "english": "narrow",
+    "phonetic": "hẹp",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "dày",
+    "english": "thick",
+    "phonetic": "dày",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "mỏng",
+    "english": "thin",
+    "phonetic": "mỏng",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "cứng",
+    "english": "hard",
+    "phonetic": "kứng",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "mềm",
+    "english": "soft",
+    "phonetic": "mềm",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "ướt",
+    "english": "wet",
+    "phonetic": "ướt",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "ngon",
+    "english": "delicious",
+    "phonetic": "ngon",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "ngọt",
+    "english": "sweet",
+    "phonetic": "ngọt",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "chua",
+    "english": "sour",
+    "phonetic": "chua",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "cay",
+    "english": "spicy",
+    "phonetic": "kay",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "mặn",
+    "english": "salty",
+    "phonetic": "mặn",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "đắng",
+    "english": "bitter",
+    "phonetic": "đắng",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "thơm",
+    "english": "fragrant",
+    "phonetic": "thơm",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "giàu",
+    "english": "rich",
+    "phonetic": "giàu",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "nghèo",
+    "english": "poor",
+    "phonetic": "nghèo",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "già",
+    "english": "old person",
+    "phonetic": "già",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "trẻ",
+    "english": "young",
+    "phonetic": "trẻ",
+    "level": "A2",
+    "category": "adjectives2"
+  },
+  {
+    "vietnamese": "điện thoại",
+    "english": "phone",
+    "phonetic": "điện thoại",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "máy tính",
+    "english": "computer",
+    "phonetic": "máy tính",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "mạng",
+    "english": "internet",
+    "phonetic": "mạng",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "tin nhắn",
+    "english": "message",
+    "phonetic": "tin nhắn",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "email",
+    "english": "email",
+    "phonetic": "i-meo",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "mật khẩu",
+    "english": "password",
+    "phonetic": "mật khẩu",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "ảnh",
+    "english": "photo",
+    "phonetic": "ảnh",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "video",
+    "english": "video",
+    "phonetic": "vi-đê-ô",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "tải",
+    "english": "to download",
+    "phonetic": "tải",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "sạc",
+    "english": "to charge",
+    "phonetic": "sạc",
+    "level": "A2",
+    "category": "technology"
+  },
+  {
+    "vietnamese": "công việc",
+    "english": "work / job",
+    "phonetic": "kông việk",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "lương",
+    "english": "salary",
+    "phonetic": "lương",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "công ty",
+    "english": "company",
+    "phonetic": "kông ty",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "giám đốc",
+    "english": "director",
+    "phonetic": "giám đốk",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "nhân viên",
+    "english": "employee",
+    "phonetic": "nhân viên",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "cuộc họp",
+    "english": "meeting",
+    "phonetic": "kuộc họp",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "dự án",
+    "english": "project",
+    "phonetic": "dự án",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "hợp đồng",
+    "english": "contract",
+    "phonetic": "hợp đồng",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "nghỉ phép",
+    "english": "leave / vacation",
+    "phonetic": "nghỉ phép",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "tuyển dụng",
+    "english": "recruitment",
+    "phonetic": "tuyển dụng",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "đồng nghiệp",
+    "english": "colleague",
+    "phonetic": "đồng nghiệp",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "sếp",
+    "english": "boss",
+    "phonetic": "sếp",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "văn phòng",
+    "english": "office",
+    "phonetic": "văn phòng",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "lịch trình",
+    "english": "schedule",
+    "phonetic": "lịch trình",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "deadline",
+    "english": "deadline",
+    "phonetic": "đét-lai",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "thuyết trình",
+    "english": "presentation",
+    "phonetic": "thuyết trình",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "báo cáo",
+    "english": "report",
+    "phonetic": "báo cáo",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "họp",
+    "english": "to have a meeting",
+    "phonetic": "họp",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "ký",
+    "english": "to sign",
+    "phonetic": "ký",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "nộp",
+    "english": "to submit",
+    "phonetic": "nộp",
+    "level": "B1",
+    "category": "work"
+  },
+  {
+    "vietnamese": "giáo dục",
+    "english": "education",
+    "phonetic": "giáo dục",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "đại học",
+    "english": "university",
+    "phonetic": "đại họk",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "sinh viên",
+    "english": "student",
+    "phonetic": "sinh viên",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "bằng cấp",
+    "english": "degree",
+    "phonetic": "bằng kấp",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "chuyên ngành",
+    "english": "major",
+    "phonetic": "chuyên ngành",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "thi",
+    "english": "to take an exam",
+    "phonetic": "thi",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "điểm",
+    "english": "score / point",
+    "phonetic": "điểm",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "học bổng",
+    "english": "scholarship",
+    "phonetic": "họk bổng",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "tốt nghiệp",
+    "english": "to graduate",
+    "phonetic": "tốt nghiệp",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "nghiên cứu",
+    "english": "research",
+    "phonetic": "nghiên kứu",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "kiến thức",
+    "english": "knowledge",
+    "phonetic": "kiến thức",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "kỹ năng",
+    "english": "skill",
+    "phonetic": "kỹ năng",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "sáng tạo",
+    "english": "creative",
+    "phonetic": "sáng tạo",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "kinh nghiệm",
+    "english": "experience",
+    "phonetic": "kinh nghiệm",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "luyện tập",
+    "english": "to practice",
+    "phonetic": "luyện tập",
+    "level": "B1",
+    "category": "education"
+  },
+  {
+    "vietnamese": "văn hóa",
+    "english": "culture",
+    "phonetic": "văn hóa",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "xã hội",
+    "english": "society",
+    "phonetic": "sã hội",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "luật pháp",
+    "english": "law",
+    "phonetic": "luật pháp",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "chính phủ",
+    "english": "government",
+    "phonetic": "chính phủ",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "dân số",
+    "english": "population",
+    "phonetic": "dân số",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "kinh tế",
+    "english": "economy",
+    "phonetic": "kinh tế",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "phát triển",
+    "english": "development",
+    "phonetic": "phát triển",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "môi trường",
+    "english": "environment",
+    "phonetic": "môi trường",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "ô nhiễm",
+    "english": "pollution",
+    "phonetic": "ô nhiễm",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "bảo vệ",
+    "english": "to protect",
+    "phonetic": "bảo vệ",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "tự do",
+    "english": "freedom",
+    "phonetic": "tự do",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "công bằng",
+    "english": "fairness",
+    "phonetic": "kông bằng",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "trách nhiệm",
+    "english": "responsibility",
+    "phonetic": "trách nhiệm",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "quyền lợi",
+    "english": "rights",
+    "phonetic": "quyền lợi",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "cộng đồng",
+    "english": "community",
+    "phonetic": "kộng đồng",
+    "level": "B1",
+    "category": "society"
+  },
+  {
+    "vietnamese": "quyết định",
+    "english": "to decide",
+    "phonetic": "quyết định",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "suy nghĩ",
+    "english": "to think",
+    "phonetic": "suy nghĩ",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "so sánh",
+    "english": "to compare",
+    "phonetic": "so sánh",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "phân tích",
+    "english": "to analyze",
+    "phonetic": "phân tích",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "giải quyết",
+    "english": "to solve",
+    "phonetic": "giải quyết",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "đồng ý",
+    "english": "to agree",
+    "phonetic": "đồng ý",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "phản đối",
+    "english": "to oppose",
+    "phonetic": "phản đối",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "đề nghị",
+    "english": "to suggest",
+    "phonetic": "đề nghị",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "thảo luận",
+    "english": "to discuss",
+    "phonetic": "thảo luận",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "tranh luận",
+    "english": "to debate",
+    "phonetic": "tranh luận",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "lý do",
+    "english": "reason",
+    "phonetic": "lý do",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "mục đích",
+    "english": "purpose",
+    "phonetic": "mục đích",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "kết quả",
+    "english": "result",
+    "phonetic": "kết quả",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "nguyên nhân",
+    "english": "cause",
+    "phonetic": "nguyên nhân",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "hậu quả",
+    "english": "consequence",
+    "phonetic": "hậu quả",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "ý kiến",
+    "english": "opinion",
+    "phonetic": "ý kiến",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "quan điểm",
+    "english": "viewpoint",
+    "phonetic": "quan điểm",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "giả sử",
+    "english": "to suppose",
+    "phonetic": "giả sử",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "kết luận",
+    "english": "conclusion",
+    "phonetic": "kết luận",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "chứng minh",
+    "english": "to prove",
+    "phonetic": "chứng minh",
+    "level": "B1",
+    "category": "thinking"
+  },
+  {
+    "vietnamese": "tin tức",
+    "english": "news",
+    "phonetic": "tin tức",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "báo",
+    "english": "newspaper",
+    "phonetic": "báo",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "phóng viên",
+    "english": "journalist",
+    "phonetic": "phóng viên",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "quảng cáo",
+    "english": "advertisement",
+    "phonetic": "quảng cáo",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "mạng xã hội",
+    "english": "social media",
+    "phonetic": "mạng sã hội",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "truyền hình",
+    "english": "television",
+    "phonetic": "truyền hình",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "phim",
+    "english": "movie",
+    "phonetic": "phim",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "âm nhạc",
+    "english": "music",
+    "phonetic": "âm nhạc",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "nghệ thuật",
+    "english": "art",
+    "phonetic": "nghệ thuật",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "sân khấu",
+    "english": "stage",
+    "phonetic": "sân khấu",
+    "level": "B1",
+    "category": "media"
+  },
+  {
+    "vietnamese": "du lịch",
+    "english": "tourism",
+    "phonetic": "du lịch",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "hộ chiếu",
+    "english": "passport",
+    "phonetic": "hộ chiếu",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "visa",
+    "english": "visa",
+    "phonetic": "vi-za",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "hành lý",
+    "english": "luggage",
+    "phonetic": "hành lý",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "đặt phòng",
+    "english": "to book a room",
+    "phonetic": "đặt phòng",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "chuyến bay",
+    "english": "flight",
+    "phonetic": "chuyến bay",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "bản đồ",
+    "english": "map",
+    "phonetic": "bản đồ",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "hướng dẫn",
+    "english": "guide",
+    "phonetic": "hướng dẫn",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "điểm đến",
+    "english": "destination",
+    "phonetic": "điểm đến",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "kỷ niệm",
+    "english": "souvenir / memory",
+    "phonetic": "kỷ niệm",
+    "level": "B1",
+    "category": "travel"
+  },
+  {
+    "vietnamese": "khám bệnh",
+    "english": "medical exam",
+    "phonetic": "khám bệnh",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "phẫu thuật",
+    "english": "surgery",
+    "phonetic": "phẫu thuật",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "xét nghiệm",
+    "english": "lab test",
+    "phonetic": "sét nghiệm",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "tiêm",
+    "english": "injection",
+    "phonetic": "tiêm",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "vitamin",
+    "english": "vitamin",
+    "phonetic": "vi-ta-min",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "tập thể dục",
+    "english": "exercise",
+    "phonetic": "tập thể dục",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "chế độ ăn",
+    "english": "diet",
+    "phonetic": "chế độ ăn",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "sức khỏe",
+    "english": "health",
+    "phonetic": "sức khỏe",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "béo",
+    "english": "fat / overweight",
+    "phonetic": "béo",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "gầy",
+    "english": "thin / skinny",
+    "phonetic": "gầy",
+    "level": "B1",
+    "category": "health2"
+  },
+  {
+    "vietnamese": "tự tin",
+    "english": "confident",
+    "phonetic": "tự tin",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "kiên nhẫn",
+    "english": "patient",
+    "phonetic": "kiên nhẫn",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "chăm chỉ",
+    "english": "hardworking",
+    "phonetic": "chăm chỉ",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "lười biếng",
+    "english": "lazy",
+    "phonetic": "lười biếng",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "trung thực",
+    "english": "honest",
+    "phonetic": "trung thực",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "thông minh",
+    "english": "intelligent",
+    "phonetic": "thông minh",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "hài hước",
+    "english": "humorous",
+    "phonetic": "hài hước",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "nhút nhát",
+    "english": "shy",
+    "phonetic": "nhút nhát",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "tốt bụng",
+    "english": "kind",
+    "phonetic": "tốt bụng",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "ích kỷ",
+    "english": "selfish",
+    "phonetic": "ích kỷ",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "cẩn thận",
+    "english": "careful",
+    "phonetic": "kẩn thận",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "dũng cảm",
+    "english": "brave",
+    "phonetic": "dũng kảm",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "khiêm tốn",
+    "english": "humble",
+    "phonetic": "khiêm tốn",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "nghiêm túc",
+    "english": "serious",
+    "phonetic": "nghiêm túk",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "lạc quan",
+    "english": "optimistic",
+    "phonetic": "lạc quan",
+    "level": "B1",
+    "category": "personality"
+  },
+  {
+    "vietnamese": "phần mềm",
+    "english": "software",
+    "phonetic": "phần mềm",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "ứng dụng",
+    "english": "application",
+    "phonetic": "ứng dụng",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "dữ liệu",
+    "english": "data",
+    "phonetic": "dữ liệu",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "cập nhật",
+    "english": "update",
+    "phonetic": "kập nhật",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "sao lưu",
+    "english": "backup",
+    "phonetic": "sao lưu",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "lỗi",
+    "english": "error / bug",
+    "phonetic": "lỗi",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "trang web",
+    "english": "website",
+    "phonetic": "trang uép",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "tìm kiếm",
+    "english": "to search",
+    "phonetic": "tìm kiếm",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "kết nối",
+    "english": "to connect",
+    "phonetic": "kết nối",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "trực tuyến",
+    "english": "online",
+    "phonetic": "trực tuyến",
+    "level": "B1",
+    "category": "tech2"
+  },
+  {
+    "vietnamese": "ngoại ngữ",
+    "english": "foreign language",
+    "phonetic": "ngoại ngữ",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "dịch",
+    "english": "to translate",
+    "phonetic": "dịch",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "phát âm",
+    "english": "pronunciation",
+    "phonetic": "phát âm",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "ngữ pháp",
+    "english": "grammar",
+    "phonetic": "ngữ pháp",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "từ vựng",
+    "english": "vocabulary",
+    "phonetic": "từ vựng",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "giao tiếp",
+    "english": "communication",
+    "phonetic": "giao tiếp",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "trôi chảy",
+    "english": "fluent",
+    "phonetic": "trôi chảy",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "ngôn ngữ",
+    "english": "language",
+    "phonetic": "ngôn ngữ",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "giọng",
+    "english": "accent / voice",
+    "phonetic": "giọng",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "câu",
+    "english": "sentence",
+    "phonetic": "kâu",
+    "level": "B1",
+    "category": "language"
+  },
+  {
+    "vietnamese": "tình yêu",
+    "english": "love",
+    "phonetic": "tình yêu",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "hẹn hò",
+    "english": "dating",
+    "phonetic": "hẹn hò",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "kết hôn",
+    "english": "to marry",
+    "phonetic": "kết hôn",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "ly hôn",
+    "english": "to divorce",
+    "phonetic": "ly hôn",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "bạn thân",
+    "english": "best friend",
+    "phonetic": "bạn thân",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "hàng xóm",
+    "english": "neighbor",
+    "phonetic": "hàng sóm",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "tin tưởng",
+    "english": "to trust",
+    "phonetic": "tin tưởng",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "tôn trọng",
+    "english": "to respect",
+    "phonetic": "tôn trọng",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "chia sẻ",
+    "english": "to share",
+    "phonetic": "chia sẻ",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "cãi nhau",
+    "english": "to argue",
+    "phonetic": "kãi nhau",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "vietnamese": "bóng đá",
+    "english": "soccer",
+    "phonetic": "bóng đá",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "bóng rổ",
+    "english": "basketball",
+    "phonetic": "bóng rổ",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "cầu lông",
+    "english": "badminton",
+    "phonetic": "kầu lông",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "chạy bộ",
+    "english": "jogging",
+    "phonetic": "chạy bộ",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "leo núi",
+    "english": "mountain climbing",
+    "phonetic": "leo núi",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "đội",
+    "english": "team",
+    "phonetic": "đội",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "huấn luyện viên",
+    "english": "coach",
+    "phonetic": "huấn luyện viên",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "thi đấu",
+    "english": "to compete",
+    "phonetic": "thi đấu",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "chiến thắng",
+    "english": "victory",
+    "phonetic": "chiến thắng",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "thất bại",
+    "english": "failure",
+    "phonetic": "thất bại",
+    "level": "B1",
+    "category": "sports"
+  },
+  {
+    "vietnamese": "triết học",
+    "english": "philosophy",
+    "phonetic": "triết họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "tâm lý",
+    "english": "psychology",
+    "phonetic": "tâm lý",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "sinh học",
+    "english": "biology",
+    "phonetic": "sinh họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "vật lý",
+    "english": "physics",
+    "phonetic": "vật lý",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "hóa học",
+    "english": "chemistry",
+    "phonetic": "hóa họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "toán học",
+    "english": "mathematics",
+    "phonetic": "toán họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "lịch sử",
+    "english": "history",
+    "phonetic": "lịch sử",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "địa lý",
+    "english": "geography",
+    "phonetic": "địa lý",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "văn học",
+    "english": "literature",
+    "phonetic": "văn họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "khoa học",
+    "english": "science",
+    "phonetic": "khoa họk",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "thí nghiệm",
+    "english": "experiment",
+    "phonetic": "thí nghiệm",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "luận văn",
+    "english": "thesis",
+    "phonetic": "luận văn",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "giả thuyết",
+    "english": "hypothesis",
+    "phonetic": "giả thuyết",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "phương pháp",
+    "english": "method",
+    "phonetic": "phương pháp",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "lý thuyết",
+    "english": "theory",
+    "phonetic": "lý thuyết",
+    "level": "B2",
+    "category": "academic"
+  },
+  {
+    "vietnamese": "đầu tư",
+    "english": "investment",
+    "phonetic": "đầu tư",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "doanh nghiệp",
+    "english": "enterprise",
+    "phonetic": "doanh nghiệp",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "lợi nhuận",
+    "english": "profit",
+    "phonetic": "lợi nhuận",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "cổ phiếu",
+    "english": "stock",
+    "phonetic": "kổ phiếu",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "ngân sách",
+    "english": "budget",
+    "phonetic": "ngân sách",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "thuế",
+    "english": "tax",
+    "phonetic": "thuế",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "xuất khẩu",
+    "english": "export",
+    "phonetic": "suất khẩu",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "nhập khẩu",
+    "english": "import",
+    "phonetic": "nhập khẩu",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "thị trường",
+    "english": "market",
+    "phonetic": "thị trường",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "cạnh tranh",
+    "english": "competition",
+    "phonetic": "kạnh tranh",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "chiến lược",
+    "english": "strategy",
+    "phonetic": "chiến lược",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "thương hiệu",
+    "english": "brand",
+    "phonetic": "thương hiệu",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "khách hàng",
+    "english": "customer",
+    "phonetic": "khách hàng",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "dịch vụ",
+    "english": "service",
+    "phonetic": "dịch vụ",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "sản phẩm",
+    "english": "product",
+    "phonetic": "sản phẩm",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "chất lượng",
+    "english": "quality",
+    "phonetic": "chất lượng",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "hiệu quả",
+    "english": "efficiency",
+    "phonetic": "hiệu quả",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "rủi ro",
+    "english": "risk",
+    "phonetic": "rủi ro",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "lạm phát",
+    "english": "inflation",
+    "phonetic": "lạm phát",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "tỷ giá",
+    "english": "exchange rate",
+    "phonetic": "tỷ giá",
+    "level": "B2",
+    "category": "business"
+  },
+  {
+    "vietnamese": "bầu cử",
+    "english": "election",
+    "phonetic": "bầu kử",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "quốc hội",
+    "english": "parliament",
+    "phonetic": "quốc hội",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "chính sách",
+    "english": "policy",
+    "phonetic": "chính sách",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "ngoại giao",
+    "english": "diplomacy",
+    "phonetic": "ngoại giao",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "dân chủ",
+    "english": "democracy",
+    "phonetic": "dân chủ",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "hiến pháp",
+    "english": "constitution",
+    "phonetic": "hiến pháp",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "đảng",
+    "english": "political party",
+    "phonetic": "đảng",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "biểu tình",
+    "english": "protest",
+    "phonetic": "biểu tình",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "hòa bình",
+    "english": "peace",
+    "phonetic": "hòa bình",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "chiến tranh",
+    "english": "war",
+    "phonetic": "chiến tranh",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "đàm phán",
+    "english": "negotiation",
+    "phonetic": "đàm phán",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "hội nghị",
+    "english": "conference",
+    "phonetic": "hội nghị",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "nhân quyền",
+    "english": "human rights",
+    "phonetic": "nhân quyền",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "tham nhũng",
+    "english": "corruption",
+    "phonetic": "tham nhũng",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "cải cách",
+    "english": "reform",
+    "phonetic": "kải cách",
+    "level": "B2",
+    "category": "politics"
+  },
+  {
+    "vietnamese": "trí tuệ nhân tạo",
+    "english": "artificial intelligence",
+    "phonetic": "trí tuệ nhân tạo",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "thuật toán",
+    "english": "algorithm",
+    "phonetic": "thuật toán",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "lập trình",
+    "english": "programming",
+    "phonetic": "lập trình",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "mã nguồn",
+    "english": "source code",
+    "phonetic": "mã nguồn",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "cơ sở dữ liệu",
+    "english": "database",
+    "phonetic": "kơ sở dữ liệu",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "bảo mật",
+    "english": "security",
+    "phonetic": "bảo mật",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "mã hóa",
+    "english": "encryption",
+    "phonetic": "mã hóa",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "đám mây",
+    "english": "cloud computing",
+    "phonetic": "đám mây",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "robot",
+    "english": "robot",
+    "phonetic": "rô-bốt",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "tự động hóa",
+    "english": "automation",
+    "phonetic": "tự động hóa",
+    "level": "B2",
+    "category": "tech3"
+  },
+  {
+    "vietnamese": "khí hậu",
+    "english": "climate",
+    "phonetic": "khí hậu",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "hệ sinh thái",
+    "english": "ecosystem",
+    "phonetic": "hệ sinh thái",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "đa dạng sinh học",
+    "english": "biodiversity",
+    "phonetic": "đa dạng sinh họk",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "năng lượng",
+    "english": "energy",
+    "phonetic": "năng lượng",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "tái chế",
+    "english": "recycling",
+    "phonetic": "tái chế",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "biến đổi khí hậu",
+    "english": "climate change",
+    "phonetic": "biến đổi khí hậu",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "rừng",
+    "english": "forest",
+    "phonetic": "rừng",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "đại dương",
+    "english": "ocean",
+    "phonetic": "đại dương",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "sông",
+    "english": "river",
+    "phonetic": "sông",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "núi",
+    "english": "mountain",
+    "phonetic": "núi",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "hồ",
+    "english": "lake",
+    "phonetic": "hồ",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "sa mạc",
+    "english": "desert",
+    "phonetic": "sa mạc",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "đảo",
+    "english": "island",
+    "phonetic": "đảo",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "thác nước",
+    "english": "waterfall",
+    "phonetic": "thác nước",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "động đất",
+    "english": "earthquake",
+    "phonetic": "động đất",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "lũ lụt",
+    "english": "flood",
+    "phonetic": "lũ lụt",
+    "level": "B2",
+    "category": "nature"
+  },
+  {
+    "vietnamese": "sáng tác",
+    "english": "to compose / create",
+    "phonetic": "sáng tác",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "diễn viên",
+    "english": "actor",
+    "phonetic": "diễn viên",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "đạo diễn",
+    "english": "director",
+    "phonetic": "đạo diễn",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "kịch bản",
+    "english": "screenplay",
+    "phonetic": "kịch bản",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "triển lãm",
+    "english": "exhibition",
+    "phonetic": "triển lãm",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "điêu khắc",
+    "english": "sculpture",
+    "phonetic": "điêu khắc",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "nhiếp ảnh",
+    "english": "photography",
+    "phonetic": "nhiếp ảnh",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "kiến trúc",
+    "english": "architecture",
+    "phonetic": "kiến trúc",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "hội họa",
+    "english": "painting",
+    "phonetic": "hội họa",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "nhạc sĩ",
+    "english": "musician",
+    "phonetic": "nhạc sĩ",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "nhà văn",
+    "english": "writer",
+    "phonetic": "nhà văn",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "thơ",
+    "english": "poetry",
+    "phonetic": "thơ",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "tiểu thuyết",
+    "english": "novel",
+    "phonetic": "tiểu thuyết",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "phê bình",
+    "english": "criticism",
+    "phonetic": "phê bình",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "cảm hứng",
+    "english": "inspiration",
+    "phonetic": "kảm hứng",
+    "level": "B2",
+    "category": "arts"
+  },
+  {
+    "vietnamese": "bền vững",
+    "english": "sustainable",
+    "phonetic": "bền vững",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "đổi mới",
+    "english": "innovation",
+    "phonetic": "đổi mới",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "toàn cầu hóa",
+    "english": "globalization",
+    "phonetic": "toàn kầu hóa",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "đạo đức",
+    "english": "ethics",
+    "phonetic": "đạo đức",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "ý thức",
+    "english": "consciousness",
+    "phonetic": "ý thức",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "nhận thức",
+    "english": "perception",
+    "phonetic": "nhận thức",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "sáng kiến",
+    "english": "initiative",
+    "phonetic": "sáng kiến",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "bất bình đẳng",
+    "english": "inequality",
+    "phonetic": "bất bình đẳng",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "thách thức",
+    "english": "challenge",
+    "phonetic": "thách thức",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "cơ hội",
+    "english": "opportunity",
+    "phonetic": "kơ hội",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "xu hướng",
+    "english": "trend",
+    "phonetic": "su hướng",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "tác động",
+    "english": "impact",
+    "phonetic": "tác động",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "giá trị",
+    "english": "value",
+    "phonetic": "giá trị",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "nguyên tắc",
+    "english": "principle",
+    "phonetic": "nguyên tắc",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "tiêu chuẩn",
+    "english": "standard",
+    "phonetic": "tiêu chuẩn",
+    "level": "B2",
+    "category": "abstract"
+  },
+  {
+    "vietnamese": "dinh dưỡng",
+    "english": "nutrition",
+    "phonetic": "dinh dưỡng",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "miễn dịch",
+    "english": "immunity",
+    "phonetic": "miễn dịch",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "gen",
+    "english": "gene",
+    "phonetic": "gen",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "tế bào",
+    "english": "cell",
+    "phonetic": "tế bào",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "vi khuẩn",
+    "english": "bacteria",
+    "phonetic": "vi khuẩn",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "virus",
+    "english": "virus",
+    "phonetic": "vai-rớt",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "triệu chứng",
+    "english": "symptom",
+    "phonetic": "triệu chứng",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "chẩn đoán",
+    "english": "diagnosis",
+    "phonetic": "chẩn đoán",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "liệu pháp",
+    "english": "therapy",
+    "phonetic": "liệu pháp",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "phục hồi",
+    "english": "recovery",
+    "phonetic": "phục hồi",
+    "level": "B2",
+    "category": "health3"
+  },
+  {
+    "vietnamese": "mâu thuẫn",
+    "english": "conflict",
+    "phonetic": "mâu thuẫn",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "thương lượng",
+    "english": "to negotiate",
+    "phonetic": "thương lượng",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "thuyết phục",
+    "english": "to persuade",
+    "phonetic": "thuyết phục",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "phản hồi",
+    "english": "feedback",
+    "phonetic": "phản hồi",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "truyền đạt",
+    "english": "to convey",
+    "phonetic": "truyền đạt",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "diễn đạt",
+    "english": "to express",
+    "phonetic": "diễn đạt",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "lập luận",
+    "english": "argument",
+    "phonetic": "lập luận",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "minh họa",
+    "english": "to illustrate",
+    "phonetic": "minh họa",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "tóm tắt",
+    "english": "to summarize",
+    "phonetic": "tóm tắt",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "trình bày",
+    "english": "to present",
+    "phonetic": "trình bày",
+    "level": "B2",
+    "category": "communication"
+  },
+  {
+    "vietnamese": "công dân",
+    "english": "citizen",
+    "phonetic": "kông dân",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "pháp luật",
+    "english": "legislation",
+    "phonetic": "pháp luật",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "tòa án",
+    "english": "court",
+    "phonetic": "tòa án",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "luật sư",
+    "english": "lawyer",
+    "phonetic": "luật sư",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "bị cáo",
+    "english": "defendant",
+    "phonetic": "bị cáo",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "bản án",
+    "english": "verdict",
+    "phonetic": "bản án",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "hình phạt",
+    "english": "punishment",
+    "phonetic": "hình phạt",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "quy định",
+    "english": "regulation",
+    "phonetic": "quy định",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "vi phạm",
+    "english": "violation",
+    "phonetic": "vi phạm",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "bồi thường",
+    "english": "compensation",
+    "phonetic": "bồi thường",
+    "level": "B2",
+    "category": "law"
+  },
+  {
+    "vietnamese": "tôn giáo",
+    "english": "religion",
+    "phonetic": "tôn giáo",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "phong tục",
+    "english": "custom",
+    "phonetic": "phong tục",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "truyền thống",
+    "english": "tradition",
+    "phonetic": "truyền thống",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "lễ hội",
+    "english": "festival",
+    "phonetic": "lễ hội",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "di sản",
+    "english": "heritage",
+    "phonetic": "di sản",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "bản sắc",
+    "english": "identity",
+    "phonetic": "bản sắc",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "tín ngưỡng",
+    "english": "belief",
+    "phonetic": "tín ngưỡng",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "nghi lễ",
+    "english": "ceremony",
+    "phonetic": "nghi lễ",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "ẩm thực",
+    "english": "cuisine",
+    "phonetic": "ẩm thực",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "dân gian",
+    "english": "folklore",
+    "phonetic": "dân gian",
+    "level": "B2",
+    "category": "culture"
+  },
+  {
+    "vietnamese": "khởi nghiệp",
+    "english": "startup",
+    "phonetic": "khởi nghiệp",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "huy động vốn",
+    "english": "fundraising",
+    "phonetic": "huy động vốn",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "tiếp thị",
+    "english": "marketing",
+    "phonetic": "tiếp thị",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "phân phối",
+    "english": "distribution",
+    "phonetic": "phân phối",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "chuỗi cung ứng",
+    "english": "supply chain",
+    "phonetic": "chuỗi kung ứng",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "bất động sản",
+    "english": "real estate",
+    "phonetic": "bất động sản",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "bảo hiểm",
+    "english": "insurance",
+    "phonetic": "bảo hiểm",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "hóa đơn thuế",
+    "english": "tax invoice",
+    "phonetic": "hóa đơn thuế",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "sở hữu",
+    "english": "ownership",
+    "phonetic": "sở hữu",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "phá sản",
+    "english": "bankruptcy",
+    "phonetic": "phá sản",
+    "level": "B2",
+    "category": "business2"
+  },
+  {
+    "vietnamese": "thành tựu",
+    "english": "achievement",
+    "phonetic": "thành tựu",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "khát vọng",
+    "english": "aspiration",
+    "phonetic": "khát vọng",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "cống hiến",
+    "english": "dedication",
+    "phonetic": "kống hiến",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "hy sinh",
+    "english": "sacrifice",
+    "phonetic": "hy sinh",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "đam mê",
+    "english": "passion",
+    "phonetic": "đam mê",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "kiên trì",
+    "english": "perseverance",
+    "phonetic": "kiên trì",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "sáng suốt",
+    "english": "wise",
+    "phonetic": "sáng suốt",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "liêm chính",
+    "english": "integrity",
+    "phonetic": "liêm chính",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "bao dung",
+    "english": "tolerance",
+    "phonetic": "bao dung",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "nhân ái",
+    "english": "compassion",
+    "phonetic": "nhân ái",
+    "level": "B2",
+    "category": "abstract2"
+  },
+  {
+    "vietnamese": "giao thông",
+    "english": "traffic",
+    "phonetic": "giao thông",
+    "level": "A2",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "đèn đỏ",
+    "english": "red light",
+    "phonetic": "đèn đỏ",
+    "level": "A2",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "ngã tư",
+    "english": "intersection",
+    "phonetic": "ngã tư",
+    "level": "A2",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "vỉa hè",
+    "english": "sidewalk",
+    "phonetic": "vỉa hè",
+    "level": "A2",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "biển báo",
+    "english": "traffic sign",
+    "phonetic": "biển báo",
+    "level": "A2",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "tốc độ",
+    "english": "speed",
+    "phonetic": "tốc độ",
+    "level": "B1",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "tai nạn",
+    "english": "accident",
+    "phonetic": "tai nạn",
+    "level": "B1",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "an toàn",
+    "english": "safety",
+    "phonetic": "an toàn",
+    "level": "B1",
+    "category": "transport2"
+  },
+  {
+    "vietnamese": "nấm",
+    "english": "mushroom",
+    "phonetic": "nấm",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "đậu phụ",
+    "english": "tofu",
+    "phonetic": "đậu phụ",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "lạc",
+    "english": "peanut",
+    "phonetic": "lạc",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "mì",
+    "english": "noodle",
+    "phonetic": "mì",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "bánh cuốn",
+    "english": "steamed rice roll",
+    "phonetic": "bánh kuốn",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "chả giò",
+    "english": "spring roll",
+    "phonetic": "chả giò",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "bún chả",
+    "english": "grilled pork noodle",
+    "phonetic": "bún chả",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "cháo",
+    "english": "porridge",
+    "phonetic": "cháo",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "bánh xèo",
+    "english": "Vietnamese crepe",
+    "phonetic": "bánh sèo",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "gỏi cuốn",
+    "english": "fresh spring roll",
+    "phonetic": "gỏi kuốn",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "nem",
+    "english": "fermented pork roll",
+    "phonetic": "nem",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "bánh bao",
+    "english": "steamed bun",
+    "phonetic": "bánh bao",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "bún bò Huế",
+    "english": "Hue beef noodle",
+    "phonetic": "bún bò Huế",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "hủ tiếu",
+    "english": "flat rice noodle soup",
+    "phonetic": "hủ tiếu",
+    "level": "A2",
+    "category": "food3"
+  },
+  {
+    "vietnamese": "quạt",
+    "english": "fan",
+    "phonetic": "quạt",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "tivi",
+    "english": "television",
+    "phonetic": "ti-vi",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "tủ lạnh",
+    "english": "refrigerator",
+    "phonetic": "tủ lạnh",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "máy giặt",
+    "english": "washing machine",
+    "phonetic": "máy giặt",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "bồn rửa",
+    "english": "sink",
+    "phonetic": "bồn rửa",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "gương",
+    "english": "mirror",
+    "phonetic": "gương",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "thảm",
+    "english": "carpet",
+    "phonetic": "thảm",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "rèm",
+    "english": "curtain",
+    "phonetic": "rèm",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "gối",
+    "english": "pillow",
+    "phonetic": "gối",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "chăn",
+    "english": "blanket",
+    "phonetic": "chăn",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "nồi",
+    "english": "pot",
+    "phonetic": "nồi",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "chảo",
+    "english": "pan",
+    "phonetic": "chảo",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "đũa",
+    "english": "chopsticks",
+    "phonetic": "đũa",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "thìa",
+    "english": "spoon",
+    "phonetic": "thìa",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "bát",
+    "english": "bowl",
+    "phonetic": "bát",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "đĩa",
+    "english": "plate",
+    "phonetic": "đĩa",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "ly",
+    "english": "glass / cup",
+    "phonetic": "ly",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "dao",
+    "english": "knife",
+    "phonetic": "dao",
+    "level": "A1",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "khóa",
+    "english": "lock / key",
+    "phonetic": "khóa",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "cầu thang",
+    "english": "stairs",
+    "phonetic": "kầu thang",
+    "level": "A2",
+    "category": "home2"
+  },
+  {
+    "vietnamese": "hoa",
+    "english": "flower",
+    "phonetic": "hoa",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "cây",
+    "english": "tree",
+    "phonetic": "kây",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "lá",
+    "english": "leaf",
+    "phonetic": "lá",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "cỏ",
+    "english": "grass",
+    "phonetic": "kỏ",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "đất",
+    "english": "earth / soil",
+    "phonetic": "đất",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "biển",
+    "english": "sea",
+    "phonetic": "biển",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "bầu trời",
+    "english": "sky",
+    "phonetic": "bầu trời",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "mặt trăng",
+    "english": "moon",
+    "phonetic": "mặt trăng",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "ngôi sao",
+    "english": "star",
+    "phonetic": "ngôi sao",
+    "level": "A1",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "cầu vồng",
+    "english": "rainbow",
+    "phonetic": "kầu vồng",
+    "level": "A2",
+    "category": "nature2"
+  },
+  {
+    "vietnamese": "khóc",
+    "english": "to cry",
+    "phonetic": "khóc",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "cười",
+    "english": "to laugh",
+    "phonetic": "kười",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "mơ",
+    "english": "to dream",
+    "phonetic": "mơ",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "đánh thức",
+    "english": "to wake up",
+    "phonetic": "đánh thức",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "thức dậy",
+    "english": "to get up",
+    "phonetic": "thức dậy",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "rửa mặt",
+    "english": "to wash face",
+    "phonetic": "rửa mặt",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "đánh răng",
+    "english": "to brush teeth",
+    "phonetic": "đánh răng",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "tắm",
+    "english": "to bathe",
+    "phonetic": "tắm",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "thay quần áo",
+    "english": "to change clothes",
+    "phonetic": "thay quần áo",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "dậy sớm",
+    "english": "to wake up early",
+    "phonetic": "dậy sớm",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "nấu cơm",
+    "english": "to cook rice",
+    "phonetic": "nấu kơm",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "rửa bát",
+    "english": "to wash dishes",
+    "phonetic": "rửa bát",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "quét nhà",
+    "english": "to sweep house",
+    "phonetic": "quét nhà",
+    "level": "A1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "may",
+    "english": "to sew",
+    "phonetic": "may",
+    "level": "A2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "sửa",
+    "english": "to fix / repair",
+    "phonetic": "sửa",
+    "level": "A2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "xây",
+    "english": "to build",
+    "phonetic": "sây",
+    "level": "A2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "trồng",
+    "english": "to plant",
+    "phonetic": "trồng",
+    "level": "A2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "thu hoạch",
+    "english": "to harvest",
+    "phonetic": "thu hoạch",
+    "level": "B1",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "di cư",
+    "english": "to migrate",
+    "phonetic": "di kư",
+    "level": "B2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "hội nhập",
+    "english": "to integrate",
+    "phonetic": "hội nhập",
+    "level": "B2",
+    "category": "verbs3"
+  },
+  {
+    "vietnamese": "áo sơ mi",
+    "english": "dress shirt",
+    "phonetic": "áo sơ mi",
+    "level": "A1",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "quần dài",
+    "english": "long pants",
+    "phonetic": "quần dài",
+    "level": "A1",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "quần ngắn",
+    "english": "shorts",
+    "phonetic": "quần ngắn",
+    "level": "A1",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "áo len",
+    "english": "sweater",
+    "phonetic": "áo len",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "áo mưa",
+    "english": "raincoat",
+    "phonetic": "áo mưa",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "găng tay",
+    "english": "gloves",
+    "phonetic": "găng tay",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "dây nịt",
+    "english": "belt",
+    "phonetic": "dây nịt",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "nhẫn",
+    "english": "ring",
+    "phonetic": "nhẫn",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "vòng tay",
+    "english": "bracelet",
+    "phonetic": "vòng tay",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "bông tai",
+    "english": "earring",
+    "phonetic": "bông tai",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "dây chuyền",
+    "english": "necklace",
+    "phonetic": "dây chuyền",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "nón",
+    "english": "hat / cap",
+    "phonetic": "nón",
+    "level": "A1",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "đồ lót",
+    "english": "underwear",
+    "phonetic": "đồ lót",
+    "level": "A2",
+    "category": "clothes2"
+  },
+  {
+    "vietnamese": "dạy",
+    "english": "to teach",
+    "phonetic": "dạy",
+    "level": "A1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "gặp",
+    "english": "to meet",
+    "phonetic": "gặp",
+    "level": "A1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "về",
+    "english": "to return",
+    "phonetic": "về",
+    "level": "A1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "ở",
+    "english": "to stay / live",
+    "phonetic": "ở",
+    "level": "A1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "bắt đầu",
+    "english": "to begin",
+    "phonetic": "bắt đầu",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "kết thúc",
+    "english": "to end",
+    "phonetic": "kết thúc",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "hoàn thành",
+    "english": "to complete",
+    "phonetic": "hoàn thành",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "tiếp tục",
+    "english": "to continue",
+    "phonetic": "tiếp tục",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "dừng lại",
+    "english": "to stop",
+    "phonetic": "dừng lại",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "thay đổi",
+    "english": "to change",
+    "phonetic": "thay đổi",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "phát hiện",
+    "english": "to discover",
+    "phonetic": "phát hiện",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "xây dựng",
+    "english": "to build",
+    "phonetic": "sây dựng",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "phá hủy",
+    "english": "to destroy",
+    "phonetic": "phá hủy",
+    "level": "B2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "bảo quản",
+    "english": "to preserve",
+    "phonetic": "bảo quản",
+    "level": "B2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "cải thiện",
+    "english": "to improve",
+    "phonetic": "kải thiện",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "đánh giá",
+    "english": "to evaluate",
+    "phonetic": "đánh giá",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "tham gia",
+    "english": "to participate",
+    "phonetic": "tham gia",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "tổ chức",
+    "english": "to organize",
+    "phonetic": "tổ chức",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "chuẩn bị",
+    "english": "to prepare",
+    "phonetic": "chuẩn bị",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "kiểm tra",
+    "english": "to check",
+    "phonetic": "kiểm tra",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "sửa chữa",
+    "english": "to repair",
+    "phonetic": "sửa chữa",
+    "level": "A2",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "hỗ trợ",
+    "english": "to support",
+    "phonetic": "hỗ trợ",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "đóng góp",
+    "english": "to contribute",
+    "phonetic": "đóng góp",
+    "level": "B1",
+    "category": "verbs4"
+  },
+  {
+    "vietnamese": "sữa chua",
+    "english": "yogurt",
+    "phonetic": "sữa chua",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "bơ",
+    "english": "butter / avocado",
+    "phonetic": "bơ",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "phô mai",
+    "english": "cheese",
+    "phonetic": "phô mai",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "mật ong",
+    "english": "honey",
+    "phonetic": "mật ong",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "kem",
+    "english": "ice cream",
+    "phonetic": "kem",
+    "level": "A1",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "bánh ngọt",
+    "english": "cake",
+    "phonetic": "bánh ngọt",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "kẹo",
+    "english": "candy",
+    "phonetic": "kẹo",
+    "level": "A1",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "sôcôla",
+    "english": "chocolate",
+    "phonetic": "sô-kô-la",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "nước ép",
+    "english": "juice",
+    "phonetic": "nước ép",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "sinh tố",
+    "english": "smoothie",
+    "phonetic": "sinh tố",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "nước dừa",
+    "english": "coconut water",
+    "phonetic": "nước dừa",
+    "level": "A1",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "dứa",
+    "english": "pineapple",
+    "phonetic": "dứa",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "dâu tây",
+    "english": "strawberry",
+    "phonetic": "dâu tây",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "chanh",
+    "english": "lemon",
+    "phonetic": "chanh",
+    "level": "A1",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "ớt",
+    "english": "chili",
+    "phonetic": "ớt",
+    "level": "A1",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "rau cải",
+    "english": "bok choy",
+    "phonetic": "rau kải",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "bí đỏ",
+    "english": "pumpkin",
+    "phonetic": "bí đỏ",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "đậu",
+    "english": "bean",
+    "phonetic": "đậu",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "ngô",
+    "english": "corn",
+    "phonetic": "ngô",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "khoai lang",
+    "english": "sweet potato",
+    "phonetic": "khoai lang",
+    "level": "A2",
+    "category": "food4"
+  },
+  {
+    "vietnamese": "bắc",
+    "english": "north",
+    "phonetic": "bắc",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "nam",
+    "english": "south",
+    "phonetic": "nam",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "đông",
+    "english": "east",
+    "phonetic": "đông",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "tây",
+    "english": "west",
+    "phonetic": "tây",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "trước",
+    "english": "in front",
+    "phonetic": "trước",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "sau",
+    "english": "behind",
+    "phonetic": "sau",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "trên",
+    "english": "above",
+    "phonetic": "trên",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "dưới",
+    "english": "below",
+    "phonetic": "dưới",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "bên trái",
+    "english": "left",
+    "phonetic": "bên trái",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "bên phải",
+    "english": "right",
+    "phonetic": "bên phải",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "giữa",
+    "english": "middle",
+    "phonetic": "giữa",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "gần",
+    "english": "near",
+    "phonetic": "gần",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "xa",
+    "english": "far",
+    "phonetic": "sa",
+    "level": "A1",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "cạnh",
+    "english": "beside",
+    "phonetic": "kạnh",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "đối diện",
+    "english": "opposite",
+    "phonetic": "đối diện",
+    "level": "A2",
+    "category": "directions"
+  },
+  {
+    "vietnamese": "thân thiện",
+    "english": "friendly",
+    "phonetic": "thân thiện",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "lịch sự",
+    "english": "polite",
+    "phonetic": "lịch sự",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "bất lịch sự",
+    "english": "impolite",
+    "phonetic": "bất lịch sự",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "quan trọng",
+    "english": "important",
+    "phonetic": "quan trọng",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "cần thiết",
+    "english": "necessary",
+    "phonetic": "kần thiết",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "phổ biến",
+    "english": "common",
+    "phonetic": "phổ biến",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "hiếm",
+    "english": "rare",
+    "phonetic": "hiếm",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "đặc biệt",
+    "english": "special",
+    "phonetic": "đặc biệt",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "bình thường",
+    "english": "normal",
+    "phonetic": "bình thường",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "tuyệt vời",
+    "english": "wonderful",
+    "phonetic": "tuyệt vời",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "kinh khủng",
+    "english": "terrible",
+    "phonetic": "kinh khủng",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "hoàn hảo",
+    "english": "perfect",
+    "phonetic": "hoàn hảo",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "phức tạp",
+    "english": "complex",
+    "phonetic": "phức tạp",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "đơn giản",
+    "english": "simple",
+    "phonetic": "đơn giản",
+    "level": "A2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "rõ ràng",
+    "english": "clear",
+    "phonetic": "rõ ràng",
+    "level": "B1",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "mơ hồ",
+    "english": "vague",
+    "phonetic": "mơ hồ",
+    "level": "B2",
+    "category": "adjectives3"
+  },
+  {
+    "vietnamese": "đi làm",
+    "english": "to go to work",
+    "phonetic": "đi làm",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "đi học",
+    "english": "to go to school",
+    "phonetic": "đi họk",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "đi chợ",
+    "english": "to go to market",
+    "phonetic": "đi chợ",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "đi dạo",
+    "english": "to go for a walk",
+    "phonetic": "đi dạo",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "xem phim",
+    "english": "to watch movie",
+    "phonetic": "sem phim",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "nghe nhạc",
+    "english": "to listen to music",
+    "phonetic": "nghe nhạc",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "chụp ảnh",
+    "english": "to take photo",
+    "phonetic": "chụp ảnh",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "đi mua sắm",
+    "english": "to go shopping",
+    "phonetic": "đi mua sắm",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "tập yoga",
+    "english": "to do yoga",
+    "phonetic": "tập yoga",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "đọc sách",
+    "english": "to read book",
+    "phonetic": "đọk sách",
+    "level": "A1",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "xem tin",
+    "english": "to watch news",
+    "phonetic": "sem tin",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "gọi điện",
+    "english": "to make a call",
+    "phonetic": "gọi điện",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "nhắn tin",
+    "english": "to text message",
+    "phonetic": "nhắn tin",
+    "level": "A2",
+    "category": "daily"
+  },
+  {
+    "vietnamese": "thống kê",
+    "english": "statistics",
+    "phonetic": "thống kê",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "nghị luận",
+    "english": "argumentation",
+    "phonetic": "nghị luận",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "phản biện",
+    "english": "critical thinking",
+    "phonetic": "phản biện",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "tài liệu",
+    "english": "document",
+    "phonetic": "tài liệu",
+    "level": "B1",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "hội thảo",
+    "english": "seminar",
+    "phonetic": "hội thảo",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "diễn thuyết",
+    "english": "speech",
+    "phonetic": "diễn thuyết",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "biên soạn",
+    "english": "to compile",
+    "phonetic": "biên soạn",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "xuất bản",
+    "english": "to publish",
+    "phonetic": "suất bản",
+    "level": "B2",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "tham khảo",
+    "english": "to reference",
+    "phonetic": "tham khảo",
+    "level": "B1",
+    "category": "academic2"
+  },
+  {
+    "vietnamese": "con cua",
+    "english": "crab",
+    "phonetic": "kon kua",
+    "level": "A2",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con tôm",
+    "english": "shrimp",
+    "phonetic": "kon tôm",
+    "level": "A2",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con ếch",
+    "english": "frog",
+    "phonetic": "kon ếch",
+    "level": "A2",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con dê",
+    "english": "goat",
+    "phonetic": "kon dê",
+    "level": "A2",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con cừu",
+    "english": "sheep",
+    "phonetic": "kon kừu",
+    "level": "A2",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con sư tử",
+    "english": "lion",
+    "phonetic": "kon sư tử",
+    "level": "B1",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con gấu",
+    "english": "bear",
+    "phonetic": "kon gấu",
+    "level": "B1",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con cá sấu",
+    "english": "crocodile",
+    "phonetic": "kon ká sấu",
+    "level": "B1",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con đại bàng",
+    "english": "eagle",
+    "phonetic": "kon đại bàng",
+    "level": "B1",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "con cá heo",
+    "english": "dolphin",
+    "phonetic": "kon ká heo",
+    "level": "B1",
+    "category": "animals3"
+  },
+  {
+    "vietnamese": "thứ ba",
+    "english": "Tuesday",
+    "phonetic": "thứ ba",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "thứ tư",
+    "english": "Wednesday",
+    "phonetic": "thứ tư",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "thứ năm",
+    "english": "Thursday",
+    "phonetic": "thứ năm",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "thứ sáu",
+    "english": "Friday",
+    "phonetic": "thứ sáu",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "thứ bảy",
+    "english": "Saturday",
+    "phonetic": "thứ bảy",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng một",
+    "english": "January",
+    "phonetic": "tháng một",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng hai",
+    "english": "February",
+    "phonetic": "tháng hai",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng ba",
+    "english": "March",
+    "phonetic": "tháng ba",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng tư",
+    "english": "April",
+    "phonetic": "tháng tư",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng năm",
+    "english": "May",
+    "phonetic": "tháng năm",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng sáu",
+    "english": "June",
+    "phonetic": "tháng sáu",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng bảy",
+    "english": "July",
+    "phonetic": "tháng bảy",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng tám",
+    "english": "August",
+    "phonetic": "tháng tám",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng chín",
+    "english": "September",
+    "phonetic": "tháng chín",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng mười",
+    "english": "October",
+    "phonetic": "tháng mười",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng mười một",
+    "english": "November",
+    "phonetic": "tháng mười một",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "tháng mười hai",
+    "english": "December",
+    "phonetic": "tháng mười hai",
+    "level": "A1",
+    "category": "time2"
+  },
+  {
+    "vietnamese": "bao nhiêu",
+    "english": "how much",
+    "phonetic": "bao nhiêu",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "ở đâu",
+    "english": "where",
+    "phonetic": "ở đâu",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "khi nào",
+    "english": "when",
+    "phonetic": "khi nào",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "tại sao",
+    "english": "why",
+    "phonetic": "tại sao",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "như thế nào",
+    "english": "how",
+    "phonetic": "như thế nào",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "ai",
+    "english": "who",
+    "phonetic": "ai",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "cái gì",
+    "english": "what",
+    "phonetic": "kái gì",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "có thể",
+    "english": "can / possible",
+    "phonetic": "kó thể",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "không thể",
+    "english": "cannot",
+    "phonetic": "không thể",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "phải không",
+    "english": "right?",
+    "phonetic": "phải không",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "được",
+    "english": "okay / allowed",
+    "phonetic": "được",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "đúng",
+    "english": "correct",
+    "phonetic": "đúng",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "sai",
+    "english": "wrong",
+    "phonetic": "sai",
+    "level": "A1",
+    "category": "phrases"
+  },
+  {
+    "vietnamese": "phản ánh",
+    "english": "to reflect",
+    "phonetic": "phản ánh",
+    "level": "B2",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "tượng trưng",
+    "english": "to symbolize",
+    "phonetic": "tượng trưng",
+    "level": "B2",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "khái niệm",
+    "english": "concept",
+    "phonetic": "khái niệm",
+    "level": "B2",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "bản chất",
+    "english": "essence",
+    "phonetic": "bản chất",
+    "level": "B2",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "mối quan hệ",
+    "english": "relationship",
+    "phonetic": "mối quan hệ",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "ảnh hưởng",
+    "english": "influence",
+    "phonetic": "ảnh hưởng",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "khả năng",
+    "english": "ability / possibility",
+    "phonetic": "khả năng",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "nỗ lực",
+    "english": "effort",
+    "phonetic": "nỗ lực",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "thành công",
+    "english": "success",
+    "phonetic": "thành kông",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "tiến bộ",
+    "english": "progress",
+    "phonetic": "tiến bộ",
+    "level": "B1",
+    "category": "abstract3"
+  },
+  {
+    "vietnamese": "con cá»p",
+    "english": "tiger",
+    "phonetic": "kon ká»p",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con cÃ´ng",
+    "english": "peacock",
+    "phonetic": "kon kÃ´ng",
+    "level": "B1",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con sÃ³c",
+    "english": "squirrel",
+    "phonetic": "kon sÃ³c",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con nhá»‡n",
+    "english": "spider",
+    "phonetic": "kon nhá»‡n",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con muá»—i",
+    "english": "mosquito",
+    "phonetic": "kon muá»—i",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con ruá»“i",
+    "english": "fly insect",
+    "phonetic": "kon ruá»“i",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "con dáº¿",
+    "english": "cricket",
+    "phonetic": "kon dáº¿",
+    "level": "A2",
+    "category": "animals4"
+  },
+  {
+    "vietnamese": "nÃ³n báº£o hiá»ƒm",
+    "english": "helmet",
+    "phonetic": "nÃ³n báº£o hiá»ƒm",
+    "level": "A2",
+    "category": "clothes3"
+  },
+  {
+    "vietnamese": "Ã¡o phao",
+    "english": "life jacket",
+    "phonetic": "Ã¡o phao",
+    "level": "B1",
+    "category": "clothes3"
+  },
+  {
+    "vietnamese": "táº¡p dá»",
+    "english": "apron",
+    "phonetic": "táº¡p dá»",
+    "level": "A2",
+    "category": "clothes3"
+  },
+  {
+    "vietnamese": "cÃ  váº¡t",
+    "english": "necktie",
+    "phonetic": "kÃ  váº¡t",
+    "level": "A2",
+    "category": "clothes3"
+  },
+  {
+    "vietnamese": "quá»‘c gia",
+    "english": "nation",
+    "phonetic": "quá»‘c gia",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "thá»§ Ä‘Ã´",
+    "english": "capital city",
+    "phonetic": "thá»§ Ä‘Ã´",
+    "level": "A2",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "tá»‰nh",
+    "english": "province",
+    "phonetic": "tá»‰nh",
+    "level": "A2",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "huyá»‡n",
+    "english": "district",
+    "phonetic": "huyá»‡n",
+    "level": "A2",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "thÃ nh phá»‘",
+    "english": "city",
+    "phonetic": "thÃ nh phá»‘",
+    "level": "A1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "lÃ ng",
+    "english": "village",
+    "phonetic": "lÃ ng",
+    "level": "A1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "quÃª",
+    "english": "hometown",
+    "phonetic": "quÃª",
+    "level": "A1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "nÃ´ng thÃ´n",
+    "english": "rural area",
+    "phonetic": "nÃ´ng thÃ´n",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "Ä‘Ã´ thá»‹",
+    "english": "urban area",
+    "phonetic": "Ä‘Ã´ thá»‹",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "cáº£ng",
+    "english": "port",
+    "phonetic": "káº£ng",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "nhÃ  ga",
+    "english": "station",
+    "phonetic": "nhÃ  ga",
+    "level": "A2",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "nghÄ©a trang",
+    "english": "cemetery",
+    "phonetic": "nghÄ©a trang",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "phÃ²ng há»p",
+    "english": "meeting room",
+    "phonetic": "phÃ²ng há»p",
+    "level": "B1",
+    "category": "places2"
+  },
+  {
+    "vietnamese": "phÃ²ng khÃ¡ch",
+    "english": "living room",
+    "phonetic": "phÃ²ng khÃ¡ch",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "phÃ²ng Äƒn",
+    "english": "dining room",
+    "phonetic": "phÃ²ng Äƒn",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "ban cÃ´ng",
+    "english": "balcony",
+    "phonetic": "ban kÃ´ng",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "nhÃ  báº¿p",
+    "english": "kitchen room",
+    "phonetic": "nhÃ  báº¿p",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "ga ra",
+    "english": "garage",
+    "phonetic": "ga ra",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "hÃ ng rÃ o",
+    "english": "fence",
+    "phonetic": "hÃ ng rÃ o",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "cá»•ng",
+    "english": "gate",
+    "phonetic": "ká»•ng",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "giáº¿ng",
+    "english": "well",
+    "phonetic": "giáº¿ng",
+    "level": "B1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "mÃ¡i hiÃªn",
+    "english": "porch",
+    "phonetic": "mÃ¡i hiÃªn",
+    "level": "B1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "mÃ¡y láº¡nh",
+    "english": "air conditioner",
+    "phonetic": "mÃ¡y láº¡nh",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "bÃ¬nh nÆ°á»›c",
+    "english": "water bottle",
+    "phonetic": "bÃ¬nh nÆ°á»›c",
+    "level": "A1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "ná»‡m",
+    "english": "mattress",
+    "phonetic": "ná»‡m",
+    "level": "A2",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "khÄƒn máº·t",
+    "english": "towel",
+    "phonetic": "khÄƒn máº·t",
+    "level": "A1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "xÃ  phÃ²ng",
+    "english": "soap",
+    "phonetic": "sÃ  phÃ²ng",
+    "level": "A1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "kem Ä‘Ã¡nh rÄƒng",
+    "english": "toothpaste",
+    "phonetic": "kem Ä‘Ã¡nh rÄƒng",
+    "level": "A1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "bÃ n cháº£i",
+    "english": "brush",
+    "phonetic": "bÃ n cháº£i",
+    "level": "A1",
+    "category": "home3"
+  },
+  {
+    "vietnamese": "lÆ°Æ¡i",
+    "english": "lazy",
+    "phonetic": "lÆ°á»i",
+    "level": "A1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "siÃªng nÄƒng",
+    "english": "diligent",
+    "phonetic": "siÃªng nÄƒng",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "tháº­t thÃ",
+    "english": "honest",
+    "phonetic": "tháº­t thÃ",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "hiá»n lÃ nh",
+    "english": "gentle",
+    "phonetic": "hiá»n lÃ nh",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "hung dá»¯",
+    "english": "fierce",
+    "phonetic": "hung dá»¯",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "dá»‹u dÃ ng",
+    "english": "tender",
+    "phonetic": "dá»‹u dÃ ng",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "máº¡nh máº½",
+    "english": "strong",
+    "phonetic": "máº¡nh máº½",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "yÃªn tÄ©nh",
+    "english": "quiet",
+    "phonetic": "yÃªn tÄ©nh",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "á»“n Ã o",
+    "english": "noisy",
+    "phonetic": "á»“n Ã o",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "Ä‘Ã´ng Ä‘Ãºc",
+    "english": "crowded",
+    "phonetic": "Ä‘Ã´ng Ä‘Ãºc",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "váº¯ng váº»",
+    "english": "deserted",
+    "phonetic": "váº¯ng váº»",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "sÃ¡ng sá»§a",
+    "english": "bright",
+    "phonetic": "sÃ¡ng sá»§a",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "tá»‘i tÄƒm",
+    "english": "dark",
+    "phonetic": "tá»‘i tÄƒm",
+    "level": "A2",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "sung sÆ°á»›ng",
+    "english": "joyful",
+    "phonetic": "sung sÆ°á»›ng",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "Ä‘au khá»•",
+    "english": "suffering",
+    "phonetic": "Ä‘au khá»•",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "báº¥t ngá»",
+    "english": "unexpected",
+    "phonetic": "báº¥t ngá»",
+    "level": "B1",
+    "category": "adjectives4"
+  },
+  {
+    "vietnamese": "tÃ² mÃ²",
+    "english": "curious",
+    "phonetic": "tÃ² mÃ²",
+    "level": "B1",
+    "category": "adjectives4"
+  }
+]

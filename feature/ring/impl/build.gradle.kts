@@ -9,4 +9,5 @@ dependencies {
     implementation(projects.core.data)
     implementation(projects.core.alarm)
     implementation(projects.core.designsystem)
+    implementation(libs.androidx.activity.compose)
 }

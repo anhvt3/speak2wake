@@ -9,6 +9,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import com.speak2wake.core.data.repository.AlarmRepository
 import com.speak2wake.core.model.Alarm
+import com.speak2wake.core.model.ChallengeLanguage
 import com.speak2wake.core.model.VocabularyLevel
 import com.speak2wake.feature.create.api.EditAlarmRoute
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -33,6 +34,8 @@ data class AlarmFormState(
     val soundUri: String = "",
     val soundName: String = "Default",
     val alwaysPronounce: Boolean = false,
+    val challengeWordCount: Int = 1,
+    val challengeLanguage: ChallengeLanguage = ChallengeLanguage.DE,
     val isEditMode: Boolean = false,
     val isSaved: Boolean = false,
 )
@@ -82,6 +85,8 @@ class CreateAlarmViewModel @Inject constructor(
                 soundUri = alarm.soundUri,
                 soundName = soundName,
                 alwaysPronounce = alarm.alwaysPronounce,
+                challengeWordCount = alarm.challengeWordCount,
+                challengeLanguage = alarm.challengeLanguage,
                 isEditMode = true,
             )
         }
@@ -102,6 +107,8 @@ class CreateAlarmViewModel @Inject constructor(
     fun onVocabLevelChange(level: VocabularyLevel) { _form.update { it.copy(vocabularyLevel = level) } }
     fun onSoundUriChange(uri: String, name: String) { _form.update { it.copy(soundUri = uri, soundName = name) } }
     fun onAlwaysPronounceToggle() { _form.update { it.copy(alwaysPronounce = !it.alwaysPronounce) } }
+    fun onWordCountChange(count: Int) { _form.update { it.copy(challengeWordCount = count.coerceIn(1, 10)) } }
+    fun onChallengeLanguageChange(lang: ChallengeLanguage) { _form.update { it.copy(challengeLanguage = lang) } }
 
     fun save() {
         viewModelScope.launch {
@@ -118,6 +125,8 @@ class CreateAlarmViewModel @Inject constructor(
                 vocabularyLevel = f.vocabularyLevel,
                 soundUri = f.soundUri,
                 alwaysPronounce = f.alwaysPronounce,
+                challengeWordCount = f.challengeWordCount,
+                challengeLanguage = f.challengeLanguage,
             )
             if (f.isEditMode) alarmRepository.updateAlarm(alarm)
             else alarmRepository.createAlarm(alarm)

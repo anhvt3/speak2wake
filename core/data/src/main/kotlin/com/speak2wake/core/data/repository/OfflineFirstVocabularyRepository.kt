@@ -19,7 +19,7 @@ constructor(
 
     override fun getMasteredCount(): Flow<Int> = vocabularyDao.countMastered()
 
-    override suspend fun getWordForChallenge(level: VocabularyLevel): VocabularyWord? {
+    override suspend fun getWordForChallenge(level: VocabularyLevel, language: String): VocabularyWord? {
         val levels =
                 when (level) {
                     VocabularyLevel.A1 -> listOf("A1")
@@ -28,8 +28,8 @@ constructor(
                     VocabularyLevel.B2 -> listOf("B2")
                     VocabularyLevel.MIXED -> listOf("A1", "A2", "B1", "B2")
                 }
-        return (vocabularyDao.getLeastSeenUnmastered(levels)
-                        ?: vocabularyDao.getRandomWordByLevel(levels.random()))?.toModel()
+        return (vocabularyDao.getLeastSeenUnmasteredByLanguage(levels, language)
+                        ?: vocabularyDao.getRandomWordByLevelAndLanguage(levels, language))?.toModel()
     }
 
     override suspend fun recordShown(wordId: Long) = vocabularyDao.incrementShown(wordId)

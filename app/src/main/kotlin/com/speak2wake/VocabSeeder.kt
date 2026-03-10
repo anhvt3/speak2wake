@@ -20,8 +20,18 @@ private data class VocabJson(
     val category: String = "",
 )
 
+@Serializable
+private data class VocabViJson(
+    val vietnamese: String,
+    val english: String,
+    val phonetic: String = "",
+    val level: String = "A1",
+    val category: String = "",
+)
+
 /**
- * Seeds vocabulary database from assets/vocabulary.json on first launch.
+ * Seeds vocabulary database from assets on first launch.
+ * Loads German words from vocabulary.json and Vietnamese words from vocabulary_vi.json.
  * Supports incremental migration: adds new words from JSON that don't exist in DB.
  */
 @Singleton
@@ -32,28 +42,45 @@ class VocabSeeder @Inject constructor(
     private val json = Json { ignoreUnknownKeys = true }
 
     suspend fun seedIfEmpty() {
-        val allJsonWords = loadWordsFromAssets()
+        val deWords = loadDeWordsFromAssets()
+        val viWords = loadViWordsFromAssets()
         val existing = vocabularyDao.getAllWords().first()
 
         if (existing.isEmpty()) {
             // First launch: insert all words
-            vocabularyDao.upsertWords(allJsonWords.map { it.toEntity() })
+            val allEntities = deWords.map { it.toEntity() } + viWords.map { it.toEntity() }
+            vocabularyDao.upsertWords(allEntities)
             return
         }
 
-        // Incremental migration: find words in JSON that don't exist in DB (by german text)
-        val existingGerman = existing.map { it.german.lowercase() }.toSet()
-        val newWords = allJsonWords.filter { it.german.lowercase() !in existingGerman }
-        if (newWords.isNotEmpty()) {
-            vocabularyDao.upsertWords(newWords.map { it.toEntity() })
+        // Incremental migration: find words not in DB (by challengeWord + language pair)
+        val existingKeys = existing.map { "${it.language}:${it.german.lowercase()}" }.toSet()
+
+        val newDeWords = deWords.filter { "de:${it.german.lowercase()}" !in existingKeys }
+        val newViWords = viWords.filter { "vi:${it.vietnamese.lowercase()}" !in existingKeys }
+
+        val newEntities = newDeWords.map { it.toEntity() } + newViWords.map { it.toEntity() }
+        if (newEntities.isNotEmpty()) {
+            vocabularyDao.upsertWords(newEntities)
         }
     }
 
-    private fun loadWordsFromAssets(): List<VocabJson> {
+    private fun loadDeWordsFromAssets(): List<VocabJson> {
         val jsonString = context.assets.open("vocabulary.json")
             .bufferedReader()
             .use { it.readText() }
         return json.decodeFromString<List<VocabJson>>(jsonString)
+    }
+
+    private fun loadViWordsFromAssets(): List<VocabViJson> {
+        return try {
+            val jsonString = context.assets.open("vocabulary_vi.json")
+                .bufferedReader()
+                .use { it.readText() }
+            json.decodeFromString<List<VocabViJson>>(jsonString)
+        } catch (e: Exception) {
+            emptyList()
+        }
     }
 
     private fun VocabJson.toEntity() = VocabularyEntity(
@@ -61,6 +88,17 @@ class VocabSeeder @Inject constructor(
         english = english,
         vietnamese = vietnamese,
         phonetic = phonetic,
+        language = "de",
+        level = level,
+        category = category,
+    )
+
+    private fun VocabViJson.toEntity() = VocabularyEntity(
+        german = vietnamese, // challenge word field
+        english = english,
+        vietnamese = vietnamese,
+        phonetic = phonetic,
+        language = "vi",
         level = level,
         category = category,
     )

@@ -15,6 +15,10 @@ data class Alarm(
     val vocabularyLevel: VocabularyLevel = VocabularyLevel.A1,
     val soundUri: String = "",
     val alwaysPronounce: Boolean = false,
+    val challengeWordCount: Int = 1,
+    val challengeLanguage: ChallengeLanguage = ChallengeLanguage.DE,
 )
 
 enum class VocabularyLevel { A1, A2, B1, B2, MIXED }
+
+enum class ChallengeLanguage { DE, VI }

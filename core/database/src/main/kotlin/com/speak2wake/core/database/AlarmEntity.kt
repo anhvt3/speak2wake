@@ -3,6 +3,7 @@ package com.speak2wake.core.database
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.speak2wake.core.model.Alarm
+import com.speak2wake.core.model.ChallengeLanguage
 import com.speak2wake.core.model.VocabularyLevel
 import java.time.DayOfWeek
 import java.time.LocalTime
@@ -21,6 +22,8 @@ data class AlarmEntity(
     val vocabularyLevel: String,
     val soundUri: String,
     val alwaysPronounce: Boolean = false,
+    val challengeWordCount: Int = 1,
+    val challengeLanguage: String = "DE",
 )
 
 fun AlarmEntity.toModel() = Alarm(
@@ -36,6 +39,8 @@ fun AlarmEntity.toModel() = Alarm(
     vocabularyLevel = VocabularyLevel.valueOf(vocabularyLevel),
     soundUri = soundUri,
     alwaysPronounce = alwaysPronounce,
+    challengeWordCount = challengeWordCount,
+    challengeLanguage = ChallengeLanguage.valueOf(challengeLanguage),
 )
 
 fun Alarm.toEntity() = AlarmEntity(
@@ -51,4 +56,6 @@ fun Alarm.toEntity() = AlarmEntity(
     vocabularyLevel = vocabularyLevel.name,
     soundUri = soundUri,
     alwaysPronounce = alwaysPronounce,
+    challengeWordCount = challengeWordCount,
+    challengeLanguage = challengeLanguage.name,
 )

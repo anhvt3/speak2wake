@@ -15,6 +15,14 @@ interface VocabularyDao {
     )
     suspend fun getLeastSeenUnmastered(levels: List<String>): VocabularyEntity?
 
+    @Query("SELECT * FROM vocabulary WHERE level IN (:levels) AND language = :language ORDER BY RANDOM() LIMIT 1")
+    suspend fun getRandomWordByLevelAndLanguage(levels: List<String>, language: String): VocabularyEntity?
+
+    @Query(
+            "SELECT * FROM vocabulary WHERE mastered = 0 AND level IN (:levels) AND language = :language ORDER BY timesShown ASC LIMIT 1"
+    )
+    suspend fun getLeastSeenUnmasteredByLanguage(levels: List<String>, language: String): VocabularyEntity?
+
     @Upsert suspend fun upsertWords(words: List<VocabularyEntity>)
 
     @Query("UPDATE vocabulary SET timesShown = timesShown + 1 WHERE id = :id")
