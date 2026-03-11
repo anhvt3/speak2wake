@@ -211,7 +211,9 @@ internal fun CreateAlarmScreen(
 
                 // Challenge settings
                 if (form.challengeEnabled) {
-                    // Challenge language selector
+                    // Challenge language selector — Vietnamese temporarily disabled
+                    // Force German for now
+                    /*
                     SectionCard {
                         Text(s.challengeLanguageLabel, style = MaterialTheme.typography.titleMedium, color = TextPrimary)
                         Spacer(Modifier.height(8.dp))
@@ -230,6 +232,7 @@ internal fun CreateAlarmScreen(
                             )
                         }
                     }
+                    */
 
                     // Vocab level
                     SectionCard {
