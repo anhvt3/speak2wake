@@ -5,7 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -27,6 +27,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.speak2wake.core.designsystem.component.GlassCard
 import com.speak2wake.core.designsystem.strings.LocalStrings
 import com.speak2wake.core.designsystem.theme.*
+import com.speak2wake.core.designsystem.component.AdmobBannerView
+import com.speak2wake.core.designsystem.component.AdmobNativeView
 import com.speak2wake.core.model.Alarm
 import java.time.format.DateTimeFormatter
 
@@ -86,14 +88,22 @@ internal fun HomeScreen(
                             contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
                             verticalArrangement = Arrangement.spacedBy(12.dp),
                         ) {
-                            items(uiState.alarms, key = { it.id }) { alarm ->
+                            itemsIndexed(uiState.alarms, key = { _, alarm -> alarm.id }) { index, alarm ->
                                 SwipeToDeleteAlarmCard(alarm, { onToggleAlarm(alarm.id, it) }, { onEditAlarm(alarm.id) }, { onDeleteAlarm(alarm.id) }, { onTestAlarm(alarm.id) })
+
+                                // Show a Native Ad after every 3 items, or after the very first item if the list is short
+                                if (index == 0 || (index + 1) % 3 == 0) {
+                                    Spacer(Modifier.height(12.dp))
+                                    AdmobNativeView(adUnitId = "ca-app-pub-2216228874269611/9848839629")
+                                }
                             }
                             item { Spacer(Modifier.height(80.dp)) }
                         }
                     }
                 }
             }
+            // AdMob Banner
+            AdmobBannerView(adUnitId = "ca-app-pub-2216228874269611/9445990304")
         }
 
         FloatingActionButton(

@@ -1,4 +1,7 @@
-﻿plugins {
+﻿import java.util.Properties
+import java.io.FileInputStream
+
+plugins {
     alias(libs.plugins.speak2wake.android.application)
     alias(libs.plugins.speak2wake.hilt)
     alias(libs.plugins.kotlin.serialization)
@@ -13,10 +16,26 @@ android {
     }
     buildFeatures { compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.10" }
+    val keystorePropertiesFile = rootProject.file("local.properties")
+    val keystoreProperties = Properties()
+    if (keystorePropertiesFile.exists()) {
+        keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = keystoreProperties["storeFile"]?.let { file(it) } ?: file("speak2wake-release.keystore")
+            storePassword = keystoreProperties["storePassword"] as String? ?: ""
+            keyAlias = keystoreProperties["keyAlias"] as String? ?: ""
+            keyPassword = keystoreProperties["keyPassword"] as String? ?: ""
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     applicationVariants.all {
@@ -52,4 +71,6 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.kotlinx.serialization.json)
+    
+    implementation(libs.play.services.ads)
 }

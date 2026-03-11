@@ -7,6 +7,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+import com.google.android.gms.ads.MobileAds
+
 @HiltAndroidApp
 class Speak2WakeApplication : Application() {
 
@@ -14,6 +16,10 @@ class Speak2WakeApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        
+        // Initialize the Google Mobile Ads SDK
+        MobileAds.initialize(this) {}
+        
         // Seed vocabulary on first launch
         CoroutineScope(Dispatchers.IO).launch {
             vocabSeeder.seedIfEmpty()

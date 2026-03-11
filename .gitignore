@@ -56,3 +56,10 @@ tasks/
 # Scripts & misc
 generate_vocab.py
 appicon.png
+
+node_modules/
+android/
+_research/
+.expo/
+build_log*.txt
+previews/
